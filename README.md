@@ -81,11 +81,9 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 版本号 	 | Windows | Max OSX  | Linux |
 |:----------:|:-------------:|:------:|:----------:|
-| android-L  | [下载][android-L-win] | [下载][android-L-mac] | [下载][android-L-linux] |
-
+| android-L  | [下载][android-L-win] | [下载][android-L-mac] |
 [android-L-win]:http://pan.baidu.com/s/1jGifWBc
 [android-L-mac]:http://pan.baidu.com/s/1i3srudR
-[android-L-linux]:
 
 ##Support Library
 包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下即可。
