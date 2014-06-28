@@ -156,5 +156,9 @@ C/C++开发Android应用工具包
 | :----------: |
 | [gradle 1.12](http://pan.baidu.com/s/1dD7sC2d)   |
 
+##Google Android L (5.0) 设计规范及素材
+
+[设计规范及素材下载](http://pan.baidu.com/s/1i35iBNv)
+
 ---
 版权声明：原创译文欢迎自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)
