@@ -4,9 +4,9 @@ AndroidDevTools
 ##ADT Bundle
 ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
 
-| 版本号  | Windows                           |      Max OSX       |          Linux         |
-| ------ |--------------------------------------------|--------------------|------------------------|
-| 23.0.0 |[32位][adtb-23-win-32] [64位][adtb-23-win-64] |[64位][adtb-23-mac-64]|[32位][adtb-23-linux-32] [64位][adtb-23-linux-64] |
+| 版本号  | Windows                |      Max OSX       |          Linux         |
+|:----------:|:-------------:|:------:|:----------:|
+| 23.0.0 | [32位][adtb-23-win-32] [64位][adtb-23-win-64] |[64位][adtb-23-mac-64] | [32位][adtb-23-linux-32] [64位][adtb-23-linux-64] |
 
 [adtb-23-win-32]:http://pan.baidu.com/s/1i39mvY1
 [adtb-23-win-64]:http://pan.baidu.com/s/1o65ExPS
@@ -18,8 +18,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 
 ##Android Studio
-| 版本号  |   Windows        |       Max OSX     |       Linux        |
-| -----  | -----------------| ----------------- |--------------------|
+| 版本号  |   Windows         |       Max OSX     |       Linux     |
+|:------:|:--------------:|:-----------------:|:------------------:|
 |  0.8.1 | [下载][0.8.1-win] | [下载][0.8.1-mac] | [下载][0.8.1-linux] |
 |  0.8 0 | [下载][0.8.0-win] | [下载][0.8.0-mac] | [下载][0.8.0-linux] |
 |  0.6.1 | [下载][0.6.1-win] | [下载][0.6.1-mac] | [下载][0.6.1-linux] |
@@ -54,19 +54,19 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 
 ##ADT Plugin
-离线安装ADT插件请[**戳项目wiki**](https://github.com/inferjay/AndroidDevTools/wiki/首页)
+离线安装ADT插件请戳[**项目wiki**](https://github.com/inferjay/AndroidDevTools/wiki/首页)
 
 |    版本号   |
-| ---------- |
-| [ADT-23.0.0](http://pan.baidu.com/s/1sjArX7J) |
-| [ADT-22.6.3](http://pan.baidu.com/s/1jGMb5yQ) |
-| [AdT-22.6.1](http://pan.baidu.com/s/1pJ185Rl) |
+|:----------:|
+|[ADT-23.0.0](http://pan.baidu.com/s/1sjArX7J)|
+|[ADT-22.6.3](http://pan.baidu.com/s/1jGMb5yQ)|
+|[AdT-22.6.1](http://pan.baidu.com/s/1pJ185Rl)|
 
 ##SDK Tools
 
-| 版本号 	     | Windows              |          Max OSX        |          Linux         |
-| ------------- |----------------------|--------------------------|------------------------|
-| sdk-tools-r23 |[installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win]|[android-sdk_r23-macosx.zip][android-sdk_r23-mac]|[android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
+| 版本号 	     | Windows             |          Max OSX        |          Linux         |
+|:----------:|:-------------:|:------:|:----------:|
+| sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
 
 [installer_r23-win]:http://pan.baidu.com/s/1nt5Gwhb
 [android-sdk_r23-win]:http://pan.baidu.com/s/1kTC6akZ
@@ -80,8 +80,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 这是最新的Android L系统的sdk，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`下即可。
 
 | 版本号 	 | Windows | Max OSX  | Linux |
-| ---------- |---------|---------|---------|
-| android-L  |[下载][android-L-win]|[下载][android-L-mac]|[下载][android-L-linux]|
+|:----------:|:-------------:|:------:|:----------:|
+| android-L  | [下载][android-L-win] | [下载][android-L-mac] | [下载][android-L-linux] |
 
 [android-L-win]:http://pan.baidu.com/s/1jGifWBc
 [android-L-mac]:http://pan.baidu.com/s/1i3srudR
@@ -90,19 +90,19 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ##Support Library
 包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下即可。
 
-|    版本号   |
-| ---------- |
+|    版本号  |
+|:---------:|
 | [20](http://pan.baidu.com/s/1o6OBlR8)   |
 
 ##NDK
 C/C++开发Android应用工具包
 
 | 版本号 	  | Windows              |          Max OSX        |          Linux         |
-| ---------- |----------------------|--------------------------|------------------------|
-| ndk-r9d |[32位][r9d-win-32] [64位][r9d-win-64]|[32位][r9d-mac-32] [64位][r9d-mac-64]|[32位][r9d-linux-32] [64位][r9d-linux-64]  |
+|:----------:|:-------------:|:------:|:----------:|
+| ndk-r9d | [32位][r9d-win-32] [64位][r9d-win-64] | [32位][r9d-mac-32] [64位][r9d-mac-64] | [32位][r9d-linux-32] [64位][r9d-linux-64]  |
 
 |    版本号   |
-| ---------- |
+|:----------:|
 | [cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1c0EMn8O) |
 
 [r9d-win-32]:http://pan.baidu.com/s/1dDxjl8t
@@ -117,7 +117,7 @@ C/C++开发Android应用工具包
 ##JDK
 
 | 版本号| Windows | Max OSX  | Linux |
-| -----|---------|---------|---------|
+|:----------:|:-------------:|:------:|:----------:|
 |  1.8 u5  | [32位][1.8u5-win-32] [64位][1.8u5-win-64] | [64位][1.8u5-mac-64] | [32位][1.8u5-linux-32] [64位][1.8u5-linux-64] |
 |  1.7 u60 | [32位][1.7-win-32] [64位][1.7-win-64] | [64位][1.7-mac-64] | [32位][1.7-linux-32] [64位][1.7-linux-64] |
 |  1.6 u45 | [32位][1.6-win-32] [64位][1.6-win-64] | [64位][1.6-mac-64] | [32位][1.6-linux-32] [64位][1.6-linux-64] |
@@ -144,7 +144,7 @@ C/C++开发Android应用工具包
 
 
 |    版本号   |
-| ---------- |
+|:----------:|
 | [gradle-2.0-rc-2-all.zip](http://pan.baidu.com/s/1dDzleTV) |
 | [gradle-1.12-all.zip](http://pan.baidu.com/s/1Gmlx8)   |
 | [gradle-1.11-all.zip](http://pan.baidu.com/s/1c0hCmdE) |
@@ -155,7 +155,7 @@ C/C++开发Android应用工具包
 
 ##Gradle User Guide
 |    版本号   |
-| ---------- |
+| :----------: |
 | [gradle 1.12](http://pan.baidu.com/s/1dD7sC2d)   |
 
 ---
