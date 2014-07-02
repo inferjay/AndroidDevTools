@@ -112,6 +112,16 @@ C/C++开发Android应用工具包
 [r9d-linux-32]:http://pan.baidu.com/s/1jGr9w4A
 [r9d-linux-64]:http://pan.baidu.com/s/1sjAXS41
 
+##Android L Preview System Image
+
+| 设备 | 下载 |
+|:----------:|:-------------:|
+|  Nexus 5 (GSM/LTE) "hammerhead" | [hammerhead-lpv79-preview-ac1d8a8e.tgz] [Nexus 5] |
+|  Nexus 7 (Wifi) "razor"  | [razor-lpv79-preview-d0ddf8ce.tgz][Nexus 7] |
+
+[Nexus 5]:http://pan.baidu.com/s/1kTsnxsF
+[Nexus 7]:http://pan.baidu.com/s/1mgn1CyG
+
 ##JDK
 
 | 版本号| Windows | Max OSX  | Linux |
