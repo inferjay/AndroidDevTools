@@ -168,6 +168,13 @@ C/C++开发Android应用工具包
 | :----------: |
 | [gradle 1.12](http://pan.baidu.com/s/1dD7sC2d)   |
 
+Course
+---
+
+####Google Android官方培训课程中文版
+
+地址：[http://hukai.me/android-training-course-in-chinese/index.html](http://hukai.me/android-training-course-in-chinese/index.html)
+
 Design
 ---
 
@@ -180,6 +187,5 @@ Design
 [素材下载](http://pan.baidu.com/s/1i35iBNv)(感谢 [@SanityD](http://weibo.com/sanityd))
 
 ---
-License
----
+#License
 [Apache License 2.0](https://github.com/inferjay/AndroidDevTools/blob/master/LICENSE)
