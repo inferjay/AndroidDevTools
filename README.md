@@ -166,9 +166,17 @@ C/C++开发Android应用工具包
 | :----------: |
 | [gradle 1.12](http://pan.baidu.com/s/1dD7sC2d)   |
 
-##Google Android L (5.0) 设计规范及素材
+Design
+---
 
-[设计规范及素材下载](http://pan.baidu.com/s/1i35iBNv)(感谢 [@SanityD](http://weibo.com/sanityd))
+####Google Material Design 中文版
+
+地址：[http://design.1sters.com](http://design.1sters.com)
+
+####Google Material Design 素材
+
+[素材下载](http://pan.baidu.com/s/1i35iBNv)(感谢 [@SanityD](http://weibo.com/sanityd))
+
 
 ---
 ##License
