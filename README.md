@@ -1,7 +1,10 @@
 AndroidDevTools
 ===============
 
-##ADT Bundle
+Android Tools
+---
+
+####ADT Bundle
 ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
 
 | 版本号  | Windows                |      Max OSX       |          Linux         |
@@ -17,7 +20,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [adtb-23-linux-64]:http://pan.baidu.com/s/1qWJh4wk
 
 
-##Android Studio
+####Android Studio
 | 版本号  |   Windows         |       Max OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
 |  0.8.1 | [下载][0.8.1-win] | [下载][0.8.1-mac] | [下载][0.8.1-linux] |
@@ -53,7 +56,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 
 
-##ADT Plugin
+####ADT Plugin
 离线安装ADT插件请戳[**项目wiki**](https://github.com/inferjay/AndroidDevTools/wiki/首页)
 
 |    版本号   |
@@ -62,7 +65,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |[ADT-22.6.3](http://pan.baidu.com/s/1jGMb5yQ)|
 |[AdT-22.6.1](http://pan.baidu.com/s/1pJ185Rl)|
 
-##SDK Tools
+####SDK Tools
 
 | 版本号 	     | Windows             |          Max OSX        |          Linux         |
 |:----------:|:-------------:|:------:|:----------:|
@@ -76,7 +79,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [android-sdk_r23-linux]:http://pan.baidu.com/s/1yBnSa
 
 
-##SDK
+####SDK
 这是最新的Android L系统的sdk，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`下即可。
 
 | 版本号 	 | Windows | Max OSX  | Linux |
@@ -85,14 +88,14 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [android-L-win]:http://pan.baidu.com/s/1jGifWBc
 [android-L-mac]:http://pan.baidu.com/s/1i3srudR
 
-##Support Library
+####Support Library
 包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下即可。
 
 |    版本号  |
 |:---------:|
 | [20](http://pan.baidu.com/s/1o6OBlR8)   |
 
-##NDK
+####NDK
 C/C++开发Android应用工具包
 
 | 版本号 	  | Windows              |          Max OSX        |          Linux         |
@@ -112,7 +115,7 @@ C/C++开发Android应用工具包
 [r9d-linux-32]:http://pan.baidu.com/s/1jGr9w4A
 [r9d-linux-64]:http://pan.baidu.com/s/1sjAXS41
 
-##Android L Preview System Image
+####Android L Preview System Image
 
 | 设备 | 下载 |
 |:----------:|:-------------:|
@@ -122,7 +125,7 @@ C/C++开发Android应用工具包
 [Nexus 5]:http://pan.baidu.com/s/1kTsnxsF
 [Nexus 7]:http://pan.baidu.com/s/1mgn1CyG
 
-##JDK
+####JDK
 
 | 版本号| Windows | Max OSX  | Linux |
 |:----------:|:-------------:|:------:|:----------:|
@@ -148,8 +151,7 @@ C/C++开发Android应用工具包
 [1.6-linux-32]:http://pan.baidu.com/s/1pJJj5Ib
 [1.6-linux-64]:http://pan.baidu.com/s/1dDck3O9
 
-##Gradle
-
+####Gradle
 
 |    版本号   |
 |:----------:|
@@ -161,7 +163,7 @@ C/C++开发Android应用工具包
 | [gradle-1.8-all.zip](http://pan.baidu.com/s/1o6Npqqe)  |
 | [gradle-1.7-all.zip](http://pan.baidu.com/s/1pJnvyWz)  |
 
-##Gradle User Guide
+####Gradle User Guide
 |    版本号   |
 | :----------: |
 | [gradle 1.12](http://pan.baidu.com/s/1dD7sC2d)   |
@@ -177,7 +179,7 @@ Design
 
 [素材下载](http://pan.baidu.com/s/1i35iBNv)(感谢 [@SanityD](http://weibo.com/sanityd))
 
-
 ---
-##License
+License
+---
 [Apache License 2.0](https://github.com/inferjay/AndroidDevTools/blob/master/LICENSE)
