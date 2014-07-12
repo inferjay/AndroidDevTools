@@ -195,6 +195,10 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 多看阅读镜像地址：[http://www.duokan.com/book/47790](http://www.duokan.com/book/47790)
 
+####Android Cheatsheet for Graphic Designers
+
+地址:[http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/](http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/)
+
 ####Google Material Design 中文版
 
 地址：[http://design.1sters.com](http://design.1sters.com)
