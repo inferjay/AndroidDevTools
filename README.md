@@ -183,6 +183,18 @@ Course
 Design
 ---
 
+####Android设计指南非官方简体中文版
+
+Topfun镜像地址：[http://www.topfun.us/adchs/index.html](http://www.topfun.us/adchs/index.html)
+
+Github镜像地址：[http://adchs.github.io](http://adchs.github.io)
+
+ApkBus镜像地址：[http://www.apkbus.com/design/](http://www.apkbus.com/design/)
+
+Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirrors.segmentfault.com/adchs/)
+
+多看阅读镜像地址：[http://www.duokan.com/book/47790](http://www.duokan.com/book/47790)
+
 ####Google Material Design 中文版
 
 地址：[http://design.1sters.com](http://design.1sters.com)
