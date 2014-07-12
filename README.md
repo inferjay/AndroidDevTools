@@ -209,4 +209,4 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 ---
 #License
-[Apache License 2.0](https://github.com/inferjay/AndroidDevTools/blob/master/LICENSE)
+版权声明：版权归原作者所有，这里仅做收集整理，欢迎自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)
