@@ -236,6 +236,18 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [googlemap-8-win]:http://pan.baidu.com/s/1qWJNPyk
 [googlemap-8-mac]:http://pan.baidu.com/s/1eQEc8SU
 
+####Google Glass SDK
+这是GDK，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下即可。
+
+| 系统版本 | Windows | Max OSX  | Linux |
+|:----------|:-------------:|:------:|:----------:|
+| android 4.4.2 | [下载][glass-win-19] | [下载][glass-mac-19] |
+| android 4.0.3 |  | [下载][glass-mac-15] |
+
+[glass-win-19]:http://pan.baidu.com/s/1fENeu
+[glass-mac-19]:http://pan.baidu.com/s/1eQpGaA2
+
+[glass-mac-15]:http://pan.baidu.com/s/1hqikzUs
 
 ####Support Library
 包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下即可。
