@@ -249,6 +249,17 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 [glass-mac-15]:http://pan.baidu.com/s/1hqikzUs
 
+
+####Google TV Addon
+这是Google TV Addon，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下即可。
+
+| 系统版本 | Windows | Max OSX  | Linux |
+|:----------|:-------------:|:------:|:----------:|
+| android 3.2 | [下载][tv-win-13] | [下载][tv-mac-13] |
+
+[tv-win-13]:http://pan.baidu.com/s/1qWLPFfm
+[tv-mac-13]:http://pan.baidu.com/s/1eQFy1KA
+
 ####Support Library
 包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下即可。
 
