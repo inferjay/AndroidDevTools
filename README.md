@@ -142,6 +142,47 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [android-8-win]:http://pan.baidu.com/s/1qW8YzY8
 [android-8-mac]:http://pan.baidu.com/s/1ntmJVmD
 
+####SDK System images
+这是在创建模拟器时需要的system image，也就是在创建模拟器时`CPU/ABI`项需要选择的，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/system-images`文件夹下即可， 如果没有`system-images`目录就先创建此文件夹。
+
+| 系统版本号 	 | Windows | Max OSX  | Linux |
+|:----------|:-------------:|:------:|:----------:|
+| android L  | [下载][Images-L-win] | [下载][Images-L-mac] |
+| android 4.4W | [下载][Images-20-win] | [下载][Images-20-mac] |
+| android 4.4.2 | [下载][Images-19-win] | [下载][Images-19-mac] |
+| android 4.3 | [下载][Images-18-win] | [下载][Images-18-mac] |
+| android 4.2.2 | [下载][Images-17-win] | [下载][Images-17-mac] |
+| android 4.1.2 | [下载][Images-16-win] | [下载][Images-16-mac] |
+| android 4.0.3 | [下载][Images-15-win] | [下载][Images-15-mac] |
+| android 4.0 | [下载][Images-14-win] | [下载][Images-14-mac] |
+
+[Images-L-win]:http://pan.baidu.com/s/1hqIcqhA
+[Images-L-mac]:http://pan.baidu.com/s/1ntFQlRV
+
+[Images-20-win]:http://pan.baidu.com/s/1mgJVZfE
+[Images-20-mac]:http://pan.baidu.com/s/1GmAE6
+
+[Images-19-win]:http://pan.baidu.com/s/1i3Jwhed
+[Images-19-mac]:http://pan.baidu.com/s/1qW0QWdm
+
+[Images-18-win]:http://pan.baidu.com/s/1guLaQ
+[Images-18-mac]:http://pan.baidu.com/s/1pJPp6dX
+
+[Images-17-win]:http://pan.baidu.com/s/1pJO99hD
+[Images-17-mac]:http://pan.baidu.com/s/1kTyZo27
+
+[Images-16-win]:http://pan.baidu.com/s/1nMr4E
+[Images-16-mac]:http://pan.baidu.com/s/1kT2xdxd
+
+[Images-15-win]:http://pan.baidu.com/s/1i3Fsx6H
+[Images-15-mac]:http://pan.baidu.com/s/1gdnCh2b
+
+[Images-14-win]:http://pan.baidu.com/s/1gd3lhYF
+[Images-14-mac]:http://pan.baidu.com/s/1hqoWcNM
+
+[Images-10-win]:http://pan.baidu.com/s/1gd3lhYF
+[Images-10-mac]:http://pan.baidu.com/s/1qWJhTwg
+
 ####Support Library
 包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下即可。
 
