@@ -294,6 +294,39 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |:---------:|
 | [20](http://pan.baidu.com/s/1o6OBlR8)   |
 
+####SDK Samples
+这是Android SDK自带的示例代码，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/samples`文件夹下即可。
+
+| 系统版本 |
+|:----------|
+|[android L][samples-L]|
+|[android 4.4W][samples-20]|
+|[android 4.4.2][samples-19]|
+|[android 4.3][samples-18]|
+|[android 4.2.2][samples-17]|
+|[android 4.1.2][samples-16]|
+|[android 4.0.3][samples-15]|
+|[android 4.0][samples-14]|
+|[android 3.2][samples-13]|
+|[android 3.1][samples-12]|
+|[android 3.0][samples-11]|
+|[android 2.3.3][samples-10]|
+|[android 2.2][samples-8]|
+
+[samples-L]:http://pan.baidu.com/s/1gdpEan5
+[samples-20]:http://pan.baidu.com/s/1ntLVN9B
+[samples-19]:http://pan.baidu.com/s/1dDeSKt7
+[samples-18]:http://pan.baidu.com/s/1pJHicjx
+[samples-17]:http://pan.baidu.com/s/1hqGavMc
+[samples-16]:http://pan.baidu.com/s/1eYPL8
+[samples-15]:http://pan.baidu.com/s/1i3mScXv
+[samples-14]:http://pan.baidu.com/s/1kTiKqZP
+[samples-13]:http://pan.baidu.com/s/1eQpafgI
+[samples-12]:http://pan.baidu.com/s/1haIPw
+[samples-11]:http://pan.baidu.com/s/1ntx9qFR
+[samples-10]:http://pan.baidu.com/s/1hqiQw1Q
+[samples-8]:http://pan.baidu.com/s/1ntv7wut
+
 ####NDK
 C/C++开发Android应用工具包
 
