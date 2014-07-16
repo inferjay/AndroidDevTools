@@ -85,13 +85,62 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 
 ####SDK
-这是最新的Android L系统的sdk，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`下即可。
+这是Android开发所需的sdk，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`文件夹下即可。
 
-| 版本号 	 | Windows | Max OSX  | Linux |
-|:----------:|:-------------:|:------:|:----------:|
-| android-L  | [下载][android-L-win] | [下载][android-L-mac] |
-[android-L-win]:http://pan.baidu.com/s/1jGifWBc
-[android-L-mac]:http://pan.baidu.com/s/1i3srudR
+| 系统版本号 	 | Windows | Max OSX  | Linux |
+|:----------|:-------------:|:------:|:----------:|
+| android L  | [下载][android-L-win] | [下载][android-L-mac] |
+| android 4.4W | [下载][android-20-win] | [下载][android-20-mac] |
+| android 4.4.2 | [下载][android-19-win] | [下载][android-19-mac] |
+| android 4.3 | [下载][android-18-win] | [下载][android-18-mac] |
+| android 4.2.2 | [下载][android-17-win] | [下载][android-17-mac] |
+| android 4.1.2 | [下载][android-16-win] | [下载][android-16-mac] |
+| android 4.0.3 | [下载][android-15-win] | [下载][android-15-mac] |
+| android 4.0 | [下载][android-14-win] | [下载][android-14-mac] |
+| android 3.2 | [下载][android-13-win] | [下载][android-13-mac] |
+| android 3.1 | [下载][android-12-win] | [下载][android-12-mac] |
+| android 3.0 | [下载][android-11-win] | [下载][android-11-mac] |
+| android 2.3.3 | [下载][android-10-win] | [下载][android-10-mac] |
+| android 2.2	 | [下载][android-8-win] | [下载][android-8-mac] |
+
+[android-L-win]:http://pan.baidu.com/s/1i3tDDvZ
+[android-L-mac]:http://pan.baidu.com/s/1ntHmhYx
+
+[android-20-win]:http://pan.baidu.com/s/1eYPGE
+[android-20-mac]:http://pan.baidu.com/s/1nt5GKWh
+
+[android-19-win]:http://pan.baidu.com/s/1kT60PGN
+[android-19-mac]:http://pan.baidu.com/s/1c03XoL6
+
+[android-18-win]:http://pan.baidu.com/s/1dDrJWit
+[android-18-mac]:http://pan.baidu.com/s/1i3mmidn
+
+[android-17-win]:http://pan.baidu.com/s/1i3tDDvZ
+[android-17-mac]:http://pan.baidu.com/s/1jGLvX6Q
+
+[android-16-win]:http://pan.baidu.com/s/1c0D0Fok
+[android-16-mac]:http://pan.baidu.com/s/1pJ4qMb5
+
+[android-15-win]:http://pan.baidu.com/s/1eQekIzS
+[android-15-mac]:http://pan.baidu.com/s/1eQH0vHC
+
+[android-14-win]:http://pan.baidu.com/s/1jGBmAjW
+[android-14-mac]:http://pan.baidu.com/s/1nt7cEDF
+
+[android-13-win]:http://pan.baidu.com/s/1jGLvX6A
+[android-13-mac]:http://pan.baidu.com/s/1qWqH9Q8
+
+[android-12-win]:http://pan.baidu.com/s/1pJ0naTP
+[android-12-mac]:http://pan.baidu.com/s/1jG62PSy
+
+[android-11-win]:http://pan.baidu.com/s/1pJ0naTP
+[android-11-mac]:http://pan.baidu.com/s/1bn2Duub
+
+[android-10-win]:http://pan.baidu.com/s/1ngubc
+[android-10-mac]:http://pan.baidu.com/s/1jGge2bk
+
+[android-8-win]:http://pan.baidu.com/s/1qW8YzY8
+[android-8-mac]:http://pan.baidu.com/s/1ntmJVmD
 
 ####Support Library
 包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下即可。
@@ -121,6 +170,7 @@ C/C++开发Android应用工具包
 [r9d-linux-64]:http://pan.baidu.com/s/1sjAXS41
 
 ####Android L Preview System Image
+这个是Android L Preview系统的刷机镜像。
 
 | 设备 | 下载 |
 |:----------:|:-------------:|
@@ -159,7 +209,7 @@ C/C++开发Android应用工具包
 ####Gradle
 
 |    版本号   |
-|:----------:|
+|:----------|
 | [gradle-2.0-rc-2-all.zip](http://pan.baidu.com/s/1dDzleTV) |
 | [gradle-1.12-all.zip](http://pan.baidu.com/s/1Gmlx8)   |
 | [gradle-1.11-all.zip](http://pan.baidu.com/s/1c0hCmdE) |
