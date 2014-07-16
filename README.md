@@ -260,6 +260,33 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [tv-win-13]:http://pan.baidu.com/s/1qWLPFfm
 [tv-mac-13]:http://pan.baidu.com/s/1eQFy1KA
 
+####Android Framework Source Code
+这是Android Framework Source Code，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/sources`文件夹下即可，这样当你在Eclipse里面按住`Ctrl`键点击某个系统类时就可以打开该类的源码文件查看源码了。
+
+| 系统版本 |
+|:----------|
+|[android 4.4W][sources-20]|
+|[android 4.4.2][sources-19]|
+|[android 4.3][sources-18]|
+|[android 4.2.2][sources-17]|
+|[android 4.1.2][sources-16]|
+|[android 4.0.3][sources-15]|
+|[android 4.0][sources-14]|
+|[android 3.0][sources-11]|
+|[android 2.3.3][sources-10]|
+|[android 2.2][sources-8]|
+
+[sources-20]:http://pan.baidu.com/s/1eQf6F0Q
+[sources-19]:http://pan.baidu.com/s/1hqGGrVA
+[sources-18]:http://pan.baidu.com/s/1pJI3YrD
+[sources-17]:http://pan.baidu.com/s/1qWlXS9u
+[sources-16]:http://pan.baidu.com/s/1qWv1spm
+[sources-15]:http://pan.baidu.com/s/1jGGCpuu
+[sources-14]:http://pan.baidu.com/s/1o61AZwQ
+[sources-11]:http://pan.baidu.com/s/1pJt14En
+[sources-10]:http://pan.baidu.com/s/1eQekIPW
+[sources-8]:http://pan.baidu.com/s/1bny9E2b
+
 ####Support Library
 包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下即可。
 
