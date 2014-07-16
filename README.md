@@ -183,6 +183,60 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [Images-10-win]:http://pan.baidu.com/s/1gd3lhYF
 [Images-10-mac]:http://pan.baidu.com/s/1qWJhTwg
 
+####GoogleMap APIs SDK
+这是GoogleMap APIs SDK，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下即可。
+
+| 系统版本号 	 | Windows | Max OSX  | Linux |
+|:----------|:-------------:|:------:|:----------:|
+| android 4.4.2 | [下载ARM版][googlemap-19-win-arm] [下载x86版][googlemap-19-win-x86]| [下载ARM版][googlemap-19-mac-arm] [下载x86版][googlemap-19-mac-x86]|
+| android 4.3 | [下载][googlemap-18-win] | [下载][googlemap-18-mac] |
+| android 4.2.2 | [下载][googlemap-17-win] | [下载][googlemap-17-mac] |
+| android 4.1.2 | [下载][googlemap-16-win] | [下载][googlemap-16-mac] |
+| android 4.0.3 | [下载][googlemap-15-win] | [下载][googlemap-15-mac] |
+| android 4.0 | [下载][googlemap-14-win] | [下载][googlemap-14-mac] |
+| android 3.2 | [下载][googlemap-13-win] | [下载][googlemap-13-mac] |
+| android 3.1 | [下载][googlemap-12-win] | [下载][googlemap-12-mac] |
+| android 3.0 | [下载][googlemap-11-win] | [下载][googlemap-11-mac] |
+| android 2.3.3 | [下载][googlemap-10-win] | [下载][googlemap-10-mac] |
+| android 2.2	| [下载][googlemap-8-win] | [下载][googlemap-8-mac] |
+
+[googlemap-19-win-arm]:http://pan.baidu.com/s/1bno0mFt
+[googlemap-19-win-x86]:http://pan.baidu.com/s/1jGgKyZc
+
+[googlemap-19-mac-arm]:http://pan.baidu.com/s/1bngsIkB
+[googlemap-19-mac-x86]:http://pan.baidu.com/s/1eQDwCpG
+
+[googlemap-18-win]:http://pan.baidu.com/s/1bnb9at5
+[googlemap-18-mac]:http://pan.baidu.com/s/1gdJ0mqR
+
+[googlemap-17-win]:http://pan.baidu.com/s/1jGl4hZw
+[googlemap-17-mac]:http://pan.baidu.com/s/1dDmurr7
+
+[googlemap-16-win]:http://pan.baidu.com/s/1ntK9Urf
+[googlemap-16-mac]:http://pan.baidu.com/s/1mgIAcpa
+
+[googlemap-15-win]:http://pan.baidu.com/s/1bnEiHiB
+[googlemap-15-mac]:http://pan.baidu.com/s/1hqBWAIo
+
+[googlemap-14-win]:http://pan.baidu.com/s/1gd68WtP
+[googlemap-14-mac]:http://pan.baidu.com/s/1hqBWAIo
+
+[googlemap-13-win]:http://pan.baidu.com/s/1o6Dgtse
+[googlemap-13-mac]:http://pan.baidu.com/s/1gdf49Jt
+
+[googlemap-12-win]:http://pan.baidu.com/s/1o6Dgtse
+[googlemap-12-mac]:http://pan.baidu.com/s/1jGBS4rO
+
+[googlemap-11-win]:http://pan.baidu.com/s/1c0CKIFA
+[googlemap-11-mac]:http://pan.baidu.com/s/1c0iY68w
+
+[googlemap-10-win]:http://pan.baidu.com/s/1hqHwsHA
+[googlemap-10-mac]:http://pan.baidu.com/s/1dDvhHOt
+
+[googlemap-8-win]:http://pan.baidu.com/s/1qWJNPyk
+[googlemap-8-mac]:http://pan.baidu.com/s/1eQEc8SU
+
+
 ####Support Library
 包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下即可。
 
