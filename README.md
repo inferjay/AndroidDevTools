@@ -85,23 +85,23 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 
 ####SDK
-这是Android开发所需的sdk，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`文件夹下即可。
+这是Android开发所需的sdk，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`文件夹，然后打开SDK Manager，打开Tools(工具)菜单选择Options(选项)菜单项打开SDK Manager Setting对话框，点击Clear Cache(清除缓存)按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 | 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
-| android L  | [下载][android-L-win] | [下载][android-L-mac] |
-| android 4.4W | [下载][android-20-win] | [下载][android-20-mac] |
-| android 4.4.2 | [下载][android-19-win] | [下载][android-19-mac] |
-| android 4.3 | [下载][android-18-win] | [下载][android-18-mac] |
-| android 4.2.2 | [下载][android-17-win] | [下载][android-17-mac] |
-| android 4.1.2 | [下载][android-16-win] | [下载][android-16-mac] |
-| android 4.0.3 | [下载][android-15-win] | [下载][android-15-mac] |
-| android 4.0 | [下载][android-14-win] | [下载][android-14-mac] |
-| android 3.2 | [下载][android-13-win] | [下载][android-13-mac] |
-| android 3.1 | [下载][android-12-win] | [下载][android-12-mac] |
-| android 3.0 | [下载][android-11-win] | [下载][android-11-mac] |
-| android 2.3.3 | [下载][android-10-win] | [下载][android-10-mac] |
-| android 2.2	 | [下载][android-8-win] | [下载][android-8-mac] |
+| android L  | [下载][android-L-win] | [下载][android-L-mac] | [下载][android-L-mac] |
+| android 4.4W | [下载][android-20-win] | [下载][android-20-mac] | [下载][android-20-mac] |
+| android 4.4.2 | [下载][android-19-win] | [下载][android-19-mac] | [下载][android-19-mac] |
+| android 4.3 | [下载][android-18-win] | [下载][android-18-mac] | [下载][android-18-mac] |
+| android 4.2.2 | [下载][android-17-win] | [下载][android-17-mac] | [下载][android-17-mac] |
+| android 4.1.2 | [下载][android-16-win] | [下载][android-16-mac] | [下载][android-16-mac] |
+| android 4.0.3 | [下载][android-15-win] | [下载][android-15-mac] | [下载][android-15-mac] |
+| android 4.0 | [下载][android-14-win] | [下载][android-14-mac] | [下载][android-14-mac] |
+| android 3.2 | [下载][android-13-win] | [下载][android-13-mac] | [下载][android-13-mac] |
+| android 3.1 | [下载][android-12-win] | [下载][android-12-mac] | [下载][android-12-mac] |
+| android 3.0 | [下载][android-11-win] | [下载][android-11-mac] | [下载][android-11-mac] |
+| android 2.3.3 | [下载][android-10-win] | [下载][android-10-mac] | [下载][android-10-mac] |
+| android 2.2	 | [下载][android-8-win] | [下载][android-8-mac] | [下载][android-8-mac] |
 
 [android-L-win]:http://pan.baidu.com/s/1i3tDDvZ
 [android-L-mac]:http://pan.baidu.com/s/1ntHmhYx
@@ -143,18 +143,19 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [android-8-mac]:http://pan.baidu.com/s/1ntmJVmD
 
 ####SDK System images
-这是在创建模拟器时需要的system image，也就是在创建模拟器时`CPU/ABI`项需要选择的，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/system-images`文件夹下即可， 如果没有`system-images`目录就先创建此文件夹。
+这是在创建模拟器时需要的system image，也就是在创建模拟器时`CPU/ABI`项需要选择的，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/system-images`文件夹下即可， 如果没有`system-images`目录就先创建此文件夹，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
+
 
 | 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
-| android L  | [下载][Images-L-win] | [下载][Images-L-mac] |
-| android 4.4W | [下载][Images-20-win] | [下载][Images-20-mac] |
-| android 4.4.2 | [下载][Images-19-win] | [下载][Images-19-mac] |
-| android 4.3 | [下载][Images-18-win] | [下载][Images-18-mac] |
-| android 4.2.2 | [下载][Images-17-win] | [下载][Images-17-mac] |
-| android 4.1.2 | [下载][Images-16-win] | [下载][Images-16-mac] |
-| android 4.0.3 | [下载][Images-15-win] | [下载][Images-15-mac] |
-| android 4.0 | [下载][Images-14-win] | [下载][Images-14-mac] |
+| android L  | [下载][Images-L-win] | [下载][Images-L-mac] | [下载][Images-L-mac] |
+| android 4.4W | [下载][Images-20-win] | [下载][Images-20-mac] | [下载][Images-20-mac] |
+| android 4.4.2 | [下载][Images-19-win] | [下载][Images-19-mac] | [下载][Images-19-mac] |
+| android 4.3 | [下载][Images-18-win] | [下载][Images-18-mac] | [下载][Images-18-mac] |
+| android 4.2.2 | [下载][Images-17-win] | [下载][Images-17-mac] | [下载][Images-17-mac] |
+| android 4.1.2 | [下载][Images-16-win] | [下载][Images-16-mac] | [下载][Images-16-mac] |
+| android 4.0.3 | [下载][Images-15-win] | [下载][Images-15-mac] | [下载][Images-15-mac] |
+| android 4.0 | [下载][Images-14-win] | [下载][Images-14-mac] | [下载][Images-14-mac] |
 
 [Images-L-win]:http://pan.baidu.com/s/1hqIcqhA
 [Images-L-mac]:http://pan.baidu.com/s/1ntFQlRV
@@ -184,21 +185,22 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [Images-10-mac]:http://pan.baidu.com/s/1qWJhTwg
 
 ####GoogleMap APIs SDK
-这是GoogleMap APIs SDK，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下即可。
+这是GoogleMap APIs SDK，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
+
 
 | 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
-| android 4.4.2 | [下载ARM版][googlemap-19-win-arm] [下载x86版][googlemap-19-win-x86]| [下载ARM版][googlemap-19-mac-arm] [下载x86版][googlemap-19-mac-x86]|
-| android 4.3 | [下载][googlemap-18-win] | [下载][googlemap-18-mac] |
-| android 4.2.2 | [下载][googlemap-17-win] | [下载][googlemap-17-mac] |
-| android 4.1.2 | [下载][googlemap-16-win] | [下载][googlemap-16-mac] |
-| android 4.0.3 | [下载][googlemap-15-win] | [下载][googlemap-15-mac] |
-| android 4.0 | [下载][googlemap-14-win] | [下载][googlemap-14-mac] |
-| android 3.2 | [下载][googlemap-13-win] | [下载][googlemap-13-mac] |
-| android 3.1 | [下载][googlemap-12-win] | [下载][googlemap-12-mac] |
-| android 3.0 | [下载][googlemap-11-win] | [下载][googlemap-11-mac] |
-| android 2.3.3 | [下载][googlemap-10-win] | [下载][googlemap-10-mac] |
-| android 2.2	| [下载][googlemap-8-win] | [下载][googlemap-8-mac] |
+| android 4.4.2 | [下载ARM版][googlemap-19-win-arm] [下载x86版][googlemap-19-win-x86]| [下载ARM版][googlemap-19-mac-arm] [下载x86版][googlemap-19-mac-x86]| [下载ARM版][googlemap-19-mac-arm] [下载x86版][googlemap-19-mac-x86]|
+| android 4.3 | [下载][googlemap-18-win] | [下载][googlemap-18-mac] | [下载][googlemap-18-mac] |
+| android 4.2.2 |[下载][googlemap-17-win] |[下载][googlemap-17-mac] | [下载][googlemap-17-mac] |
+| android 4.1.2 |[下载][googlemap-16-win] |[下载][googlemap-16-mac] | [下载][googlemap-16-mac] |
+| android 4.0.3 | [下载][googlemap-15-win]| [下载][googlemap-15-mac]|[下载][googlemap-15-mac] |
+| android 4.0 | [下载][googlemap-14-win] | [下载][googlemap-14-mac] | [下载][googlemap-14-mac] |
+| android 3.2 | [下载][googlemap-13-win] | [下载][googlemap-13-mac] | [下载][googlemap-13-mac] |
+| android 3.1 | [下载][googlemap-12-win] | [下载][googlemap-12-mac] | [下载][googlemap-12-mac] |
+| android 3.0 | [下载][googlemap-11-win] | [下载][googlemap-11-mac] | [下载][googlemap-11-mac] |
+| android 2.3.3 |[下载][googlemap-10-win] |[下载][googlemap-10-mac] | [下载][googlemap-10-mac] |
+| android 2.2	| [下载][googlemap-8-win] | [下载][googlemap-8-mac] | [下载][googlemap-8-mac] |
 
 [googlemap-19-win-arm]:http://pan.baidu.com/s/1bno0mFt
 [googlemap-19-win-x86]:http://pan.baidu.com/s/1jGgKyZc
@@ -237,11 +239,11 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [googlemap-8-mac]:http://pan.baidu.com/s/1eQEc8SU
 
 ####Google Glass SDK
-这是GDK，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下即可。
+这是GDK，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 | 系统版本 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
-| android 4.4.2 | [下载][glass-win-19] | [下载][glass-mac-19] |
+| android 4.4.2 | [下载][glass-win-19] | [下载][glass-mac-19] | [下载][glass-mac-19] |
 | android 4.0.3 |  | [下载][glass-mac-15] |
 
 [glass-win-19]:http://pan.baidu.com/s/1fENeu
@@ -251,17 +253,18 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 
 ####Google TV Addon
-这是Google TV Addon，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下即可。
+这是Google TV Addon，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
+
 
 | 系统版本 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
-| android 3.2 | [下载][tv-win-13] | [下载][tv-mac-13] |
+| android 3.2 | [下载][tv-win-13] | [下载][tv-mac-13] | [下载][tv-mac-13] |
 
 [tv-win-13]:http://pan.baidu.com/s/1qWLPFfm
 [tv-mac-13]:http://pan.baidu.com/s/1eQFy1KA
 
 ####Android Framework Source Code
-这是Android Framework Source Code，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/sources`文件夹下即可，这样当你在Eclipse里面按住`Ctrl`键点击某个系统类时就可以打开该类的源码文件查看源码了。
+这是Android Framework Source Code，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/sources`文件夹下，然后重启Eclipse(或Android Studio)，这样当你在Eclipse里面按住`Ctrl`键点击某个系统类时就可以打开该类的源码文件查看源码了。
 
 | 系统版本 |
 |:----------|
@@ -288,14 +291,15 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [sources-8]:http://pan.baidu.com/s/1bny9E2b
 
 ####Support Library
-包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下即可。
+包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 |    版本号  |
 |:---------:|
 | [20](http://pan.baidu.com/s/1o6OBlR8)   |
 
 ####SDK Samples
-这是Android SDK自带的示例代码，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/samples`文件夹下即可。
+这是Android SDK自带的示例代码，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/samples`文件夹下，然后重启Eclipse(或Android Studio)。
+。
 
 | 系统版本 |
 |:----------|
