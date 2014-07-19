@@ -85,7 +85,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 
 ####SDK
-这是Android开发所需的sdk，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`文件夹，然后打开SDK Manager，打开Tools(工具)菜单选择Options(选项)菜单项打开SDK Manager Setting对话框，点击Clear Cache(清除缓存)按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
+这是Android开发所需的sdk，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`文件夹，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 | 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
