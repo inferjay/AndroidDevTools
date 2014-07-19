@@ -7,7 +7,7 @@ Android Tools
 ####ADT Bundle
 ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
 
-| 版本号  | Windows                |      Max OSX       |          Linux         |
+| 版本号  | Windows                |      Mac OSX       |          Linux         |
 |:----------:|:-------------:|:------:|:----------:|
 | 23.0.0 | [32位][adtb-23-win-32] [64位][adtb-23-win-64] |[64位][adtb-23-mac-64] | [32位][adtb-23-linux-32] [64位][adtb-23-linux-64] |
 
@@ -21,7 +21,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 
 ####Android Studio
-| 版本号  |   Windows         |       Max OSX     |       Linux     |
+| 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
 |  0.8.2 | [下载][0.8.2-win] | [下载][0.8.2-mac] | [下载][0.8.2-linux] |
 |  0.8.1 | [下载][0.8.1-win] | [下载][0.8.1-mac] | [下载][0.8.1-linux] |
@@ -72,7 +72,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 ####SDK Tools
 
-| 版本号 	     | Windows             |          Max OSX        |          Linux         |
+| 版本号 	     | Windows             |          Mac OSX        |          Linux         |
 |:----------:|:-------------:|:------:|:----------:|
 | sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
 
@@ -87,7 +87,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####SDK
 这是Android开发所需的sdk，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`文件夹下即可。
 
-| 系统版本号 	 | Windows | Max OSX  | Linux |
+| 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
 | android L  | [下载][android-L-win] | [下载][android-L-mac] |
 | android 4.4W | [下载][android-20-win] | [下载][android-20-mac] |
@@ -145,7 +145,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####SDK System images
 这是在创建模拟器时需要的system image，也就是在创建模拟器时`CPU/ABI`项需要选择的，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/system-images`文件夹下即可， 如果没有`system-images`目录就先创建此文件夹。
 
-| 系统版本号 	 | Windows | Max OSX  | Linux |
+| 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
 | android L  | [下载][Images-L-win] | [下载][Images-L-mac] |
 | android 4.4W | [下载][Images-20-win] | [下载][Images-20-mac] |
@@ -186,7 +186,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####GoogleMap APIs SDK
 这是GoogleMap APIs SDK，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下即可。
 
-| 系统版本号 	 | Windows | Max OSX  | Linux |
+| 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
 | android 4.4.2 | [下载ARM版][googlemap-19-win-arm] [下载x86版][googlemap-19-win-x86]| [下载ARM版][googlemap-19-mac-arm] [下载x86版][googlemap-19-mac-x86]|
 | android 4.3 | [下载][googlemap-18-win] | [下载][googlemap-18-mac] |
@@ -239,7 +239,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####Google Glass SDK
 这是GDK，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下即可。
 
-| 系统版本 | Windows | Max OSX  | Linux |
+| 系统版本 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
 | android 4.4.2 | [下载][glass-win-19] | [下载][glass-mac-19] |
 | android 4.0.3 |  | [下载][glass-mac-15] |
@@ -253,7 +253,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####Google TV Addon
 这是Google TV Addon，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下即可。
 
-| 系统版本 | Windows | Max OSX  | Linux |
+| 系统版本 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
 | android 3.2 | [下载][tv-win-13] | [下载][tv-mac-13] |
 
@@ -330,7 +330,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####NDK
 C/C++开发Android应用工具包
 
-| 版本号 	  | Windows              |          Max OSX        |          Linux         |
+| 版本号 	  | Windows              |          Mac OSX        |          Linux         |
 |:----------:|:-------------:|:------:|:----------:|
 | ndk-r9d | [32位][r9d-win-32] [64位][r9d-win-64] | [32位][r9d-mac-32] [64位][r9d-mac-64] | [32位][r9d-linux-32] [64位][r9d-linux-64]  |
 
@@ -360,7 +360,7 @@ C/C++开发Android应用工具包
 
 ####JDK
 
-| 版本号| Windows | Max OSX  | Linux |
+| 版本号| Windows | Mac OSX  | Linux |
 |:----------:|:-------------:|:------:|:----------:|
 |  1.8 u5  | [32位][1.8u5-win-32] [64位][1.8u5-win-64] | [64位][1.8u5-mac-64] | [32位][1.8u5-linux-32] [64位][1.8u5-linux-64] |
 |  1.7 u60 | [32位][1.7-win-32] [64位][1.7-win-64] | [64位][1.7-mac-64] | [32位][1.7-linux-32] [64位][1.7-linux-64] |
