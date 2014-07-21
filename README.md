@@ -69,7 +69,6 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [0.5.8-linux]:http://pan.baidu.com/s/1i37QxBf
 
 
-
 ####ADT Plugin
 离线安装ADT插件请戳[**项目wiki**](https://github.com/inferjay/AndroidDevTools/wiki/首页)
 
@@ -84,7 +83,16 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |
 |:----------:|:-------------:|:------:|:----------:|
+| sdk-tools-r23.0.2 | [installer_r23.0.2-windows.exe][installer_r23.0.2-win] [android-sdk_r23.0.2-windows.zip][android-sdk_r23.0.2-win] | [android-sdk_r23.0.2-macosx.zip][android-sdk_r23.0.2-mac] | [android-sdk_r23.0.2-linux.tgz][android-sdk_r23.0.2-linux] |
 | sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
+
+[installer_r23.0.2-win]:http://pan.baidu.com/s/1jGj2xIA
+[android-sdk_r23.0.2-win]:http://pan.baidu.com/s/1CiWSu
+
+[android-sdk_r23.0.2-mac]:http://pan.baidu.com/s/1bny9Mk3
+
+[android-sdk_r23.0.2-linux]:http://pan.baidu.com/s/1qWAu4o8
+
 
 [installer_r23-win]:http://pan.baidu.com/s/1nt5Gwhb
 [android-sdk_r23-win]:http://pan.baidu.com/s/1kTC6akZ
