@@ -9,7 +9,16 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 版本号  | Windows                |      Mac OSX       |          Linux         |
 |:----------:|:-------------:|:------:|:----------:|
+| 23.0.2 | [32位][adtb-23-0-2-win-32] [64位][adtb-23-0-2-win-64] |[64位][adtb-23-0-2-mac-64] | [32位][adtb-23-0-2-linux-32] [64位][adtb-23-0-2-linux-64] |
 | 23.0.0 | [32位][adtb-23-win-32] [64位][adtb-23-win-64] |[64位][adtb-23-mac-64] | [32位][adtb-23-linux-32] [64位][adtb-23-linux-64] |
+
+[adtb-23-0-2-win-32]:http://pan.baidu.com/s/1dDGM8oD
+[adtb-23-0-2-win-64]:http://pan.baidu.com/s/1mgn2dOs
+
+[adtb-23-0-2-mac-64]:http://pan.baidu.com/s/1o6OBIHG
+
+[adtb-23-0-2-linux-32]:http://pan.baidu.com/s/1GmIsQ
+[adtb-23-0-2-linux-64]:http://pan.baidu.com/s/1EQMT4
 
 [adtb-23-win-32]:http://pan.baidu.com/s/1i39mvY1
 [adtb-23-win-64]:http://pan.baidu.com/s/1o65ExPS
