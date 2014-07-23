@@ -107,6 +107,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
+| android L Rev3 | [下载][android-L-r3-win] | [下载][android-L-r3-mac] | [下载][android-L-r3-mac] |
 | android L  | [下载][android-L-win] | [下载][android-L-mac] | [下载][android-L-mac] |
 | android 4.4W | [下载][android-20-win] | [下载][android-20-mac] | [下载][android-20-mac] |
 | android 4.4.2 | [下载][android-19-win] | [下载][android-19-mac] | [下载][android-19-mac] |
@@ -120,6 +121,9 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | android 3.0 | [下载][android-11-win] | [下载][android-11-mac] | [下载][android-11-mac] |
 | android 2.3.3 | [下载][android-10-win] | [下载][android-10-mac] | [下载][android-10-mac] |
 | android 2.2	 | [下载][android-8-win] | [下载][android-8-mac] | [下载][android-8-mac] |
+
+[android-L-r3-win]:http://pan.baidu.com/s/1u8dhc
+[android-L-r3-mac]:http://pan.baidu.com/s/1jG1duN8
 
 [android-L-win]:http://pan.baidu.com/s/1i3tDDvZ
 [android-L-mac]:http://pan.baidu.com/s/1ntHmhYx
