@@ -137,7 +137,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [android-18-win]:http://pan.baidu.com/s/1dDrJWit
 [android-18-mac]:http://pan.baidu.com/s/1i3mmidn
 
-[android-17-win]:http://pan.baidu.com/s/1i3tDDvZ
+[android-17-win]:http://pan.baidu.com/s/16Jyge
 [android-17-mac]:http://pan.baidu.com/s/1jGLvX6Q
 
 [android-16-win]:http://pan.baidu.com/s/1c0D0Fok
