@@ -422,6 +422,10 @@ C/C++开发Android应用工具包
 | [gradle-1.8-all.zip](http://pan.baidu.com/s/1o6Npqqe)  |
 | [gradle-1.7-all.zip](http://pan.baidu.com/s/1pJnvyWz)  |
 
+####Android API指南中文版
+
+地址：[http://wiki.eoeandroid.com/Android_API_Guides](http://wiki.eoeandroid.com/Android_API_Guides)
+
 ####Gradle User Guide
 |    版本号   |
 | :----------: |
