@@ -388,7 +388,7 @@ C/C++开发Android应用工具包
 |:----------:|:-------------:|:------:|:----------:|
 | ndk-r9d | [32位][r9d-win-32] [64位][r9d-win-64] | [32位][r9d-mac-32] [64位][r9d-mac-64] | [32位][r9d-linux-32] [64位][r9d-linux-64]  |
 
-| (32-, 64-bit) |  Package |
+| Additional Download (32-, 64-bit) |  Package |
 |:----------|:-------------|
 | r10 STL debug info | [android-ndk-r10-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1xWgUE) | 
 | r9 STL debug info | [android-ndk-r9-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1c0EMn8O) |
