@@ -477,6 +477,10 @@ Course
 
 地址：[http://hukai.me/android-training-course-in-chinese/index.html](http://hukai.me/android-training-course-in-chinese/index.html)
 
+#### Developing Android Apps
+
+地址：[https://www.udacity.com/course/ud853](https://www.udacity.com/course/ud853)
+
 Design
 ---
 
