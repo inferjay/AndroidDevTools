@@ -478,31 +478,36 @@ C/C++开发Android应用工具包
 | [gradle-1.7-all.zip](http://pan.baidu.com/s/1pJnvyWz)  |
 
 #### 反编译工具
-[JEB - The Interactive Android Decompiler](http://www.android-decompiler.com/index.php)
 
-[Virtuous Ten Studio](http://virtuous-ten-studio.com)
+| 名称                           |         下载地址                  |    使用教程      |
+|:------------------------------|:--------------------------------:|:---------------:|
+| JEB Android Decompiler        | [下载][JEB]                       |                |
+| Virtuous Ten Studio           | [下载][Virtuous Ten Studio]       |                |
+| Apk文件修改工具Root Tools       | [下载][apk文件修改工具Root Tools]   |                |
+| Dex文件反编译工具Dedexer        |  [下载][dex文件反编译工具Dedexer]    |                |
+| APK+Dex文件反编译及回编译工具     | [下载][APK+Dex文件反编译及回编译工具] |                |
+| android-apktool               | [下载][android-apktool]           |                |
+| Onekey Decompile Apk]         | [下载][onekey-decompile-apk]      |                |
+| Baksmali                      | [下载][baksmali]                  |                |
+| Smali                         | [下载][smali]                     |                |
+| AXMLPrinter2                  | [下载][AXMLPrinter2]              |                |
+| JAD Java Decompiler           | [下载][JAD Java Decompiler]       |                |
+| JD-GUI Decompiler             | [下载][JD-GUI Decompiler]         |                |
+| XJad V2.2                     | [下载][XJad V2.2]                 |                |
 
-[apk文件修改工具 Root Tools](https://github.com/Stericson/RootTools)
-
-[dex文件反编译工具 Dedexer](http://dedexer.sourceforge.net)
-
-[APK+Dex文件反编译及回编译工具(APKDB)](http://idoog.me)
-
-[onekey-decompile-apk](https://code.google.com/p/onekey-decompile-apk/)
-
-[android-apktool](https://code.google.com/p/android-apktool/)
-
-[baksmali](https://code.google.com/p/smali/downloads/detail?name=baksmali)
-
-[smali](https://code.google.com/p/smali/)
-
-[AXMLPrinter2](https://android4me.googlecode.com/files/AXMLPrinter2.jar)
-
-[JAD Java Decompiler](http://varaneckas.com/jad/)
-
-[JD-GUI Decompiler](http://)
-
-[XJad V2.2](http://files.cnblogs.com/arix04/XJad_V2.2.rar)
+[JEB]:http://www.android-decompiler.com/index.php
+[Virtuous Ten Studio]:http://virtuous-ten-studio.com
+[apk文件修改工具Root Tools]:https://github.com/Stericson/RootTools
+[dex文件反编译工具Dedexer]:http://dedexer.sourceforge.net
+[APK+Dex文件反编译及回编译工具]:http://idoog.me
+[onekey-decompile-apk]:https://code.google.com/p/onekey-decompile-apk/
+[android-apktool]:https://code.google.com/p/android-apktool/
+[baksmali]:https://code.google.com/p/smali/downloads/detail?name=baksmali
+[smali]:https://code.google.com/p/smali/
+[AXMLPrinter2]:https://android4me.googlecode.com/files/AXMLPrinter2.jar
+[JAD Java Decompiler]:http://varaneckas.com/jad/
+[JD-GUI Decompiler]:http://
+[XJad V2.2]:http://files.cnblogs.com/arix04/XJad_V2.2.rar
 
 #### 安全工具
 [APKfuscator](https://github.com/strazzere/APKfuscator)
