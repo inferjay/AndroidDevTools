@@ -487,6 +487,10 @@ C/C++开发Android应用工具包
 
 地址：[http://wiki.eoeandroid.com/Android_API_Guides](http://wiki.eoeandroid.com/Android_API_Guides)
 
+#### Android Proguard混淆配置指南
+
+地址：[https://github.com/inferjay/AndroidProguardGuide/](https://github.com/inferjay/AndroidProguardGuide/)
+
 ####Gradle User Guide
 Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com/s/1dD7sC2d)
 
