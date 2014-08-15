@@ -477,6 +477,32 @@ C/C++开发Android应用工具包
 | [gradle-1.8-all.zip](http://pan.baidu.com/s/1o6Npqqe)  |
 | [gradle-1.7-all.zip](http://pan.baidu.com/s/1pJnvyWz)  |
 
+#### 反编译工具
+[JEB - The Interactive Android Decompiler](http://www.android-decompiler.com/index.php)
+
+[Virtuous Ten Studio](http://virtuous-ten-studio.com)
+
+[apk文件修改工具 Root Tools](https://github.com/Stericson/RootTools)
+
+[dex文件反编译工具 Dedexer](http://dedexer.sourceforge.net)
+
+[APK+Dex文件反编译及回编译工具(APKDB)](http://idoog.me)
+
+[onekey-decompile-apk](https://code.google.com/p/onekey-decompile-apk/)
+
+[android-apktool](https://code.google.com/p/android-apktool/)
+
+[baksmali](https://code.google.com/p/smali/downloads/detail?name=baksmali)
+
+[smali](https://code.google.com/p/smali/)
+
+[AXMLPrinter2](https://android4me.googlecode.com/files/AXMLPrinter2.jar)
+
+[JAD Java Decompiler](http://varaneckas.com/jad/)
+
+[JD-GUI Decompiler](http://)
+
+[XJad V2.2](http://files.cnblogs.com/arix04/XJad_V2.2.rar)
 
 ## Guides
 ---
