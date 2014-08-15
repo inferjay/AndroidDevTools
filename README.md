@@ -488,9 +488,7 @@ C/C++开发Android应用工具包
 地址：[http://wiki.eoeandroid.com/Android_API_Guides](http://wiki.eoeandroid.com/Android_API_Guides)
 
 ####Gradle User Guide
-|    版本号   |
-| :----------: |
-| [gradle 1.12](http://pan.baidu.com/s/1dD7sC2d)   |
+Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com/s/1dD7sC2d)
 
 #Course
 ---
