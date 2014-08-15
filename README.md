@@ -477,8 +477,11 @@ C/C++开发Android应用工具包
 | [gradle-1.8-all.zip](http://pan.baidu.com/s/1o6Npqqe)  |
 | [gradle-1.7-all.zip](http://pan.baidu.com/s/1pJnvyWz)  |
 
+
 ## Guides
 ---
+#### Android Api中文版
+地址：[http://wikidroid.sinaapp.com/Android中文API](http://wikidroid.sinaapp.com/Android中文API))
 
 ####Android API指南中文版
 
