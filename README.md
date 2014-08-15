@@ -1,7 +1,15 @@
 AndroidDevTools
 ===============
+**Android Dev Tools官网地址：[www.androiddevtools.cn](www.androiddevtools.cn)**
 
-Android Tools
+收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。
+
+欢迎大家推荐自己在Android开发过程中用的好用的工具、学习开发教程、用到设计素材，欢迎Star、Fork 😄。
+
+>如果你对翻译英文的Android开发技术文章感兴趣，欢迎Start和Fork[AndroidWeekly中国文章翻译项目](https://github.com/AWCNTT/ArticleTranslateProject)
+
+
+#Android Tools
 ---
 
 ####ADT Bundle
@@ -469,6 +477,9 @@ C/C++开发Android应用工具包
 | [gradle-1.8-all.zip](http://pan.baidu.com/s/1o6Npqqe)  |
 | [gradle-1.7-all.zip](http://pan.baidu.com/s/1pJnvyWz)  |
 
+## Guides
+---
+
 ####Android API指南中文版
 
 地址：[http://wiki.eoeandroid.com/Android_API_Guides](http://wiki.eoeandroid.com/Android_API_Guides)
@@ -478,7 +489,7 @@ C/C++开发Android应用工具包
 | :----------: |
 | [gradle 1.12](http://pan.baidu.com/s/1dD7sC2d)   |
 
-Course
+#Course
 ---
 
 ####Google Android官方培训课程中文版
@@ -489,7 +500,10 @@ Course
 
 地址：[https://www.udacity.com/course/ud853](https://www.udacity.com/course/ud853)
 
-Design
+#Design
+---
+
+## Guides
 ---
 
 ####Android设计指南非官方简体中文版
@@ -512,6 +526,8 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 地址：[http://design.1sters.com](http://design.1sters.com)
 
+## Material
+---
 ####Google Material Design 素材
 
 [素材下载](http://pan.baidu.com/s/1i35iBNv)(感谢 [@SanityD](http://weibo.com/sanityd))
