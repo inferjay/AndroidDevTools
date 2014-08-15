@@ -491,6 +491,10 @@ C/C++开发Android应用工具包
 
 地址：[https://github.com/inferjay/AndroidProguardGuide/](https://github.com/inferjay/AndroidProguardGuide/)
 
+#### Gradle插件使用指南中文版
+
+地址：[https://github.com/inferjay/GradlePluginUserGuideCN](https://github.com/inferjay/GradlePluginUserGuideCN)
+
 ####Gradle User Guide
 Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com/s/1dD7sC2d)
 
