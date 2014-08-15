@@ -333,6 +333,13 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [sources-10]:http://pan.baidu.com/s/1eQekIPW
 [sources-8]:http://pan.baidu.com/s/1bny9E2b
 
+#### Android SDK Extras
+包含 `Android Support Library` 、 `Google Cloud Messaging for Android Library` 、`Google Play services` 、 `Google Play services for fit preview` 、`Google Play services for Froyo` 、`Google Play APK Expansion Library `、`Google Play Billing Library` 、`Google Play Licensing Library` 等，下载解压后将解压出的整个文件夹复制或者移动到`your sdk`根目录下下，如果已经存在`extras`文件夹就替换掉。
+
+|    版本号  |
+|:---------:|
+| [20](http://pan.baidu.com/s/1eQIMXMy)   |
+
 ####Support Library
 包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
