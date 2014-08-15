@@ -504,6 +504,34 @@ C/C++开发Android应用工具包
 
 [XJad V2.2](http://files.cnblogs.com/arix04/XJad_V2.2.rar)
 
+#### 安全工具
+[APKfuscator](https://github.com/strazzere/APKfuscator)
+
+[ApkAnalyser](https://github.com/sonyxperiadev/ApkAnalyser/downloads)
+
+[AppXplore](https://play.google.com/store/apps/details?id=com.sonyericsson.androidapp.AppExplore&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS5zb255ZXJpY3Nzb24uYW5kcm9pZGFwcC5BcHBFeHBsb3JlIl0.)
+
+[Android analysis framework](http://www.dexlabs.org)
+
+[androguard](https://code.google.com/p/androguard/)
+
+[droidbox](https://code.google.com/p/droidbox/)
+
+[dsploit](https://github.com/evilsocket/dsploit)
+
+[Androwarn](https://github.com/maaaaz/androwarn)
+
+[Anubis](http://anubis.iseclab.org)
+
+[Drozer](https://www.mwrinfosecurity.com/products/drozer/community-edition/)
+
+[VirusTotal](https://www.virustotal.com)
+
+[GDB for Android](http://gnutoolchains.com/android/)
+
+[VisualGDB](http://visualgdb.com/?features=android)
+
+
 ## Guides
 ---
 #### Android Api中文版
