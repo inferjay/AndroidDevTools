@@ -599,6 +599,10 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 地址：[http://design.1sters.com](http://design.1sters.com)
 
+#### DESIGNER'S GUIDE TO DPI
+
+地址：http://sebastien-gabriel.com/designers-guide-to-dpi/home#
+
 ## Material
 ---
 ####Google Material Design 素材
