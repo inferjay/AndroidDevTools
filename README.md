@@ -563,6 +563,60 @@ C/C++开发Android应用工具包
 [RoboVM]:http://download.robovm.org/eclipse/
 [newrelic]:https://download.newrelic.com/android_agent/eclipse
 
+##### Android Studio/IDEA
+| 名称                                         |         下载地址                                  |    使用教程      |
+|:--------------------------------------------|:------------------------------------------------:|:---------------:|
+| Android Resource Resizer Plugin             | [下载][Android Resource Resizer]                  |                 |
+| Gradle Dependencies Helper Plugin           | [下载][GradleDependenciesHelper]                  |                 |
+| Android Parcelable code generation Plugin   | [下载][Parcelableboilerplatecodegen]              |                 |
+| Android Holo Colors IDEA Plugin             | [下载][Droidinspector]                            |                 |
+| Android Toolbox Plugin                      | [下载][Android Toolbox Plugin]                    |                 |
+| Android Gradle Sign Plugin                  | [下载][AndroidGradleSignPlugin]                   |                 |
+| Android Permissions Usage Plugin            | [下载][AndroidPermissionsUsage]                   |                 |
+| Android Helper Plugin                       | [下载][AndroidHelper]                             |                 |
+| Android Studio Prettify Plugin              | [下载][Android Studio Prettify]                   |                 |
+| IDEA ADB Plugin                             | [下载][ADB-idea]                                  |                 |
+| Otto Intellij Plugin                        | [下载][Otto-intellij-plugin]                      |                 |
+| Dagger intellij Plugin                      | [下载][Dagger-intellij-plugin]                    |                 |
+| Gradle Gui Plugin                           | [下载][gradle-intellij-gui]                       |                 |
+| Android Studio Unit Test Plugin             | [下载][android-studio-unit-test-plugin]           |                 |
+| Android Layout ID Converter Plugin          | [下载][Android Layout ID Converter]               |                 |
+| IDEA protobuf Plugin                        | [下载][idea-plugin-protobuf]                      |                 |
+| Simple Team Code Reviewer Plugin            | [下载][Simple Team Code Reviewer plugin]          |                 |
+| Android XML Plugin                          | [下载][AndroidXML]                                |                 |
+| ADF Plugin                                  | [下载][adf-intellijPlugin]                        |                 |
+| Java2smali Plugin                           | [下载][intellij-java2smali]                       |                 |
+| IDEA gitignore Plugin                       | [下载][idea-gitignore]                            |                 |
+| IDEA Background Image Plugin                | [下载][Intellij-IDEA-Plugin-Background-Image]     |                 |
+| IDEA Maven Plugin                           | [下载][idea-plugin-maven-plugin]                  |                 |
+| Gradle GooglePlay Publisher Plugin          | [下载][gradle-play-publisher]                     |                 |
+
+[Android Resource Resizer]:https://github.com/walmyrcarvalho/android-resource-resizer
+[GradleDependenciesHelper]:https://github.com/ligi/GradleDependenciesHelperPlugin
+[Parcelableboilerplatecodegen]:https://github.com/mcharmas/android-parcelable-intellij-plugin
+[Android Holo Colors IDEA Plugin]:https://github.com/jeromevdl/android-holo-colors-idea-plugin
+[Android Toolbox Plugin]:https://github.com/idamobile/android-toolbox-plugin
+[AndroidGradleSignPlugin]:https://github.com/alexvasilkov/AndroidGradleSignPlugin
+[AndroidPermissionsUsage]:https://github.com/RomainPiel/AndroidPermissionsUsage
+[AndroidHelper]:https://github.com/eunjae-lee/AndroidHelper
+[Android Studio Prettify]:https://github.com/Haehnchen/idea-android-studio-plugin
+[ADB-idea]:https://github.com/pbreault/adb-idea
+[Otto-intellij-plugin]:https://github.com/square/otto-intellij-plugin
+[Dagger-intellij-plugin]:https://github.com/square/dagger-intellij-plugin
+[gradle-intellij-gui]:https://github.com/gradle-archive/gradle-intellij-gui
+[android-studio-unit-test-plugin]:https://github.com/evant/android-studio-unit-test-plugin
+[Android Layout ID Converter]:https://github.com/funnything/OffingHarbor
+[idea-plugin-protobuf]:https://github.com/nnmatveev/idea-plugin-protobuf
+[Simple Team Code Reviewer plugin]:https://github.com/syllant/idea-plugin-revu
+[AndroidXML]:https://github.com/mironov-nsk/AndroidXML
+[adf-intellijPlugin]:https://github.com/tizionario/adf-intellijPlugin
+[intellij-java2smali]:https://github.com/ollide/intellij-java2smali
+[idea-gitignore]:https://github.com/hsz/idea-gitignore
+[Intellij-IDEA-Plugin-Background-Image]:https://github.com/kimptoc/Intellij-IDEA-Plugin-Background-Image
+[CodeGlance]:https://github.com/Vektah/CodeGlance
+[idea-plugin-maven-plugin]:https://github.com/born2snipe/idea-plugin-maven-plugin
+[gradle-play-publisher]:https://github.com/Triple-T/gradle-play-publisher
+
 ## Guides
 ---
 #### Android Api中文版
