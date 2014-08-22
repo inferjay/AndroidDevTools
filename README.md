@@ -541,6 +541,27 @@ C/C++开发Android应用工具包
 [GDB-for-Android]:http://gnutoolchains.com/android/
 [VisualGDB]:http://visualgdb.com/?features=android
 
+#### Eclipse/Android Studio/IDEA插件
+##### Eclipse
+| 名称                           |         下载地址                  |    使用教程      |
+|:------------------------------|:--------------------------------:|:---------------:|
+| SVN                           | [下载][SVN]                       |                 |
+| Genymobile模拟器               | [下载][Genymobile]                |                 |
+| Memory-Analyzer-Tools         | [下载][Memory-Analyzer-Tools]     |                 |
+| Droidinspector                | [下载][Droidinspector]            |                 |
+| SQLiteManager                 | [下载][SQLiteManager]             |                 |
+| Color Theme                   | [下载][Color Theme Plugin]        |                 |
+| RoboVM                   		 | [下载][RoboVM]                    |                 |
+| Newrelic                      | [下载][newrelic]                  |                 |
+
+[SVN]:http://pan.baidu.com/s/1sjqamOP
+[Genymobile]:http://genymotion.com/
+[Memory-Analyzer-Tools]:http://download.eclipse.org/mat/1.4/update-site/
+[Droidinspector]:http://www.sriramramani.com/droidinspector/
+[SQLiteManager]:https://dl.dropboxusercontent.com/u/91846918/sqlite%20manager/com.questoid.sqlitemanager_1.0.0.jar
+[Color Theme Plugin]:http://eclipsecolorthemes.org/?view=plugin
+[RoboVM]:http://download.robovm.org/eclipse/
+[newrelic]:https://download.newrelic.com/android_agent/eclipse
 
 ## Guides
 ---
