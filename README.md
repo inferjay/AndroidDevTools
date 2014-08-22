@@ -630,6 +630,15 @@ C/C++开发Android应用工具包
 
 [Device Frame Generator](http://f2prateek.com/android-device-frame-generator/)
 
+#### Android资源分析工具
+[AndroidAssetsViewer](http://www.cellebellum.net/AndroidAssetsViewer/)
+
+#### Android Layout Parser工具
+[Android Layout Binder](http://android.lineten.net/layout.php)
+
+#### Android Content Provider代码生成工具
+[Android Content Provider Code Generator](https://github.com/BoD/android-contentprovider-generator)
+
 ## Guides
 ---
 #### Android Api中文版
