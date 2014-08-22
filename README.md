@@ -659,7 +659,7 @@ C/C++开发Android应用工具包
 ####Gradle User Guide
 Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com/s/1dD7sC2d)
 
-#Course
+##Tutorials
 ---
 
 ####Google Android官方培训课程中文版
@@ -672,6 +672,12 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 #Design
 ---
+
+## Tutorials
+---
+
+[HackDesign](https://hackdesign.org/lessons)
+
 
 ## Guides
 ---
