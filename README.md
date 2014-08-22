@@ -617,6 +617,19 @@ C/C++开发Android应用工具包
 [idea-plugin-maven-plugin]:https://github.com/born2snipe/idea-plugin-maven-plugin
 [gradle-play-publisher]:https://github.com/Triple-T/gradle-play-publisher
 
+#### Android资源/Themes/Style生成工具
+[AndroidAssetStudio](http://romannurik.github.io/AndroidAssetStudio/)
+
+[AndroidDrawableFactory](https://github.com/tizionario/AndroidDrawableFactory)
+
+[Android Action Bar Style Generator](http://jgilfelt.github.io/android-actionbarstylegenerator/)
+	
+[Android Holo Colors Generator](http://android-holo-colors.com)
+
+[Android Simple Nine-patch Generator](http://romannurik.github.io/AndroidAssetStudio/nine-patches.html)
+
+[Device Frame Generator](http://f2prateek.com/android-device-frame-generator/)
+
 ## Guides
 ---
 #### Android Api中文版
