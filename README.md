@@ -830,7 +830,7 @@ C/C++开发Android应用工具包
 #### Java DAO Generate工具
 
 | 名称                                        |      简介         |         下载地址                                      |    使用教程      |
-|:-------------------------------------------|------------------|:--------------------------------------------------- -:|:---------------:|
+|:-------------------------------------------|------------------|:----------------------------------------------------:|:---------------:|
 | Generate Java DAO for relational data table|                  | [下载][Generate Java DAO for relational data table]    |                 |
 
 [Generate Java DAO for relational data table]:http://pojo.sodhanalibrary.com/GenerateDAO.html
@@ -951,15 +951,22 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 地址：[http://design.1sters.com](http://design.1sters.com)
 
-#### DESIGNER'S GUIDE TO DPI
+#### Designer's Guide To dpi
 
-地址：http://sebastien-gabriel.com/designers-guide-to-dpi/home#
+地址：[http://sebastien-gabriel.com/designers-guide-to-dpi/home](http://sebastien-gabriel.com/designers-guide-to-dpi/home#)
 
-## Material
+## Free Design Resources
 ---
-####Google Material Design 素材
 
-[素材下载](http://pan.baidu.com/s/1i35iBNv)(感谢 [@SanityD](http://weibo.com/sanityd))
+[Google Material Design 素材](http://pan.baidu.com/s/1i35iBNv)(感谢 [@SanityD](http://weibo.com/sanityd))
+
+[Material Design Icon Templates](https://dribbble.com/shots/1617724)
+
+[Nexus 5 template for Sketch](http://tristanremy.com/nexus-5/)
+
+[Free Design Resources](http://androiduiux.com/free-design-resources/?blogsub=confirming#blog_subscription-2)
+
+[434 SVG icons](https://dl.dropboxusercontent.com/u/8067075/System%20Icons.zip)
 
 #Books
 ---
