@@ -10,7 +10,6 @@ AndroidDevTools
 
 
 # Android Tools
----
 
 ####ADT Bundle
 ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
@@ -921,6 +920,231 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 # Design
 ---
 
+## Design Tools
+
+#### Photoshop插件
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Cut&Slice        |    切图神器       | [下载][j2Objc]              |                 |
+| DevRocket        |    切图神器       | [下载][RoboVM]              |                 |
+| Cutterman        |   最好用的切图工具 | [下载][j2Objc]              |                 |
+| Ink              |                  | [下载][Ink]                 |                 |
+| Corner Editor    |   路径圆角编辑工具 | [下载][Corner Editor]       |                 |
+| GuideGuide       |   辅助线工具      | [下载][GuideGuide]          |                 |
+| Assistor PS      |                  | [下载][Assistor PS]         |                 |
+| Skeuomorphism.it |                  | [下载][Skeuomorphism.it]    |                 |
+| QuickGuide       |                  | [下载][j2Objc]              |                 |
+| Long Shadow Generator | 长投影效果生成插件 | [下载][RoboVM]         |                 |
+
+
+[Cut&Slice]:http://www.cutandslice.me
+[DevRocket]:http://devrocket.uiparade.com
+[Cutterman]:http://www.cutterman.cn
+[Ink]:http://ink.chrometaphore.com
+[Corner Editor]:http://photoshopscripts.wordpress.com  [http://sourceforge.net/projects/cornereditor/]:http://sourceforge.net/projects/cornereditor/
+[GuideGuide]:http://guideguide.me
+[Assistor PS]:http://assistor.net/en/assistor
+[Skeuomorphism.it]:http://skeuomorphism.it
+[QuickGuide]:http://guchitaka.com/project-view/quickguidepro/
+[Long Shadow Generator]:http://lab.rayps.com/lsg/
+
+#### 矢量图设计工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Sketch 3         |                  | [下载][Sketch 3]            |                 |
+| Affinity Designer|                  | [下载][Affinity Designer]   |                 |
+| Gravit           |                  | [下载][Gravit]              |                 |
+| Adobe Illustrator|                  | [下载][Adobe Illustrator]   |                 |
+
+[Sketch 3]:http://bohemiancoding.com/sketch/
+[Affinity Designer]:https://affinity.serif.com
+[Gravit]:http://gravit.io
+[Adobe Illustrator]:https://www.adobe.com/cn/products/illustrator.html
+
+#### 切图工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Slicy           |                  | [下载][Slicy]              |                 |
+
+[Slicy]:http://macrabbit.com/slicy/
+
+#### 设计稿尺寸标注工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| 马克鳗            |                  | [下载][马克鳗]              |                 |
+
+[马克鳗]:http://www.getmarkman.com
+
+#### 原型设计工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Axure            |                  | [下载][Axure]               |                 |
+| Fluid UI         |                  | [下载][Fluid UI]            |                 |
+| Briefs           |                  | [下载][Briefs]              |                 |
+| Flinto           |                  | [下载][Flinto]              |                 |
+| Balsamiq Mockups |                  | [下载][Balsamiq Mockups]    |                 |
+| AppCooker        |                  | [下载][AppCooker]           |                 |
+| Proto.io         |                  | [下载][Proto.io]            |                 |
+| UXPin            |                  | [下载][UXPin]               |                 |
+| InVision         |                  | [下载][InVision]            |                 |
+| POP              |                  | [下载][POP]                 |                 |
+| 快现              |                  | [下载][快现]                |                 |
+| Composite        |                  | [下载][Composite]           |                 |
+| OmniGraffle      |                  | [下载][OmniGraffle]         |                 |
+| Marvelapp        |                  | [下载][Marvelapp]           |                 |
+
+[Axure]:http://www.axure.com
+[Fluid UI]:https://chrome.google.com/webstore/detail/fluid-ui/obgmmkbgpilmggfkhganmcmpemnhimgg?hl=en
+[Briefs]:http://giveabrief.com
+[Flinto]:https://www.flinto.com
+[Balsamiq Mockups]:http://balsamiq.com/products/mockups/
+[AppCooker]:http://www.appcooker.com
+[Proto.io]:https://proto.io/en/signup/
+[UXPin]:http://uxpin.com/#
+[InVision]:http://www.invisionapp.com
+[POP]:https://popapp.in
+[快现]:http://www.ikuaixian.com
+[Composite]:http://www.getcomposite.com
+[OmniGraffle]:https://www.omnigroup.com/omnigraffle
+[Marvelapp]:https://marvelapp.com
+
+#### 交互设计工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Framer Studio    |                  | [下载][Framer Studio]       |                 |
+| Quartz Composer  |                  | [下载][Quartz Composer]     |                 |
+| Origami          |                  | [下载][Origami]             |                 |
+| jQC              |                  | [下载][jQC]                 |                 |
+
+[Framer Studio]:http://framerjs.com
+[Quartz Composer]:http://adcdownload.apple.com/Developer_Tools/graphics_tools_for_xcode__march_2014/graphics_tools_for_xcode_5.1__march_2014.dmg
+[Origami]:http://facebook.github.io/origami/
+[jQC]:http://qcdesigners.com/index.php/forums
+
+#### UI效果预览工具
+
+| 名称                     |      简介         |         下载地址               |    使用教程      |
+|:------------------------|------------------|:------------------------------:|:---------------:|
+| Android Design Preview  |                  | [下载][Android Design Preview]  |                 |
+| PS Play                 |                  | [下载][PS Play]                 |                 |
+| Pixl Preview            |                  | [下载][Pixl Preview]            |                 |
+| Skala Preview           |                  | [下载][Skala Preview]           |                 |
+| LiveView                |                  | [下载][LiveView]                |                 |
+
+[Android Design Preview]:https://github.com/romannurik/AndroidDesignPreview/releases
+[PS Play]:http://isux.tencent.com/app/psplay
+[Pixl Preview]:https://play.google.com/store/apps/details?id=at.markushi.pixl
+[Skala Preview]:http://bjango.com/mac/skalapreview/
+[LiveView]:http://www.zambetti.com/projects/liveview/
+
+#### 配色工具
+
+| 名称                                 |      简介         |         下载地址                            |    使用教程      |
+|:------------------------------------|------------------|:-------------------------------------------:|:---------------:|
+| Android Material Design可视化调色板   |                  | [下载][Android Material Design可视化调色板]   |                 |
+| Android Material Design Colours.xml |                  | [下载][Android Material Design Colours.xml]  |                 |
+| Colorube配色神器                     |                  | [下载][Colorube配色神器]                      |                 |
+| Adobe Kuler                         |                  | [下载][Adobe Kuler]                          |                 |
+| ColorSchemer Studio                 |                  | [下载][ColorSchemer Studio]                  |                 |
+| Piknik                              |                  | [下载][Android Material Design Colours.xml]  |                 |
+
+[Android Material Design可视化调色板]:https://github.com/HozakaN/MaterialDesignColorPalette
+[Android Material Design Colours.xml]:https://gist.github.com/daniellevass/b0b8cfa773488e138037
+[Colorube配色神器]:http://www.fancynode.com/colorcube/
+[Adobe Kuler]:https://kuler.adobe.com/zh/create/color-wheel/
+[ColorSchemer Studio]:http://www.colorschemer.com
+[Piknik]:http://color.aurlien.net
+
+#### 设计稿版本控制工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| LayerVault       |                  | [下载][LayerVault]          |                 |
+
+[LayerVault]:https://layervault.com
+
+#### 图标处理工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Icon Slate       |                  | [下载][Icon Slate]          |                 |
+
+[Icon Slate]:http://www.kodlian.com/apps
+
+#### 在线Icon库
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| IconFont         |                  | [下载][IconFont]            |                 |
+| NounProject      |                  | [下载][NounProject]         |                 |
+
+[IconFont]:http://iconfont.cn
+[NounProject]:http://thenounproject.com
+
+#### 取色工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| ColorSnapper     |                  | [下载][ColorSnapper]        |                 |
+
+[ColorSnapper]:http://colorsnapper.com
+
+#### 不透明度16进制值
+
+| 不透明度 | 16进制值 |
+|:------:|:-------:|
+| 100%   |    FF   |
+| 95%    |    F2   |
+| 90%    |    E6   |
+| 85%    |    D9   |
+| 80%    |    CC   |
+| 75%    |    BF   |
+| 70%    |    B3   |
+| 65%    |    A6   |
+| 60%    |    99   |
+| 55%    |    8C   |
+| 50%    |    80   |
+| 45%    |    73   |
+| 40%    |    66   |
+| 35%    |    59   |
+| 30%    |    4D   |
+| 25%    |    40   |
+| 20%    |    33   |
+| 15%    |    26   |
+| 10%    |    1A   |
+| 5%     |    0D   |
+| 0%     |    00   |
+
+出自：[http://stackoverflow.com/questions/5445085/understanding-colors-in-android-6-chars](http://stackoverflow.com/questions/5445085/understanding-colors-in-android-6-chars)
+
+#### 手机To电脑同步预览工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Reflector        |                  | [下载][Reflector]           |                 |
+| x-Mirage         |                  | [下载][x-Mirage]            |                 |
+| AirServer        |                  | [下载][AirServer]           |                 |
+
+[Reflector]:http://
+
+[x-Mirage]:http://
+
+[AirServer]:http://
+
+#### Gif图片录制工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| LICEcap          |                  | [下载][LICEcap]             |                 |
+
+[LICEcap]:http://www.cockos.com/licecap/
+
 ## Tutorials
 
 [HackDesign](https://hackdesign.org/lessons)
@@ -965,21 +1189,21 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 [434 SVG icons](https://dl.dropboxusercontent.com/u/8067075/System%20Icons.zip)
 
 # Books
----
 
 [Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#android)
 
----
+
 
 # License
----
 
 ```
 Copyright 2014 inferjay (http://www.androiddevtools.cn)
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
-http://www.apache.org/licenses/LICENSE-2.0
+
+	http://www.apache.org/licenses/LICENSE-2.0
+
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
