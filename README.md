@@ -10,6 +10,7 @@ AndroidDevTools
 
 
 # Android Tools
+---
 
 ####ADT Bundle
 ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
@@ -930,7 +931,7 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 | DevRocket        |    切图神器       | [下载][RoboVM]              |                 |
 | Cutterman        |   最好用的切图工具 | [下载][j2Objc]              |                 |
 | Ink              |                  | [下载][Ink]                 |                 |
-| Corner Editor    |   路径圆角编辑工具 | [下载][Corner Editor]       |                 |
+| Corner Editor    |   路径圆角编辑工具 | [下载1][Corner Editor1] <br/>[下载1][Corner Editor2]      |                 |
 | GuideGuide       |   辅助线工具      | [下载][GuideGuide]          |                 |
 | Assistor PS      |                  | [下载][Assistor PS]         |                 |
 | Skeuomorphism.it |                  | [下载][Skeuomorphism.it]    |                 |
@@ -942,7 +943,8 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 [DevRocket]:http://devrocket.uiparade.com
 [Cutterman]:http://www.cutterman.cn
 [Ink]:http://ink.chrometaphore.com
-[Corner Editor]:http://photoshopscripts.wordpress.com  [http://sourceforge.net/projects/cornereditor/]:http://sourceforge.net/projects/cornereditor/
+[Corner Editor1]:http://photoshopscripts.wordpress.com  
+[Corner Editor2]:http://sourceforge.net/projects/cornereditor/
 [GuideGuide]:http://guideguide.me
 [Assistor PS]:http://assistor.net/en/assistor
 [Skeuomorphism.it]:http://skeuomorphism.it
@@ -1131,11 +1133,9 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 | x-Mirage         |                  | [下载][x-Mirage]            |                 |
 | AirServer        |                  | [下载][AirServer]           |                 |
 
-[Reflector]:http://
-
-[x-Mirage]:http://
-
-[AirServer]:http://
+[Reflector]:http://www.airsquirrels.com/reflector/download/
+[x-Mirage]:http://x-mirage.com/x-mirage/
+[AirServer]:http://www.airserver.com
 
 #### Gif图片录制工具
 
@@ -1189,12 +1189,14 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 [434 SVG icons](https://dl.dropboxusercontent.com/u/8067075/System%20Icons.zip)
 
 # Books
+---
 
 [Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#android)
 
 
 
 # License
+---
 
 ```
 Copyright 2014 inferjay (http://www.androiddevtools.cn)
