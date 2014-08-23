@@ -618,26 +618,275 @@ C/C++开发Android应用工具包
 [gradle-play-publisher]:https://github.com/Triple-T/gradle-play-publisher
 
 #### Android资源/Themes/Style生成工具
-[AndroidAssetStudio](http://romannurik.github.io/AndroidAssetStudio/)
+| 名称                      |      简介        |         下载地址            |    使用教程      |
+|:-------------------------|:-----------------|:--------------------------:|:---------------:|
+| Android Asset Studio     |                  | [下载][AndroidAssetStudio]  |                 |
+| Android Drawable Factory |                  | [下载][AndroidDrawableFactory]  |                 |
+| Android Action Bar Style Generator  |       | [下载][ActionBarStyleGenerator]  |                 |
+| Android Holo Colors Generator       |       | [下载][HoloColorsGenerator]  |                 |
+| Android Simple Nine-patch Generator |       | [下载][Simple Nine-patch Generator]  |                 |
+| Android Device Frame Generator |            | [下载][Device Frame Generator]  |                 |
 
-[AndroidDrawableFactory](https://github.com/tizionario/AndroidDrawableFactory)
-
-[Android Action Bar Style Generator](http://jgilfelt.github.io/android-actionbarstylegenerator/)
-	
-[Android Holo Colors Generator](http://android-holo-colors.com)
-
-[Android Simple Nine-patch Generator](http://romannurik.github.io/AndroidAssetStudio/nine-patches.html)
-
-[Device Frame Generator](http://f2prateek.com/android-device-frame-generator/)
+[AndroidAssetStudio]:http://romannurik.github.io/AndroidAssetStudio/
+[AndroidDrawableFactory]:https://github.com/tizionario/AndroidDrawableFactory
+[ActionBarStyleGenerator]:http://jgilfelt.github.io/android-actionbarstylegenerator
+[HoloColorsGenerator]:http://android-holo-colors.com
+[Simple Nine-patch Generator]:http://romannurik.github.io/AndroidAssetStudio/nine-patches.html
+[Device Frame Generator]:http://f2prateek.com/android-device-frame-generator/
 
 #### Android资源分析工具
-[AndroidAssetsViewer](http://www.cellebellum.net/AndroidAssetsViewer/)
+| 名称                   |      简介        |         下载地址            |    使用教程      |
+|:----------------------|:-----------------|:--------------------------:|:---------------:|
+| Android Assets Viewer |                 | [下载][AndroidAssetsViewer]  |                 |
+
+[AndroidAssetsViewer]:http://www.cellebellum.net/AndroidAssetsViewer/
 
 #### Android Layout Parser工具
-[Android Layout Binder](http://android.lineten.net/layout.php)
+| 名称                   |      简介        |         下载地址               |    使用教程      |
+|:----------------------|:-----------------|:----------------------------:|:---------------:|
+| Android Layout Binder |                  | [下载][Android Layout Binder] |                 |
+
+[Android Layout Binder]:http://android.lineten.net/layout.php
 
 #### Android Content Provider代码生成工具
-[Android Content Provider Code Generator](https://github.com/BoD/android-contentprovider-generator)
+| 名称                            |      简介       |         下载地址                     |    使用教程      |
+|:-------------------------------|:----------------|:----------------------------------:|:---------------:|
+| Content Provider Code Generator|                 | [下载][ContentProviderCodeGenerator] |                 |
+
+[ContentProviderCodeGenerator]:https://github.com/BoD/android-contentprovider-generator
+
+#### 代码生成工具
+| 名称              |      简介        |         下载地址            |    使用教程      |
+|:-----------------|:-----------------|:--------------------------:|:---------------:|
+| Android KickstartR| AndroidKickstartR帮助您快速创建<br/>Android应用程序并使用最流行的库进行配置。<br/>它创建和配置你的项目给你。只专注于代码!                                 | [下载][AndroidKickstartR]   |                 |
+| Android Button Maker| Android Button Maker是一个在线生成Android应用按钮代码的工具。<br/>Android的API提供可绘制资源，其中的XML文件定义的几何形状，包括颜色，边框和梯度。<br/>这些按钮是在shape drawable XML代码基础上产生的相比通常的PNG按钮加载速度更快。<br/>您可以在设置面板中自定义按钮的属性和获得源代码。                | [下载][Android Button Maker] |                 |
+| DroidDraw         |                 | [下载][DroidDraw]           |                 |
+
+[AndroidKickstartR]:http://androidkickstartr.com
+[Android Button Maker]:http://angrytools.com/android/button/
+[DroidDraw]:https://code.google.com/p/droiddraw/
+
+#### Android Native开发工具
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Android++        |                  | [下载][Android++]           |                 |
+
+[Android++]:http://android-plus-plus.com
+
+#### Android测试工具
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Appurify         |                  | [下载][Appurify]            |                 |
+| Monkey           |                  | [下载][Monkey]              |                 |
+| Testin           |                  | [下载][Testin]              |                 |
+| Spoon            |                  | [下载][Spoon]               |                 |
+| Little Eye       |                  | [下载][Little Eye]          |                 |
+| 易测云            |                  | [下载][易测云]               |                 |
+| Emmagee          |                  | [下载][Emmagee]             |                 |
+| Apk View Tracer  |                  | [下载][apk-view-tracer]     |                 |
+
+[Appurify]:http://appurify.com
+[Monkey]:http://developer.android.com/intl/zh-cn/tools/help/monkey.html
+[Testin]:http://testin.cn
+[Spoon]:http://square.github.io/spoon/
+[Little Eye]:http://www.littleeye.co
+[易测云]:http://www.yiceyun.com
+[Emmagee]:https://code.google.com/p/emmagee/
+[apk-view-tracer]:https://code.google.com/p/apk-view-tracer/
+
+#### Android多渠道打包工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Umeng多渠道打包工具|                  | [下载][Umeng多渠道打包工具]   |                 |
+| AppTools具       |                  | [下载][AppTools]            |                 |
+| package_tool     |                  | [下载][package_tool]        |                 |
+| RyApkTool        |                  | [下载][RyApkTool]           |                 |
+
+[Umeng多渠道打包工具]:https://github.com/umeng/umeng-muti-channel-build-tool
+[AppTools]:https://github.com/wubo/apptools
+[package_tool]:https://github.com/ahui2823/package_tool
+[RyApkTool]:http://blog.csdn.net/rydiy/article/details/7901564
+
+#### Android Bug日志收集工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Crashlytics      |                  | [下载][Crashlytics]         |                 |
+| ACRA             |                  | [下载][ACRA]                |                 |
+| ChkBugReport     |                  | [下载][ChkBugReport]        |                 |
+| Log Collector    |                  | [下载][Log Collector]       |                 |
+| Android Crash Catcher|              | [下载][Android Crash Catcher] |                 |
+
+[Crashlytics]:http://try.crashlytics.com
+[ACRA]:https://github.com/ACRA/acra
+[ChkBugReport]:https://github.com/sonyxperiadev/ChkBugReport
+[Log Collector]:https://code.google.com/p/android-log-collector/
+[Android Crash Catcher]:https://github.com/netcook/crash-catcher
+
+#### 其他语言开发Android应用工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Xamarin          |                  | [下载][Xamarin]             |                 |
+| Basic4android    |                  | [下载][Basic4android]       |                 |
+| Scripting Layer  |                  | [下载][Scripting Layer]     |                 |
+| Ruby Rhodes      |  移动设备上的Ruby  | [下载][RubyRhodes]          |                 |
+| PHP for Android  |                  | [下载][PHP for Android]     |                 |
+| Codename One     |                  | [下载][Codename One]        |                 |
+| Touchqode        |                  | [下载][Codename One]        |                 |
+| App Inventor     |                  | [下载][Codename One]        |                 |
+
+[Xamarin]:http://xamarin.com
+[Basic4android]:http://www.basic4ppc.com/index.html
+[Scripting Layer]:https://code.google.com/p/android-scripting/
+[RubyRhodes]:http://rhomobile.com
+[PHP for Android]:http://www.phpforandroid.net/doku.php
+[Codename One]:http://www.codenameone.com/index.html
+[Touchqode]:http://www.touchqode.com/index.htm
+[App Inventor]:https://code.google.com/p/app-inventor-releases/
+
+#### 传感器模拟工具
+
+| 名称              |      简介                                                        |         下载地址            |    使用教程      |
+|:-----------------|------------------------------------------------------------------|:--------------------------:|:---------------:|
+| Sensor Simulator | 独立的Java应用程序，它模拟传感器<br/>的数据并将它们传送到Android模拟器。 | [下载][Sensor Simulator]    |                 |
+
+[Sensor Simulator]:http://www.openintents.org/en/node/23)
+
+#### Android串口开发工具
+
+| 名称                    |      简介         |         下载地址               |    使用教程      |
+|:-----------------------|------------------|:------------------------------:|:---------------:|
+| Android Serialport Api |                  | [下载][android-serialport-api]  |                 |
+
+[android-serialport-api]:https://code.google.com/p/android-serialport-api/
+
+#### 图片压缩工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| OptiPNG          |                  | [下载][OptiPNG]             |                 |
+| Pngcrush         |                  | [下载][Pngcrush]            |                 |
+| ImageOptim       |                  | [下载][Xamarin]             |                 |
+
+[OptiPNG]:http://optipng.sourceforge.net/
+[Pngcrush]:http://pmt.sourceforge.net/pngcrush/
+[ImageOptim]:https://imageoptim.com)
+	
+#### 资源清理工具
+
+| 名称                      |      简介         |         下载地址                 |    使用教程      |
+|:-------------------------|------------------|:--------------------------------:|:---------------:|
+| Android Lint             |                  | [下载][Android Lint]              |                 |
+| Android Resource Cleaner |                  | [下载][android-resource-cleaner]  |                 |
+| Android Unused Resources |                  | [下载][android-unused-resources]  |                 |
+| Android Resource Remover |                  | [下载][android-resource-remover]  |                 |
+
+[Android Lint]:http://tools.android.com/tips/lint
+[android-resource-cleaner]:https://code.google.com/p/android-resource-cleaner/
+[android-unused-resources]:https://code.google.com/p/android-unused-resources/
+[android-resource-remover]:https://github.com/KeepSafe/android-resource-remover
+
+#### px和dp转换/计算工具
+
+| 名称                      |      简介         |         下载地址                 |    使用教程      |
+|:-------------------------|------------------|:--------------------------------:|:---------------:|
+| Android dp px Calculator |                  | [下载][android dp px calculator] |                 |
+| dp px converter          |                  | [下载][dp px converter]          |                 |
+| pixelcalc                |                  | [下载][pixelcalc]                |                 |
+| androidpixels            |                  | [下载][androidpixels]            |                 |
+| android dpi calculator   |                  | [下载][android dpi calculator]   |                 |
+| DPI Calculator           |                  | [下载][DPI Calculator]           |                 |
+
+[android dp px calculator]:http://labs.rampinteractive.co.uk/android_dp_px_calculator/
+[dp px converter]:http://pixplicity.com/dp-px-converter/
+[pixelcalc]:http://angrytools.com/android/pixelcalc/
+[androidpixels]:http://androidpixels.net
+[android dpi calculator]:http://coh.io/adpi/
+[DPI Calculator]:https://chrome.google.com/webstore/detail/dpi-calculator/dldofgjemhkpilajnlenfijjpkabilcg?hl=en
+
+#### Java To iOS
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| j2Objc           |                  | [下载][j2Objc]              |                 |
+| RoboVM           |                  | [下载][RoboVM]              |                 |
+
+[j2Objc]:https://github.com/google/j2objc
+[RoboVM]:http://www.robovm.org
+
+#### JSON/XML转换为POJO Class工具
+
+| 名称                              |      简介         |         下载地址                          |    使用教程      |
+|:---------------------------------|------------------|:-----------------------------------------:|:---------------:|
+| jsonschema2pojo                  |                  | [下载][jsonschema2pojo]                    |                 |
+| Convert XML or JSON to Java Pojo |                  | [下载][Convert XML or JSON to Java Pojo]   |                 |
+
+[jsonschema2pojo]:http://www.jsonschema2pojo.org
+[Convert XML or JSON to Java Pojo]:http://pojo.sodhanalibrary.com
+
+
+#### Java DAO Generate工具
+
+| 名称                                        |      简介         |         下载地址                                      |    使用教程      |
+|:-------------------------------------------|------------------|:--------------------------------------------------- -:|:---------------:|
+| Generate Java DAO for relational data table|                  | [下载][Generate Java DAO for relational data table]    |                 |
+
+[Generate Java DAO for relational data table]:http://pojo.sodhanalibrary.com/GenerateDAO.html
+
+#### Chrome插件
+##### Android插件
+| 名称                                                   |      简介           |         下载地址                            |    使用教程      |
+|:------------------------------------------------------|---------------------|:------------------------------------------:|:---------------:|
+| Android SDK Search                                    |                     | [下载][Android SDK Search]                  |                 |
+| Android Resource Navigator                            |                     | [下载][Android Resource Navigator]          |                 |
+| ADB Plugin for remote <br/>debugging Chrome on Android|                     | [下载][ADBPluginforremotedebugging]        |                 |
+| Mobile/RWD Tester                                     |                     | [下载][Mobile/RWD Tester]                   |                 |
+| ExtensionAndroid SDK Samples Search                   |                     | [下载][ExtensionAndroid SDK Samples Search] |                 |
+| Android Developer Improvements                        |                     | [下载][Android Developer Improvements]      |                 |
+| Android downloader                                    |                     | [下载][Android downloader]                  |                 |
+
+[Android SDK Search]:https://chrome.google.com/webstore/detail/android-sdk-search/hgcbffeicehlpmgmnhnkjbjoldkfhoin
+[Android Resource Navigator]:https://chrome.google.com/webstore/detail/android-resource-navigato/agoomkionjjbejegcejiefodgbckeebo?hl=en
+[ADBPluginforremotedebugging]:https://chrome.google.com/webstore/detail/adb/dpngiggdglpdnjdoaefidgiigpemgage?hl=en
+[Mobile/RWD Tester]:https://chrome.google.com/webstore/detail/mobilerwd-tester/elmekokodcohlommfikpmojheggnbelo?hl=en
+[ExtensionAndroid SDK Samples Search]:https://chrome.google.com/webstore/detail/android-sdk-samples-searc/mbiobcenjhldinmnbpjihaemkfofnmgf?hl=en
+[Android Developer Improvements]:https://chrome.google.com/webstore/detail/android-developer-improve/omakkdelnjjgfmohpfkejgfcckpkbhbj?hl=en
+[Android downloader]:https://chrome.google.com/webstore/detail/android-downloader/pkffcfhlacdchhpahlgcajjiiljobbbb?hl=en
+
+##### JSON/XML格式化插件
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| JSONView         |                  | [下载][JSONView]            |                 |
+| JSON Formatter   |                  | [下载][JSON Formatter]      |                 |
+| JSON Viewer      |                  | [下载][JSON Viewer]         |                 |
+| JSON Finder      |                  | [下载][JSON Finder]         |                 |
+
+[JSONView]:https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en		
+[JSON Formatter]:https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en		
+[JSON Viewer]:https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en		
+[JSON Finder]:https://chrome.google.com/webstore/detail/json-finder/flhdcaebggmmpnnaljiajhihdfconkbj?hl=en
+
+
+[XML Tree]:https://chrome.google.com/webstore/detail/xml-tree/gbammbheopgpmaagmckhpjbfgdfkpadb?hl=en
+
+##### Encode/Decode插件
+
+| 名称                     |      简介         |         下载地址                  |    使用教程      |
+|:------------------------|------------------|:---------------------------------:|:---------------:|
+| Base64 Encode and Decode|                  | [下载][Base64 Encode and Decode]   |                 |
+
+[Base64 Encode and Decode]:https://chrome.google.com/webstore/detail/base64-encode-and-decode/kcafoaahiffdjffagoegkdiabclnkbha?hl=en
+
+##### Git
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| Git Cheat Sheet  |                  | [下载][Git Cheat Sheet]    |                 |
+
+[Git Cheat Sheet]:https://chrome.google.com/webstore/detail/git-cheat-sheet/mjdmgoiobnbkfcfjcceaodlcodhpokgn?hl=en
 
 ## Guides
 ---
