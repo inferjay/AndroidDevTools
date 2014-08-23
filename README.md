@@ -9,7 +9,7 @@ AndroidDevTools
 >如果你对翻译英文的Android开发技术文章感兴趣，欢迎Start和Fork[AndroidWeekly中国文章翻译项目](https://github.com/AWCNTT/ArticleTranslateProject)
 
 
-Android Tools
+# Android Tools
 ---
 
 ####ADT Bundle
@@ -918,7 +918,7 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 地址：[https://www.udacity.com/course/ud853](https://www.udacity.com/course/ud853)
 
-Design
+# Design
 ---
 
 ## Tutorials
@@ -964,12 +964,25 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [434 SVG icons](https://dl.dropboxusercontent.com/u/8067075/System%20Icons.zip)
 
-#Books
+# Books
+---
 
 [Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#android)
 
-
-License
 ---
 
-版权声明：版权归原作者所有，这里仅做收集整理，欢迎自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)
+# License
+---
+
+```
+Copyright 2014 inferjay (http://www.androiddevtools.cn)
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
