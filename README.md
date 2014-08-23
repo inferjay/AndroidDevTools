@@ -9,7 +9,7 @@ AndroidDevTools
 >如果你对翻译英文的Android开发技术文章感兴趣，欢迎Start和Fork[AndroidWeekly中国文章翻译项目](https://github.com/AWCNTT/ArticleTranslateProject)
 
 
-#Android Tools
+Android Tools
 ---
 
 ####ADT Bundle
@@ -888,8 +888,8 @@ C/C++开发Android应用工具包
 
 [Git Cheat Sheet]:https://chrome.google.com/webstore/detail/git-cheat-sheet/mjdmgoiobnbkfcfjcceaodlcodhpokgn?hl=en
 
-## Guides
----
+##Guides
+
 #### Android Api中文版
 地址：[http://wikidroid.sinaapp.com/Android中文API](http://wikidroid.sinaapp.com/Android中文API))
 
@@ -909,7 +909,6 @@ C/C++开发Android应用工具包
 Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com/s/1dD7sC2d)
 
 ##Tutorials
----
 
 ####Google Android官方培训课程中文版
 
@@ -919,17 +918,15 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 地址：[https://www.udacity.com/course/ud853](https://www.udacity.com/course/ud853)
 
-#Design
+Design
 ---
 
 ## Tutorials
----
 
 [HackDesign](https://hackdesign.org/lessons)
 
 
 ## Guides
----
 
 ####Android设计指南非官方简体中文版
 
@@ -956,7 +953,6 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 地址：[http://sebastien-gabriel.com/designers-guide-to-dpi/home](http://sebastien-gabriel.com/designers-guide-to-dpi/home#)
 
 ## Free Design Resources
----
 
 [Google Material Design 素材](http://pan.baidu.com/s/1i35iBNv)(感谢 [@SanityD](http://weibo.com/sanityd))
 
@@ -969,9 +965,11 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 [434 SVG icons](https://dl.dropboxusercontent.com/u/8067075/System%20Icons.zip)
 
 #Books
----
+
 [Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#android)
 
+
+License
 ---
-#License
+
 版权声明：版权归原作者所有，这里仅做收集整理，欢迎自由转载-非商用-非衍生-保持署名 | [Creative Commons BY-NC-ND 3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)
