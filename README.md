@@ -915,6 +915,10 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 ##Tutorials
 
+#### Android学习之路
+
+地址：[http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/](http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/)
+
 ####Google Android官方培训课程中文版
 
 地址：[http://hukai.me/android-training-course-in-chinese/index.html](http://hukai.me/android-training-course-in-chinese/index.html)
