@@ -665,6 +665,13 @@ C/C++开发Android应用工具包
 
 [ContentProviderCodeGenerator]:https://github.com/BoD/android-contentprovider-generator
 
+#### Android Fragment Code Generator代码生成工具
+| 名称                            |      简介       |         下载地址                     |    使用教程      |
+|:-------------------------------|:----------------|:----------------------------------:|:---------------:|
+| Android Fragment Code Generator |                 | [下载][FregmentCodeGenerator] |                 |
+
+[FregmentCodeGenerator]:http://techisfun.github.io/pages/android-fragment-generator/
+
 #### 代码生成工具
 | 名称              |      简介        |         下载地址            |    使用教程      |
 |:-----------------|:-----------------|:--------------------------:|:---------------:|
