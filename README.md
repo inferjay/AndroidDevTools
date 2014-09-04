@@ -487,6 +487,10 @@ C/C++开发Android应用工具包
 | [gradle-1.8-all.zip](http://pan.baidu.com/s/1o6Npqqe)  |
 | [gradle-1.7-all.zip](http://pan.baidu.com/s/1pJnvyWz)  |
 
+#### Gradle Dependencies Configuration Generator
+
+[Gradle, please](http://gradleplease.appspot.com)
+
 #### 反编译工具
 
 | 名称                           |         下载地址                  |    使用教程      |
