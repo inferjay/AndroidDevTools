@@ -604,6 +604,7 @@ C/C++开发Android应用工具包
 | IDEA Background Image Plugin                | [下载][Intellij-IDEA-Plugin-Background-Image]     |                 |
 | IDEA Maven Plugin                           | [下载][idea-plugin-maven-plugin]                  |                 |
 | Gradle GooglePlay Publisher Plugin          | [下载][gradle-play-publisher]                     |                 |
+| Drawable Selectors Generates Plugin         | [下载][android-selector-chapek]                   |                 |
 
 [Android Resource Resizer]:https://github.com/walmyrcarvalho/android-resource-resizer
 [GradleDependenciesHelper]:https://github.com/ligi/GradleDependenciesHelperPlugin
@@ -630,6 +631,7 @@ C/C++开发Android应用工具包
 [CodeGlance]:https://github.com/Vektah/CodeGlance
 [idea-plugin-maven-plugin]:https://github.com/born2snipe/idea-plugin-maven-plugin
 [gradle-play-publisher]:https://github.com/Triple-T/gradle-play-publisher
+[android-selector-chapek]:https://github.com/inmite/android-selector-chapek
 
 #### Android资源/Themes/Style生成工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
@@ -782,6 +784,14 @@ C/C++开发Android应用工具包
 | Android Serialport Api |                  | [下载][android-serialport-api]  |                 |
 
 [android-serialport-api]:https://code.google.com/p/android-serialport-api/
+
+
+#### 图片尺寸处理工具
+| 名称                    |      简介         |         下载地址               |    使用教程      |
+|:-----------------------|------------------|:------------------------------:|:---------------:|
+| 9-Patch Resizer        |                  | [下载][9-Patch Resizer]         |                 |
+
+[9-Patch Resizer]:https://github.com/redwarp/9-Patch-Resizer
 
 #### 图片压缩工具
 
