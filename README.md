@@ -953,6 +953,10 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 地址：[https://www.udacity.com/course/ud853](https://www.udacity.com/course/ud853)
 
+#### Java Design Patterns Samples in Java.
+
+[Java Design Patterns](https://github.com/iluwatar/java-design-patterns)
+
 # Design
 ---
 
