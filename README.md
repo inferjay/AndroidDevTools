@@ -712,6 +712,7 @@ C/C++开发Android应用工具包
 | 易测云            |                  | [下载][易测云]               |                 |
 | Emmagee          |                  | [下载][Emmagee]             |                 |
 | Apk View Tracer  |                  | [下载][apk-view-tracer]     |                 |
+| APT              |APT是一个Android平台高效性能测试组件，<br/>提供丰富实用的功能，适用于开发自测、<br/>定位性能瓶颈；<br/>测试人员完成性能基准测试、竞品对比测试。| [下载][APT]                 |   [教程][APT-use-guide]              |
 
 [Appurify]:http://appurify.com
 [Monkey]:http://developer.android.com/intl/zh-cn/tools/help/monkey.html
@@ -721,6 +722,10 @@ C/C++开发Android应用工具包
 [易测云]:http://www.yiceyun.com
 [Emmagee]:https://code.google.com/p/emmagee/
 [apk-view-tracer]:https://code.google.com/p/apk-view-tracer/
+[APT]:https://code.csdn.net/Tencent/apt
+
+
+[APT-use-guide]:http://www.eoeandroid.com/thread-497380-1-1.html
 
 #### Android多渠道打包工具
 
