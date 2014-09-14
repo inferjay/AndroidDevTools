@@ -984,16 +984,16 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 | 名称              |      简介         |         下载地址            |    使用教程      |
 |:-----------------|------------------|:--------------------------:|:---------------:|
-| Cut&Slice        |    切图神器       | [下载][j2Objc]              |                 |
+| Cut&Slice        |    切图神器       | [下载][Cut&Slice]              |                 |
 | DevRocket        |    切图神器       | [下载][RoboVM]              |                 |
-| Cutterman        |   最好用的切图工具 | [下载][j2Objc]              |                 |
+| Cutterman        |   最好用的切图工具 | [下载][Cutterman]              |                 |
 | Ink              |                  | [下载][Ink]                 |                 |
 | Corner Editor    |   路径圆角编辑工具 | [下载1][Corner Editor1] <br/>[下载1][Corner Editor2]      |                 |
 | GuideGuide       |   辅助线工具      | [下载][GuideGuide]          |                 |
 | Assistor PS      |                  | [下载][Assistor PS]         |                 |
 | Skeuomorphism.it |                  | [下载][Skeuomorphism.it]    |                 |
-| QuickGuide       |                  | [下载][j2Objc]              |                 |
-| Long Shadow Generator | 长投影效果生成插件 | [下载][RoboVM]         |                 |
+| QuickGuide       |                  | [下载][QuickGuide]              |                 |
+| Long Shadow Generator | 长投影效果生成插件 | [下载][Long Shadow Generator]         |                 |
 | android_resizer_toolkit |          | [下载][android_resizer_toolkit] |             |
 | android-ps-tools |    一些方便Android UI设计的PhototShop插件。      | [下载][android-ps-tools] |             |
 
@@ -1007,7 +1007,7 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 [Assistor PS]:http://assistor.net/en/assistor
 [Skeuomorphism.it]:http://skeuomorphism.it
 [QuickGuide]:http://guchitaka.com/project-view/quickguidepro/
-[Long Shadow Generator]:http://lab.rayps.com/lsg/
+[Long Shadow Generator]:http://lab.rayps.com/lsg2/
 [android_resizer_toolkit]:https://github.com/marcosecchi/android_resizer_toolkit
 [android-ps-tools]:https://github.com/timroes/android-ps-tools
 
