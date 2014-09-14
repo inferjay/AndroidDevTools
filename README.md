@@ -40,6 +40,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  0.8.10 | [下载][0.8.10-win] | [下载][0.8.10-mac] | [下载][0.8.10-linux] |
 |  0.8.9 | [下载][0.8.9-win] | [下载][0.8.9-mac] | [下载][0.8.9-linux] |
 |  0.8.8 | [下载][0.8.8-win] | [下载][0.8.8-mac] | [下载][0.8.8-linux] |
 |  0.8.7 | [下载][0.8.7-win] | [下载][0.8.7-mac] | [下载][0.8.7-linux] |
@@ -54,6 +55,10 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
+
+[0.8.10-win]:http://pan.baidu.com/s/1o6NWZuq
+[0.8.10-mac]:http://pan.baidu.com/s/1o6E36um
+[0.8.10-linux]:http://pan.baidu.com/s/1i3iPGtn
 
 [0.8.9-win]:http://pan.baidu.com/s/1mggH8P6
 [0.8.9-mac]:http://pan.baidu.com/s/1bnrjr0F
