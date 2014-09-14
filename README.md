@@ -931,6 +931,14 @@ C/C++开发Android应用工具包
 
 ##Guides
 
+#### Google Java编程风格指南中文版
+
+英文地址：[http://google-styleguide.googlecode.com/svn/trunk/javaguide.html](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)
+
+地址0：[http://hawstein.com/posts/google-java-style.html](http://hawstein.com/posts/google-java-style.html)
+
+地址1：[https://github.com/codeset/google-java-styleguide](https://github.com/codeset/google-java-styleguide)
+
 #### Android Api中文版
 地址：[http://wikidroid.sinaapp.com/Android中文API](http://wikidroid.sinaapp.com/Android中文API))
 
@@ -986,7 +994,8 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 | Skeuomorphism.it |                  | [下载][Skeuomorphism.it]    |                 |
 | QuickGuide       |                  | [下载][j2Objc]              |                 |
 | Long Shadow Generator | 长投影效果生成插件 | [下载][RoboVM]         |                 |
-
+| android_resizer_toolkit |          | [下载][android_resizer_toolkit] |             |
+| android-ps-tools |    一些方便Android UI设计的PhototShop插件。      | [下载][android-ps-tools] |             |
 
 [Cut&Slice]:http://www.cutandslice.me
 [DevRocket]:http://devrocket.uiparade.com
@@ -999,6 +1008,8 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 [Skeuomorphism.it]:http://skeuomorphism.it
 [QuickGuide]:http://guchitaka.com/project-view/quickguidepro/
 [Long Shadow Generator]:http://lab.rayps.com/lsg/
+[android_resizer_toolkit]:https://github.com/marcosecchi/android_resizer_toolkit
+[android-ps-tools]:https://github.com/timroes/android-ps-tools
 
 #### 矢量图设计工具
 
