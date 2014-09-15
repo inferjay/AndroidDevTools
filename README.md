@@ -1000,7 +1000,8 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 | QuickGuide       |                  | [下载][QuickGuide]              |                 |
 | Long Shadow Generator | 长投影效果生成插件 | [下载][Long Shadow Generator]         |                 |
 | android_resizer_toolkit |          | [下载][android_resizer_toolkit] |             |
-| android-ps-tools |    一些方便Android UI设计的PhototShop插件。      | [下载][android-ps-tools] |             |
+| android-ps-tools | 一些方便Android UI设计的PhototShop插件。 | [下载][android-ps-tools] |             |
+| LayerCraft       |    切图插件      | [下载][LayerCraft]            |                 |
 
 [Cut&Slice]:http://www.cutandslice.me
 [DevRocket]:http://devrocket.uiparade.com
@@ -1015,6 +1016,7 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 [Long Shadow Generator]:http://lab.rayps.com/lsg2/
 [android_resizer_toolkit]:https://github.com/marcosecchi/android_resizer_toolkit
 [android-ps-tools]:https://github.com/timroes/android-ps-tools
+[LayerCraft]:http://lab.rayps.com/lc/
 
 #### 矢量图设计工具
 
