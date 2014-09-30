@@ -1234,7 +1234,7 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 [The Bezier Game](http://bezier.method.ac)
 
-一个帮助你联系PS里钢笔工具的小游戏。
+一个帮助你练习PS里钢笔工具的小游戏。
 
 ## Guides
 
@@ -1277,6 +1277,8 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 [Free Design Resources](http://androiduiux.com/free-design-resources/?blogsub=confirming#blog_subscription-2)
 
 [434 SVG icons](https://dl.dropboxusercontent.com/u/8067075/System%20Icons.zip)
+
+[UI Cloun](http://ui-cloud.com)
 
 # Books
 ---
