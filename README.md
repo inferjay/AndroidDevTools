@@ -1230,6 +1230,11 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 [HackDesign](https://hackdesign.org/lessons)
 
+## Games
+
+[The Bezier Game](http://bezier.method.ac)
+
+一个帮助你联系PS里钢笔工具的小游戏。
 
 ## Guides
 
