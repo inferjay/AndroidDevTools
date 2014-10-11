@@ -1293,7 +1293,11 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [Free Programming Books](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#android)
 
+一堆免费的Android开发相关的电子书。
 
+[50 Android Hacks](http://www.it-ebooks.info/book/2445/)
+
+50 Android Hacks这本书分12个部分介绍了50个Android开发的小技巧。
 
 # License
 ---
