@@ -132,7 +132,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号   |
 |:----------:|
-|[ADT-23.0.3](http://pan.baidu.com/s/1hqJyLTi)
+|[ADT-23.0.4](http://pan.baidu.com/s/1i39UM7j)|
+|[ADT-23.0.3](http://pan.baidu.com/s/1hqJyLTi)|
 |[ADT-23.0.2](http://pan.baidu.com/s/1bnGkEvX)|
 |[ADT-23.0.0](http://pan.baidu.com/s/1sjArX7J)|
 |[ADT-22.6.3](http://pan.baidu.com/s/1jGMb5yQ)|
