@@ -1291,6 +1291,8 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [UI Cloun](http://ui-cloud.com)
 
+[161个国内外社交网站矢量图标](http://github.com/nullice/NViconsLib_Silhouette)
+
 # Books
 ---
 
