@@ -111,13 +111,13 @@ a.dl:hover {
 }
 
 h1 {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 26px;
   color: #888;
 }
 
 h2 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 24px;
   line-height: 30px;
   padding: 15px 0px;
@@ -202,7 +202,7 @@ section td {
  }
  
 #nav-title {
-	font-weight: 100;
+	font-weight: 400;
   font-size: 32px;
   color: #ffffff;
 }
@@ -261,6 +261,11 @@ footer p {
 
 #jiathis-share-bar {
 	margin-top: 30px;
+}
+
+.copyright {
+	float: left;
+	margin-right: 20px;
 }
 
 /* Widescreen desktop. */
