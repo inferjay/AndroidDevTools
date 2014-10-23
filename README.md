@@ -40,6 +40,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  0.8.13 | [下载][0.8.13-win] | [下载][0.8.13-mac] | [下载][0.8.13-linux] |
 |  0.8.12 | [下载][0.8.12-win] | [下载][0.8.12-mac] | [下载][0.8.12-linux] |
 |  0.8.11 | [下载][0.8.11-win] | [下载][0.8.11-mac] | [下载][0.8.11-linux] |
 |  0.8.10 | [下载][0.8.10-win] | [下载][0.8.10-mac] | [下载][0.8.10-linux] |
@@ -57,6 +58,10 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
+
+[0.8.13-win]:http://pan.baidu.com/s/1mgE85Pu
+[0.8.13-mac]:http://pan.baidu.com/s/1jGBoOiq
+[0.8.13-linux]:http://pan.baidu.com/s/1hqJ0xhi
 
 [0.8.12-win]:http://pan.baidu.com/s/1eQ3ps2I
 [0.8.12-mac]:http://pan.baidu.com/s/1o6uR15g
@@ -143,8 +148,17 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |
 |:----------:|:-------------:|:------:|:----------:|
+| sdk-tools-r23.0.5 | [android-sdk_r23.0.5-windows(非官方版).zip][android-sdk_r23.0.5-win] | [android-sdk_r23.0.5-macosx(非官方版).zip][android-sdk_r23.0.5-mac] |  |
 | sdk-tools-r23.0.2 | [installer_r23.0.2-windows.exe][installer_r23.0.2-win] [android-sdk_r23.0.2-windows.zip][android-sdk_r23.0.2-win] | [android-sdk_r23.0.2-macosx.zip][android-sdk_r23.0.2-mac] | [android-sdk_r23.0.2-linux.tgz][android-sdk_r23.0.2-linux] |
 | sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
+
+> **备注：** `非官方版` 是在 `23.0.2` 的基础上进行了在线更新包含了 `Android 5.0 SDK` ，`SDK Tools 23.0.5` 、`Build Tools 21.0.1` 、`Support Library 21`等。
+
+[android-sdk_r23.0.5-win]:http://pan.baidu.com/s/1bntmoqV
+
+[android-sdk_r23.0.5-mac]:http://pan.baidu.com/s/1o6LWg10
+
+
 
 [installer_r23.0.2-win]:http://pan.baidu.com/s/1jGj2xIA
 [android-sdk_r23.0.2-win]:http://pan.baidu.com/s/1CiWSu
@@ -167,6 +181,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
+| android 5.0  | [下载][android-21-win] | [下载][android-21-mac] | [下载][android-21-mac] |
 | android L Rev3 | [下载][android-L-r3-win] | [下载][android-L-r3-mac] | [下载][android-L-r3-mac] |
 | android L  | [下载][android-L-win] | [下载][android-L-mac] | [下载][android-L-mac] |
 | android 4.4W | [下载][android-20-win] | [下载][android-20-mac] | [下载][android-20-mac] |
@@ -182,6 +197,9 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | android 2.3.3 | [下载][android-10-win] | [下载][android-10-mac] | [下载][android-10-mac] |
 | android 2.2	 | [下载][android-8-win] | [下载][android-8-mac] | [下载][android-8-mac] |
 
+[android-21-win]:http://pan.baidu.com/s/1i33Puo1
+[android-21-mac]:http://pan.baidu.com/s/1o6v7E2I
+
 [android-L-r3-win]:http://pan.baidu.com/s/1u8dhc
 [android-L-r3-mac]:http://pan.baidu.com/s/1jG1duN8
 
@@ -191,23 +209,23 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [android-20-win]:http://pan.baidu.com/s/1eYPGE
 [android-20-mac]:http://pan.baidu.com/s/1nt5GKWh
 
-[android-19-win]:http://pan.baidu.com/s/1kT60PGN
+[android-19-win]:http://pan.baidu.com/s/1eQf8ZgI
 [android-19-mac]:http://pan.baidu.com/s/1c03XoL6
 
-[android-18-win]:http://pan.baidu.com/s/1dDrJWit
-[android-18-mac]:http://pan.baidu.com/s/1i3mmidn
+[android-18-win]:http://pan.baidu.com/s/1o65bfV8
+[android-18-mac]:http://pan.baidu.com/s/1bn1tNm3
 
-[android-17-win]:http://pan.baidu.com/s/16Jyge
-[android-17-mac]:http://pan.baidu.com/s/1jGLvX6Q
+[android-17-win]:http://pan.baidu.com/s/1mgICw9E
+[android-17-mac]:http://pan.baidu.com/s/1pJJSlfl
 
-[android-16-win]:http://pan.baidu.com/s/1c0D0Fok
-[android-16-mac]:http://pan.baidu.com/s/1pJ4qMb5
+[android-16-win]:http://pan.baidu.com/s/1nt3bpI5
+[android-16-mac]:http://pan.baidu.com/s/1kTA6V8z
 
-[android-15-win]:http://pan.baidu.com/s/1eQekIzS
-[android-15-mac]:http://pan.baidu.com/s/1eQH0vHC
+[android-15-win]:http://pan.baidu.com/s/1pJoegpd
+[android-15-mac]:http://pan.baidu.com/s/1jGzdDxc
 
-[android-14-win]:http://pan.baidu.com/s/1jGBmAjW
-[android-14-mac]:http://pan.baidu.com/s/1nt7cEDF
+[android-14-win]:http://pan.baidu.com/s/1c0H6Ld2
+[android-14-mac]:http://pan.baidu.com/s/1hqwzPTa
 
 [android-13-win]:http://pan.baidu.com/s/1jGLvX6A
 [android-13-mac]:http://pan.baidu.com/s/1qWqH9Q8
@@ -230,6 +248,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 系统版本号 	 | Windows | Mac OSX  | Linux |
 |:----------|:-------------:|:------:|:----------:|
+| android 5.0  | [下载][Images-5.0-win] | [下载][Images-5.0-mac] | [下载][Images-5.0-mac] |
 | android L  | [下载][Images-L-win] | [下载][Images-L-mac] | [下载][Images-L-mac] |
 | android 4.4W | [下载][Images-20-win] | [下载][Images-20-mac] | [下载][Images-20-mac] |
 | android 4.4.2 | [下载][Images-19-win] | [下载][Images-19-mac] | [下载][Images-19-mac] |
@@ -238,6 +257,9 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | android 4.1.2 | [下载][Images-16-win] | [下载][Images-16-mac] | [下载][Images-16-mac] |
 | android 4.0.3 | [下载][Images-15-win] | [下载][Images-15-mac] | [下载][Images-15-mac] |
 | android 4.0 | [下载][Images-14-win] | [下载][Images-14-mac] | [下载][Images-14-mac] |
+
+[Images-5.0-win]:http://pan.baidu.com/s/1ntwpDQL
+[Images-5.0-mac]:http://pan.baidu.com/s/1D7glC
 
 [Images-L-win]:http://pan.baidu.com/s/1hqIcqhA
 [Images-L-mac]:http://pan.baidu.com/s/1ntFQlRV
@@ -350,6 +372,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 系统版本 |
 |:----------|
+|[android 5.0][sources-21]|
 |[android 4.4W][sources-20]|
 |[android 4.4.2][sources-19]|
 |[android 4.3][sources-18]|
@@ -361,6 +384,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |[android 2.3.3][sources-10]|
 |[android 2.2][sources-8]|
 
+[sources-21]:http://pan.baidu.com/s/1dD5Z1Hf
 [sources-20]:http://pan.baidu.com/s/1eQf6F0Q
 [sources-19]:http://pan.baidu.com/s/1hqGGrVA
 [sources-18]:http://pan.baidu.com/s/1pJI3YrD
@@ -377,6 +401,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号  |
 |:---------:|
+| [21](http://pan.baidu.com/s/1o6v78Lk)   |
 | [20](http://pan.baidu.com/s/1eQIMXMy)   |
 
 ####Support Library
@@ -384,6 +409,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号  |
 |:---------:|
+| [21](http://pan.baidu.com/s/1o6MBWIu)   |
 | [20](http://pan.baidu.com/s/1o6OBlR8)   |
 
 ####SDK Samples
