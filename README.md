@@ -1317,6 +1317,10 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [Material Design Icon Templates](https://dribbble.com/shots/1617724)
 
+[Material Design的图标集](https://github.com/google/material-design-icons)
+
+[Material Design UI Kit for Sketch](https://www.behance.net/gallery/20514895/Material-Design-UI-Kit)
+
 [Nexus 5 template for Sketch](http://tristanremy.com/nexus-5/)
 
 [Free Design Resources](http://androiduiux.com/free-design-resources/?blogsub=confirming#blog_subscription-2)
