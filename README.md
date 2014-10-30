@@ -544,6 +544,33 @@ C/C++开发Android应用工具包
 
 [Gradle, please](http://gradleplease.appspot.com)
 
+#### 版本控制工具
+
+##### Git
+
+| 版本号       |         Windows         |       Mac OSX           |    Linux                |
+|:------------|:-----------------------:|:-----------------------:|:-----------------------:|
+|  Git-2.0.1  |                         | [下载][Git-2.0.1-mac]    | [下载][Git-for-Linux]|
+|  Git-1.9.4  | [下载][Git-1.9.4-win]    |                         | [下载][Git-for-Linux]|
+|  Git-1.8.5.2| [下载][Git-1.8.5.2-win] | [下载][Git-1.8.5.2-mac]  | [下载][Git-for-Linux] |
+
+[Git-2.0.1-mac]:http://pan.baidu.com/s/1mgkM9BE
+
+[Git-1.9.4-win]:http://pan.baidu.com/s/1ntjy9N7
+
+[Git-1.8.5.2-win]:http://pan.baidu.com/s/1ntJWxeD
+[Git-1.8.5.2-mac]:http://pan.baidu.com/s/1bncr1pX
+
+[Git-for-Linux]:https://github.com/inferjay/AndroidDevTools/wiki/Download-for-Linux-and-Unix
+
+##### SVN Plugin For Eclipse
+
+|    版本号   |
+|:-----------|
+| [1.10.5](http://pan.baidu.com/s/1mg2x4Xq) |
+| [1.8.22](http://pan.baidu.com/s/1hqswoGs) |
+| [1.6.18](http://pan.baidu.com/s/1o60r6UA) |
+
 #### 反编译工具
 
 | 名称                           |         下载地址                  |    使用教程      |
