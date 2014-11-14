@@ -214,48 +214,43 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 [21.1.1-win]:http://pan.baidu.com/s/1mgzFXW0
 [21.1.1-mac]:http://pan.baidu.com/s/1i367FTz
-[21.1.1-linux]:
+
 
 [21.1.0-win]:http://pan.baidu.com/s/1pJ3DCGN
 [21.1.0-mac]:http://pan.baidu.com/s/1hqIfeCW
-[21.1.0-linux]:
+
 
 [21.0.2-win]:http://pan.baidu.com/s/1kTDpnt9
 [21.0.2-mac]:http://pan.baidu.com/s/1dDCf9TZ
-[21.0.2-linux]:
+
 
 [21.0.1-win]:http://pan.baidu.com/s/1eQreI6A
 [21.0.1-mac]:http://pan.baidu.com/s/1eQCd5YE
-[21.0.1-linux]:
+
 
 [21.0.0-win]:http://pan.baidu.com/s/1i3y0mKd
 [21.0.0-mac]:http://pan.baidu.com/s/1i3oWM01
-[21.0.0-linux]:
 
-[20.0.0-win]:
+
+
 
 [20.0.0-mac]:http://pan.baidu.com/s/1c0AfIOK
-[20.0.0-linux]:
+
 
 [19.1.0-win]:http://pan.baidu.com/s/1qWCzdwC
 [19.1.0-mac]:http://pan.baidu.com/s/1nt2vM21
-[19.1.0-linux]:
 
 [19.0.3-win]:http://pan.baidu.com/s/1qWCzdwC
 [19.0.3-mac]:http://pan.baidu.com/s/1hq7VIgG
-[19.0.3-linux]:
 
 [19.0.2-win]:http://pan.baidu.com/s/1ntl0Qnf
 [19.0.2-mac]:http://pan.baidu.com/s/1xY7PO
-[19.0.2-linux]:
 
 [19.0.1-win]:http://pan.baidu.com/s/1pJ1BJrt
 [19.0.1-mac]:http://pan.baidu.com/s/1o65bAwa
-[19.0.1-linux]:
 
 [19.0.0-win]:http://pan.baidu.com/s/1o6I8NBs
 [19.0.0-mac]:http://pan.baidu.com/s/1c0dBDvE
-[19.0.0-linux]:
 
 ####SDK
 这是Android开发所需的sdk，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`文件夹，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
