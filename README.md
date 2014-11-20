@@ -482,6 +482,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号  |
 |:---------:|
+| [21.0.2](http://pan.baidu.com/s/1mgso8Y0)   |
 | [21](http://pan.baidu.com/s/1o6v78Lk)   |
 | [20](http://pan.baidu.com/s/1eQIMXMy)   |
 
