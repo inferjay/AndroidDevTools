@@ -544,32 +544,38 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####NDK
 C/C++开发Android应用工具包
 
-| Platform(32-bit target) | Package |
-|:----------|:-------------|
-| Windows 32-bit | [android-ndk32-r10-windows-x86.zip](http://pan.baidu.com/s/1bnB1o1T) | 
-| Windows 64-bit | [android-ndk32-r10-windows-x86_64.zip](http://pan.baidu.com/s/1gdmW6cj) | 
-| Mac OS X 32-bit | [android-ndk32-r10-darwin-x86.tar.bz2](http://pan.baidu.com/s/1jGtBYyq) | 
-| Mac OS X 64-bit | [android-ndk32-r10-darwin-x86_64.tar.bz2](http://pan.baidu.com/s/1gdADfaF) | 
-| Linux 32-bit (x86) | [android-ndk32-r10-linux-x86.tar.bz2](http://pan.baidu.com/s/1V2Tg) | 
-| Linux 64-bit (x86) | [android-ndk32-r10-linux-x86_64.tar.bz2](http://pan.baidu.com/s/1pJJQokV) | 
-
-| Platform(64-bit target)	| Package |
-|:----------|:-------------|
-| Windows 32-bit	| [android-ndk64-r10-windows-x86.zip](http://pan.baidu.com/s/1qW0RtzI) | 
-| Windows 64-bit	| [android-ndk64-r10-windows-x86_64.zip](http://pan.baidu.com/s/1ntypDpf) | 
-| Mac OS X 32-bit	| [android-ndk64-r10-darwin-x86.tar.bz2](http://pan.baidu.com/s/1o6G44Eu) | 
-| Mac OS X 64-bit	| [android-ndk64-r10-darwin-x86_64.tar.bz2](http://pan.baidu.com/s/1gd7pvJ9) | 
-| Linux 32-bit (x86)| [android-ndk64-r10-linux-x86.tar.bz2](http://pan.baidu.com/s/1hql8AIo) | 
-| Linux 64-bit (x86)| [android-ndk64-r10-linux-x86_64.tar.bz2](http://pan.baidu.com/s/1dDreuPz) | 
-
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |
-|:----------:|:-------------:|:------:|:----------:|
+|:----------|:-------------:|:------:|:----------:|
+| ndk-r10c | [32位][r10c-win-32] [64位][r10c-win-64] |  |   |
+| ndk64-r10 | [32位][ndk64-r10-win-32] [64位][ndk64-r10-win-64] | [32位][ndk64-r10-mac-32] [64位][ndk64-r10-mac-64] | [32位][ndk64-r10-linux-32] [64位][ndk64-r10-linux-64]  |
+| ndk32-r10 | [32位][ndk32-r10-win-32] [64位][ndk32-r10-win-64] | [32位][ndk32-r10-mac-32] [64位][ndk32-r10-mac-64] | [32位][ndk32-r10-linux-32] [64位][ndk32-r10-linux-64]  |
 | ndk-r9d | [32位][r9d-win-32] [64位][r9d-win-64] | [32位][r9d-mac-32] [64位][r9d-mac-64] | [32位][r9d-linux-32] [64位][r9d-linux-64]  |
 
 | Additional Download (32-, 64-bit) |  Package |
 |:----------|:-------------|
 | r10 STL debug info | [android-ndk-r10-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1xWgUE) | 
 | r9 STL debug info | [android-ndk-r9-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1c0EMn8O) |
+
+[r10c-win-32]:http://pan.baidu.com/s/1bnGnKkB
+[r10c-win-64]:http://pan.baidu.com/s/1ntmhjUL
+
+[ndk64-r10-win-32]:http://pan.baidu.com/s/1qW0RtzI
+[ndk64-r10-win-64]:http://pan.baidu.com/s/1ntypDpf
+
+[ndk64-r10-mac-32]:http://pan.baidu.com/s/1o6G44Eu
+[ndk64-r10-mac-64]:http://pan.baidu.com/s/1gd7pvJ9
+
+[ndk64-r10-linux-32]:http://pan.baidu.com/s/1hql8AIo
+[ndk64-r10-linux-64]:http://pan.baidu.com/s/1dDreuPz
+
+[ndk32-r10-win-32]:http://pan.baidu.com/s/1bnB1o1T
+[ndk32-r10-win-64]:http://pan.baidu.com/s/1gdmW6cj
+
+[ndk32-r10-mac-32]:http://pan.baidu.com/s/1jGtBYyq
+[ndk32-r10-mac-64]:http://pan.baidu.com/s/1gdADfaF
+
+[ndk32-r10-linux-32]:http://pan.baidu.com/s/1V2Tg
+[ndk32-r10-linux-64]:http://pan.baidu.com/s/1pJJQokV
 
 [r9d-win-32]:http://pan.baidu.com/s/1dDxjl8t
 [r9d-win-64]:http://pan.baidu.com/s/1jGgecXw
@@ -621,6 +627,7 @@ C/C++开发Android应用工具包
 
 |    版本号   |
 |:----------|
+| [gradle-2.2-all.zip](http://pan.baidu.com/s/1i3BXKYp) |
 | [gradle-2.1-all.zip](http://pan.baidu.com/s/1bnF6jV5) |
 | [gradle-2.0-all.zip](http://pan.baidu.com/s/1mgFTN7a) |
 | [gradle-1.12-all.zip](http://pan.baidu.com/s/1Gmlx8)   |
