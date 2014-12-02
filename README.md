@@ -627,6 +627,7 @@ C/C++开发Android应用工具包
 
 |    版本号   |
 |:----------|
+| [gradle-2.2.1-all.zip](http://pan.baidu.com/s/1eQH39AE) |
 | [gradle-2.2-all.zip](http://pan.baidu.com/s/1i3BXKYp) |
 | [gradle-2.1-all.zip](http://pan.baidu.com/s/1bnF6jV5) |
 | [gradle-2.0-all.zip](http://pan.baidu.com/s/1mgFTN7a) |
