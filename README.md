@@ -546,7 +546,7 @@ C/C++开发Android应用工具包
 
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |
 |:----------|:-------------:|:------:|:----------:|
-| ndk-r10c | [32位][r10c-win-32] [64位][r10c-win-64] |  |   |
+| ndk-r10c | [32位][r10c-win-32] [64位][r10c-win-64] | [32位][r10c-mac-32] [64位][r10c-mac-64] | [32位][r10c-linux-32] [64位][r10c-linux-64]  |
 | ndk64-r10 | [32位][ndk64-r10-win-32] [64位][ndk64-r10-win-64] | [32位][ndk64-r10-mac-32] [64位][ndk64-r10-mac-64] | [32位][ndk64-r10-linux-32] [64位][ndk64-r10-linux-64]  |
 | ndk32-r10 | [32位][ndk32-r10-win-32] [64位][ndk32-r10-win-64] | [32位][ndk32-r10-mac-32] [64位][ndk32-r10-mac-64] | [32位][ndk32-r10-linux-32] [64位][ndk32-r10-linux-64]  |
 | ndk-r9d | [32位][r9d-win-32] [64位][r9d-win-64] | [32位][r9d-mac-32] [64位][r9d-mac-64] | [32位][r9d-linux-32] [64位][r9d-linux-64]  |
@@ -558,6 +558,12 @@ C/C++开发Android应用工具包
 
 [r10c-win-32]:http://pan.baidu.com/s/1bnGnKkB
 [r10c-win-64]:http://pan.baidu.com/s/1ntmhjUL
+
+[r10c-mac-32]:http://pan.baidu.com/s/1i37Ud8L
+[r10c-mac-64]:http://pan.baidu.com/s/1eQ08GOa
+
+[r10c-linux-32]:http://pan.baidu.com/s/1c0o11wk
+[r10c-linux-64]:http://pan.baidu.com/s/1c0tljk0
 
 [ndk64-r10-win-32]:http://pan.baidu.com/s/1qW0RtzI
 [ndk64-r10-win-64]:http://pan.baidu.com/s/1ntypDpf
