@@ -40,6 +40,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  1.0正式版 | [下载][1.0-win] | [下载][1.0-mac] | [下载][1.0-linux] |
 |  1.0 RC4 | [下载][1.0rc4-win] | [下载][1.0rc4-mac] | [下载][1.0rc4-linux] |
 |  1.0 RC2 | [下载][1.0rc2-win] | [下载][1.0rc2-mac] | [下载][1.0rc2-linux] |
 |  1.0 RC1 | [下载][1.0rc1-win] | [下载][1.0rc1-mac] | [下载][1.0rc1-linux] |
@@ -66,6 +67,11 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
+
+
+[1.0-win]:http://pan.baidu.com/s/1eQzmQDO
+[1.0-mac]:http://pan.baidu.com/s/1dDitUFJ
+[1.0-linux]:http://pan.baidu.com/s/1kTn7wLx
 
 [1.0rc4-win]:http://pan.baidu.com/s/1pJkbwin
 [1.0rc4-mac]:http://pan.baidu.com/s/1hq1QBVQ
@@ -187,12 +193,22 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####SDK Tools
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |
-|:----------:|:-------------:|:------:|:----------:|
+|:----------|:-------------:|:------|:----------:|
+| sdk-tools-r24 | [installer_r24-windows.exe][installer_r24-win] [android-sdk_r24-windows.zip][android-sdk_r24-win] | [android-sdk_r24-macosx.zip][android-sdk_r24-mac] | [android-sdk_r24-linux.tgz][android-sdk_r24-linux] |
 | sdk-tools-r23.0.5 | [android-sdk_r23.0.5-windows(非官方版).zip][android-sdk_r23.0.5-win] | [android-sdk_r23.0.5-macosx(非官方版).zip][android-sdk_r23.0.5-mac] |  |
 | sdk-tools-r23.0.2 | [installer_r23.0.2-windows.exe][installer_r23.0.2-win] [android-sdk_r23.0.2-windows.zip][android-sdk_r23.0.2-win] | [android-sdk_r23.0.2-macosx.zip][android-sdk_r23.0.2-mac] | [android-sdk_r23.0.2-linux.tgz][android-sdk_r23.0.2-linux] |
 | sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
 
 > **备注：** `非官方版` 是在 `23.0.2` 的基础上进行了在线更新包含了 `Android 5.0 SDK` ，`SDK Tools 23.0.5` 、`Build Tools 21.0.1` 、`Support Library 21`等。
+
+[installer_r24-win]:http://pan.baidu.com/s/1jG5ks7c
+[android-sdk_r24-win]:http://pan.baidu.com/s/1pJ4uk4r
+
+[android-sdk_r24-mac]:http://pan.baidu.com/s/1pJ8xUgN
+
+[android-sdk_r24-linux]:http://pan.baidu.com/s/1pJ4uk47
+
+
 
 [android-sdk_r23.0.5-win]:http://pan.baidu.com/s/1bntmoqV
 
