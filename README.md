@@ -863,6 +863,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 | Android Holo Colors Generator       |       | [下载][HoloColorsGenerator]  |                 |
 | Android Simple Nine-patch Generator |       | [下载][Simple Nine-patch Generator]  |                 |
 | Android Device Frame Generator |            | [下载][Device Frame Generator]  |                 |
+| Android 9-patch shadow generator |            | [下载][Android shadow generator]  |                 |
 
 [AndroidAssetStudio]:http://romannurik.github.io/AndroidAssetStudio/
 [AndroidDrawableFactory]:https://github.com/tizionario/AndroidDrawableFactory
@@ -870,6 +871,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 [HoloColorsGenerator]:http://android-holo-colors.com
 [Simple Nine-patch Generator]:http://romannurik.github.io/AndroidAssetStudio/nine-patches.html
 [Device Frame Generator]:http://f2prateek.com/android-device-frame-generator/
+[Android shadow generator]:http://inloop.github.io/shadow4android/
 
 #### Android资源分析工具
 | 名称                   |      简介        |         下载地址            |    使用教程      |
