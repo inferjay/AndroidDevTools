@@ -266,6 +266,22 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 [android-sdk_r23-linux]:http://pan.baidu.com/s/1yBnSa
 
+####SDK Platform-Tools
+
+这是 adb, fastboot 等工具包。把解压出来的 `platform-tools` 文件夹放在 android sdk 根目录下，并把 `adb`所在的目录添加到系统 `PATH` 路径里，即可在命令行里直接访问了 adb, fastboot 等工具。
+
+| 版本号        | Windows             |          Mac OSX        |          Linux         |
+|:----------|:-------------:|:------|:----------:|
+| platform-tools-r21 | [platform-tools_r21-windows.zip][platform-tools_r21-win] | [platform-tools_r21-mac.zip][platform-tools_r21-mac] | [platform-tools_r21-linux.zip][platform-tools_r21-linux] |
+| platform-tools-r20 | [platform-tools_r20-windows.zip][platform-tools_r20-win] | [platform-tools_r20-mac.zip][platform-tools_r20-mac] | [platform-tools_r20-linux.zip][platform-tools_r20-linux] |
+
+[platform-tools_r21-win]:http://pan.baidu.com/s/1gdF1fkZ
+[platform-tools_r21-mac]:http://pan.baidu.com/s/1dDu6xC9
+[platform-tools_r21-linux]:http://pan.baidu.com/s/1dDAL25j
+[platform-tools_r20-win]:http://pan.baidu.com/s/1ntHqLZj
+[platform-tools_r20-mac]:http://pan.baidu.com/s/1gdy6fzP
+[platform-tools_r20-linux]:http://pan.baidu.com/s/173KQi
+
 ### Build-Tools
 这是Android开发所需的Build-Tools，下载并解压后，将解压出的整个文件夹复制或者移动到 `your sdk 路径/build-tools` 文件夹即可。
 
