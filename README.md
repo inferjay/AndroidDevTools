@@ -12,8 +12,35 @@ AndroidDevTools
 >如果你对翻译英文的Android开发技术文章感兴趣，欢迎Start和Fork[AndroidWeekly中国文章翻译项目](https://github.com/AWCNTT/ArticleTranslateProject)
 
 
-# Android Tools
+#Android Tools
 ---
+
+####Android SDK在线更新镜像服务器
+	
+1. 大连东软信息学院镜像服务器地址: 
+
+	`http://mirrors.neusoft.edu.cn` 端口：80
+
+2. 北京化工大学镜像服务器地址: 
+   	
+   * IPv4: `http://ubuntu.buct.edu.cn/` 端口：80
+   
+   * IPv4: `http://ubuntu.buct.cn/`   端口：80
+   
+   * IPv6: `http://ubuntu.buct6.edu.cn/`  端口：80
+	
+3. 上海GDG镜像服务器地址:
+
+	`http://sdk.gdgshanghai.com `  端口：8000
+
+**使用方法**：
+	
+1. 启动 Android SDK Manager ，打开主界面，依次选择『**Tools**』、『**Options...**』，弹出『**Android SDK Manager - Settings**』窗口；
+
+2. 在『**Android SDK Manager - Settings**』窗口中，在『**HTTP Proxy Server」和「HTTP Proxy Port**』输入框内填入上面镜像服务器地址和端口，并且选中『**Force https://... sources to be fetched using http://...**』复选框。设置完成后单击『**Close**』按钮关闭『**Android SDK Manager - Settings**』窗口返回到主界面；
+
+3. 依次选择『**Packages**』、『**Reload**』。
+
 
 ####ADT Bundle
 ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
