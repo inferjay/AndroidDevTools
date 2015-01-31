@@ -356,7 +356,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [20.0.0-mac]:http://pan.baidu.com/s/1c0AfIOK
 
 
-[19.1.0-win]:http://pan.baidu.com/s/1qWCzdwC
+[19.1.0-win]:http://pan.baidu.com/s/1nttAyhV
 [19.1.0-mac]:http://pan.baidu.com/s/1nt2vM21
 
 [19.0.3-win]:http://pan.baidu.com/s/1qWCzdwC
