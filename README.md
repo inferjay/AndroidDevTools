@@ -616,7 +616,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | [20](http://pan.baidu.com/s/1eQIMXMy)   |
 
 ####Support Library
-包含supportive、v7和v13，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
+包含support `v4`、`v7`、`v13`、`v17`、`multidex`和`m2repository`，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 |    版本号  |
 |:---------:|
