@@ -925,6 +925,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 | IDEA Maven Plugin                           | [下载][idea-plugin-maven-plugin]                  |                 |
 | Gradle GooglePlay Publisher Plugin          | [下载][gradle-play-publisher]                     |                 |
 | Drawable Selectors Generates Plugin         | [下载][android-selector-chapek]                   |                 |
+| Android Drawable Importer					  | [下载][android-drawable-importer-intellij-plugin] |                 |
 
 [Android Resource Resizer]:https://github.com/walmyrcarvalho/android-resource-resizer
 [GradleDependenciesHelper]:https://github.com/ligi/GradleDependenciesHelperPlugin
@@ -952,6 +953,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 [idea-plugin-maven-plugin]:https://github.com/born2snipe/idea-plugin-maven-plugin
 [gradle-play-publisher]:https://github.com/Triple-T/gradle-play-publisher
 [android-selector-chapek]:https://github.com/inmite/android-selector-chapek
+[android-drawable-importer-intellij-plugin]:https://github.com/winterDroid/android-drawable-importer-intellij-plugin
 
 #### Android资源/Themes/Style生成工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
