@@ -838,6 +838,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 | JAD Java Decompiler           | [下载][JAD Java Decompiler]       |                |
 | JD-GUI Decompiler             | [下载][JD-GUI Decompiler]         |                |
 | XJad V2.2                     | [下载][XJad V2.2]                 |                |
+| Android APK Decompiler        | [下载][Android APK Decompiler]    | 在线反编译工具 |
 
 [JEB]:http://www.android-decompiler.com/index.php
 [Virtuous Ten Studio]:http://virtuous-ten-studio.com
@@ -852,6 +853,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 [JAD Java Decompiler]:http://varaneckas.com/jad/
 [JD-GUI Decompiler]:http://
 [XJad V2.2]:http://files.cnblogs.com/arix04/XJad_V2.2.rar
+[Android APK Decompiler]:http://www.decompileandroid.com/
 
 #### 安全工具
 
