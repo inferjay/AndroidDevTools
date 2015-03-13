@@ -33,6 +33,14 @@ AndroidDevTools
 
 	`http://sdk.gdgshanghai.com `  端口：8000
 
+4. 中国科学院开源协会镜像站地址:
+
+   * IPV4/IPV6: `http://mirrors.opencas.cn` 端口：80
+
+   * IPV4/IPV6: `http://mirrors.opencas.org` 端口：80
+
+   * IPV4/IPV6: `http://mirrors.opencas.ac.cn` 端口：80
+
 **使用方法**：
 	
 1. 启动 Android SDK Manager ，打开主界面，依次选择『**Tools**』、『**Options...**』，弹出『**Android SDK Manager - Settings**』窗口；
