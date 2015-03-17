@@ -1285,6 +1285,10 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 
 地址1：[https://github.com/codeset/google-java-styleguide](https://github.com/codeset/google-java-styleguide)
 
+#### Android Developers 国内镜像站
+
+地址: [Android Developers 国内镜像站](http://androiddoc.qiniudn.com/)
+
 #### Android Api中文版
 地址：[http://wikidroid.sinaapp.com/Android中文API](http://wikidroid.sinaapp.com/Android中文API))
 
