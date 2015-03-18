@@ -1557,18 +1557,22 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 | Reflector        |                  | [下载][Reflector]           |                 |
 | x-Mirage         |                  | [下载][x-Mirage]            |                 |
 | AirServer        |                  | [下载][AirServer]           |                 |
+| BBQScreen        |                  | [下载][BBQScreen]           |                 |
 
 [Reflector]:http://www.airsquirrels.com/reflector/download/
 [x-Mirage]:http://x-mirage.com/x-mirage/
 [AirServer]:http://www.airserver.com
+[BBQScreen]:http://screen.bbqdroid.org
 
 #### Gif图片录制工具
 
 | 名称              |      简介         |         下载地址            |    使用教程      |
 |:-----------------|------------------|:--------------------------:|:---------------:|
 | LICEcap          |                  | [下载][LICEcap]             |                 |
+| GifCam           |                  | [下载][GifCam]              |                 |
 
 [LICEcap]:http://www.cockos.com/licecap/
+[GifCam]:http://blog.bahraniapps.com/gifcam/
 
 ## UI Programming Language
 
