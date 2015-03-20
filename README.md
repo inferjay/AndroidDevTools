@@ -33,14 +33,23 @@ AndroidDevTools
 
 	`http://sdk.gdgshanghai.com `  端口：8000
 
+4. 中国科学院开源协会镜像站地址:
+
+   * IPV4/IPV6: `http://mirrors.opencas.cn` 端口：80
+
+   * IPV4/IPV6: `http://mirrors.opencas.org` 端口：80
+
+   * IPV4/IPV6: `http://mirrors.opencas.ac.cn` 端口：80
+
 **使用方法**：
 	
 1. 启动 Android SDK Manager ，打开主界面，依次选择『**Tools**』、『**Options...**』，弹出『**Android SDK Manager - Settings**』窗口；
 
-2. 在『**Android SDK Manager - Settings**』窗口中，在『**HTTP Proxy Server」和「HTTP Proxy Port**』输入框内填入上面镜像服务器地址和端口，并且选中『**Force https://... sources to be fetched using http://...**』复选框。设置完成后单击『**Close**』按钮关闭『**Android SDK Manager - Settings**』窗口返回到主界面；
+2. 在『**Android SDK Manager - Settings**』窗口中，在『**HTTP Proxy Server」和「HTTP Proxy Port**』输入框内填入上面镜像服务器地址(**不包含http://**，如下图)和端口，并且选中『**Force https://... sources to be fetched using http://...**』复选框。设置完成后单击『**Close**』按钮关闭『**Android SDK Manager - Settings**』窗口返回到主界面；
 
 3. 依次选择『**Packages**』、『**Reload**』。
 
+	<img src="static/image/sdk-manager-proxy-settings.png" width="40%" height="20%" alt="SDK Manager Proxy Settings">
 
 ####ADT Bundle
 ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
@@ -70,6 +79,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  1.2 Preview 2 | [下载][1.2-p2-win] | [下载][1.2-p2-mac] | [下载][1.2-p2-linux] |
 |  1.2 Preview 1 | [下载][1.2-p1-win] | [下载][1.2-p1-mac] | [下载][1.2-p1-linux] |
 |  1.1正式版 | [下载][1.1-win] | [下载][1.1-mac] | [下载][1.1-linux] |
 |  1.1 RC1 | [下载][1.1rc1-win] | [下载][1.1rc1-mac] | [下载][1.1rc1-linux] |
@@ -108,6 +118,10 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
+
+[1.2-p2-win]:http://pan.baidu.com/s/1qWn0bqk
+[1.2-p2-mac]:http://pan.baidu.com/s/1jGEaFII
+[1.2-p2-linux]:http://pan.baidu.com/s/1o6Fo0iu
 
 [1.2-p1-win]:http://pan.baidu.com/s/1sj6uAfz
 [1.2-p1-mac]:http://pan.baidu.com/s/1mgIGdio
@@ -839,6 +853,8 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 | JD-GUI Decompiler             | [下载][JD-GUI Decompiler]         |                |
 | XJad V2.2                     | [下载][XJad V2.2]                 |                |
 | Android APK Decompiler        | [下载][Android APK Decompiler]    | 在线反编译工具 |
+| JADX - Dex to Java decompiler | [下载][JADX]                      |                |
+| dex2jar                       | [下载][dex2jar]                   |                |
 
 [JEB]:http://www.android-decompiler.com/index.php
 [Virtuous Ten Studio]:http://virtuous-ten-studio.com
@@ -854,6 +870,8 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 [JD-GUI Decompiler]:http://
 [XJad V2.2]:http://files.cnblogs.com/arix04/XJad_V2.2.rar
 [Android APK Decompiler]:http://www.decompileandroid.com/
+[JADX]:https://github.com/skylot/jadx
+[dex2jar]:https://code.google.com/p/dex2jar/
 
 #### 安全工具
 
@@ -1273,6 +1291,10 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 
 地址1：[https://github.com/codeset/google-java-styleguide](https://github.com/codeset/google-java-styleguide)
 
+#### Android Developers 国内镜像站
+
+地址: [Android Developers 国内镜像站](http://androiddoc.qiniudn.com/)
+
 #### Android Api中文版
 地址：[http://wikidroid.sinaapp.com/Android中文API](http://wikidroid.sinaapp.com/Android中文API))
 
@@ -1540,18 +1562,22 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 | Reflector        |                  | [下载][Reflector]           |                 |
 | x-Mirage         |                  | [下载][x-Mirage]            |                 |
 | AirServer        |                  | [下载][AirServer]           |                 |
+| BBQScreen        |                  | [下载][BBQScreen]           |                 |
 
 [Reflector]:http://www.airsquirrels.com/reflector/download/
 [x-Mirage]:http://x-mirage.com/x-mirage/
 [AirServer]:http://www.airserver.com
+[BBQScreen]:http://screen.bbqdroid.org
 
 #### Gif图片录制工具
 
 | 名称              |      简介         |         下载地址            |    使用教程      |
 |:-----------------|------------------|:--------------------------:|:---------------:|
 | LICEcap          |                  | [下载][LICEcap]             |                 |
+| GifCam           |                  | [下载][GifCam]              |                 |
 
 [LICEcap]:http://www.cockos.com/licecap/
+[GifCam]:http://blog.bahraniapps.com/gifcam/
 
 ## UI Programming Language
 
