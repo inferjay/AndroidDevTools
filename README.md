@@ -51,31 +51,6 @@ AndroidDevTools
 
 	<img src="static/image/sdk-manager-proxy-settings.png" width="40%" height="20%" alt="SDK Manager Proxy Settings">
 
-####ADT Bundle
-ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
-
-| 版本号  | Windows                |      Mac OSX       |          Linux         |
-|:----------:|:-------------:|:------:|:----------:|
-| 23.0.2 | [32位][adtb-23-0-2-win-32] [64位][adtb-23-0-2-win-64] |[64位][adtb-23-0-2-mac-64] | [32位][adtb-23-0-2-linux-32] [64位][adtb-23-0-2-linux-64] |
-| 23.0.0 | [32位][adtb-23-win-32] [64位][adtb-23-win-64] |[64位][adtb-23-mac-64] | [32位][adtb-23-linux-32] [64位][adtb-23-linux-64] |
-
-[adtb-23-0-2-win-32]:http://pan.baidu.com/s/1dDGM8oD
-[adtb-23-0-2-win-64]:http://pan.baidu.com/s/1mgn2dOs
-
-[adtb-23-0-2-mac-64]:http://pan.baidu.com/s/1o6OBIHG
-
-[adtb-23-0-2-linux-32]:http://pan.baidu.com/s/1GmIsQ
-[adtb-23-0-2-linux-64]:http://pan.baidu.com/s/1EQMT4
-
-[adtb-23-win-32]:http://pan.baidu.com/s/1i39mvY1
-[adtb-23-win-64]:http://pan.baidu.com/s/1o65ExPS
-
-[adtb-23-mac-64]:http://pan.baidu.com/s/1hqvHkry
-
-[adtb-23-linux-32]:http://pan.baidu.com/s/1mgoh41q
-[adtb-23-linux-64]:http://pan.baidu.com/s/1qWJh4wk
-
-
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
@@ -280,19 +255,6 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [0.5.8-mac]:http://pan.baidu.com/s/1i3ECc9f
 [0.5.8-linux]:http://pan.baidu.com/s/1i37QxBf
 
-
-####ADT Plugin
-离线安装ADT插件请戳[**项目wiki**](https://github.com/inferjay/AndroidDevTools/wiki/首页)
-
-|    版本号   |
-|:----------:|
-|[ADT-23.0.4](http://pan.baidu.com/s/1i39UM7j)|
-|[ADT-23.0.3](http://pan.baidu.com/s/1hqJyLTi)|
-|[ADT-23.0.2](http://pan.baidu.com/s/1bnGkEvX)|
-|[ADT-23.0.0](http://pan.baidu.com/s/1sjArX7J)|
-|[ADT-22.6.3](http://pan.baidu.com/s/1jGMb5yQ)|
-|[AdT-22.6.1](http://pan.baidu.com/s/1pJ185Rl)|
-
 ####SDK Tools
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |
@@ -367,6 +329,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 版本号        | Windows             |          Mac OSX        |          Linux         |
 |:----------|:-------------:|:------|:----------:|
+| platform-tools-r22 | [platform-tools_r22-windows.zip][platform-tools_r22-win] | [platform-tools_r22-mac.zip][platform-tools_r22-mac] | [platform-tools_r22-linux.zip][platform-tools_r22-linux] |
 | platform-tools-r21 | [platform-tools_r21-windows.zip][platform-tools_r21-win] | [platform-tools_r21-mac.zip][platform-tools_r21-mac] | [platform-tools_r21-linux.zip][platform-tools_r21-linux] |
 | platform-tools-r20 | [platform-tools_r20-windows.zip][platform-tools_r20-win] | [platform-tools_r20-mac.zip][platform-tools_r20-mac] | [platform-tools_r20-linux.zip][platform-tools_r20-linux] |
 
@@ -401,7 +364,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |  19.0.0 | [下载][19.0.0-win] | [下载][19.0.0-mac] |  |
 
 
-[22.0.0-win]:http://pan.baidu.com/s/1hqH1pZY
+[22.0.0-win]:http://pan.baidu.com/s/1i3kqFHV
 [22.0.0-mac]:http://pan.baidu.com/s/1jGquuqU
 [22.0.0-linux]:http://pan.baidu.com/s/1dDdDne5
 
@@ -812,6 +775,43 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 [1.6-mac-64]:http://pan.baidu.com/s/1hqpB7Nm
 [1.6-linux-32]:http://pan.baidu.com/s/1pJJj5Ib
 [1.6-linux-64]:http://pan.baidu.com/s/1dDck3O9
+
+
+####ADT Bundle
+ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
+
+| 版本号  | Windows                |      Mac OSX       |          Linux         |
+|:----------:|:-------------:|:------:|:----------:|
+| 23.0.2 | [32位][adtb-23-0-2-win-32] [64位][adtb-23-0-2-win-64] |[64位][adtb-23-0-2-mac-64] | [32位][adtb-23-0-2-linux-32] [64位][adtb-23-0-2-linux-64] |
+| 23.0.0 | [32位][adtb-23-win-32] [64位][adtb-23-win-64] |[64位][adtb-23-mac-64] | [32位][adtb-23-linux-32] [64位][adtb-23-linux-64] |
+
+[adtb-23-0-2-win-32]:http://pan.baidu.com/s/1dDGM8oD
+[adtb-23-0-2-win-64]:http://pan.baidu.com/s/1mgn2dOs
+
+[adtb-23-0-2-mac-64]:http://pan.baidu.com/s/1o6OBIHG
+
+[adtb-23-0-2-linux-32]:http://pan.baidu.com/s/1GmIsQ
+[adtb-23-0-2-linux-64]:http://pan.baidu.com/s/1EQMT4
+
+[adtb-23-win-32]:http://pan.baidu.com/s/1i39mvY1
+[adtb-23-win-64]:http://pan.baidu.com/s/1o65ExPS
+
+[adtb-23-mac-64]:http://pan.baidu.com/s/1hqvHkry
+
+[adtb-23-linux-32]:http://pan.baidu.com/s/1mgoh41q
+[adtb-23-linux-64]:http://pan.baidu.com/s/1qWJh4wk
+
+####ADT Plugin
+离线安装ADT插件请戳[**项目wiki**](https://github.com/inferjay/AndroidDevTools/wiki/首页)
+
+|    版本号   |
+|:----------:|
+|[ADT-23.0.4](http://pan.baidu.com/s/1i39UM7j)|
+|[ADT-23.0.3](http://pan.baidu.com/s/1hqJyLTi)|
+|[ADT-23.0.2](http://pan.baidu.com/s/1bnGkEvX)|
+|[ADT-23.0.0](http://pan.baidu.com/s/1sjArX7J)|
+|[ADT-22.6.3](http://pan.baidu.com/s/1jGMb5yQ)|
+|[AdT-22.6.1](http://pan.baidu.com/s/1pJ185Rl)|
 
 ####Gradle
 
