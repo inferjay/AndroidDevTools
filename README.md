@@ -16,12 +16,21 @@ AndroidDevTools
 ---
 
 ####Android SDK在线更新镜像服务器
+
+1. 中国科学院开源协会镜像站地址:
+
+   * IPV4/IPV6: `http://mirrors.opencas.cn` 端口：80
+
+   * IPV4/IPV6: `http://mirrors.opencas.org` 端口：80
+
+   * IPV4/IPV6: `http://mirrors.opencas.ac.cn` 端口：80
+
 	
-1. 大连东软信息学院镜像服务器地址: 
+1. 上海GDG镜像服务器地址:
 
-	`http://mirrors.neusoft.edu.cn` 端口：80
+	* `http://sdk.gdgshanghai.com `  端口：8000	
 
-2. 北京化工大学镜像服务器地址: 
+1. 北京化工大学镜像服务器地址: 
    	
    * IPv4: `http://ubuntu.buct.edu.cn/` 端口：80
    
@@ -29,17 +38,9 @@ AndroidDevTools
    
    * IPv6: `http://ubuntu.buct6.edu.cn/`  端口：80
 	
-3. 上海GDG镜像服务器地址:
+1. 大连东软信息学院镜像服务器地址: 
 
-	`http://sdk.gdgshanghai.com `  端口：8000
-
-4. 中国科学院开源协会镜像站地址:
-
-   * IPV4/IPV6: `http://mirrors.opencas.cn` 端口：80
-
-   * IPV4/IPV6: `http://mirrors.opencas.org` 端口：80
-
-   * IPV4/IPV6: `http://mirrors.opencas.ac.cn` 端口：80
+	* `http://mirrors.neusoft.edu.cn` 端口：80
 
 **使用方法**：
 	
