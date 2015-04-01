@@ -862,24 +862,25 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 #### 反编译工具
 
-| 名称                           |         下载地址                  |    使用教程      |
-|:------------------------------|:--------------------------------:|:---------------:|
-| JEB Android Decompiler        | [下载][JEB]                       |                |
-| Virtuous Ten Studio           | [下载][Virtuous Ten Studio]       |                |
-| Apk文件修改工具Root Tools       | [下载][apk文件修改工具Root Tools]   |                |
-| Dex文件反编译工具Dedexer        |  [下载][dex文件反编译工具Dedexer]    |                |
-| APK+Dex文件反编译及回编译工具     | [下载][APK+Dex文件反编译及回编译工具] |                |
-| android-apktool               | [下载][android-apktool]           |                |
-| Onekey Decompile Apk]         | [下载][onekey-decompile-apk]      |                |
-| Baksmali                      | [下载][baksmali]                  |                |
-| Smali                         | [下载][smali]                     |                |
-| AXMLPrinter2                  | [下载][AXMLPrinter2]              |                |
-| JAD Java Decompiler           | [下载][JAD Java Decompiler]       |                |
-| JD-GUI Decompiler             | [下载][JD-GUI Decompiler]         |                |
-| XJad V2.2                     | [下载][XJad V2.2]                 |                |
-| Android APK Decompiler        | [下载][Android APK Decompiler]    | 在线反编译工具 |
-| JADX - Dex to Java decompiler | [下载][JADX]                      |                |
-| dex2jar                       | [下载][dex2jar]                   |                |
+| 名称                           |      简介        |         下载地址                  |    使用教程      |
+|:------------------------------|:------------------------------|:--------------------------------:|:---------------:|
+| JEB Android Decompiler   		|                   | [下载][JEB]                       |                |
+| Virtuous Ten Studio     		|                   | [下载][Virtuous Ten Studio]       |                |
+| Apk文件修改工具Root Tools 		|                   | [下载][apk文件修改工具Root Tools]   |                |
+| Dex文件反编译工具Dedexer  		|                   | [下载][dex文件反编译工具Dedexer]     |                |
+| APK+Dex文件反编译及回编译工具 	|                   | [下载][APK+Dex文件反编译及回编译工具] |                |
+| android-apktool     			|                   | [下载][android-apktool]           |                |
+| Onekey Decompile Apk]			|                   | [下载][onekey-decompile-apk]      |                |
+| Baksmali    					|                   | [下载][baksmali]                  |                |
+| Smali     					|                   | [下载][smali]                     |                |
+| AXMLPrinter2 					|                   | [下载][AXMLPrinter2]              |                |
+| JAD Java Decompiler 			|                   | [下载][JAD Java Decompiler]       |                |
+| JD-GUI Decompiler 			|                   | [下载][JD-GUI Decompiler]         |                |
+| XJad V2.2   					|                   | [下载][XJad V2.2]                 |                |
+| Android APK Decompiler		|   在线反编译工具    | [下载][Android APK Decompiler]    |  |
+| JADX - Dex to Java decompiler|                   | [下载][JADX]                      |                |
+| dex2jar  						|                   | [下载][dex2jar]                   |                |
+| SmaliViewer 					| 是一款免费的APK分析软件，无论从分析的深度还是广度来看，都是一款能够满足用户需求的产品，使您在APK分析的过程中，更加得心应手。 | [下载][SmaliViewer]               |      [使用指南][SmaliViewer-guide]          |
 
 [JEB]:http://www.android-decompiler.com/index.php
 [Virtuous Ten Studio]:http://virtuous-ten-studio.com
@@ -897,6 +898,9 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [Android APK Decompiler]:http://www.decompileandroid.com/
 [JADX]:https://github.com/skylot/jadx
 [dex2jar]:https://code.google.com/p/dex2jar/
+[SmaliViewer]:http://blog.avlyun.com/wp-content/uploads/2014/04/SmaliViewer.zip
+
+[SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
 
 #### 安全工具
 
