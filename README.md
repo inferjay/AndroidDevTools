@@ -946,6 +946,15 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 [Structural-Java-Exception-Search]:http://www.brainleg.com/search
 
+#### Debug调试工具
+| 名称                      |      简介        |         下载地址            |    使用教程      |
+|:-------------------------|:-----------------|:--------------------------:|:---------------:|
+| Stetho        | Stetho 是Facebook推出的Android 调试平台，基于 Chrome Developer Tools ，调试网络请求方面特别方便。 | [下载][Stetho]             |    [教程][Stetho-use-guide]     |
+|Augmented Traffic Control|Facebook宣布开源移动网络测试工具ATC，该工具支持利用Wi-Fi网络模拟2G、2.5G、3G以及LTE 4G移动网络环境，让测试工程师们能够快速对智能手机和App在不同国家地区和应用环境下的性能表现进行测试。| [下载][Augmented-Traffic-Control]  |                 |
+
+[Stetho]:https://github.com/facebook/stetho
+[Augmented-Traffic-Control]:https://github.com/facebook/augmented-traffic-control
+
 #### Eclipse/Android Studio/IDEA插件
 ##### Eclipse
 | 名称                           |         下载地址                  |    使用教程      |
@@ -1081,10 +1090,12 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Android KickstartR| AndroidKickstartR帮助您快速创建<br/>Android应用程序并使用最流行的库进行配置。<br/>它创建和配置你的项目给你。只专注于代码!                                 | [下载][AndroidKickstartR]   |                 |
 | Android Button Maker| Android Button Maker是一个在线生成Android应用按钮代码的工具。<br/>Android的API提供可绘制资源，其中的XML文件定义的几何形状，包括颜色，边框和梯度。<br/>这些按钮是在shape drawable XML代码基础上产生的相比通常的PNG按钮加载速度更快。<br/>您可以在设置面板中自定义按钮的属性和获得源代码。                | [下载][Android Button Maker] |                 |
 | DroidDraw         |                 | [下载][DroidDraw]           |                 |
+|Android SVG to VectorDrawable|一个可以将SVG图片转换为Vector Drawable xml文件的在线工具。| [下载][Android-SVG-to-VectorDrawable]  |                 |
 
 [AndroidKickstartR]:http://androidkickstartr.com
 [Android Button Maker]:http://angrytools.com/android/button/
 [DroidDraw]:https://code.google.com/p/droiddraw/
+[Android-SVG-to-VectorDrawable]:http://inloop.github.io/svg2android/ 
 
 #### Android Native开发工具
 | 名称              |      简介         |         下载地址            |    使用教程      |
@@ -1106,7 +1117,6 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Apk View Tracer  |                  | [下载][apk-view-tracer]     |                 |
 | APT              |APT是一个Android平台高效性能测试组件，<br/>提供丰富实用的功能，适用于开发自测、<br/>定位性能瓶颈；<br/>测试人员完成性能基准测试、竞品对比测试。| [下载][APT]                 |   [教程][APT-use-guide]              |
 | GT          | GT（随身调）是APP的随身调测平台，它是直接运行在手机上的“集成调测环境”(IDTE, Integrated Debug&Test Environment)。 | [下载][GT]             |    [教程][GT-use-guide]     |
-| Stetho        | Stetho 是Facebook推出的Android 调试平台，基于 Chrome Developer Tools ，调试网络请求方面特别方便。 | [下载][Stetho]             |    [教程][Stetho-use-guide]     |
 
 [Appurify]:http://appurify.com
 [Monkey]:http://developer.android.com/intl/zh-cn/tools/help/monkey.html
@@ -1118,7 +1128,6 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [apk-view-tracer]:https://code.google.com/p/apk-view-tracer/
 [APT]:https://code.csdn.net/Tencent/apt
 [GT]:http://gt.tencent.com/index.html
-[Stetho]:https://github.com/facebook/stetho
 
 
 [APT-use-guide]:http://www.eoeandroid.com/thread-497380-1-1.html
