@@ -939,6 +939,13 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [GDB-for-Android]:http://gnutoolchains.com/android/
 [VisualGDB]:http://visualgdb.com/?features=android
 
+#### 搜索工具
+| 名称                      |      简介        |         下载地址            |    使用教程      |
+|:-------------------------|:-----------------|:--------------------------:|:---------------:|
+| Structural Java Exception Search|   Java异常搜索工具               | [下载][Structural-Java-Exception-Search]  |                 |
+
+[Structural-Java-Exception-Search]:http://www.brainleg.com/search
+
 #### Eclipse/Android Studio/IDEA插件
 ##### Eclipse
 | 名称                           |         下载地址                  |    使用教程      |
@@ -990,6 +997,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Gradle GooglePlay Publisher Plugin          | [下载][gradle-play-publisher]                     |                 |
 | Drawable Selectors Generates Plugin         | [下载][android-selector-chapek]                   |                 |
 | Android Drawable Importer					  | [下载][android-drawable-importer-intellij-plugin] |                 |
+| Color themes for IntelliJ IDEA       	   | [下载][android-drawable-importer-intellij-plugin] |                 |
 
 [Android Resource Resizer]:https://github.com/walmyrcarvalho/android-resource-resizer
 [GradleDependenciesHelper]:https://github.com/ligi/GradleDependenciesHelperPlugin
@@ -1018,6 +1026,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [gradle-play-publisher]:https://github.com/Triple-T/gradle-play-publisher
 [android-selector-chapek]:https://github.com/inmite/android-selector-chapek
 [android-drawable-importer-intellij-plugin]:https://github.com/winterDroid/android-drawable-importer-intellij-plugin
+[Color-themes-for-IntelliJ-IDEA]:http://www.ideacolorthemes.org/home/
 
 #### Android资源/Themes/Style生成工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
