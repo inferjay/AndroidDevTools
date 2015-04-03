@@ -886,6 +886,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | JADX - Dex to Java decompiler|                   | [下载][JADX]                      |                |
 | dex2jar  						|                   | [下载][dex2jar]                   |                |
 | SmaliViewer 					| 是一款免费的APK分析软件，无论从分析的深度还是广度来看，都是一款能够满足用户需求的产品，使您在APK分析的过程中，更加得心应手。 | [下载][SmaliViewer]               |      [使用指南][SmaliViewer-guide]          |
+| Android逆向助手 					| 　Android逆向助手是一功能强大的逆向辅助软件。该软件可以帮助用户来进行apk反编译打包签名；dex/jar互转替换提取修复；so反编译；xml、txt加密；字符串编码等等，操作简单，只需要直接将文件拖放到源和目标文件。 | [下载][Android逆向助手]               |            [使用指南][Android逆向助手-guide]    |
 
 [JEB]:http://www.android-decompiler.com/index.php
 [Virtuous Ten Studio]:http://virtuous-ten-studio.com
@@ -906,7 +907,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [SmaliViewer]:http://blog.avlyun.com/wp-content/uploads/2014/04/SmaliViewer.zip
 
 [SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
-
+[Android逆向助手]:http://enjoycode.info/uploads/Androidnxzs.zip
+[Android逆向助手-guide]:http://www.sanwho.com/620.html
 #### 安全工具
 
 | 名称                           |         下载地址                  |    使用教程      |
