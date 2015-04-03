@@ -698,6 +698,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |
 |:----------|:-------------:|:------:|:----------:|
+| ndk-r10d | [32位][r10d-win-32] [64位][r10d-win-64] | [32位][r10d-mac-32] [64位][r10d-mac-64] | [32位][r10d-linux-32] [64位][r10d-linux-64]  |
 | ndk-r10c | [32位][r10c-win-32] [64位][r10c-win-64] | [32位][r10c-mac-32] [64位][r10c-mac-64] | [32位][r10c-linux-32] [64位][r10c-linux-64]  |
 | ndk64-r10 | [32位][ndk64-r10-win-32] [64位][ndk64-r10-win-64] | [32位][ndk64-r10-mac-32] [64位][ndk64-r10-mac-64] | [32位][ndk64-r10-linux-32] [64位][ndk64-r10-linux-64]  |
 | ndk32-r10 | [32位][ndk32-r10-win-32] [64位][ndk32-r10-win-64] | [32位][ndk32-r10-mac-32] [64位][ndk32-r10-mac-64] | [32位][ndk32-r10-linux-32] [64位][ndk32-r10-linux-64]  |
@@ -708,6 +709,17 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 |:----------|:-------------|
 | r10 STL debug info | [android-ndk-r10-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1xWgUE) | 
 | r9 STL debug info | [android-ndk-r9-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1c0EMn8O) |
+
+
+[r10d-win-32]:http://pan.baidu.com/s/1yc9BK
+[r10d-win-64]:http://pan.baidu.com/s/1dDGTrk1
+
+[r10d-mac-32]:http://pan.baidu.com/s/1hqtg8Qg
+[r10d-mac-64]:http://pan.baidu.com/s/1c0En1Uo
+
+[r10d-linux-32]:http://pan.baidu.com/s/1ntkOWEP
+[r10d-linux-64]:http://pan.baidu.com/s/1cxPFK
+
 
 [r10c-win-32]:http://pan.baidu.com/s/1bnGnKkB
 [r10c-win-64]:http://pan.baidu.com/s/1ntmhjUL
