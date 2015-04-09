@@ -903,8 +903,9 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Android APK Decompiler		|   在线反编译工具    | [下载][Android APK Decompiler]    |  |
 | JADX - Dex to Java decompiler|                   | [下载][JADX]                      |                |
 | dex2jar  						|                   | [下载][dex2jar]                   |                |
-| SmaliViewer 					| 是一款免费的APK分析软件，无论从分析的深度还是广度来看，都是一款能够满足用户需求的产品，使您在APK分析的过程中，更加得心应手。 | [下载][SmaliViewer]               |      [使用指南][SmaliViewer-guide]          |
-| Android逆向助手 					| 　Android逆向助手是一功能强大的逆向辅助软件。该软件可以帮助用户来进行apk反编译打包签名；dex/jar互转替换提取修复；so反编译；xml、txt加密；字符串编码等等，操作简单，只需要直接将文件拖放到源和目标文件。 | [下载][Android逆向助手]               |            [使用指南][Android逆向助手-guide]    |
+| SmaliViewer 					|是一款免费的APK分析软件，无论从分析的深度<br/>还是广度来看，都是一款能够满足用户需求的产品，<br/>使您在APK分析的过程中，更加得心应手。 | [下载][SmaliViewer]               |      [使用指南][SmaliViewer-guide]          |
+| Android逆向助手 					|Android逆向助手是一功能强大的逆向辅助软件。<br/>该软件可以帮助用户来进行apk反编译打包签名；<br/>dex/jar互转替换提取修复；so反编译；<br/>xml、txt加密；字符串编码等等，操作简单<br/>，只需要直接将文件拖放到源和目标文件。 | [下载][Android逆向助手]               |            [使用指南][Android逆向助手-guide]    |
+| Android Killer 			|Android Killer 是一款可视化的安卓应用逆向工具，<br/>集Apk反编译、Apk打包、Apk签名，编码互转，<br/>ADB通信（应用安装-卸载-运行-设备文件管理）<br/>等特色功能于一 身，支持logcat日志输出，<br/>语法高亮，基于关键字（支持单行代码或多行代码段）<br/>项目内搜索，可自定义外部工具；吸收融汇多种工具功能与特点，<br/>打造一站 式逆向工具操作体验，大大简化了用户在<br/>安卓应用/游戏修改过程中的各类繁琐工作。| [下载1][Android-Killer-pd521]<br/>[下载2][Android-Killer-baidu]|[使用指南][Android-Killer-guide]    |
 
 [JEB]:http://www.android-decompiler.com/index.php
 [Virtuous Ten Studio]:http://virtuous-ten-studio.com
@@ -923,10 +924,14 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [JADX]:https://github.com/skylot/jadx
 [dex2jar]:https://code.google.com/p/dex2jar/
 [SmaliViewer]:http://blog.avlyun.com/wp-content/uploads/2014/04/SmaliViewer.zip
+[Android逆向助手]:http://enjoycode.info/uploads/Androidnxzs.zip
+[Android-Killer-pd521]:http://www.pd521.com/thread-136-1-1.html
+[Android-Killer-baidu]:http://pan.baidu.com/share/home?uk=4099707276#category/type=6
 
 [SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
-[Android逆向助手]:http://enjoycode.info/uploads/Androidnxzs.zip
 [Android逆向助手-guide]:http://www.sanwho.com/620.html
+[Android-Killer-guide]:http://www.pd521.com/thread-509-1-1.html
+
 #### 安全工具
 
 | 名称                           |         下载地址                  |    使用教程      |
