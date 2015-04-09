@@ -1476,8 +1476,12 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 | 名称              |      简介         |         下载地址            |    使用教程      |
 |:-----------------|------------------|:--------------------------:|:---------------:|
 | 马克鳗            |                  | [下载][马克鳗]              |                 |
+| PxCook像素大厨    |UI设计师效率提升利器，让你专注于设计本质，<br/>不再为标注切图而烦恼，从设计到实现一气呵成| [下载][PxCook]              |      [使用教程][PxCook-guide]     |
 
 [马克鳗]:http://www.getmarkman.com
+[PxCook]:http://www.fancynode.com.cn
+
+[PxCook-guide]:http://www.fancynode.com.cn/tutorial
 
 #### 原型设计工具
 
