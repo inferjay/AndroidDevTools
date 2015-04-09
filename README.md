@@ -1740,6 +1740,8 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 50 Android Hacks这本书分12个部分介绍了50个Android开发的小技巧。
 
+[免费的编程中文书籍索引](http://siberiawolf.com/free_programming/index.html)
+
 # License
 ---
 
