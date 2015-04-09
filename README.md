@@ -912,7 +912,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [dex文件反编译工具Dedexer]:http://dedexer.sourceforge.net
 [APK+Dex文件反编译及回编译工具]:http://idoog.me
 [onekey-decompile-apk]:https://code.google.com/p/onekey-decompile-apk/
-[android-apktool]:https://code.google.com/p/android-apktool/
+[android-apktool]:http://ibotpeaches.github.io/Apktool/
 [baksmali]:https://code.google.com/p/smali/downloads/detail?name=baksmali
 [smali]:https://code.google.com/p/smali/
 [AXMLPrinter2]:https://android4me.googlecode.com/files/AXMLPrinter2.jar
