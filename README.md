@@ -1727,6 +1727,8 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [250 free icons in 5 sizes and 14 colors](http://www.androidicons.com)
 
+[MINIMALISTIC EVERYDAY ICONS](http://matt-cooper.com/minimalistic-icons/)
+
 # Books
 ---
 
