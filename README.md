@@ -985,6 +985,15 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [Stetho]:https://github.com/facebook/stetho
 [Augmented-Traffic-Control]:https://github.com/facebook/augmented-traffic-control
 
+### Api测试工具
+| 名称                      |      简介        |         下载地址            |    使用教程      |
+|:-------------------------|:-----------------|:--------------------------:|:---------------:|
+| 	bat 					| 一个用Go写的命令行API测试利器，支持文件下载，<br/>文件上传，支持Linux的pipe方式，总之就是炫酷。 | [下载][Structural-Java-Exception-Search]  | [使用指南][bat-guide] |
+
+[bat]:https://github.com/astaxie/bat
+
+[bat-guide]:https://github.com/astaxie/bat#installation
+
 #### Eclipse/Android Studio/IDEA插件
 ##### Eclipse
 | 名称                           |         下载地址                  |    使用教程      |
