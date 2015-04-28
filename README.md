@@ -55,6 +55,7 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  1.2 RC | [下载][1.2-rc-win] | [下载][1.2-rc-mac] | [下载][1.2-rc-linux] |
 |  1.2 Beta3 | [下载][1.2-beta3-win] | [下载][1.2-beta3-mac] | [下载][1.2-beta3-linux] |
 |  1.2 Beta2 | [下载][1.2-beta2-win] | [下载][1.2-beta2-mac] | [下载][1.2-beta2-linux] |
 |  1.2 Beta | [下载][1.2-beta-win] | [下载][1.2-beta-mac] | [下载][1.2-beta-linux] |
@@ -99,6 +100,10 @@ AndroidDevTools
 |  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
+
+[1.2-rc-win]:http://pan.baidu.com/s/1eQdCBC2
+[1.2-rc-mac]:http://pan.baidu.com/s/1dDztuMH
+[1.2-rc-linux]:http://pan.baidu.com/s/1nt20Pvj
 
 [1.2-beta3-win]:http://pan.baidu.com/s/1i3gT9Rn
 [1.2-beta3-mac]:http://pan.baidu.com/s/1eQnLwhO
