@@ -55,6 +55,9 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  1.2 正式版 | [下载][1.2-win] | [下载][1.2-mac] | [下载][1.2-linux] |
+|  1.2 RC3 | [下载][1.2-rc3-win] | [下载][1.2-rc3-mac] | [下载][1.2-rc3-linux] |
+|  1.2 RC2 | [下载][1.2-rc2-win] | [下载][1.2-rc2-mac] | [下载][1.2-rc2-linux] |
 |  1.2 RC | [下载][1.2-rc-win] | [下载][1.2-rc-mac] | [下载][1.2-rc-linux] |
 |  1.2 Beta3 | [下载][1.2-beta3-win] | [下载][1.2-beta3-mac] | [下载][1.2-beta3-linux] |
 |  1.2 Beta2 | [下载][1.2-beta2-win] | [下载][1.2-beta2-mac] | [下载][1.2-beta2-linux] |
@@ -100,6 +103,19 @@ AndroidDevTools
 |  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
+
+
+[1.2-win]:http://pan.baidu.com/s/1mgKehW8
+[1.2-mac]:http://pan.baidu.com/s/1sj0rdF3
+[1.2-linux]:http://pan.baidu.com/s/1dD0F5b7
+
+[1.2-rc3-win]:http://pan.baidu.com/s/1mgrDRvU
+[1.2-rc3-mac]:http://pan.baidu.com/s/1mgMfXuK
+[1.2-rc3-linux]:http://pan.baidu.com/s/1ntuZ61V
+
+[1.2-rc2-win]:http://pan.baidu.com/s/1wHTMm
+[1.2-rc2-mac]:http://pan.baidu.com/s/1dDiyDe5
+[1.2-rc2-linux]:http://pan.baidu.com/s/1i3CcG7N
 
 [1.2-rc-win]:http://pan.baidu.com/s/1eQdCBC2
 [1.2-rc-mac]:http://pan.baidu.com/s/1dDztuMH
