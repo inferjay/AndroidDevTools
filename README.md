@@ -1060,7 +1060,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Android Resource Resizer Plugin             | [下载][Android Resource Resizer]                  |                 |
 | Gradle Dependencies Helper Plugin           | [下载][GradleDependenciesHelper]                  |                 |
 | Android Parcelable code generation Plugin   | [下载][Parcelableboilerplatecodegen]              |                 |
-| Android Holo Colors IDEA Plugin             | [下载][Droidinspector]                            |                 |
+| Android Holo Colors IDEA Plugin             | [下载][Android Holo Colors IDEA Plugin]                            |                 |
 | Android Toolbox Plugin                      | [下载][Android Toolbox Plugin]                    |                 |
 | Android Gradle Sign Plugin                  | [下载][AndroidGradleSignPlugin]                   |                 |
 | Android Permissions Usage Plugin            | [下载][AndroidPermissionsUsage]                   |                 |
