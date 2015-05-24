@@ -1711,9 +1711,11 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 |:-----------------|------------------|:--------------------------:|:---------------:|
 | LICEcap          |                  | [下载][LICEcap]             |                 |
 | GifCam           |                  | [下载][GifCam]              |                 |
+| Android Tool     |                  | [下载][androidtool-mac]     |                 |
 
 [LICEcap]:http://www.cockos.com/licecap/
 [GifCam]:http://blog.bahraniapps.com/gifcam/
+[androidtool-mac]:https://github.com/mortenjust/androidtool-mac
 
 ## UI Programming Language
 
