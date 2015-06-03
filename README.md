@@ -107,8 +107,8 @@ AndroidDevTools
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
 
-[1.3-p2-win]:http://pan.baidu.com/s/1pJza5Ub
-[1.3-p2-mac]:http://pan.baidu.com/s/1hq5uz20
+[1.3-p2-win]:http://pan.baidu.com/s/1hq5uz20
+[1.3-p2-mac]:http://pan.baidu.com/s/1i3nb1Vv
 [1.3-p2-linux]:http://pan.baidu.com/s/1nt5kqQd
 
 [1.3-p1-win]:http://pan.baidu.com/s/1o6OKUIQ
