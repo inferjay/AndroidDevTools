@@ -57,6 +57,7 @@ AndroidDevTools
 |:------:|:--------------:|:-----------------:|:------------------:|
 |  1.3 Preview 2 | [下载][1.3-p2-win] | [下载][1.3-p2-mac] | [下载][1.3-p2-linux] |
 |  1.3 Preview 1 | [下载][1.3-p1-win] | [下载][1.3-p1-mac] | [下载][1.3-p1-linux] |
+|  1.2.2 | [下载][1.2.2-win] | [下载][1.2.2-mac] | [下载][1.2.2-linux] |
 |  1.2.1.1 | [下载][1.2.1.1-win] | [下载][1.2.1.1-mac] | [下载][1.2.1.1-linux] |
 |  1.2 正式版 | [下载][1.2-win] | [下载][1.2-mac] | [下载][1.2-linux] |
 |  1.2 RC3 | [下载][1.2-rc3-win] | [下载][1.2-rc3-mac] | [下载][1.2-rc3-linux] |
@@ -114,6 +115,10 @@ AndroidDevTools
 [1.3-p1-win]:http://pan.baidu.com/s/1o6OKUIQ
 [1.3-p1-mac]:http://pan.baidu.com/s/1mgIGdio
 [1.3-p1-linux]:http://pan.baidu.com/s/1bn548rH
+
+[1.2.2-win]:http://pan.baidu.com/s/1i32AQUD
+[1.2.2-mac]:http://pan.baidu.com/s/1sj7enLj
+[1.2.2-linux]:http://pan.baidu.com/s/1i3xRdJ3
 
 [1.2.1.1-win]:http://pan.baidu.com/s/1sjDiYIT
 [1.2.1.1-mac]:http://pan.baidu.com/s/1kTDvwBd
