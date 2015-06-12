@@ -962,6 +962,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 名称                           |      简介        |         下载地址                  |    使用教程      |
 |:------------------------------|:------------------------------|:--------------------------------:|:---------------:|
+| Enjarify   					|Enjarify 是一个用 Python 写的， Google 官方开源的可以将 Dalvik 字节码转换为 Java 字节码的工具。| [下载][Enjarify]                  |                
 | JEB Android Decompiler   		|                   | [下载][JEB]                       |                |
 | Virtuous Ten Studio     		|                   | [下载][Virtuous Ten Studio]       |                |
 | Apk文件修改工具Root Tools 		|                   | [下载][apk文件修改工具Root Tools]   |                |
@@ -1006,6 +1007,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
 [Android逆向助手-guide]:http://www.sanwho.com/620.html
 [Android-Killer-guide]:http://www.pd521.com/thread-509-1-1.html
+[Enjarify]:https://github.com/google/enjarify
 
 #### 安全工具
 
