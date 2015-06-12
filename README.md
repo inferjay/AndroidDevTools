@@ -1003,11 +1003,12 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [Android逆向助手]:http://enjoycode.info/uploads/Androidnxzs.zip
 [Android-Killer-pd521]:http://www.pd521.com/thread-136-1-1.html
 [Android-Killer-baidu]:http://pan.baidu.com/share/home?uk=4099707276#category/type=6
+[Enjarify]:https://github.com/google/enjarify
 
 [SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
 [Android逆向助手-guide]:http://www.sanwho.com/620.html
 [Android-Killer-guide]:http://www.pd521.com/thread-509-1-1.html
-[Enjarify]:https://github.com/google/enjarify
+
 
 #### 安全工具
 
@@ -1118,6 +1119,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Drawable Selectors Generates Plugin         | [下载][android-selector-chapek]                   |                 |
 | Android Drawable Importer					  | [下载][android-drawable-importer-intellij-plugin] |                 |
 | Color themes for IntelliJ IDEA       	   | [下载][android-drawable-importer-intellij-plugin] |                 |
+| GsonFormat       	   | [下载][GsonFormat] |                 |
+| ormlite-android-gradle-plugin       	   | [下载][ormlite-android-gradle-plugin] |                 |
 
 [Android Resource Resizer]:https://github.com/walmyrcarvalho/android-resource-resizer
 [GradleDependenciesHelper]:https://github.com/ligi/GradleDependenciesHelperPlugin
@@ -1147,6 +1150,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [android-selector-chapek]:https://github.com/inmite/android-selector-chapek
 [android-drawable-importer-intellij-plugin]:https://github.com/winterDroid/android-drawable-importer-intellij-plugin
 [Color-themes-for-IntelliJ-IDEA]:http://www.ideacolorthemes.org/home/
+[GsonFormat]:https://github.com/zzz40500/GsonFormat
+[ormlite-android-gradle-plugin]:https://github.com/stephanenicolas/ormlite-android-gradle-plugin
 
 #### Android资源/Themes/Style生成工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
