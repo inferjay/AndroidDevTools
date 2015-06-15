@@ -325,6 +325,7 @@ AndroidDevTools
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |
 |:----------|:-------------:|:------|:----------:|
+| sdk-tools-r24.3.2 | [installer_r24.3.2-windows.exe][installer_r24.3.2-win] [android-sdk_r24.3.2-windows.zip][android-sdk_r24.3.2-win] | [android-sdk_r24.3.2-macosx.zip][android-sdk_r24.3.2-mac] | [android-sdk_r24.3.2-linux.tgz][android-sdk_r24.3.2-linux] |
 | sdk-tools-r24.2 | [installer_r24.2-windows.exe][installer_r24.2-win] [android-sdk_r24.2-windows.zip][android-sdk_r24.2-win] | [android-sdk_r24.2-macosx.zip][android-sdk_r24.2-mac] | [android-sdk_r24.2-linux.tgz][android-sdk_r24.2-linux] |
 | sdk-tools-r24.1.2 | [installer_r24.1.2-windows.exe][installer_r24.1.2-win] [android-sdk_r24.1.2-windows.zip][android-sdk_r24.1.2-win] | [android-sdk_r24.1.2-macosx.zip][android-sdk_r24.1.2-mac] | [android-sdk_r24.1.2-linux.tgz][android-sdk_r24.1.2-linux] |
 | sdk-tools-r24.0.2 | [installer_r24.0.2-windows.exe][installer_r24.0.2-win] [android-sdk_r24.0.2-windows.zip][android-sdk_r24.0.2-win] | [android-sdk_r24.0.2-macosx.zip][android-sdk_r24.0.2-mac] | [android-sdk_r24.0.2-linux.tgz][android-sdk_r24.0.2-linux] |
@@ -335,6 +336,13 @@ AndroidDevTools
 | sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
 
 > **备注：** `非官方版` 是在 `23.0.2` 的基础上进行了在线更新包含了 `Android 5.0 SDK` ，`SDK Tools 23.0.5` 、`Build Tools 21.0.1` 、`Support Library 21`等。
+
+[installer_r24.3.2-win]:http://pan.baidu.com/s/1kToZVL1
+[android-sdk_r24.3.2-win]:http://pan.baidu.com/s/1i3eUFDb
+
+[android-sdk_r24.3.2-mac]:http://pan.baidu.com/s/1gdeYIVx
+
+[android-sdk_r24.3.2-linux]:http://pan.baidu.com/s/1eQpQgXO
 
 [installer_r24.2-win]:http://pan.baidu.com/s/1ntkRd6D
 [android-sdk_r24.2-win]:http://pan.baidu.com/s/1mgAB66s
