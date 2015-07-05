@@ -272,6 +272,16 @@ footer p {
 	margin-top: 7px;
 }
 
+#donate-method-alipay {
+	width: 370px;
+	height: 372px;
+}
+
+#donate-method-wechat {
+	width: 370px;
+	height: 372px;
+}
+
 /* Widescreen desktop. */
 @media (min-width: 1200px) {
   .content-nav {
