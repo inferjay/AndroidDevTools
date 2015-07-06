@@ -1058,6 +1058,13 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [GDB-for-Android]:http://gnutoolchains.com/android/
 [VisualGDB]:http://visualgdb.com/?features=android
 
+#### 静态代码分析工具
+| 名称                      |      简介        |         下载地址            |    使用教程      |
+|:-------------------------|:-----------------|:--------------------------:|:---------------:|
+| infer | Facebook 开源的静态代码分析工具，用于在发布移动应用之前对代码进行分析，找出潜在的问题。 | [下载][infer]  |                 |
+
+[infer]:https://github.com/facebook/infer
+
 #### 搜索工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
 |:-------------------------|:-----------------|:--------------------------:|:---------------:|
