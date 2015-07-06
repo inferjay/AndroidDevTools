@@ -1271,11 +1271,16 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | AppTools具       |                  | [下载][AppTools]            |                 |
 | package_tool     |                  | [下载][package_tool]        |                 |
 | RyApkTool        |                  | [下载][RyApkTool]           |                 |
+| 兰贝壳儿          |                  | [下载][兰贝壳儿]             |  [教程][兰贝壳教程]         |
 
 [Umeng多渠道打包工具]:https://github.com/umeng/umeng-muti-channel-build-tool
 [AppTools]:https://github.com/wubo/apptools
 [package_tool]:https://github.com/ahui2823/package_tool
 [RyApkTool]:http://blog.csdn.net/rydiy/article/details/7901564
+[兰贝壳儿]:http://www.orchidshell.com
+
+
+[兰贝壳教程]:http://www.orchidshell.com/Instructions/OchidShellInstructions.htm
 
 #### Android Bug日志收集工具
 
