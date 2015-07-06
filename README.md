@@ -1382,6 +1382,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | androidpixels            |                  | [下载][androidpixels]            |                 |
 | android dpi calculator   |                  | [下载][android dpi calculator]   |                 |
 | DPI Calculator           |                  | [下载][DPI Calculator]           |                 |
+| Android DPI Calculator插件|                  | [下载][Android DPI Calculator]   |                 |
 
 [android dp px calculator]:http://labs.rampinteractive.co.uk/android_dp_px_calculator/
 [dp px converter]:http://pixplicity.com/dp-px-converter/
@@ -1389,6 +1390,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [androidpixels]:http://androidpixels.net
 [android dpi calculator]:http://coh.io/adpi/
 [DPI Calculator]:https://chrome.google.com/webstore/detail/dpi-calculator/dldofgjemhkpilajnlenfijjpkabilcg?hl=en
+[Android DPI Calculator]:https://github.com/JerzyPuchalski/Android-DPI-Calculator
 
 #### Java To iOS
 
