@@ -1246,6 +1246,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Apk View Tracer  |                  | [下载][apk-view-tracer]     |                 |
 | APT              |APT是一个Android平台高效性能测试组件，<br/>提供丰富实用的功能，适用于开发自测、<br/>定位性能瓶颈；<br/>测试人员完成性能基准测试、竞品对比测试。| [下载][APT]                 |   [教程][APT-use-guide]              |
 | GT          | GT（随身调）是APP的随身调测平台，它是直接运行在手机上的“集成调测环境”(IDTE, Integrated Debug&Test Environment)。 | [下载][GT]             |    [教程][GT-use-guide]     |
+| Mobile-Checker | 移动端页面检查工具,可以选择三种屏幕规格，通过工具发现网站在移动端存在的问题。 | [下载][Mobile-Checker]             |         |
+
 
 [Appurify]:http://appurify.com
 [Monkey]:http://developer.android.com/intl/zh-cn/tools/help/monkey.html
@@ -1257,6 +1259,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [apk-view-tracer]:https://code.google.com/p/apk-view-tracer/
 [APT]:https://code.csdn.net/Tencent/apt
 [GT]:http://gt.tencent.com/index.html
+[Mobile-Checker]:https://github.com/w3c/Mobile-Checker
 
 
 [APT-use-guide]:http://www.eoeandroid.com/thread-497380-1-1.html
