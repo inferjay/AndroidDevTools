@@ -1068,9 +1068,14 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 #### 搜索工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
 |:-------------------------|:-----------------|:--------------------------:|:---------------:|
-| Structural Java Exception Search|   Java异常搜索工具               | [下载][Structural-Java-Exception-Search]  |                 |
+| Structural Java Exception Search| Java异常搜索工具  | [下载][Structural-Java-Exception-Search]  |                 |
+| Android Library Finder | 最快的方式获取依赖库  |          [下载][AFLI]      |                 |
+| Codota                 |     示例代码搜索网站  |           [下载][codota]  |                 |
 
 [Structural-Java-Exception-Search]:http://www.brainleg.com/search
+[AFLI]:https://github.com/cesarferreira/alfi
+[codota]:http://www.codota.com
+
 
 #### Debug调试工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
