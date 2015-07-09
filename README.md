@@ -1368,7 +1368,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |:-----------------|------------------|:--------------------------:|:---------------:|
 | OptiPNG          |                  | [下载][OptiPNG]             |                 |
 | Pngcrush         |                  | [下载][Pngcrush]            |                 |
-| ImageOptim       |                  | [下载][Xamarin]             |                 |
+| ImageOptim       |                  | [下载][ImageOptim]             |                 |
 | Tinypng          |                  | [下载][tinypng]             |                 |
 
 [OptiPNG]:http://optipng.sourceforge.net/
