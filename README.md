@@ -560,7 +560,7 @@ AndroidDevTools
 [android-12-win]:http://pan.baidu.com/s/1pJ0naTP
 [android-12-mac]:http://pan.baidu.com/s/1jG62PSy
 
-[android-11-win]:http://pan.baidu.com/s/1pJ0naTP
+[android-11-win]:http://pan.baidu.com/s/1c0hi7Ck
 [android-11-mac]:http://pan.baidu.com/s/1bn2Duub
 
 [android-10-win]:http://pan.baidu.com/s/1ngubc
@@ -609,7 +609,7 @@ AndroidDevTools
 [Images-15-win]:http://pan.baidu.com/s/1i3Fsx6H
 [Images-15-mac]:http://pan.baidu.com/s/1gdnCh2b
 
-[Images-14-win]:http://pan.baidu.com/s/1gd3lhYF
+[Images-14-win]:http://pan.baidu.com/s/1pJzIXZl
 [Images-14-mac]:http://pan.baidu.com/s/1hqoWcNM
 
 [Images-10-win]:http://pan.baidu.com/s/1gd3lhYF
