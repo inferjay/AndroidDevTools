@@ -1884,20 +1884,7 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [免费的编程中文书籍索引](http://siberiawolf.com/free_programming/index.html)
 
-# License
+# Disclaimer
 ---
 
-```
-Copyright 2014 inferjay (http://www.androiddevtools.cn)
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-	http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+	版权归原作者所有，这里仅做收集整理，欢迎自由转载-非商用-非衍生-保持署名和链接。
