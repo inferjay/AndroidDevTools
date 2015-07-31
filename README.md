@@ -367,6 +367,13 @@ AndroidDevTools
 
 > **备注：** `非官方版` 是在 `23.0.2` 的基础上进行了在线更新包含了 `Android 5.0 SDK` ，`SDK Tools 23.0.5` 、`Build Tools 21.0.1` 、`Support Library 21`等。
 
+[installer_r24.3.3-win]:http://pan.baidu.com/s/1eQwEMGE
+[android-sdk_r24.3.3-win]:http://pan.baidu.com/s/1hq5ylWo
+
+[android-sdk_r24.3.3-mac]:http://pan.baidu.com/s/1mgjBxA4
+
+[android-sdk_r24.3.3-linux]:http://pan.baidu.com/s/1hqu8P2s
+
 [installer_r24.3.2-win]:http://pan.baidu.com/s/1kToZVL1
 [android-sdk_r24.3.2-win]:http://pan.baidu.com/s/1i3eUFDb
 
