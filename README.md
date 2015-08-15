@@ -55,6 +55,8 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  1.4 Preview 2 | [下载][1.4-p2-win] | [下载][1.4-p2-mac] | [下载][1.4-p2-linux] |
+|  1.4 Preview 1 | [下载][1.4-p1-win] | [下载][1.4-p1-mac] | [下载][1.4-p1-linux] |
 |  1.3.1 | [下载][1.3.1-win] | [下载][1.3.1-mac] | [下载][1.3.1-linux] |
 |  1.3 | [下载][1.3-win] | [下载][1.3-mac] | [下载][1.3-linux] |
 |  1.3 RC4 | [下载][1.3-rc4-win] | [下载][1.3-rc4-mac] | [下载][1.3-rc4-linux] |
@@ -115,6 +117,14 @@ AndroidDevTools
 |  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
+
+[1.4-p2-win]:http://pan.baidu.com/s/1eQm6690
+[1.4-p2-mac]:http://pan.baidu.com/s/1dDBBfYp
+[1.4-p2-linux]:http://pan.baidu.com/s/1dD99jpf
+
+[1.4-p1-win]:http://pan.baidu.com/s/1i3fEP8p
+[1.4-p1-mac]:http://pan.baidu.com/s/1o6kovdK
+[1.4-p1-linux]:http://pan.baidu.com/s/1pJ5ldl5
 
 [1.3.1-win]:http://pan.baidu.com/s/1ntCamKx
 [1.3.1-mac]:http://pan.baidu.com/s/1i3KVNLF
