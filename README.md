@@ -42,6 +42,10 @@ AndroidDevTools
 
 	* `http://mirrors.neusoft.edu.cn` 端口：80
 
+1. 腾讯Bugly 镜像:
+
+	* `http://android-mirror.bugly.qq.com` 端口：8080
+
 **使用方法**：
 	
 1. 启动 Android SDK Manager ，打开主界面，依次选择『**Tools**』、『**Options...**』，弹出『**Android SDK Manager - Settings**』窗口；
