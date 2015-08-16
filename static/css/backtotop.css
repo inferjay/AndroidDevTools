@@ -1,0 +1,75 @@
+.zh-backtotop {
+    position: fixed;
+    bottom: 200px;
+    left: 50%;
+    z-index: 19;
+    margin-left: 580px
+}
+
+.zh-backtotop .btn-action {
+    display: block;
+    width: 38px;
+    height: 38px;
+    background-color: #ddd;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    position: relative
+}
+
+.zh-backtotop .btn-action+.btn-action {
+    margin-top: 5px
+}
+
+.zh-backtotop div {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto
+}
+
+.zh-backtotop .arrow {
+    width: 0;
+    height: 0;
+    top: -1px;
+    border: 9px solid transparent;
+    border-bottom-color: #aaa
+}
+
+.zh-backtotop .stick {
+    width: 8px;
+    height: 14px;
+    top: 15px;
+    border-radius: 1px;
+    background-color: #aaa
+}
+
+.zh-backtotop .stab {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    width: 18px;
+    height: 3px;
+    background-color: #aaa
+}
+
+html.no-touch .zh-backtotop .btn-action:hover {
+    background-color: #e2e2e2
+}
+
+html.no-touch .zh-backtotop .btn-action:hover .arrow {
+    border-bottom-color: #bbb
+}
+
+html.no-touch .zh-backtotop .btn-action:hover .stab, html.no-touch .zh-backtotop .btn-action:hover .stick {
+    background-color: #bbb
+}
+
+@media only screen and (max-device-width:720px) {
+    .zh-backtotop {
+        margin: auto;
+        left: auto;
+        right: 1em;
+        bottom: 1em
+    }
+}
