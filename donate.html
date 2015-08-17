@@ -10,6 +10,7 @@
     <link href="static/css/app.css" rel="stylesheet">
     <link href="static/css/app-theme.css" rel="stylesheet">
     <link href="static/css/google-roboto-font-face.css" rel="stylesheet" type="text/css">
+    <link href="static/css/backtotop.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]-->
     <style type="text/css">
 	    .red {
@@ -358,6 +359,14 @@
         </div>
       </div> 
     </section>
+    
+    <div class="zh-backtotop">
+    	<a data-action="backtotop" data-tip="s$r$回到顶部" class="btn-backtotop btn-action">
+    		<div class="arrow"></div>
+				<div class="stick"></div>
+			</a>
+		</div>
+    
         <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
         <footer class="inner">
@@ -418,11 +427,18 @@
 		}
 		</script>
     
-    <script src="static/js/jquery.1.9.1.min.js"></script>
+    <script src="static/js/jquery-1.11.3.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
     <script src="static/js/jquery.smooth-scroll.min.js"></script>
     <script src="static/js/jquery-maven-artifact.min.js"></script>
-<!--     <script src="static/js/prettify.js"></script> -->
+    <script src="static/js/prettify.js"></script>  	
+    <script src="static/js/jquery.toTop.min.js"></script>
+		<script>
+			$(function() {
+				$('.zh-backtotop').toTop();
+			});
+		</script>
+		
     <script type="text/javascript">
       $(function() {
         // Syntax highlight code blocks.
