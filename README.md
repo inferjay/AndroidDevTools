@@ -871,10 +871,10 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 [r10e-win-32]:http://pan.baidu.com/s/1jG7Yacm
 [r10e-win-64]:http://pan.baidu.com/s/1jG5WjL8
 
-[r10e-mac-64]:http://pan.baidu.com/s/1hqKTsws
+[r10e-mac-64]:http://pan.baidu.com/s/1DKkfc
 
-[r10e-linux-32]:http://pan.baidu.com/s/1kTILsoR
-[r10e-linux-64]:http://pan.baidu.com/s/1mg5Sadq
+[r10e-linux-32]:http://pan.baidu.com/s/1sjoneRr
+[r10e-linux-64]:http://pan.baidu.com/s/1dDAqnK1
 
 
 [r10d-win-32]:http://pan.baidu.com/s/1yc9BK
