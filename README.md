@@ -46,6 +46,8 @@ AndroidDevTools
 
 	* `http://android-mirror.bugly.qq.com` 端口：8080
 
+	腾讯镜像使用方法: [http://android-mirror.bugly.qq.com:8080/include/usage.html](http://android-mirror.bugly.qq.com:8080/include/usage.html)
+
 **使用方法**：
 	
 1. 启动 Android SDK Manager ，打开主界面，依次选择『**Tools**』、『**Options...**』，弹出『**Android SDK Manager - Settings**』窗口；
