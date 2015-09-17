@@ -42,6 +42,12 @@ AndroidDevTools
 
 	* `http://mirrors.neusoft.edu.cn` 端口：80
 
+1. 腾讯Bugly 镜像:
+
+	* `http://android-mirror.bugly.qq.com` 端口：8080
+
+	腾讯镜像使用方法: [http://android-mirror.bugly.qq.com:8080/include/usage.html](http://android-mirror.bugly.qq.com:8080/include/usage.html)
+
 **使用方法**：
 	
 1. 启动 Android SDK Manager ，打开主界面，依次选择『**Tools**』、『**Options...**』，弹出『**Android SDK Manager - Settings**』窗口；
@@ -55,6 +61,26 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
+|  1.4 Beta4 | [下载][1.4-beta4-win] | [下载][1.4-beta4-mac] | [下载][1.4-beta4-linux] |
+|  1.4 Beta3 | [下载][1.4-beta3-win] | [下载][1.4-beta3-mac] | [下载][1.4-beta3-linux] |
+|  1.4 Beta2 | [下载][1.4-beta2-win] | [下载][1.4-beta2-mac] | [下载][1.4-beta2-linux] |
+|  1.4 Beta | [下载][1.4-beta-win] | [下载][1.4-beta-mac] | [下载][1.4-beta-linux] |
+|  1.4 Preview 3 | [下载][1.4-p3-win] | [下载][1.4-p3-mac] | [下载][1.4-p3-linux] |
+|  1.4 Preview 2 | [下载][1.4-p2-win] | [下载][1.4-p2-mac] | [下载][1.4-p2-linux] |
+|  1.4 Preview 1 | [下载][1.4-p1-win] | [下载][1.4-p1-mac] | [下载][1.4-p1-linux] |
+|  1.3.2 | [下载][1.3.2-win] | [下载][1.3.2-mac] | [下载][1.3.2-linux] |
+|  1.3.1 | [下载][1.3.1-win] | [下载][1.3.1-mac] | [下载][1.3.1-linux] |
+|  1.3 | [下载][1.3-win] | [下载][1.3-mac] | [下载][1.3-linux] |
+|  1.3 RC4 | [下载][1.3-rc4-win] | [下载][1.3-rc4-mac] | [下载][1.3-rc4-linux] |
+|  1.3 RC3 | [下载][1.3-rc3-win] | [下载][1.3-rc3-mac] | [下载][1.3-rc3-linux] |
+|  1.3 RC2 | [下载][1.3-rc2-win] | [下载][1.3-rc2-mac] | [下载][1.3-rc2-linux] |
+|  1.3 RC1 | [下载][1.3-rc1-win] | [下载][1.3-rc1-mac] | [下载][1.3-rc1-linux] |
+|  1.3 Beta | [下载][1.3-beta-win] | [下载][1.3-beta-mac] | [下载][1.3-beta-linux] |
+|  1.3 Preview 3 | [下载][1.3-p3-win] | [下载][1.3-p3-mac] | [下载][1.3-p3-linux] |
+|  1.3 Preview 2 | [下载][1.3-p2-win] | [下载][1.3-p2-mac] | [下载][1.3-p2-linux] |
+|  1.3 Preview 1 | [下载][1.3-p1-win] | [下载][1.3-p1-mac] | [下载][1.3-p1-linux] |
+|  1.2.2 | [下载][1.2.2-win] | [下载][1.2.2-mac] | [下载][1.2.2-linux] |
+|  1.2.1.1 | [下载][1.2.1.1-win] | [下载][1.2.1.1-mac] | [下载][1.2.1.1-linux] |
 |  1.2 正式版 | [下载][1.2-win] | [下载][1.2-mac] | [下载][1.2-linux] |
 |  1.2 RC3 | [下载][1.2-rc3-win] | [下载][1.2-rc3-mac] | [下载][1.2-rc3-linux] |
 |  1.2 RC2 | [下载][1.2-rc2-win] | [下载][1.2-rc2-mac] | [下载][1.2-rc2-linux] |
@@ -67,43 +93,86 @@ AndroidDevTools
 |  1.2 Preview 2 | [下载][1.2-p2-win] | [下载][1.2-p2-mac] | [下载][1.2-p2-linux] |
 |  1.2 Preview 1 | [下载][1.2-p1-win] | [下载][1.2-p1-mac] | [下载][1.2-p1-linux] |
 |  1.1正式版 | [下载][1.1-win] | [下载][1.1-mac] | [下载][1.1-linux] |
-|  1.1 RC1 | [下载][1.1rc1-win] | [下载][1.1rc1-mac] | [下载][1.1rc1-linux] |
-|  1.1 Beta 4 | [下载][1.1-b4-win] | [下载][1.1-b4-mac] | [下载][1.1-b4-linux] |
-|  1.1 Beta 3 | [下载][1.1-b3-win] | [下载][1.1-b3-mac] | [下载][1.1-b3-linux] |
-|  1.1 Beta 2 | [下载][1.1-b2-win] | [下载][1.1-b2-mac] | [下载][1.1-b2-linux] |
-|  1.1 Beta 1 | [下载][1.1-b1-win] | [下载][1.1-b1-mac] | [下载][1.1-b1-linux] |
-|  1.1 Preview 2 | [下载][1.1-p2-win] | [下载][1.1-p2-mac] | [下载][1.1-p2-linux] |
-|  1.1 Preview 1 | [下载][1.1-p1-win] | [下载][1.1-p1-mac] | [下载][1.1-p1-linux] |
-|  1.0.2 | [下载][1.0.2-win] | [下载][1.0.2-mac] | [下载][1.0.2-linux] |
-|  1.0.1 | [下载][1.0.1-win] | [下载][1.0.1-mac] | [下载][1.0.1-linux] |
-|  1.0正式版 | [下载][1.0-win] | [下载][1.0-mac] | [下载][1.0-linux] |
-|  1.0 RC4 | [下载][1.0rc4-win] | [下载][1.0rc4-mac] | [下载][1.0rc4-linux] |
-|  1.0 RC2 | [下载][1.0rc2-win] | [下载][1.0rc2-mac] | [下载][1.0rc2-linux] |
-|  1.0 RC1 | [下载][1.0rc1-win] | [下载][1.0rc1-mac] | [下载][1.0rc1-linux] |
-|  0.9.3 | [下载][0.9.3-win] | [下载][0.9.3-mac] | [下载][0.9.3-linux] |
-|  0.9.2 | [下载][0.9.2-win] | [下载][0.9.2-mac] | [下载][0.9.2-linux] |
-|  0.9.1 | [下载][0.9.1-win] | [下载][0.9.1-mac] | [下载][0.9.1-linux] |
-|  0.9.0 | [下载][0.9.0-win] | [下载][0.9.0-mac] | [下载][0.9.0-linux] |
-|  0.8.14 | [下载][0.8.14-win] | [下载][0.8.14-mac] | [下载][0.8.14-linux] |
-|  0.8.13 | [下载][0.8.13-win] | [下载][0.8.13-mac] | [下载][0.8.13-linux] |
-|  0.8.12 | [下载][0.8.12-win] | [下载][0.8.12-mac] | [下载][0.8.12-linux] |
-|  0.8.11 | [下载][0.8.11-win] | [下载][0.8.11-mac] | [下载][0.8.11-linux] |
-|  0.8.10 | [下载][0.8.10-win] | [下载][0.8.10-mac] | [下载][0.8.10-linux] |
-|  0.8.9 | [下载][0.8.9-win] | [下载][0.8.9-mac] | [下载][0.8.9-linux] |
-|  0.8.8 | [下载][0.8.8-win] | [下载][0.8.8-mac] | [下载][0.8.8-linux] |
-|  0.8.7 | [下载][0.8.7-win] | [下载][0.8.7-mac] | [下载][0.8.7-linux] |
-|  0.8.6 | [下载][0.8.6-win] | [下载][0.8.6-mac] | [下载][0.8.6-linux] |
-|  0.8.5 | [下载][0.8.5-win] | [下载][0.8.5-mac] | [下载][0.8.5-linux] |
-|  0.8.4 | [下载][0.8.4-win] | [下载][0.8.4-mac] | [下载][0.8.4-linux] |
-|  0.8.3 | [下载][0.8.3-win] | [下载][0.8.3-mac] | [下载][0.8.3-linux] |
-|  0.8.2 | [下载][0.8.2-win] | [下载][0.8.2-mac] | [下载][0.8.2-linux] |
-|  0.8.1 | [下载][0.8.1-win] | [下载][0.8.1-mac] | [下载][0.8.1-linux] |
-|  0.8 0 | [下载][0.8.0-win] | [下载][0.8.0-mac] | [下载][0.8.0-linux] |
-|  0.6.1 | [下载][0.6.1-win] | [下载][0.6.1-mac] | [下载][0.6.1-linux] |
-|  0.6.0 | [下载][0.6.0-win] | [下载][0.6.0-mac] | [下载][0.6.0-linux] |
-|  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
-|  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
 
+[1.4-beta4-win]:http://pan.baidu.com/s/1o65psmA
+[1.4-beta4-mac]:http://pan.baidu.com/s/1dDJeMtF
+[1.4-beta4-linux]:http://pan.baidu.com/s/1ntIO4Q1
+
+[1.4-beta3-win]:http://pan.baidu.com/s/1qWQjExQ
+[1.4-beta3-mac]:http://pan.baidu.com/s/1eQlm5yi
+[1.4-beta3-linux]:http://pan.baidu.com/s/1jGH83e2
+
+[1.4-beta2-win]:http://pan.baidu.com/s/1gdg0lQr
+[1.4-beta2-mac]:http://pan.baidu.com/s/1eQqB9se
+[1.4-beta2-linux]:http://pan.baidu.com/s/1hqJDL8C
+
+[1.4-beta-win]:http://pan.baidu.com/s/1dDqDuEl
+[1.4-beta-mac]:http://pan.baidu.com/s/1hqwCRKo
+[1.4-beta-linux]:http://pan.baidu.com/s/1pJKfmVx
+
+[1.4-p3-win]:http://pan.baidu.com/s/1mg1UbRM
+[1.4-p3-mac]:http://pan.baidu.com/s/1dDhj81j
+[1.4-p3-linux]:http://pan.baidu.com/s/1eQEr6q2
+
+[1.4-p2-win]:http://pan.baidu.com/s/1eQm6690
+[1.4-p2-mac]:http://pan.baidu.com/s/1dDBBfYp
+[1.4-p2-linux]:http://pan.baidu.com/s/1dD99jpf
+
+[1.4-p1-win]:http://pan.baidu.com/s/1i3fEP8p
+[1.4-p1-mac]:http://pan.baidu.com/s/1o6kovdK
+[1.4-p1-linux]:http://pan.baidu.com/s/1pJ5ldl5
+
+[1.3.2-win]:http://pan.baidu.com/s/1pJ7n7WR
+[1.3.2-mac]:http://pan.baidu.com/s/1sjomEJz
+[1.3.2-linux]:http://pan.baidu.com/s/1ntDxrVb
+
+[1.3.1-win]:http://pan.baidu.com/s/1ntCamKx
+[1.3.1-mac]:http://pan.baidu.com/s/1i3KVNLF
+[1.3.1-linux]:http://pan.baidu.com/s/1o6wzdBO
+
+[1.3-win]:http://pan.baidu.com/s/1eQm5zto
+[1.3-mac]:http://pan.baidu.com/s/1mg3Uie8
+[1.3-linux]:http://pan.baidu.com/s/1qWl5eRa
+
+[1.3-rc4-win]:http://pan.baidu.com/s/1pJCBx9p
+[1.3-rc4-mac]:http://pan.baidu.com/s/1hq91OX2
+[1.3-rc4-linux]:http://pan.baidu.com/s/1jGH5p2I
+
+[1.3-rc3-win]:http://pan.baidu.com/s/1pJJwwll
+[1.3-rc3-mac]:http://pan.baidu.com/s/1o6KewUu
+[1.3-rc3-linux]:http://pan.baidu.com/s/1hqB3geK
+
+[1.3-rc2-win]:http://pan.baidu.com/s/1bnyMfJx
+[1.3-rc2-mac]:http://pan.baidu.com/s/1gdhdc9l
+[1.3-rc2-linux]:http://pan.baidu.com/s/1qW2zrGS
+
+[1.3-rc1-win]:http://pan.baidu.com/s/1i3KTPid
+[1.3-rc1-mac]:http://pan.baidu.com/s/1mgmrPJ6
+[1.3-rc1-linux]:http://pan.baidu.com/s/1o61gMSi
+
+[1.3-beta-win]:http://pan.baidu.com/s/1jGy6f5s
+[1.3-beta-mac]:http://pan.baidu.com/s/1hqvm0fi
+[1.3-beta-linux]:http://pan.baidu.com/s/1ntqY2At
+
+[1.3-p3-win]:http://pan.baidu.com/s/1ntvHs2d
+[1.3-p3-mac]:http://pan.baidu.com/s/1pJJZMzT
+[1.3-p3-linux]:http://pan.baidu.com/s/1hkFLW
+
+[1.3-p2-win]:http://pan.baidu.com/s/1hq5uz20
+[1.3-p2-mac]:http://pan.baidu.com/s/1i3nb1Vv
+[1.3-p2-linux]:http://pan.baidu.com/s/1nt5kqQd
+
+[1.3-p1-win]:http://pan.baidu.com/s/1o6OKUIQ
+[1.3-p1-mac]:http://pan.baidu.com/s/1mgIGdio
+[1.3-p1-linux]:http://pan.baidu.com/s/1bn548rH
+
+[1.2.2-win]:http://pan.baidu.com/s/1i32AQUD
+[1.2.2-mac]:http://pan.baidu.com/s/1sj7enLj
+[1.2.2-linux]:http://pan.baidu.com/s/1i3xRdJ3
+
+[1.2.1.1-win]:http://pan.baidu.com/s/1sjDiYIT
+[1.2.1.1-mac]:http://pan.baidu.com/s/1kTDvwBd
+[1.2.1.1-linux]:http://pan.baidu.com/s/1dDlhpGt
 
 [1.2-win]:http://pan.baidu.com/s/1mgKehW8
 [1.2-mac]:http://pan.baidu.com/s/1sj0rdF3
@@ -301,6 +370,10 @@ AndroidDevTools
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |
 |:----------|:-------------:|:------|:----------:|
+| sdk-tools-r24.3.4 | [installer_r24.3.4-windows.exe][installer_r24.3.4-win] [android-sdk_r24.3.4-windows.zip][android-sdk_r24.3.4-win] | [android-sdk_r24.3.4-macosx.zip][android-sdk_r24.3.4-mac] | [android-sdk_r24.3.4-linux.tgz][android-sdk_r24.3.4-linux] |
+| sdk-tools-r24.3.3 | [installer_r24.3.3-windows.exe][installer_r24.3.3-win] [android-sdk_r24.3.3-windows.zip][android-sdk_r24.3.3-win] | [android-sdk_r24.3.3-macosx.zip][android-sdk_r24.3.3-mac] | [android-sdk_r24.3.3-linux.tgz][android-sdk_r24.3.3-linux] |
+| sdk-tools-r24.3.2 | [installer_r24.3.2-windows.exe][installer_r24.3.2-win] [android-sdk_r24.3.2-windows.zip][android-sdk_r24.3.2-win] | [android-sdk_r24.3.2-macosx.zip][android-sdk_r24.3.2-mac] | [android-sdk_r24.3.2-linux.tgz][android-sdk_r24.3.2-linux] |
+| sdk-tools-r24.2 | [installer_r24.2-windows.exe][installer_r24.2-win] [android-sdk_r24.2-windows.zip][android-sdk_r24.2-win] | [android-sdk_r24.2-macosx.zip][android-sdk_r24.2-mac] | [android-sdk_r24.2-linux.tgz][android-sdk_r24.2-linux] |
 | sdk-tools-r24.1.2 | [installer_r24.1.2-windows.exe][installer_r24.1.2-win] [android-sdk_r24.1.2-windows.zip][android-sdk_r24.1.2-win] | [android-sdk_r24.1.2-macosx.zip][android-sdk_r24.1.2-mac] | [android-sdk_r24.1.2-linux.tgz][android-sdk_r24.1.2-linux] |
 | sdk-tools-r24.0.2 | [installer_r24.0.2-windows.exe][installer_r24.0.2-win] [android-sdk_r24.0.2-windows.zip][android-sdk_r24.0.2-win] | [android-sdk_r24.0.2-macosx.zip][android-sdk_r24.0.2-mac] | [android-sdk_r24.0.2-linux.tgz][android-sdk_r24.0.2-linux] |
 | sdk-tools-r24.0.1 | [installer_r24.0.1-windows.exe][installer_r24.0.1-win] [android-sdk_r24.0.1-windows.zip][android-sdk_r24.0.1-win] | [android-sdk_r24.0.1-macosx.zip][android-sdk_r24.0.1-mac] | [android-sdk_r24.0.1-linux.tgz][android-sdk_r24.0.1-linux] |
@@ -310,6 +383,34 @@ AndroidDevTools
 | sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
 
 > **备注：** `非官方版` 是在 `23.0.2` 的基础上进行了在线更新包含了 `Android 5.0 SDK` ，`SDK Tools 23.0.5` 、`Build Tools 21.0.1` 、`Support Library 21`等。
+
+[installer_r24.3.4-win]:http://pan.baidu.com/s/1eQppdPC
+[android-sdk_r24.3.4-win]:http://pan.baidu.com/s/1mg08f2K
+
+[android-sdk_r24.3.4-mac]:http://pan.baidu.com/s/1dDlTqBB
+
+[android-sdk_r24.3.4-linux]:http://pan.baidu.com/s/1gdsALt5
+
+[installer_r24.3.3-win]:http://pan.baidu.com/s/1eQwEMGE
+[android-sdk_r24.3.3-win]:http://pan.baidu.com/s/1hq5ylWo
+
+[android-sdk_r24.3.3-mac]:http://pan.baidu.com/s/1mgjBxA4
+
+[android-sdk_r24.3.3-linux]:http://pan.baidu.com/s/1hqu8P2s
+
+[installer_r24.3.2-win]:http://pan.baidu.com/s/1kToZVL1
+[android-sdk_r24.3.2-win]:http://pan.baidu.com/s/1i3eUFDb
+
+[android-sdk_r24.3.2-mac]:http://pan.baidu.com/s/1gdeYIVx
+
+[android-sdk_r24.3.2-linux]:http://pan.baidu.com/s/1eQpQgXO
+
+[installer_r24.2-win]:http://pan.baidu.com/s/1ntkRd6D
+[android-sdk_r24.2-win]:http://pan.baidu.com/s/1mgAB66s
+
+[android-sdk_r24.2-mac]:http://pan.baidu.com/s/1eQnhj9o
+
+[android-sdk_r24.2-linux]:http://pan.baidu.com/s/1dDhd76h
 
 [installer_r24.1.2-win]:http://pan.baidu.com/s/1pJwVClt
 [android-sdk_r24.1.2-win]:http://pan.baidu.com/s/1ntOefLf
@@ -510,7 +611,7 @@ AndroidDevTools
 [android-12-win]:http://pan.baidu.com/s/1pJ0naTP
 [android-12-mac]:http://pan.baidu.com/s/1jG62PSy
 
-[android-11-win]:http://pan.baidu.com/s/1pJ0naTP
+[android-11-win]:http://pan.baidu.com/s/1c0hi7Ck
 [android-11-mac]:http://pan.baidu.com/s/1bn2Duub
 
 [android-10-win]:http://pan.baidu.com/s/1ngubc
@@ -559,7 +660,7 @@ AndroidDevTools
 [Images-15-win]:http://pan.baidu.com/s/1i3Fsx6H
 [Images-15-mac]:http://pan.baidu.com/s/1gdnCh2b
 
-[Images-14-win]:http://pan.baidu.com/s/1gd3lhYF
+[Images-14-win]:http://pan.baidu.com/s/1pJzIXZl
 [Images-14-mac]:http://pan.baidu.com/s/1hqoWcNM
 
 [Images-10-win]:http://pan.baidu.com/s/1gd3lhYF
@@ -734,6 +835,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |
 |:----------|:-------------:|:------:|:----------:|
+| ndk-r10e | [32位][r10e-win-32] [64位][r10e-win-64] | [64位][r10e-mac-64] | [32位][r10e-linux-32] [64位][r10e-linux-64]  |
 | ndk-r10d | [32位][r10d-win-32] [64位][r10d-win-64] | [32位][r10d-mac-32] [64位][r10d-mac-64] | [32位][r10d-linux-32] [64位][r10d-linux-64]  |
 | ndk-r10c | [32位][r10c-win-32] [64位][r10c-win-64] | [32位][r10c-mac-32] [64位][r10c-mac-64] | [32位][r10c-linux-32] [64位][r10c-linux-64]  |
 | ndk64-r10 | [32位][ndk64-r10-win-32] [64位][ndk64-r10-win-64] | [32位][ndk64-r10-mac-32] [64位][ndk64-r10-mac-64] | [32位][ndk64-r10-linux-32] [64位][ndk64-r10-linux-64]  |
@@ -745,6 +847,15 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 |:----------|:-------------|
 | r10 STL debug info | [android-ndk-r10-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1xWgUE) | 
 | r9 STL debug info | [android-ndk-r9-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1c0EMn8O) |
+
+
+[r10e-win-32]:http://pan.baidu.com/s/1jG7Yacm
+[r10e-win-64]:http://pan.baidu.com/s/1jG5WjL8
+
+[r10e-mac-64]:http://pan.baidu.com/s/1DKkfc
+
+[r10e-linux-32]:http://pan.baidu.com/s/1sjoneRr
+[r10e-linux-64]:http://pan.baidu.com/s/1dDAqnK1
 
 
 [r10d-win-32]:http://pan.baidu.com/s/1yc9BK
@@ -872,6 +983,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号   |
 |:----------|
+| [gradle-2.4-all.zip](http://pan.baidu.com/s/1c0dcgfe) |
+| [gradle-2.3-all.zip](http://pan.baidu.com/s/1dDEnQr3) |
 | [gradle-2.2.1-all.zip](http://pan.baidu.com/s/1eQH39AE) |
 | [gradle-2.2-all.zip](http://pan.baidu.com/s/1i3BXKYp) |
 | [gradle-2.1-all.zip](http://pan.baidu.com/s/1bnF6jV5) |
@@ -918,6 +1031,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 | 名称                           |      简介        |         下载地址                  |    使用教程      |
 |:------------------------------|:------------------------------|:--------------------------------:|:---------------:|
+| Enjarify   					|Enjarify 是一个用 Python 写的， Google 官方开源的可以将 Dalvik 字节码转换为 Java 字节码的工具。| [下载][Enjarify]                  |                
 | JEB Android Decompiler   		|                   | [下载][JEB]                       |                |
 | Virtuous Ten Studio     		|                   | [下载][Virtuous Ten Studio]       |                |
 | Apk文件修改工具Root Tools 		|                   | [下载][apk文件修改工具Root Tools]   |                |
@@ -937,6 +1051,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | SmaliViewer 					|是一款免费的APK分析软件，无论从分析的深度<br/>还是广度来看，都是一款能够满足用户需求的产品，<br/>使您在APK分析的过程中，更加得心应手。 | [下载][SmaliViewer]               |      [使用指南][SmaliViewer-guide]          |
 | Android逆向助手 					|Android逆向助手是一功能强大的逆向辅助软件。<br/>该软件可以帮助用户来进行apk反编译打包签名；<br/>dex/jar互转替换提取修复；so反编译；<br/>xml、txt加密；字符串编码等等，操作简单<br/>，只需要直接将文件拖放到源和目标文件。 | [下载][Android逆向助手]               |            [使用指南][Android逆向助手-guide]    |
 | Android Killer 			|Android Killer 是一款可视化的安卓应用逆向工具，<br/>集Apk反编译、Apk打包、Apk签名，编码互转，<br/>ADB通信（应用安装-卸载-运行-设备文件管理）<br/>等特色功能于一 身，支持logcat日志输出，<br/>语法高亮，基于关键字（支持单行代码或多行代码段）<br/>项目内搜索，可自定义外部工具；吸收融汇多种工具功能与特点，<br/>打造一站 式逆向工具操作体验，大大简化了用户在<br/>安卓应用/游戏修改过程中的各类繁琐工作。| [下载1][Android-Killer-pd521]<br/>[下载2][Android-Killer-baidu]|[使用指南][Android-Killer-guide]    |
+| DexExtractor |android dex extractor ，anti-shell，android 脱壳。| [下载][DexExtractor]                |               |
 
 [JEB]:http://www.android-decompiler.com/index.php
 [Virtuous Ten Studio]:http://virtuous-ten-studio.com
@@ -958,10 +1073,14 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [Android逆向助手]:http://enjoycode.info/uploads/Androidnxzs.zip
 [Android-Killer-pd521]:http://www.pd521.com/thread-136-1-1.html
 [Android-Killer-baidu]:http://pan.baidu.com/share/home?uk=4099707276#category/type=6
+[Enjarify]:https://github.com/google/enjarify
+[DexExtractor]:https://github.com/bunnyblue/DexExtractor
+
 
 [SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
 [Android逆向助手-guide]:http://www.sanwho.com/620.html
 [Android-Killer-guide]:http://www.pd521.com/thread-509-1-1.html
+
 
 #### 安全工具
 
@@ -995,12 +1114,24 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [GDB-for-Android]:http://gnutoolchains.com/android/
 [VisualGDB]:http://visualgdb.com/?features=android
 
+#### 静态代码分析工具
+| 名称                      |      简介        |         下载地址            |    使用教程      |
+|:-------------------------|:-----------------|:--------------------------:|:---------------:|
+| infer | Facebook 开源的静态代码分析工具，用于在发布移动应用之前对代码进行分析，找出潜在的问题。 | [下载][infer]  |                 |
+
+[infer]:https://github.com/facebook/infer
+
 #### 搜索工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
 |:-------------------------|:-----------------|:--------------------------:|:---------------:|
-| Structural Java Exception Search|   Java异常搜索工具               | [下载][Structural-Java-Exception-Search]  |                 |
+| Structural Java Exception Search| Java异常搜索工具  | [下载][Structural-Java-Exception-Search]  |                 |
+| Android Library Finder | 最快的方式获取依赖库  |          [下载][AFLI]      |                 |
+| Codota                 |     示例代码搜索网站  |           [下载][codota]  |                 |
 
 [Structural-Java-Exception-Search]:http://www.brainleg.com/search
+[AFLI]:https://github.com/cesarferreira/alfi
+[codota]:http://www.codota.com
+
 
 #### Debug调试工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
@@ -1072,6 +1203,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Drawable Selectors Generates Plugin         | [下载][android-selector-chapek]                   |                 |
 | Android Drawable Importer					  | [下载][android-drawable-importer-intellij-plugin] |                 |
 | Color themes for IntelliJ IDEA       	   | [下载][android-drawable-importer-intellij-plugin] |                 |
+| GsonFormat       	   | [下载][GsonFormat] |                 |
+| ormlite-android-gradle-plugin       	   | [下载][ormlite-android-gradle-plugin] |                 |
 
 [Android Resource Resizer]:https://github.com/walmyrcarvalho/android-resource-resizer
 [GradleDependenciesHelper]:https://github.com/ligi/GradleDependenciesHelperPlugin
@@ -1101,6 +1234,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [android-selector-chapek]:https://github.com/inmite/android-selector-chapek
 [android-drawable-importer-intellij-plugin]:https://github.com/winterDroid/android-drawable-importer-intellij-plugin
 [Color-themes-for-IntelliJ-IDEA]:http://www.ideacolorthemes.org/home/
+[GsonFormat]:https://github.com/zzz40500/GsonFormat
+[ormlite-android-gradle-plugin]:https://github.com/stephanenicolas/ormlite-android-gradle-plugin
 
 #### Android资源/Themes/Style生成工具
 | 名称                      |      简介        |         下载地址            |    使用教程      |
@@ -1182,6 +1317,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Apk View Tracer  |                  | [下载][apk-view-tracer]     |                 |
 | APT              |APT是一个Android平台高效性能测试组件，<br/>提供丰富实用的功能，适用于开发自测、<br/>定位性能瓶颈；<br/>测试人员完成性能基准测试、竞品对比测试。| [下载][APT]                 |   [教程][APT-use-guide]              |
 | GT          | GT（随身调）是APP的随身调测平台，它是直接运行在手机上的“集成调测环境”(IDTE, Integrated Debug&Test Environment)。 | [下载][GT]             |    [教程][GT-use-guide]     |
+| Mobile-Checker | 移动端页面检查工具,可以选择三种屏幕规格，通过工具发现网站在移动端存在的问题。 | [下载][Mobile-Checker]             |         |
+
 
 [Appurify]:http://appurify.com
 [Monkey]:http://developer.android.com/intl/zh-cn/tools/help/monkey.html
@@ -1193,6 +1330,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [apk-view-tracer]:https://code.google.com/p/apk-view-tracer/
 [APT]:https://code.csdn.net/Tencent/apt
 [GT]:http://gt.tencent.com/index.html
+[Mobile-Checker]:https://github.com/w3c/Mobile-Checker
 
 
 [APT-use-guide]:http://www.eoeandroid.com/thread-497380-1-1.html
@@ -1207,11 +1345,16 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | AppTools具       |                  | [下载][AppTools]            |                 |
 | package_tool     |                  | [下载][package_tool]        |                 |
 | RyApkTool        |                  | [下载][RyApkTool]           |                 |
+| 兰贝壳儿          |                  | [下载][兰贝壳儿]             |  [教程][兰贝壳教程]         |
 
 [Umeng多渠道打包工具]:https://github.com/umeng/umeng-muti-channel-build-tool
 [AppTools]:https://github.com/wubo/apptools
 [package_tool]:https://github.com/ahui2823/package_tool
 [RyApkTool]:http://blog.csdn.net/rydiy/article/details/7901564
+[兰贝壳儿]:http://www.orchidshell.com
+
+
+[兰贝壳教程]:http://www.orchidshell.com/Instructions/OchidShellInstructions.htm
 
 #### Android Bug日志收集工具
 
@@ -1281,11 +1424,13 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |:-----------------|------------------|:--------------------------:|:---------------:|
 | OptiPNG          |                  | [下载][OptiPNG]             |                 |
 | Pngcrush         |                  | [下载][Pngcrush]            |                 |
-| ImageOptim       |                  | [下载][Xamarin]             |                 |
+| ImageOptim       |                  | [下载][ImageOptim]             |                 |
+| Tinypng          |                  | [下载][tinypng]             |                 |
 
 [OptiPNG]:http://optipng.sourceforge.net/
 [Pngcrush]:http://pmt.sourceforge.net/pngcrush/
 [ImageOptim]:https://imageoptim.com)
+[tinypng]:https://tinypng.com/
 	
 #### 资源清理工具
 
@@ -1311,6 +1456,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | androidpixels            |                  | [下载][androidpixels]            |                 |
 | android dpi calculator   |                  | [下载][android dpi calculator]   |                 |
 | DPI Calculator           |                  | [下载][DPI Calculator]           |                 |
+| Android DPI Calculator插件|                  | [下载][Android DPI Calculator]   |                 |
 
 [android dp px calculator]:http://labs.rampinteractive.co.uk/android_dp_px_calculator/
 [dp px converter]:http://pixplicity.com/dp-px-converter/
@@ -1318,6 +1464,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [androidpixels]:http://androidpixels.net
 [android dpi calculator]:http://coh.io/adpi/
 [DPI Calculator]:https://chrome.google.com/webstore/detail/dpi-calculator/dldofgjemhkpilajnlenfijjpkabilcg?hl=en
+[Android DPI Calculator]:https://github.com/JerzyPuchalski/Android-DPI-Calculator
 
 #### Java To iOS
 
@@ -1699,9 +1846,11 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 |:-----------------|------------------|:--------------------------:|:---------------:|
 | LICEcap          |                  | [下载][LICEcap]             |                 |
 | GifCam           |                  | [下载][GifCam]              |                 |
+| Android Tool     |                  | [下载][androidtool-mac]     |                 |
 
 [LICEcap]:http://www.cockos.com/licecap/
 [GifCam]:http://blog.bahraniapps.com/gifcam/
+[androidtool-mac]:https://github.com/mortenjust/androidtool-mac
 
 ## UI Programming Language
 
@@ -1773,6 +1922,8 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [MINIMALISTIC EVERYDAY ICONS](http://matt-cooper.com/minimalistic-icons/)
 
+[Icons4Android](http://www.icons4android.com)
+
 # Books
 ---
 
@@ -1786,20 +1937,7 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [免费的编程中文书籍索引](http://siberiawolf.com/free_programming/index.html)
 
-# License
+# Disclaimer
 ---
 
-```
-Copyright 2014 inferjay (http://www.androiddevtools.cn)
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-	http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+	版权归原作者所有，这里仅做收集整理，欢迎自由转载-非商用-非衍生-保持署名和链接。
