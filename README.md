@@ -517,7 +517,7 @@ AndroidDevTools
 C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请戳 [这里](install-method-url)
 
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |       SHA-1校验码     |       官方SHA-1校验码截图     |
-|:----------|:-------------:|:------:|:----------:|:------:|:----------:|
+|:----------|:-------------:|:------:|:----------:|:------|:----------:|
 | ndk-r10e | [32位][r10e-win-32] [64位][r10e-win-64] | [64位][r10e-mac-64] | [32位][r10e-linux-32] [64位][r10e-linux-64]  | Win: 1a82445baaf62aec3a46386ab1e5772c <br/>  8412bb4991a95e08fda50b5a44d95df7 <br/> Mac: 2cb8893a5701603519d38a7e04c50e81 <br/> Linux: c3edd3273029da1cbd2f62c48249e978 <br/> 19af543b068bdb7f27787c2bc69aba7f | [查看][ndk-r10e-sha1] |
 
 
