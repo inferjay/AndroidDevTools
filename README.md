@@ -641,8 +641,12 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 ####Gradle
 
-|    版本号   |
+|    版本号  |
 |:----------|
+| [gradle-2.8-all.zip](http://pan.baidu.com/s/1qW25Ndy) |
+| [gradle-2.7-all.zip](http://pan.baidu.com/s/1c0g9D5m) |
+| [gradle-2.6-all.zip](http://pan.baidu.com/s/1mg8JAbA) |
+| [gradle-2.5-all.zip](http://pan.baidu.com/s/1jGrmKx4) |
 | [gradle-2.4-all.zip](http://pan.baidu.com/s/1c0dcgfe) |
 | [gradle-2.3-all.zip](http://pan.baidu.com/s/1dDEnQr3) |
 | [gradle-2.2.1-all.zip](http://pan.baidu.com/s/1eQH39AE) |
