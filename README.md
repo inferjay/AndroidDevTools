@@ -9,9 +9,6 @@ AndroidDevTools
 
 欢迎大家推荐自己在Android开发过程中用的好用的工具、学习开发教程、用到设计素材，欢迎Star、Fork 😄。
 
->如果你对翻译英文的Android开发技术文章感兴趣，欢迎Start和Fork[AndroidWeekly中国文章翻译项目](https://github.com/AWCNTT/ArticleTranslateProject)
-
-
 #Android Tools
 ---
 
@@ -605,7 +602,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 [1.6-linux-64]:http://pan.baidu.com/s/1dDck3O9
 
 
-####ADT Bundle
+<!--####ADT Bundle
 ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
 
 | 版本号  | Windows                |      Mac OSX       |          Linux         |
@@ -640,7 +637,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |[ADT-23.0.2](http://pan.baidu.com/s/1bnGkEvX)|
 |[ADT-23.0.0](http://pan.baidu.com/s/1sjArX7J)|
 |[ADT-22.6.3](http://pan.baidu.com/s/1jGMb5yQ)|
-|[AdT-22.6.1](http://pan.baidu.com/s/1pJ185Rl)|
+|[AdT-22.6.1](http://pan.baidu.com/s/1pJ185Rl)|-->
 
 ####Gradle
 
