@@ -58,6 +58,7 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |       SHA-1校验码     |       官方SHA-1校验码截图     |
 |:------:|:--------------:|:-----------------:|:------------------:|:------------------|:------------------:|
+|  1.5 Preview 2 | [下载][1.5-p2-win] | [下载][1.5-p2-mac] | [下载][1.5-p2-linux] | Win: c2cee3431c46f5ed0a8d63b782dda03ea47a01b8 <br/> Mac:  4597821e2a5c77d6746d834d78aeacb198d698ee <br/> Linux:  2730200226c35f2fb19ffbf1e24275478cab69d6 |  [查看][1.5-p2-sha1] |
 |  1.5 Preview 1 | [下载][1.5-p1-win] | [下载][1.5-p1-mac] | [下载][1.5-p1-linux] | Win: 0451f37afbedde5f902b32ca3fc1a6347ff2c399 <br/> Mac:  2c22b58ff6158cd90bbad54aefeb273f632df3c0 <br/> Linux:  acdae82efe8e4c0b4f903764b50c7064d47c7910 |  [查看][1.5-p1-sha1] |
 |  1.4 | [下载][1.4-win] | [下载][1.4-mac] | [下载][1.4-linux] | Win: a2f0141d35f8f0c24dad2ff390e7f6231c5f7625 <br/> 82d0d9c78ec23834956f941a07821be347fcb7bf <br/> c0851dc9a506ba9f4c1379a3e9b4019c08478220 <br/> Mac:  27068d59d5a78717d31bdedd054082b5c50d3897 <br/> d99c4b3efce46edba97a2cb8f53fc62d267b9015 <br/> Linux: 137e3734f2e8e285bd7c1d2fae2e8548d0f164bd  | [查看][1.4-sha1]  |
 |  1.4 RC3 | [下载][1.4-rc3-win] | [下载][1.4-rc3-mac] | [下载][1.4-rc3-linux] |  Win: 8f0ef33afb026b6cb513c8736c8218584f5721da <br/> Mac: 5a2f5bb23511e2422b9268ef234503cc6bc887b6 <br/>Linux: 8aa32a4603c576d7b4691c34028e3e97490b5dfd |  [查看][1.4-rc3-sha1] |
@@ -73,6 +74,12 @@ AndroidDevTools
 |  1.3.2 | [下载][1.3.2-win] | [下载][1.3.2-mac] | [下载][1.3.2-linux] | Win:  c7d39c529dd434489da9d086ff689d34dc791526 <br/> b5d1aaa000729c03a3cf980add79d1b93121c56d <br/> 3134f226b5f3c3f74d4fc2d9cff03a4458f01d69 <br/> Mac: 75b67eb15a34a152a40e7189484ab0ebc375b877 <br/> Linux: cf780413f8c8223eb348bd27c19a9c04b75eaeb2
   | [查看][1.3.2-sha1]  |
 |  1.3.1 | [下载][1.3.1-win] | [下载][1.3.1-mac] | [下载][1.3.1-linux] | Win: 8cff590f2e08e339f8c2491b287a840ae87c7383 <br/> d70fb49d03db9dded19c891a92452601e39272f4 <br/> 3b4c4924cb9495e56db61ca0e8c8d2bf588c4b97 <br/> Mac:  9fc12b5657ff52c761b7e7c115feade2a9728386 <br/> 3c7f934f257ab09c1ea0d88a816ec83702171e75 <br/> Linux: 51e5f5de2b82883d87f85ee38cf7b7b8b2e7debf  | [查看][1.3.1-sha1]  |
+
+[1.5-p2-win]:http://pan.baidu.com/s/1o6rKRxC
+[1.5-p2-mac]:http://pan.baidu.com/s/1eQsHgI2
+[1.5-p2-linux]:http://pan.baidu.com/s/1kTJBu3X
+
+[1.5-p1-sha1]:http://ww1.sinaimg.cn/large/8a41f469gw1excc7f1kgvj21do0ui49h.jpg
 
 [1.5-p1-win]:http://pan.baidu.com/s/1mg3tEnm
 [1.5-p1-mac]:http://pan.baidu.com/s/1hquEqLQ
