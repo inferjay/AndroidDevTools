@@ -11,7 +11,9 @@
     <link href="static/css/app-theme.css" rel="stylesheet">
     <link href="static/css/google-roboto-font-face.css" rel="stylesheet" type="text/css">
     <link href="static/css/backtotop.css" rel="stylesheet" type="text/css">
-    <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]-->
+    <link href="static/css/ad.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]--> 
+    
   </head>
   <body data-target=".content-nav">
     <header>
@@ -150,7 +152,12 @@
           </div>
       </div>
     </header>
-
+		
+		<div class="ad_right_float" id="ad_jianxun">
+			<a href='http://m.jianxun.io/event/2?from=androiddevtools'>
+				<img src='http://www.jianxun.io/ad/20151101/eventno2-androiddevtools-leftbanner.png' border="0"/></a>
+		</div>
+		
     <section id="body">
       <div id="body-container" class="container">
         <div class="row">
@@ -4728,8 +4735,8 @@
 					<!-- 多说评论框 end -->
 
 				</div>
-          </div>
-          
+      </div>
+      
     </section>
     
     <div class="zh-backtotop">
@@ -4739,7 +4746,7 @@
 			</a>
 		</div>
     
-        <!-- FOOTER  -->
+    <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
         <footer class="inner">
             <p class="copyright">AndroidDevTools maintained by <a href="https://github.com/inferjay/AndroidDevTools">inferjay</a>
@@ -4749,7 +4756,23 @@
             </p>
         </footer>
     </div>
-    	
+   
+   <!--   浮动广告 	 -->
+   <script> 
+			lastScrollY=-320; 
+			function heartBeat(){ 
+					diffY=document.body.scrollTop; 
+					percent=.1*(diffY-lastScrollY); 
+					if(percent>0)
+						percent=Math.ceil(percent); 
+					else percent=Math.floor(percent); 
+						document.all.ad_jianxun.style.pixelTop+=percent; 
+						lastScrollY=lastScrollY+percent; 
+			} 
+			window.setInterval("heartBeat()",1); 
+		</script>
+    
+		<!--   Tinysou 搜索  	 -->
     <script>
 			var option = {
 					engineKey: '5fb806b73440d82ba15d'
