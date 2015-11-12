@@ -11,7 +11,7 @@
     <link href="static/css/app-theme.css" rel="stylesheet">
     <link href="static/css/google-roboto-font-face.css" rel="stylesheet" type="text/css">
     <link href="static/css/backtotop.css" rel="stylesheet" type="text/css">
-    <link href="static/css/ad.css" rel="stylesheet" type="text/css">
+		<!-- <link href="static/css/ad.css" rel="stylesheet" type="text/css"> -->
     <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]--> 
     
   </head>
@@ -153,7 +153,7 @@
       </div>
     </header>
 		
-		<div class="ad_right_float" id="ad_jianxun">
+		<div id="ad_jianxun" style="z-index: 10; right: 0px; position: absolute; top: 340px;">
 			<a href='http://m.jianxun.io/event/2?from=androiddevtools'>
 				<img src='http://www.jianxun.io/ad/20151101/eventno2-androiddevtools-leftbanner.png' border="0"/></a>
 		</div>
@@ -4763,7 +4763,7 @@
    
    <!--   浮动广告 	 -->
    <script> 
-			lastScrollY=-320; 
+			lastScrollY=0; 
 			function heartBeat(){ 
 					diffY=document.body.scrollTop; 
 					percent=.1*(diffY-lastScrollY); 
