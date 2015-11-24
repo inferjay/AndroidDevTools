@@ -58,6 +58,10 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |       SHA-1校验码     |       官方SHA-1校验码截图     |
 |:------:|:--------------:|:-----------------:|:------------------:|:------------------|:------------------:|
+|  2.0 Preview | [下载][2.0-p-win] | [下载][2.0-p-mac] | [下载][2.0-p-linux] | Win: fc408ff0ce39b80a6745db5c16befc789b11c312 <br/> Mac:  0f68bddb07269cb73f87293411bdf1847fd17a5c <br/> Linux:  a4bfc84bdcaee309916808c6f2ac8840c4266f77 |  [查看][2.0-p-sha1] |
+|  1.5 | [下载][1.5-win] | [下载][1.5-mac] | [下载][1.5-linux] | Win: e44c0c7fe53ca8e8a6f3b9bdc7551c3b8ee41f30 <br/> 41933764d0f6d232cf8c123974c80fd400f0e6ea <br/> b427298bfc80b9f162fef3cba95a5775c86b4676 <br/> Mac:  9ff98b82e85081910d35b39342127cfc9071c08a <br/> 877f14361b9751ead1c2b0b1d2907b029ada3646 <br/> Linux: 25f3b2b67641ef72e54d2c74cc69fde059630b50  | [查看][1.5-sha1]  |
+|  1.5RC1 | [下载][1.5-rc1-win] | [下载][1.5-rc1-mac] | [下载][1.5-rc1-linux] | Win: 79d5a9dd539bd9ea142b036b3b366f0783bb260a <br/> Mac:  61399e9e30adca7af8bdecd2453820a5c89ce7d0 <br/> Linux:  97a1e1720b9f212006be9717cbc9461ad0cca9c2 |  [查看][1.5-rc1-sha1] |
+|  1.5 Beta | [下载][1.5-beta-win] | [下载][1.5-beta-mac] | [下载][1.5-beta-linux] | Win: 026f682e1c2f443a730bf520ea1435796c4c999f <br/> Mac:  9ec8cc4eaacda9c1b43b76e7db1605295fc7fc02 <br/> Linux:  059a47cd351cc3d86bc958dd637f7c981ed56397 |  [查看][1.5-beta-sha1] |
 |  1.5 Preview 2 | [下载][1.5-p2-win] | [下载][1.5-p2-mac] | [下载][1.5-p2-linux] | Win: c2cee3431c46f5ed0a8d63b782dda03ea47a01b8 <br/> Mac:  4597821e2a5c77d6746d834d78aeacb198d698ee <br/> Linux:  2730200226c35f2fb19ffbf1e24275478cab69d6 |  [查看][1.5-p2-sha1] |
 |  1.5 Preview 1 | [下载][1.5-p1-win] | [下载][1.5-p1-mac] | [下载][1.5-p1-linux] | Win: 0451f37afbedde5f902b32ca3fc1a6347ff2c399 <br/> Mac:  2c22b58ff6158cd90bbad54aefeb273f632df3c0 <br/> Linux:  acdae82efe8e4c0b4f903764b50c7064d47c7910 |  [查看][1.5-p1-sha1] |
 |  1.4 | [下载][1.4-win] | [下载][1.4-mac] | [下载][1.4-linux] | Win: a2f0141d35f8f0c24dad2ff390e7f6231c5f7625 <br/> 82d0d9c78ec23834956f941a07821be347fcb7bf <br/> c0851dc9a506ba9f4c1379a3e9b4019c08478220 <br/> Mac:  27068d59d5a78717d31bdedd054082b5c50d3897 <br/> d99c4b3efce46edba97a2cb8f53fc62d267b9015 <br/> Linux: 137e3734f2e8e285bd7c1d2fae2e8548d0f164bd  | [查看][1.4-sha1]  |
@@ -75,11 +79,35 @@ AndroidDevTools
   | [查看][1.3.2-sha1]  |
 |  1.3.1 | [下载][1.3.1-win] | [下载][1.3.1-mac] | [下载][1.3.1-linux] | Win: 8cff590f2e08e339f8c2491b287a840ae87c7383 <br/> d70fb49d03db9dded19c891a92452601e39272f4 <br/> 3b4c4924cb9495e56db61ca0e8c8d2bf588c4b97 <br/> Mac:  9fc12b5657ff52c761b7e7c115feade2a9728386 <br/> 3c7f934f257ab09c1ea0d88a816ec83702171e75 <br/> Linux: 51e5f5de2b82883d87f85ee38cf7b7b8b2e7debf  | [查看][1.3.1-sha1]  |
 
+[2.0-p-win]:http://pan.baidu.com/s/1o6y8JQq
+[2.0-p-mac]:http://pan.baidu.com/s/1dD4qIjR
+[2.0-p-linux]:http://pan.baidu.com/s/1wpwOe
+
+[2.0-p-sha1]:http://ww2.sinaimg.cn/large/8a41f469gw1eybyax1odtj21ck0sondd.jpg
+
+[1.5-win]:http://pan.baidu.com/s/1o6OrjqM
+[1.5-mac]:http://pan.baidu.com/s/1dDFMeYl
+[1.5-linux]:http://pan.baidu.com/s/1bnsP6c3
+
+[1.5-sha1]:http://ww2.sinaimg.cn/large/8a41f469gw1eybya5z67aj21h411216g.jpg
+
+[1.5-rc1-win]:http://pan.baidu.com/s/1mgCkbQK
+[1.5-rc1-mac]:http://pan.baidu.com/s/10tfB4
+[1.5-rc1-linux]:http://pan.baidu.com/s/1hqDEeMw
+
+[1.5-rc1-sha1]:http://ww1.sinaimg.cn/large/8a41f469gw1eyby8f8itrj21fg0tc130.jpg
+
+[1.5-beta-win]:http://pan.baidu.com/s/1pJmv3zP
+[1.5-beta-mac]:http://pan.baidu.com/s/1c0qLBVU
+[1.5-beta-linux]:http://pan.baidu.com/s/1bnqhGPD
+
+[1.5-beta-sha1]:http://ww4.sinaimg.cn/large/8a41f469gw1eyby6wquc5j21cs0sy7ma.jpg
+
 [1.5-p2-win]:http://pan.baidu.com/s/1o6rKRxC
 [1.5-p2-mac]:http://pan.baidu.com/s/1eQsHgI2
 [1.5-p2-linux]:http://pan.baidu.com/s/1kTJBu3X
 
-[1.5-p1-sha1]:http://ww1.sinaimg.cn/large/8a41f469gw1excc7f1kgvj21do0ui49h.jpg
+[1.5-p2-sha1]:http://ww1.sinaimg.cn/large/8a41f469gw1excc7f1kgvj21do0ui49h.jpg
 
 [1.5-p1-win]:http://pan.baidu.com/s/1mg3tEnm
 [1.5-p1-mac]:http://pan.baidu.com/s/1hquEqLQ
