@@ -97,7 +97,7 @@ AndroidDevTools
 [1.5.1-mac]:http://pan.baidu.com/s/1c0YQvGs
 [1.5.1-linux]:http://pan.baidu.com/s/1sjTalbv
 
-[1.5-sha1]:http://ww4.sinaimg.cn/large/8a41f469jw1eyp9bc78v9j21ck0rwwuh.jpg
+[1.5.1-sha1]:http://ww4.sinaimg.cn/large/8a41f469jw1eyp9bc78v9j21ck0rwwuh.jpg
 
 [1.5-win]:http://pan.baidu.com/s/1o6OrjqM
 [1.5-mac]:http://pan.baidu.com/s/1dDFMeYl
