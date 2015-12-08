@@ -710,9 +710,13 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | [gradle-1.8-all.zip](http://pan.baidu.com/s/1o6Npqqe)  |
 | [gradle-1.7-all.zip](http://pan.baidu.com/s/1pJnvyWz)  |
 
-#### Gradle Dependencies Configuration Generator
+#### Android Gradle Plugin DSL 在线文档
 
-[Gradle, please](http://gradleplease.appspot.com)
+[http://google.github.io/android-gradle-dsl/](http://google.github.io/android-gradle-dsl/)
+
+#### Gradle Dependencies Configuration Generator（需要梯子）
+
+[http://gradleplease.appspot.com](http://gradleplease.appspot.com)
 
 #### 版本控制工具
 
