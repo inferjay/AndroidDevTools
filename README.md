@@ -58,6 +58,7 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |       SHA-1校验码     |       官方SHA-1校验码截图     |
 |:------:|:--------------:|:-----------------:|:------------------:|:------------------|:------------------:|
+|  2.0 Preview3 | [下载][2.0-p3-win] | [下载][2.0-p3-mac] | [下载][2.0-p3-linux] | Win: 8aa260c188af3200ba1ca4ffcdf0bf16d43d5a88 <br/> Mac: a9da6d4d9d13f85e3a89033710beda7855c57af1 <br/> Linux: 259855b8e36142700ddc7304287217cafd8b8d1f |  [查看][2.0-p3-sha1] |
 |  2.0 Preview2 | [下载][2.0-p2-win] | [下载][2.0-p2-mac] | [下载][2.0-p2-linux] | Win: 247d9dd85da8cf1c6e286b1d6014e2f1251b4d13 <br/> Mac: 407030e6bf82a724e5ad6e7086a84c94aa01eb0e <br/> Linux: f32338e04099d97be254ae0a7d810ab59487c2e9 |  [查看][2.0-p2-sha1] |
 |  2.0 Preview | [下载][2.0-p-win] | [下载][2.0-p-mac] | [下载][2.0-p-linux] | Win: fc408ff0ce39b80a6745db5c16befc789b11c312 <br/> Mac:  0f68bddb07269cb73f87293411bdf1847fd17a5c <br/> Linux:  a4bfc84bdcaee309916808c6f2ac8840c4266f77 |  [查看][2.0-p-sha1] |
 |  1.5.1 | [下载][1.5.1-win] | [下载][1.5.1-mac] | [下载][1.5.1-linux] | Win: 64882fb967f960f2142de239200104cdc9b4c75b <br/> Mac: 7ceb97e943836c11844e6f2dbedc9d374b3c2b19 <br/> Linux: b8460a2197abe26979d88e3b01b3c8bfd80a37db |  [查看][1.5.1-sha1] |
@@ -80,6 +81,12 @@ AndroidDevTools
 |  1.3.2 | [下载][1.3.2-win] | [下载][1.3.2-mac] | [下载][1.3.2-linux] | Win:  c7d39c529dd434489da9d086ff689d34dc791526 <br/> b5d1aaa000729c03a3cf980add79d1b93121c56d <br/> 3134f226b5f3c3f74d4fc2d9cff03a4458f01d69 <br/> Mac: 75b67eb15a34a152a40e7189484ab0ebc375b877 <br/> Linux: cf780413f8c8223eb348bd27c19a9c04b75eaeb2
   | [查看][1.3.2-sha1]  |
 |  1.3.1 | [下载][1.3.1-win] | [下载][1.3.1-mac] | [下载][1.3.1-linux] | Win: 8cff590f2e08e339f8c2491b287a840ae87c7383 <br/> d70fb49d03db9dded19c891a92452601e39272f4 <br/> 3b4c4924cb9495e56db61ca0e8c8d2bf588c4b97 <br/> Mac:  9fc12b5657ff52c761b7e7c115feade2a9728386 <br/> 3c7f934f257ab09c1ea0d88a816ec83702171e75 <br/> Linux: 51e5f5de2b82883d87f85ee38cf7b7b8b2e7debf  | [查看][1.3.1-sha1]  |
+
+[2.0-p3-win]:http://pan.baidu.com/s/
+[2.0-p3-mac]:http://pan.baidu.com/s/
+[2.0-p3-linux]:http://pan.baidu.com/s/
+
+[2.0-p3-sha1]:http://ww1.sinaimg.cn/large/8a41f469jw1eyvzos1dd1j21e40uadpw.jpg
 
 [2.0-p2-win]:http://pan.baidu.com/s/1bnT2IgJ
 [2.0-p2-mac]:http://pan.baidu.com/s/1dDQGNvz
