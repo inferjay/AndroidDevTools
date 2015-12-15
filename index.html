@@ -153,12 +153,6 @@
       </div>
     </header>
 		
-		
-		<div id="ad_jianxun" style="z-index: 10; right: 0px; position: absolute; top: 340px;">
-			<a href='http://m.jianxun.io/event/2?from=androiddevtools'>
-				<img src='http://www.jianxun.io/ad/20151101/eventno2-androiddevtools-leftbanner.png' border="0"/></a>
-		</div>
-		
     <section id="body">
       <div id="body-container" class="container">
         <div class="row">
@@ -5003,21 +4997,6 @@
             </p>
         </footer>
     </div>
-   
-   <!--   浮动广告 	 -->
-   <script> 
-			lastScrollY=0; 
-			function heartBeat(){ 
-					diffY=document.body.scrollTop; 
-					percent=.1*(diffY-lastScrollY); 
-					if(percent>0)
-						percent=Math.ceil(percent); 
-					else percent=Math.floor(percent); 
-						document.all.ad_jianxun.style.pixelTop+=percent; 
-						lastScrollY=lastScrollY+percent; 
-			} 
-			window.setInterval("heartBeat()",1); 
-		</script>
     
 		<!--   Tinysou 搜索  	 -->
     <script>
