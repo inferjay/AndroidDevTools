@@ -58,10 +58,17 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |       SHA-1校验码     |       官方SHA-1校验码截图     |
 |:------:|:--------------:|:-----------------:|:------------------:|:------------------|:------------------:|
+|  2.0 Preview8 | [下载][2.0-p8-win] | [下载][2.0-p8-mac] | [下载][2.0-p8-linux] | Win:85fe91041ca0e98563c2824df2cedf786901acb4 <br/> Mac:8e9c12cd0dfa2799aae266e3faef58f229fdea71 <br/> Linux:449be600646be7fa128b3d3b85771087c9138f4e |  [查看][2.0-p8-sha1] |
 |  2.0 Preview7 | [下载][2.0-p7-win] | [下载][2.0-p7-mac] | [下载][2.0-p7-linux] | Win: 55cef34cc77b7c82aea7a475be06c055abeab3d6 <br/> Mac: ef77f5248e2bea4c7b5b30d7d0497307521d5d22 <br/> Linux: e3f7db8adaecdfce0ff54c41efb3a72dad1318ed |  [查看][2.0-p7-sha1] |
 |  2.0 Preview6 | [下载][2.0-p6-win] | [下载][2.0-p6-mac] | [下载][2.0-p6-linux] | Win: 79405d5af063319b7d83b9f49ab7339599cf6006 <br/> Mac: 16a2882e7735b5bb5b640a64f2b02bb9f4688ad7 <br/> Linux: 66e143378ecc18769336fe4a77c1c803aea50b15 |  [查看][2.0-p6-sha1] |
 |  2.0 Preview5 | [下载][2.0-p5-win] | [下载][2.0-p5-mac] | [下载][2.0-p5-linux] | Win:33ad8732d64b177164627950fe083a7b9473385a <br/> Mac:6b29d32f9a0d2722166d3e4a685f916b2231a152 <br/> Linux:357af02b67e1278b3b2957d84725d0f58ad6e54e |  [查看][2.0-p5-sha1] |
 |  1.5.1 | [下载][1.5.1-win] | [下载][1.5.1-mac] | [下载][1.5.1-linux] | Win: 64882fb967f960f2142de239200104cdc9b4c75b <br/> Mac: 7ceb97e943836c11844e6f2dbedc9d374b3c2b19 <br/> Linux: b8460a2197abe26979d88e3b01b3c8bfd80a37db |  [查看][1.5.1-sha1] |
+
+[2.0-p8-win]:http://pan.baidu.com/s/1i4xY0Sl
+[2.0-p8-mac]:http://pan.baidu.com/s/1sk7R77v
+[2.0-p8-linux]:http://pan.baidu.com/s/1bjt8Lo
+
+[2.0-p8-sha1]:http://ww4.sinaimg.cn/large/8a41f469gw1f0fnhwrt2aj21i00t8k2d.jpg
 
 [2.0-p7-win]:http://pan.baidu.com/s/1RaPB4
 [2.0-p7-mac]:http://pan.baidu.com/s/1bodQcQ7
