@@ -58,6 +58,8 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |       SHA-1校验码     |       官方SHA-1校验码截图     |
 |:------:|:--------------:|:-----------------:|:------------------:|:------------------|:------------------:|
+|  2.0 Beta6 | [下载][2.0-beta6-win] | [下载][2.0-beta6-mac] | [下载][2.0-beta6-linux] | Win: 455fc9eb9ed071e4e12c94ad6918ce1c23c26ebb <br/> Mac: 2cf3f87ef0069c2cd008268750cdf90722bcf8ad <br/> Linux: f52a50286c10209b8a5d5f86464d850f761884aa |  [查看][2.0-beta6-sha1] |
+|  2.0 Beta5 | [下载][2.0-beta5-win] | [下载][2.0-beta5-mac] | [下载][2.0-beta5-linux] | Win: 5c2529de1d0b48ef67f286d54fcb2292726faa6e <br/> Mac: f3bf3bca5e02ccd9a7986d53543608401816ade3 <br/> Linux: f52a50286c10209b8a5d5f86464d850f761884aa |  [查看][2.0-beta5-sha1] |
 |  2.0 Beta4 | [下载][2.0-beta4-win] | [下载][2.0-beta4-mac] | [下载][2.0-beta4-linux] | Win: b6541e0d663913442b50db6e96d851e76184a0db <br/> Mac: 1337f0ed66b476ae92834672be7c5988bb4388dc<br/> Linux: 9dad1dd12b3520177c3940bc768c3918dcaa800b |  [查看][2.0-beta4-sha1] |
 |  2.0 Beta3 | [下载][2.0-beta3-win] | [下载][2.0-beta3-mac] | [下载][2.0-beta3-linux] | Win: 76c5881a06d28536d89853d2440313ad4faf353b <br/> Mac: 917728608b443f8d40215b9657e4096edf047c61 <br/> Linux: c38d8fb41c2ab00e4e79ca10a282aba947ab22db |  [查看][2.0-beta3-sha1] |
 |  2.0 Beta2 | [下载][2.0-beta2-win] | [下载][2.0-beta2-mac] | [下载][2.0-beta2-linux] | Win: fe6b5fef366817ba3bf486337bdcce6aa38aa8c3 <br/> Mac: e83c458d07eb00eb234e58e018da5561aead5f2d<br/> Linux: 1645ba163550e120191dc5603a9c47814a049669 |  [查看][2.0-beta2-sha1] |
@@ -69,19 +71,24 @@ AndroidDevTools
 |  2.0 Preview5 | [下载][2.0-p5-win] | [下载][2.0-p5-mac] | [下载][2.0-p5-linux] | Win:33ad8732d64b177164627950fe083a7b9473385a <br/> Mac:6b29d32f9a0d2722166d3e4a685f916b2231a152 <br/> Linux:357af02b67e1278b3b2957d84725d0f58ad6e54e |  [查看][2.0-p5-sha1] |
 |  1.5.1 | [下载][1.5.1-win] | [下载][1.5.1-mac] | [下载][1.5.1-linux] | Win: 64882fb967f960f2142de239200104cdc9b4c75b <br/> Mac: 7ceb97e943836c11844e6f2dbedc9d374b3c2b19 <br/> Linux: b8460a2197abe26979d88e3b01b3c8bfd80a37db |  [查看][1.5.1-sha1] |
 
-[2.0-beta-win]:http://pan.baidu.com/s/1eRqeQn4
-[2.0-beta-mac]:http://pan.baidu.com/s/1qWWNAJa
-[2.0-beta-linux]:http://pan.baidu.com/s/1qXfBjkg
 
-[2.0-beta-sha1]:http://ww2.sinaimg.cn/large/8a41f469gw1f12rktt0drj21fc0vwwpe.jpg
+[2.0-beta6-win]:http://pan.baidu.com/s/1sjUix6P
+[2.0-beta6-mac]:http://pan.baidu.com/s/1pKaseTX
+[2.0-beta6-linux]:http://pan.baidu.com/s/1o7dHRpK
 
+[2.0-beta6-sha1]:http://ww4.sinaimg.cn/large/8a41f469gw1f1ff3exsdxj21dm0v249c.jpg
 
+[2.0-beta5-win]:http://pan.baidu.com/s/1jH2Owv0
+[2.0-beta5-mac]:http://pan.baidu.com/s/1nu2cmpV
+[2.0-beta5-linux]:http://pan.baidu.com/s/1pK1YlDp
 
-[2.0-beta2-win]:http://pan.baidu.com/s/1bgJ0Ns
-[2.0-beta2-mac]:http://pan.baidu.com/s/1eQLCJce
-[2.0-beta2-linux]:http://pan.baidu.com/s/1jHoAJQ2
+[2.0-beta5-sha1]:http://ww3.sinaimg.cn/large/8a41f469gw1f12s7rdh3pj21f20uqwpp.jpg
 
-[2.0-beta2-sha1]:http://ww1.sinaimg.cn/large/8a41f469gw1f12rm80ab3j21fc0vwwpe.jpg
+[2.0-beta4-win]:http://pan.baidu.com/s/1mgWpSsK
+[2.0-beta4-mac]:http://pan.baidu.com/s/1pKvSi2R
+[2.0-beta4-linux]:http://pan.baidu.com/s/1gebjDEb
+
+[2.0-beta4-sha1]:http://ww4.sinaimg.cn/large/8a41f469gw1f12s7b2t3uj21ds0tkgwa.jpg
 
 [2.0-beta3-win]:http://pan.baidu.com/s/1jHm8U8m
 [2.0-beta3-mac]:http://pan.baidu.com/s/1qXrMtHE
@@ -89,12 +96,18 @@ AndroidDevTools
 
 [2.0-beta3-sha1]:http://ww4.sinaimg.cn/large/8a41f469gw1f12s6sz81cj21he0t849q.jpg
 
+[2.0-beta2-win]:http://pan.baidu.com/s/1bgJ0Ns
+[2.0-beta2-mac]:http://pan.baidu.com/s/1eQLCJce
+[2.0-beta2-linux]:http://pan.baidu.com/s/1jHoAJQ2
 
-[2.0-beta4-win]:http://pan.baidu.com/s/1mgWpSsK
-[2.0-beta4-mac]:http://pan.baidu.com/s/1pKvSi2R
-[2.0-beta4-linux]:http://pan.baidu.com/s/1gebjDEb
+[2.0-beta2-sha1]:http://ww1.sinaimg.cn/large/8a41f469gw1f12rm80ab3j21fc0vwwpe.jpg
 
-[2.0-beta4-sha1]:http://ww4.sinaimg.cn/large/8a41f469gw1f12s7b2t3uj21ds0tkgwa.jpg
+
+[2.0-beta-win]:http://pan.baidu.com/s/1eRqeQn4
+[2.0-beta-mac]:http://pan.baidu.com/s/1qWWNAJa
+[2.0-beta-linux]:http://pan.baidu.com/s/1qXfBjkg
+
+[2.0-beta-sha1]:http://ww2.sinaimg.cn/large/8a41f469gw1f12rktt0drj21fc0vwwpe.jpg
 
 [2.0-p9-win]:http://pan.baidu.com/s/1qXeOB9a
 [2.0-p9-mac]:http://pan.baidu.com/s/1ge11Lzt
