@@ -25,7 +25,7 @@ header h1 {
   text-rendering: auto;
 }
 header menu {
-  margin: 20px 0 0;
+  margin: 14px 0 0;
   padding: 0;
   height: 40px;
 }
@@ -280,6 +280,59 @@ footer p {
 #donate-method-wechat {
 	width: 370px;
 	height: 372px;
+}
+
+.home {
+  float: left;
+  margin-top: 0;  
+}
+.home a{
+	display: block;
+	padding-bottom: 0;
+}
+	    
+.home a .logo {
+	width: 223px;
+	height: 75px;
+	margin-top: 0;
+}
+
+.gay_friends_list {
+  margin-left: 6.5em;
+}
+
+.gay_friends_list ul li {
+  list-style: none;
+  float: left;
+  width: 25%;
+  text-align: center;
+  height: 25%;
+  margin-bottom: 5em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.gay_friends_list ul li a {
+  display: block;
+  width: 130px;
+  background-color: white;
+}
+
+.gay_friends_list ul li a:hover {
+  box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.gay_friends_list ul li img {
+  width: 130px;
+  height: 64px;
+  background-color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 
 /* Widescreen desktop. */
