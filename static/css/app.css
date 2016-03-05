@@ -625,12 +625,10 @@ footer p {
     height: 50%;
     margin-bottom: 1em;
   }
-
   .gay_friends_list ul li a {
-    margin-left: 7.5em;
+    margin-left: 32.5%;
     margin-bottom: 1em;
   }
-
   .gay_friends_list ul li img {
     width: 45%;
     height: 2em;
@@ -655,7 +653,7 @@ footer p {
   .published {
     margin-left: 10px;
   }
-    #donate-method-alipay {
+  #donate-method-alipay {
     width: 45%;
     height: 45%;
     margin-left: 27%;
@@ -684,5 +682,41 @@ footer p {
   }
   blockquote p {
     font-size: 14px;
+  }
+
+@media (max-width: 320px) {
+  body {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .gay_friends_list {
+    width: 100%;
+    margin-left: 0;
+  }
+  .gay_friends_list ul {
+    width: 100%;
+    height: 50%;
+    margin-left: 0;
+  }
+  .gay_friends_list ul li {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 1em;
+  }
+
+  .gay_friends_list ul li a {
+    width: 45%;
+    margin-left: 27.5%;
+    margin-bottom: 1em;
+  }
+
+  .gay_friends_list ul li a:hover {
+    width: 45%;
+  }
+  .gay_friends_list ul li img {
+    width: 45%;
+    height: 2em;
   }
 }
