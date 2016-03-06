@@ -773,12 +773,12 @@ footer p {
     margin-right: 0.5em;
   }
   table thead th{
-    font-size: 9px;
+    font-size: 8px;
     padding: 0;
   }
   table tbody td{
-    font-size: 7px;
-    padding: 2px;
+    font-size: 6px;
+    padding: 0px;
   }
   blockquote {
     padding: 0 10px;
