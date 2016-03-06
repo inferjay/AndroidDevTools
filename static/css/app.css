@@ -188,7 +188,7 @@ table {
   margin-bottom: 20px;
   text-align: center;
  }
- 
+
 section th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
@@ -200,7 +200,7 @@ section td {
   padding: 10px;
   border: 1px solid #b1b1b1;
  }
- 
+
 #nav-title {
 	font-weight: 400;
   font-size: 32px;
@@ -278,24 +278,26 @@ footer p {
 #ts-search-input-li {
 	margin-top: 7px;
 }
-
-#donate-method-alipay {
-	width: 370px;
-	height: 372px;
+.donate-method-title {
+  text-align: center;
+  padding: 0;
 }
-
-#donate-method-wechat {
-	width: 370px;
-	height: 372px;
+.donate-method-qr {
+  width: 50%;
+  display: block;
+  float: left;
 }
-
+.donate-method-qr-img {
+  width: 370px;
+  height: 372px;
+  margin-left: 7.3em;
+}
 .content-title {
   text-align: center;
   width: 100%;
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
-
 .home {
   float: left;
   margin-top: 0;
@@ -307,8 +309,8 @@ footer p {
 
 .home a .logo {
 	width: 223px;
-	height: 75px;
-	margin-top: 0;
+	height: 86px;
+	margin-top: -8px;
 }
 
 .clearfix {
@@ -330,18 +332,17 @@ footer p {
   text-align: center;
   height: 25%;
   margin-bottom: 5em;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
 }
 
 .gay_friends_list ul li a {
   display: block;
   width: 130px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   // background-color: white;
 }
-
-.gay_friends_list ul li a:hover {
+.gay_friends_list ul li img:hover {
   -moz-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
   -webkit-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
   box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
@@ -349,7 +350,6 @@ footer p {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-
 .gay_friends_list ul li img {
   width: 130px;
   height: 64px;
@@ -358,16 +358,37 @@ footer p {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+#license strong {
+  font-size: 1em;
+}
+#donate-title {
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+#donate-table {
+  margin-left: 7.3em;
+}
+#duoshuo-comment {
+  margin-left: 0em;
+}
 
 /* Widescreen desktop. */
 @media (min-width: 1200px) {
   .content-nav {
     width: 270px;
   }
+  .row {
+    margin-left: 0;
+    *zoom: 1
+  }
 }
 
 /* Smaller width browser, tablets. */
 @media (max-width: 979px) {
+  html, body {
+    font-size: 14px;
+  }
   body {
     height: auto;
     padding-left: 0px;
@@ -380,17 +401,22 @@ footer p {
   .content-nav {
     width: 166px;
   }
+  .span1 {
+    display: none;
+  }
   .span9 {
     width: 100%;
     margin-left: 0;
   }
+  .row {
+    margin-left: 0;
+  }
   header menu {
     margin-top: 0;
-    margin-left: 4.8em;
+    padding-right: 7%;
   }
-  header menu ul {
-    width: 100%;
-    height: 45px;
+  menu .nav navbar-nav {
+    margin-right: 3%;
   }
   header menu li a {
     height: 30px;
@@ -413,120 +439,22 @@ footer p {
     height: 25px;
     margin-bottom: 4px;
   }
-  .home {
-    float: none;
-    width: 100%;
-  }
-  .home a .logo {
-    width: 100%;
-    height: 60px;
-    margin-top: 0;
-  }
-  .gay_friends_list {
-      margin-left: 0em;
-  }
-  .gay_friends_list ul {
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
-  }
-  .gay_friends_list ul li {
-    width: 50%;
-    height: 50%;
-    margin-bottom: 7.445em;
-  }
-  .gay_friends_list ul li a {
-    margin-left: 7.5em;
-    margin-bottom: 1em;
-  }
-  .gay_friends_list ul li img {
-    width: 90%;
-    height: 90%;
-  }
-  .inner {
-    height: 40px;
-    padding: 10px 10px;
-  }
-  footer p {
-    font-size: 12px;
-    float: left;
-    padding: 10px 10px;
-    margin-bottom: 0;
-  }
-  footer p a {
-    font-size: 12px;
-  }
-  .copyright {
-    margin-left: 10em;
+  .nav navbar-nav {
     margin-right: 0;
   }
-  .published {
-    margin-left: 20px;
-  }
-  #donate-method-alipay {
-    width: 85%;
-    height: 85%;
-    margin-left: 1em;
-  }
-  #donate-method-wechat {
-    width: 85%;
-    height: 85%;
-    margin-left: 1em;
-  }
-  #donate-title {
-    text-align: center;
-  }
-  #donate-list table thead th{
-    font-size: 14px;
-    padding: 4px;
-  }
-  #donate-list table tbody td{
-    font-size: 10px;
-    padding: 4px;
-  }
-}
-
-/* One-column mobile display. */
-@media (max-width: 767px) {
-  body {
-    height: auto;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  h1 {
-    font-size: 22px;
-  }
-
-  header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding-left: 20px;
-  }
-  header menu {
-    display: none;
-  }
-  #subtitle {
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    padding-left: 20px;
-  }
-  .content-nav {
-    display: none;
+  .content-title {
+    margin-top: 3em;
+    margin-bottom: 1.2em;
   }
   .home {
     float: none;
+    width: 100%;
   }
   .home a .logo {
     width: 100%;
-    height: 75px;
+    height: 80px;
     margin-top: 0;
   }
-
   .gay_friends_list {
       margin-left: 0em;
   }
@@ -541,12 +469,12 @@ footer p {
     margin-bottom: 5em;
   }
   .gay_friends_list ul li a {
-    margin-left: 5.5em;
+    margin-left: 7.5em;
     margin-bottom: 1em;
   }
   .gay_friends_list ul li img {
-    width: 75%;
-    height: 75%;
+    width: 92%;
+    height: 97%;
   }
   .inner {
     height: 40px;
@@ -568,38 +496,300 @@ footer p {
   .published {
     margin-left: 20px;
   }
-  #donate-method-alipay {
-    width: 85%;
-    height: 85%;
-    margin-left: 2em;
+  .donate-method-qr {
+    width: 50%;
+    height: 50%;
   }
-  #donate-method-wechat {
-    width: 85%;
-    height: 85%;
-    margin-left: 2em;
+  .donate-method-qr-img {
+    width: 250px;
+    height: 250px;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  #license strong {
+    font-size: 1em;
   }
   #donate-title {
     text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
   }
-  #donate-list table thead th{
-    font-size: 18px;
-    padding: 6px;
+  #donate-table {
+    margin-left: 1em;
+    margin-right: 1em;
   }
-  #donate-list table tbody td{
-    font-size: 14px;
-    padding: 6px;
+  #duoshuo-comment {
+    margin-left: 0em;
   }
 }
 
-@media (max-width: 550px) {
+/* One-column mobile display. */
+@media (max-width: 767px) {
+  html, body {
+    font-size: 14px;
+  }
   body {
     height: auto;
     padding-left: 0px;
     padding-right: 0px;
   }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 0 0 0 15px;
+    padding: 0;
+  }
+  h2 strong {
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 14px;
+    padding: 0 0 0 15px
+  }
+  h5 {
+    font-size: 12px;
+    padding-left: 8px;
+    padding-top: 12px;
+  }
+  h6 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  p code {
+    font-size: 12px;
+  }
+  ol {
+    font-size: 10px;
+    margin: 0 25px 6px 25px;
+    padding: 0 16px 0 16px;
+  }
+  ol li p {
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
+  ol ul {
+    margin-left: 18px;
+  }
+  ol ul li {
+    font-size: 8px;
+  }
+  table{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  table thead th{
+    font-size: 12px;
+    padding: 0;
+  }
+  table tbody td{
+    font-size: 8px;
+    padding: 4px;
+  }
+  blockquote {
+    padding: 0 12px;
+  }
+  blockquote p {
+    font-size: 12px;
+  }
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 0;
+  }
+  header menu {
+    display: none;
+  }
+  #subtitle {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .content-nav {
+    display: none;
+  }
+  .content-title {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  .home {
+    float: none;
+  }
+  .home a .logo {
+    width: 100%;
+    height: 75px;
+    margin-top: 0;
+  }
+  .gay_friends_list {
+      margin-left: 0em;
+  }
+  .gay_friends_list ul {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+  .gay_friends_list ul li {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 5em;
+  }
+  .gay_friends_list ul li a {
+    margin-left: 7em;
+    margin-bottom: 1em;
+    width: 100px;
+    height: 54px;
+  }
+  .gay_friends_list ul li img {
+    width: 100px;
+    height: 54px;
+  }
+  .inner {
+    height: 40px;
+    padding: 10px 10px;
+  }
+  footer p {
+    font-size: 12px;
+    float: left;
+    padding: 10px 10px;
+    margin-bottom: 0;
+  }
+  footer p a {
+    font-size: 12px;
+  }
+  .copyright {
+    margin-left: 10em;
+    margin-right: 0;
+  }
+  .published {
+    margin-left: 20px;
+  }
+  .donate-method-qr {
+    width: 50%;
+    height: 50%;
+  }
+  .donate-method-qr-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 5.4em;
+  }
+  #donate-title {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  #donate-table {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  #duoshuo-comment {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  #license strong {
+    font-size: 12px;
+    margin-left: 12px;
+  }
+  #jiathis-share-bar {
+    margin-left: 12px;
+  }
+}
 
+@media (max-width: 550px) {
+  html, body {
+    font-size: 12px;
+  }
+  body {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  header {
+    padding: 0;
+  }
   h1 {
     font-size: 18px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 14px;
+    margin: 0 0 0 10px;
+    padding: 0;
+  }
+  h2 strong {
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 10px;
+    padding: 0 0 0 10px
+  }
+  h5 {
+    font-size: 8px;
+    padding-left: 8px;
+    padding-top: 12px;
+  }
+  h6 {
+    font-size: 6px;
+  }
+  p {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  p code {
+    font-size: 8px;
+  }
+  ol {
+    font-size: 8px;
+    margin: 0 20px 6px 20px;
+    padding: 0 12px 0 12px;
+  }
+  ol li p {
+    margin-left: 4px;
+    margin-bottom: 4px;
+  }
+  ol ul {
+    margin-left: 14px;
+  }
+  ol ul li {
+    font-size: 6px;
+  }
+  table{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  table thead th{
+    font-size: 9px;
+    padding: 0;
+  }
+  table tbody td{
+    font-size: 7px;
+    padding: 2px;
+  }
+  blockquote {
+    padding: 0 10px;
+  }
+  blockquote p {
+    font-size: 14px;
+  }
+  .content-title {
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
   .home {
     width: 100%;
@@ -610,7 +800,6 @@ footer p {
     width: 100%;
     height: 80px;
   }
-
   .gay_friends_list {
     width: 100%;
     margin-left: 0;
@@ -621,17 +810,18 @@ footer p {
     margin-left: 0;
   }
   .gay_friends_list ul li {
-    width: 100%;
-    height: 50%;
-    margin-bottom: 1em;
+    width: 50%;
+    margin-bottom: 2em;
   }
   .gay_friends_list ul li a {
-    margin-left: 32.5%;
-    margin-bottom: 1em;
+    width: 64px;
+    height: 36px;
+    margin-left: 5em;
+    margin-bottom: 1.5em;
   }
   .gay_friends_list ul li img {
-    width: 45%;
-    height: 2em;
+    width: 64px;
+    height: 36px;
   }
   .inner {
     height: 30px;
@@ -647,50 +837,110 @@ footer p {
     font-size: 8px;
   }
   .copyright {
-    margin-left: 8em;
+    margin-left: 8.4em;
     margin-right: 0;
   }
   .published {
     margin-left: 10px;
   }
-  #donate-method-alipay {
-    width: 45%;
-    height: 45%;
-    margin-left: 27%;
-  }
-  #donate-method-wechat {
-    width: 45%;
-    height: 45%;
-    margin-left: 27%;
+  .donate-method-qr-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 2.5em;
   }
   #donate-title {
     text-align: center;
   }
-  table{
-    margin-left: 0.002em;
+  #donate-table {
+    margin-left: 1em;
+    margin-right: 1em;
   }
-  table thead th{
-    font-size: 9px;
-    padding: 4px;
+  #duoshuo-comment {
+    margin-left: 1em;
+    margin-right: 1em;
   }
-  table tbody td{
-    font-size: 7px;
-    padding: 4px;
+  #license strong {
+    font-size: 8px;
+    margin-left: 10px;
   }
-  blockquote {
-    padding: 0 10px;
+  #jiathis-share-bar {
+    margin-left: 1em;
   }
-  blockquote p {
-    font-size: 14px;
-  }
+}
 
 @media (max-width: 320px) {
   body {
     height: auto;
     padding-left: 0px;
     padding-right: 0px;
+    line-height: 10px;
   }
-
+  h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  h2 strong {
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  h4 {
+    font-size: 8px;
+    padding-left: 8px
+  }
+  h5 {
+    font-size: 7px;
+    padding-left: 8px;
+    padding-top: 12px;
+  }
+  h6 {
+    font-size: 6px;
+  }
+  p {
+    font-size: 6px;
+    margin-left: 10px;
+  }
+  p code {
+    font-size: 6px;
+  }
+  ol {
+    font-size: 6px;
+    margin: 0 15px 4px 15px;
+    padding: 0 10px 0 10px;
+  }
+  ol li p {
+    margin-left: 2px;
+    margin-bottom: 2px;
+  }
+  ol ul {
+    margin-left: 12px;
+  }
+  ol ul li {
+    font-size: 4px;
+  }
+  table{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-weight: 100;
+  }
+  table thead th{
+    font-size: 6px;
+    padding: 0;
+  }
+  table tbody td{
+    font-size: 6px;
+    padding: 0;
+  }
+  blockquote {
+    padding: 0 6px;
+  }
+  blockquote p {
+    font-size: 6px;
+  }
   .gay_friends_list {
     width: 100%;
     margin-left: 0;
@@ -701,22 +951,66 @@ footer p {
     margin-left: 0;
   }
   .gay_friends_list ul li {
-    width: 100%;
+    width: 50%;
     height: 50%;
     margin-bottom: 1em;
   }
-
   .gay_friends_list ul li a {
-    width: 45%;
-    margin-left: 27.5%;
+    width: 60px;
+    height: 32px;
+    margin-left: 27.4%;
     margin-bottom: 1em;
   }
 
-  .gay_friends_list ul li a:hover {
-    width: 45%;
-  }
   .gay_friends_list ul li img {
-    width: 45%;
-    height: 2em;
+    width: 60px;
+    height: 32px;
+  }
+  .inner {
+    height: 30px;
+    padding: 5px 5px;
+  }
+  footer p {
+    font-size: 8px;
+    float: left;
+    padding: 5px 5px;
+    margin-bottom: 0;
+  }
+  footer p a {
+    font-size: 8px;
+  }
+  .copyright {
+    margin-top: 5px;
+    margin-left: 6em;
+    margin-right: 0;
+  }
+  .published {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .donate-method-qr-img {
+    width: 36%;
+    height: 36%;
+    margin-left: 32%;
+  }
+  #donate-title {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  #donate-table {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+  }
+  #duoshuo-comment {
+    margin-left: 0.8em;
+    margin-right: 0.8em
+  }
+  #license strong {
+    font-size: 6px;
+    margin-left: 10px;
+  }
+  #jiathis-share-bar {
+    margin-left: 1em;
   }
 }
