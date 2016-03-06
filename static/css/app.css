@@ -504,7 +504,6 @@ footer p {
     width: 250px;
     height: 250px;
     margin-left: 4em;
-    margin-right: 4em;
   }
   #license strong {
     font-size: 1em;
@@ -844,9 +843,9 @@ footer p {
     margin-left: 10px;
   }
   .donate-method-qr-img {
-    width: 150px;
-    height: 150px;
-    margin-left: 2.5em;
+    width: 130px;
+    height: 130px;
+    margin-left: 15%;
   }
   #donate-title {
     text-align: center;
