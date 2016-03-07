@@ -865,6 +865,9 @@ footer p {
   #jiathis-share-bar {
     margin-left: 1em;
   }
+  #ad_right_float {
+    display: none;
+  }
 }
 
 @media (max-width: 320px) {
@@ -1011,5 +1014,8 @@ footer p {
   }
   #jiathis-share-bar {
     margin-left: 1em;
+  }
+  #ad_right_float {
+    display: none;
   }
 }

@@ -12,7 +12,6 @@
     <link href="static/css/app-theme.css" rel="stylesheet">
     <link href="static/css/google-roboto-font-face.css" rel="stylesheet" type="text/css">
     <link href="static/css/backtotop.css" rel="stylesheet" type="text/css">
-    <!-- <link href="static/css/ad.css" rel="stylesheet" type="text/css"> -->
     <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]-->
     <link rel="shortcut icon" href="static/image/favicon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="static/image/apple-touch-icon-72x72.png">
@@ -153,6 +152,11 @@
                 </div>
             </div>
     </header>
+    <div id="ad_right_float" style="z-index: 10; right: 0px; position: absolute; top: 340px;">
+		<a href="http://j.jikexueyuan.com/train/android?hmsr=andtool_jiuye_banner_android_03.07">
+			<img src='http://ww3.sinaimg.cn/large/8a41f469gw1f1oi91uju3j204605k74k.jpg' border="0"/>
+		</a>
+	</div>
     <section id="body">
         <div id="body-container" class="container">
             <div class="row">
@@ -4263,6 +4267,27 @@
             <p class="published">Published with <a href="http://pages.github.com" target="_blank">GitHub Pages</a></p>
         </footer>
     </div>
+    <!--   浮动广告 	 -->
+   	<script>
+		var lastScrollY=0;
+		function heartBeat(){
+			var diffY = 0;
+			if(window.pageYOffset){//这一条滤去了大部分， 只留了IE678
+				diffY = window.pageYOffset;
+			}else if(document.documentElement.scrollTop){//IE678 的非quirk模式
+				diffY = document.documentElement.scrollTop;
+			}else if(document.body.scrolltop){//IE678 的quirk模式
+				diffY = document.body.scrolltop;
+			}
+			var percent=.1*(diffY-lastScrollY);
+			if(percent>0)
+				percent=Math.ceil(percent);
+			else percent=Math.floor(percent);
+				document.all.ad_right_float.style.pixelTop+=percent;
+				lastScrollY=lastScrollY+percent;
+		}
+		window.setInterval("heartBeat()",1);
+	</script>
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
     var duoshuoQuery = {
