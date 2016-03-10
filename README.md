@@ -58,6 +58,7 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |       SHA-1校验码     |       官方SHA-1校验码截图     |
 |:------:|:--------------:|:-----------------:|:------------------:|:------------------|:------------------:|
+|  2.1 Preview1 | [下载][2.1-p1-win] | [下载][2.1-p1-mac] | [下载][2.1-p1-linux] | Win: 6c1e0e2e97b29de75987450051ce0d57bb6c8b63 <br/> Mac: 6f72df2f56b31d5ef27a482b0d198039715bcedf <br/> Linux: 7b7f936ff7eb6ef4c2446fc3406ccd09ccf2737a |  [查看][2.1-p1-sha1] |
 |  2.0 Beta6 | [下载][2.0-beta6-win] | [下载][2.0-beta6-mac] | [下载][2.0-beta6-linux] | Win: 455fc9eb9ed071e4e12c94ad6918ce1c23c26ebb <br/> Mac: 2cf3f87ef0069c2cd008268750cdf90722bcf8ad <br/> Linux: f52a50286c10209b8a5d5f86464d850f761884aa |  [查看][2.0-beta6-sha1] |
 |  2.0 Beta5 | [下载][2.0-beta5-win] | [下载][2.0-beta5-mac] | [下载][2.0-beta5-linux] | Win: 5c2529de1d0b48ef67f286d54fcb2292726faa6e <br/> Mac: f3bf3bca5e02ccd9a7986d53543608401816ade3 <br/> Linux: f52a50286c10209b8a5d5f86464d850f761884aa |  [查看][2.0-beta5-sha1] |
 |  2.0 Beta4 | [下载][2.0-beta4-win] | [下载][2.0-beta4-mac] | [下载][2.0-beta4-linux] | Win: b6541e0d663913442b50db6e96d851e76184a0db <br/> Mac: 1337f0ed66b476ae92834672be7c5988bb4388dc<br/> Linux: 9dad1dd12b3520177c3940bc768c3918dcaa800b |  [查看][2.0-beta4-sha1] |
@@ -71,6 +72,11 @@ AndroidDevTools
 |  2.0 Preview5 | [下载][2.0-p5-win] | [下载][2.0-p5-mac] | [下载][2.0-p5-linux] | Win:33ad8732d64b177164627950fe083a7b9473385a <br/> Mac:6b29d32f9a0d2722166d3e4a685f916b2231a152 <br/> Linux:357af02b67e1278b3b2957d84725d0f58ad6e54e |  [查看][2.0-p5-sha1] |
 |  1.5.1 | [下载][1.5.1-win] | [下载][1.5.1-mac] | [下载][1.5.1-linux] | Win: 64882fb967f960f2142de239200104cdc9b4c75b <br/> Mac: 7ceb97e943836c11844e6f2dbedc9d374b3c2b19 <br/> Linux: b8460a2197abe26979d88e3b01b3c8bfd80a37db |  [查看][1.5.1-sha1] |
 
+[2.1-p1-win]:http://pan.baidu.com/s/1i3NHmPf
+[2.1-p1-mac]:http://pan.baidu.com/s/1i3NHmNb
+[2.1-p1-linux]:http://pan.baidu.com/s/1c1eMw7Y
+
+[2.1-p1-sha1]:http://ww4.sinaimg.cn/large/8a41f469gw1f1s3pp395yj21jq0uygx8.jpg
 
 [2.0-beta6-win]:http://pan.baidu.com/s/1sjUix6P
 [2.0-beta6-mac]:http://pan.baidu.com/s/1pKaseTX
@@ -631,6 +637,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号  |
 |:----------|
+| [gradle-2.11-all.zip](http://pan.baidu.com/s/1gewXkzx) |
 | [gradle-2.10-all.zip](http://pan.baidu.com/s/1mhrKIF2) |
 | [gradle-2.9-all.zip](http://pan.baidu.com/s/1eRll1Ns) |
 | [gradle-2.8-all.zip](http://pan.baidu.com/s/1qW25Ndy) |
@@ -710,6 +717,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Android逆向助手 					|Android逆向助手是一功能强大的逆向辅助软件。<br/>该软件可以帮助用户来进行apk反编译打包签名；<br/>dex/jar互转替换提取修复；so反编译；<br/>xml、txt加密；字符串编码等等，操作简单<br/>，只需要直接将文件拖放到源和目标文件。 | [下载][Android逆向助手]               |            [使用指南][Android逆向助手-guide]    |
 | Android Killer 			|Android Killer 是一款可视化的安卓应用逆向工具，<br/>集Apk反编译、Apk打包、Apk签名，编码互转，<br/>ADB通信（应用安装-卸载-运行-设备文件管理）<br/>等特色功能于一 身，支持logcat日志输出，<br/>语法高亮，基于关键字（支持单行代码或多行代码段）<br/>项目内搜索，可自定义外部工具；吸收融汇多种工具功能与特点，<br/>打造一站 式逆向工具操作体验，大大简化了用户在<br/>安卓应用/游戏修改过程中的各类繁琐工作。| [下载1][Android-Killer-pd521]<br/>[下载2][Android-Killer-baidu]|[使用指南][Android-Killer-guide]    |
 | DexExtractor |android dex extractor ，anti-shell，android 脱壳。| [下载][DexExtractor]                |               |
+| jadx |Dex to Java decompiler| [下载][jadx]                |               |
+| android-classyshark | a handy Android and Java executables viewer | [下载][android-classyshark]                |               |
 
 [JEB]:http://www.android-decompiler.com/index.php
 [Virtuous Ten Studio]:http://virtuous-ten-studio.com
@@ -733,7 +742,8 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [Android-Killer-baidu]:http://pan.baidu.com/share/home?uk=4099707276#category/type=6
 [Enjarify]:https://github.com/google/enjarify
 [DexExtractor]:https://github.com/bunnyblue/DexExtractor
-
+[jadx]:https://github.com/skylot/jadx
+[android-classyshark]:https://github.com/google/android-classyshark
 
 [SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
 [Android逆向助手-guide]:http://www.sanwho.com/620.html
@@ -1221,11 +1231,11 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 地址: [Android Developers 国内镜像站](http://androiddoc.qiniudn.com/)
 
 #### Android Api中文版
-地址：[http://wikidroid.sinaapp.com/Android中文API](http://wikidroid.sinaapp.com/Android中文API))
+地址：[http://www.embeddedlinux.org.cn/androidapi/](http://www.embeddedlinux.org.cn/androidapi/)
 
 ####Android API指南中文版
 
-地址：[http://wiki.eoeandroid.com/Android_API_Guides](http://wiki.eoeandroid.com/Android_API_Guides)
+地址：[http://api.apkbus.com/guide](http://api.apkbus.com/guide)
 
 #### Android Proguard混淆配置指南
 
