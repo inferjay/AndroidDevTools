@@ -4284,6 +4284,7 @@
     <!--   浮动广告 	 -->
    	<script>
 		var lastScrollY=0;
+		var initTop = 340;
 		function heartBeat(){
 			var diffY = 0;
 			if (window.pageYOffset) {//这一条滤去了大部分， 只留了IE678
@@ -4302,7 +4303,7 @@
 			if (document.all.ad_right_float.style.pixelTop) {
 				document.all.ad_right_float.style.pixelTop += percent;
 			} else {
-				var top = String(lastScrollY + 350) + "px";
+				var top = String(lastScrollY + initTop) + "px";
 				document.all.ad_right_float.style.top = top;
 			}
 			lastScrollY = lastScrollY + percent;
