@@ -4286,19 +4286,26 @@
 		var lastScrollY=0;
 		function heartBeat(){
 			var diffY = 0;
-			if(window.pageYOffset){//这一条滤去了大部分， 只留了IE678
+			if (window.pageYOffset) {//这一条滤去了大部分， 只留了IE678
 				diffY = window.pageYOffset;
-			}else if(document.documentElement.scrollTop){//IE678 的非quirk模式
+			} else if(document.documentElement.scrollTop) {//IE678 的非quirk模式
 				diffY = document.documentElement.scrollTop;
-			}else if(document.body.scrolltop){//IE678 的quirk模式
+			} else if(document.body.scrolltop) {//IE678 的quirk模式
 				diffY = document.body.scrolltop;
 			}
-			var percent=.1*(diffY-lastScrollY);
-			if(percent>0)
-				percent=Math.ceil(percent);
-			else percent=Math.floor(percent);
-				document.all.ad_right_float.style.pixelTop+=percent;
-				lastScrollY=lastScrollY+percent;
+			var percent = .1 * ( diffY - lastScrollY);
+			if(percent > 0) {
+				percent = Math.ceil(percent);
+			} else {
+				percent= Math.floor(percent);
+			}
+			if (document.all.ad_right_float.style.pixelTop) {
+				document.all.ad_right_float.style.pixelTop += percent;
+			} else {
+				var top = String(lastScrollY + 350) + "px";
+				document.all.ad_right_float.style.top = top;
+			}
+			lastScrollY = lastScrollY + percent;
 		}
 		window.setInterval("heartBeat()",1);
 	</script>
