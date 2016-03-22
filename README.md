@@ -548,8 +548,9 @@ AndroidDevTools
 ####NDK
 C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请戳 [这里](install-method-url)
 
-| 版本号 	  | Windows              |          Mac OSX        |          Linux         |       SHA-1校验码     |       官方SHA-1校验码截图     |
+| 版本号 	  | Windows              |          Mac OSX        |          Linux         |       MD5/SHA-1校验码     |       官方SHA-1校验码截图     |
 |:----------|:-------------:|:------:|:----------:|:------|:----------:|
+| ndk-r11b | [32位][r11b-win-32] [64位][r11b-win-64] | [64位][r11b-mac-64] | [64位][r11b-linux-64]  | Win:b42da395440cc1c5dc4eeeb383679331addeb3ea <br/> 480eca1b29cfe73a5b35374730e6a82ca65c2aa6 <br/> Mac: c64fb355fec4da57d329ab45bf0aa29a1aec58dc <br/> Linux: cf0658956945c81d3d3fad5f9a24fa062d4c9d41  | [查看][ndk-r11b-sha1] |
 | ndk-r10e | [32位][r10e-win-32] [64位][r10e-win-64] | [64位][r10e-mac-64] | [32位][r10e-linux-32] [64位][r10e-linux-64]  | Win: 1a82445baaf62aec3a46386ab1e5772c <br/>  8412bb4991a95e08fda50b5a44d95df7 <br/> Mac: 2cb8893a5701603519d38a7e04c50e81 <br/> Linux: c3edd3273029da1cbd2f62c48249e978 <br/> 19af543b068bdb7f27787c2bc69aba7f | [查看][ndk-r10e-sha1] |
 
 
@@ -557,6 +558,16 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 |:----------|:-------------|
 | r10 STL debug info | [android-ndk-r10-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1xWgUE) | 
 | r9 STL debug info | [android-ndk-r9-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1c0EMn8O) |
+
+
+[r11b-win-32]:http://pan.baidu.com/s/1JWvUI
+[r11b-win-64]:http://pan.baidu.com/s/1pKlqcZL
+
+[r11b-mac-64]:http://pan.baidu.com/s/1pKi8yJT
+
+[r11b-linux-64]:http://pan.baidu.com/s/1c0YLv00
+
+[ndk-r11b-sha1]:http://ww2.sinaimg.cn/large/8a41f469gw1f25wwym8t6j21kw0rxwja.jpg
 
 
 [r10e-win-32]:http://pan.baidu.com/s/1jG7Yacm
