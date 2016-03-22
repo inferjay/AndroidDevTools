@@ -597,21 +597,21 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 
 | 版本号| Windows | Mac OSX  | Linux |
 |:----------:|:-------------:|:------:|:----------:|
-|  1.8 u5  | [32位][1.8u5-win-32] [64位][1.8u5-win-64] | [64位][1.8u5-mac-64] | [32位][1.8u5-linux-32] [64位][1.8u5-linux-64] |
-|  1.7 u60 | [32位][1.7-win-32] [64位][1.7-win-64] | [64位][1.7-mac-64] | [32位][1.7-linux-32] [64位][1.7-linux-64] |
+|  1.8 u74  | [32位][1.8u74-win-32] [64位][1.8u74-win-64] | [64位][1.8u74-mac-64] | [32位][1.8u74-linux-32] [64位][1.8u74-linux-64] |
+|  1.7 u80 | [32位][1.7-win-32] [64位][1.7-win-64] | [64位][1.7-mac-64] | [32位][1.7-linux-32] [64位][1.7-linux-64] |
 |  1.6 u45 | [32位][1.6-win-32] [64位][1.6-win-64] | [64位][1.6-mac-64] | [32位][1.6-linux-32] [64位][1.6-linux-64] |
 
-[1.8u5-win-32]:http://pan.baidu.com/s/1bn2CVIB
-[1.8u5-win-64]:http://pan.baidu.com/s/1eQtJyGq
-[1.8u5-mac-64]:http://pan.baidu.com/s/1pJkD78R
-[1.8u5-linux-32]:http://pan.baidu.com/s/1o64s0pc
-[1.8u5-linux-64]:http://pan.baidu.com/s/1jG3KBjg
+[1.8u74-win-32]:http://pan.baidu.com/s/1c1w1TCk
+[1.8u74-win-64]:http://pan.baidu.com/s/1nu3BdVj
+[1.8u74-mac-64]:http://pan.baidu.com/s/1c0Tv5Pe
+[1.8u74-linux-32]:http://pan.baidu.com/s/1gecIYxP
+[1.8u74-linux-64]:http://pan.baidu.com/s/1hrtBXkg
 
-[1.7-win-32]:http://pan.baidu.com/s/1nt5a3jj
-[1.7-win-64]:http://pan.baidu.com/s/1o61AAHc
-[1.7-mac-64]:http://pan.baidu.com/s/1nt0qGfn
-[1.7-linux-32]:http://pan.baidu.com/s/1eQd4wVK
-[1.7-linux-64]:http://pan.baidu.com/s/1jGzGQLw
+[1.7-win-32]:http://pan.baidu.com/s/1bfAT58
+[1.7-win-64]:http://pan.baidu.com/s/1gewvEAR
+[1.7-mac-64]:http://pan.baidu.com/s/1hrl4x3u
+[1.7-linux-32]:http://pan.baidu.com/s/1c1pG2Fu
+[1.7-linux-64]:http://pan.baidu.com/s/1hrecZ9U
 
 [1.6-win-32]:http://pan.baidu.com/s/1o67aooM
 [1.6-win-64]:http://pan.baidu.com/s/1dDmtSZJ
