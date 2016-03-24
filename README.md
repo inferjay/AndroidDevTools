@@ -74,9 +74,9 @@ AndroidDevTools
 |  2.0 Preview5 | [下载][2.0-p5-win] | [下载][2.0-p5-mac] | [下载][2.0-p5-linux] | Win:33ad8732d64b177164627950fe083a7b9473385a <br/> Mac:6b29d32f9a0d2722166d3e4a685f916b2231a152 <br/> Linux:357af02b67e1278b3b2957d84725d0f58ad6e54e |  [查看][2.0-p5-sha1] |
 |  1.5.1 | [下载][1.5.1-win] | [下载][1.5.1-mac] | [下载][1.5.1-linux] | Win: 64882fb967f960f2142de239200104cdc9b4c75b <br/> Mac: 7ceb97e943836c11844e6f2dbedc9d374b3c2b19 <br/> Linux: b8460a2197abe26979d88e3b01b3c8bfd80a37db |  [查看][1.5.1-sha1] |
 
-[2.1-p3-win]:http://pan.baidu.com/s/1bfAQgm
+[2.1-p3-win]:http://pan.baidu.com/s/1kTRf8G3
 [2.1-p3-mac]:http://pan.baidu.com/s/1skdKxQX
-[2.1-p3-linux]:http://pan.baidu.com/s/1kTRf8G3
+[2.1-p3-linux]:http://pan.baidu.com/s/1bfAQgm
 
 [2.1-p3-sha1]:http://ww4.sinaimg.cn/large/8a41f469jw1f25w78f9hgj21fm0tgqe3.jpg
 
@@ -86,9 +86,9 @@ AndroidDevTools
 
 [2.1-p1-sha1]:http://ww4.sinaimg.cn/large/8a41f469gw1f1s3pp395yj21jq0uygx8.jpg
 
-[2.0-beta7-win]:http://pan.baidu.com/s/1eRbyTs2
+[2.0-beta7-win]:http://pan.baidu.com/s/1kUjwt4j
 [2.0-beta7-mac]:http://pan.baidu.com/s/1qWZIM1A
-[2.0-beta7-linux]:http://pan.baidu.com/s/1kUjwt4j
+[2.0-beta7-linux]:http://pan.baidu.com/s/1eRbyTs2
 
 [2.0-beta7-sha1]:http://ww4.sinaimg.cn/large/8a41f469jw1f25w8rbsquj21dw0uk7f4.jpg
 
