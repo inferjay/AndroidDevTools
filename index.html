@@ -4447,35 +4447,35 @@
 	</script>
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
-    var duoshuoQuery = {
-        short_name: "androiddevtools"
-    };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';
-        ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
+        var duoshuoQuery = {
+            short_name: "androiddevtools"
+        };
+        (function() {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';
+            ds.async = true;
+            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
     </script>
     <!-- 多说公共JS代码 end -->
     <script type="text/javascript">
-    var jiathis_config = {
-        data_track_clickback: true,
-        siteNum: 12,
-        sm: "tsina,weixin,qzone,twitter,googleplus,fb,evernote,pocket,instapaper,reddit,qq,tumblr",
-        url: "http://www.androiddevtools.cn",
-        summary: "",
-        title: "无需翻墙下载最新版Android开发工具 ADT Bundle Android Studio SDK Tools #Android开发工具#",
-        boldNum: 6,
-        pic: "http://ww1.sinaimg.cn/mw690/005GSHYzgw1el9z7zgqbtj31kw0yc45g.jpg",
-        ralateuid: {
-            "tsina": "androiddevtools"
-        },
-        shortUrl: false,
-        hideMore: true
-    }
+        var jiathis_config = {
+            data_track_clickback: true,
+            siteNum: 12,
+            sm: "tsina,weixin,qzone,twitter,googleplus,fb,evernote,pocket,instapaper,reddit,qq,tumblr",
+            url: "http://www.androiddevtools.cn",
+            summary: "",
+            title: "无需翻墙下载最新版Android开发工具 ADT Bundle Android Studio SDK Tools #Android开发工具#",
+            boldNum: 6,
+            pic: "http://ww1.sinaimg.cn/mw690/005GSHYzgw1el9z7zgqbtj31kw0yc45g.jpg",
+            ralateuid: {
+                "tsina": "androiddevtools"
+            },
+            shortUrl: false,
+            hideMore: true
+        }
     </script>
     <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1948353" charset="utf-8"></script>
     <!-- JiaThis Button END -->
@@ -4486,9 +4486,9 @@
     <script src="static/js/prettify.js"></script>
     <script src="static/js/jquery.toTop.min.js"></script>
     <script>
-    $(function() {
-        $('.zh-backtotop').toTop();
-    });
+        $(function() {
+            $('.zh-backtotop').toTop();
+        });
     </script>
     <script type="text/javascript">
     $(function() {
@@ -4514,14 +4514,30 @@
     });
     </script>
     <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-52369435-2");
+            pageTracker._trackPageview();
+        } catch (err) {}
     </script>
+    <!-- add target attr to all a tag -->
     <script type="text/javascript">
-    try {
-        var pageTracker = _gat._getTracker("UA-52369435-2");
-        pageTracker._trackPageview();
-    } catch (err) {}
+        //bind a click
+        $(document).bind('DOMNodeInserted', function(event) {
+            $('a[href^="http"]').each(
+                function(){
+                    if (!$(this).attr('target')) {
+                        $(this).attr('target', '_blank')
+                    }
+                    if ($(this).attr('href').indexOf("androiddevtools.cn") != -1) {
+                        $(this).attr('target', '_self')
+                    }
+                }
+            );
+        });
     </script>
 </body>
 
