@@ -745,6 +745,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | DexExtractor |android dex extractor ，anti-shell，android 脱壳。| [下载][DexExtractor]                |               |
 | jadx |Dex to Java decompiler| [下载][jadx]                |               |
 | android-classyshark | a handy Android and Java executables viewer | [下载][android-classyshark]                |               |
+| ShakaApktool |  | [下载][ShakaApktool]                |               |
 
 [JEB]:http://www.android-decompiler.com/index.php
 [Virtuous Ten Studio]:http://virtuous-ten-studio.com
@@ -770,6 +771,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [DexExtractor]:https://github.com/bunnyblue/DexExtractor
 [jadx]:https://github.com/skylot/jadx
 [android-classyshark]:https://github.com/google/android-classyshark
+[ShakaApktool]:https://github.com/rover12421/ShakaApktool
 
 [SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
 [Android逆向助手-guide]:http://www.sanwho.com/620.html
