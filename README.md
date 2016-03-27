@@ -58,6 +58,7 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |       SHA-1校验码     |       官方SHA-1校验码截图     |
 |:------:|:--------------:|:-----------------:|:------------------:|:------------------|:------------------:|
+|  2.1 Preview4 | [下载][2.1-p4-win] | [下载][2.1-p4-mac] | [下载][2.1-p4-linux] | Win: bf56a5bfca30d9270aaa5f06301ab133751307ad <br/> Mac: 9865381d46a1fdd3aa43a54c2274f762b9981e75 <br/> Linux: 5fcc6eced5f14687ff9b09465e9654cc3c840cd0 |  [查看][2.1-p4-sha1] |
 |  2.1 Preview3 | [下载][2.1-p3-win] | [下载][2.1-p3-mac] | [下载][2.1-p3-linux] | Win: 37f3eb187a92a6722c21e2aa1ef7d0624a169aa6 <br/> Mac: 952911e5bddd82b0bf87c10c1e8f9c726ad38920 <br/> Linux: 2fcef56cb22dbc87269c94d13ad50ab6005f50fa |  [查看][2.1-p3-sha1] |
 |  2.1 Preview1 | [下载][2.1-p1-win] | [下载][2.1-p1-mac] | [下载][2.1-p1-linux] | Win: 6c1e0e2e97b29de75987450051ce0d57bb6c8b63 <br/> Mac: 6f72df2f56b31d5ef27a482b0d198039715bcedf <br/> Linux: 7b7f936ff7eb6ef4c2446fc3406ccd09ccf2737a |  [查看][2.1-p1-sha1] |
 |  2.0 Beta7 | [下载][2.0-beta7-win] | [下载][2.0-beta7-mac] | [下载][2.0-beta7-linux] | Win: e1cf6d8f586a25f83d2994896f65c185614baeb1 <br/> Mac: 56e178d8dfec8146d40a00c4818729645ee950f1 <br/> Linux: 17e432a9eb701e791365cedec9783a23f3a97fcd |  [查看][2.0-beta7-sha1] |
@@ -73,6 +74,12 @@ AndroidDevTools
 |  2.0 Preview6 | [下载][2.0-p6-win] | [下载][2.0-p6-mac] | [下载][2.0-p6-linux] | Win:79405d5af063319b7d83b9f49ab7339599cf6006 <br/> Mac: 16a2882e7735b5bb5b640a64f2b02bb9f4688ad7 <br/> Linux: 66e143378ecc18769336fe4a77c1c803aea50b15 |  [查看][2.0-p6-sha1] |
 |  2.0 Preview5 | [下载][2.0-p5-win] | [下载][2.0-p5-mac] | [下载][2.0-p5-linux] | Win:33ad8732d64b177164627950fe083a7b9473385a <br/> Mac:6b29d32f9a0d2722166d3e4a685f916b2231a152 <br/> Linux:357af02b67e1278b3b2957d84725d0f58ad6e54e |  [查看][2.0-p5-sha1] |
 |  1.5.1 | [下载][1.5.1-win] | [下载][1.5.1-mac] | [下载][1.5.1-linux] | Win: 64882fb967f960f2142de239200104cdc9b4c75b <br/> Mac: 7ceb97e943836c11844e6f2dbedc9d374b3c2b19 <br/> Linux: b8460a2197abe26979d88e3b01b3c8bfd80a37db |  [查看][1.5.1-sha1] |
+
+[2.1-p4-win]:http://pan.baidu.com/s/1miQtzhY
+[2.1-p4-mac]:http://pan.baidu.com/s/1nvQrytz
+[2.1-p4-linux]:http://pan.baidu.com/s/1hrCEkg0
+
+[2.1-p4-sha1]:http://ww1.sinaimg.cn/large/8a41f469jw1f2bhyy7dv5j21es0u2h3t.jpg
 
 [2.1-p3-win]:http://pan.baidu.com/s/1kTRf8G3
 [2.1-p3-mac]:http://pan.baidu.com/s/1skdKxQX
