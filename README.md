@@ -61,6 +61,7 @@ AndroidDevTools
 |  2.1 Preview4 | [下载][2.1-p4-win] | [下载][2.1-p4-mac] | [下载][2.1-p4-linux] | Win: bf56a5bfca30d9270aaa5f06301ab133751307ad <br/> Mac: 9865381d46a1fdd3aa43a54c2274f762b9981e75 <br/> Linux: 5fcc6eced5f14687ff9b09465e9654cc3c840cd0 |  [查看][2.1-p4-sha1] |
 |  2.1 Preview3 | [下载][2.1-p3-win] | [下载][2.1-p3-mac] | [下载][2.1-p3-linux] | Win: 37f3eb187a92a6722c21e2aa1ef7d0624a169aa6 <br/> Mac: 952911e5bddd82b0bf87c10c1e8f9c726ad38920 <br/> Linux: 2fcef56cb22dbc87269c94d13ad50ab6005f50fa |  [查看][2.1-p3-sha1] |
 |  2.1 Preview1 | [下载][2.1-p1-win] | [下载][2.1-p1-mac] | [下载][2.1-p1-linux] | Win: 6c1e0e2e97b29de75987450051ce0d57bb6c8b63 <br/> Mac: 6f72df2f56b31d5ef27a482b0d198039715bcedf <br/> Linux: 7b7f936ff7eb6ef4c2446fc3406ccd09ccf2737a |  [查看][2.1-p1-sha1] |
+|  2.0 RC1 | [下载][2.0-rc1-win] | [下载][2.0-rc1-mac] | [下载][2.0-rc1-linux] | Win:12e2bd63142f5c28e0ee8f79c0a1378af4e4aec3 <br/> Mac:1b09c24d4cd68bd245aa08e2b07ccc8c35b7b4b4 <br/> Linux:25626153f742e976f7b11c6a1e8ef1e807ed4418 |  [查看][2.0-rc1-sha1] |
 |  2.0 Beta7 | [下载][2.0-beta7-win] | [下载][2.0-beta7-mac] | [下载][2.0-beta7-linux] | Win: e1cf6d8f586a25f83d2994896f65c185614baeb1 <br/> Mac: 56e178d8dfec8146d40a00c4818729645ee950f1 <br/> Linux: 17e432a9eb701e791365cedec9783a23f3a97fcd |  [查看][2.0-beta7-sha1] |
 |  2.0 Beta6 | [下载][2.0-beta6-win] | [下载][2.0-beta6-mac] | [下载][2.0-beta6-linux] | Win: 455fc9eb9ed071e4e12c94ad6918ce1c23c26ebb <br/> Mac: 2cf3f87ef0069c2cd008268750cdf90722bcf8ad <br/> Linux: f52a50286c10209b8a5d5f86464d850f761884aa |  [查看][2.0-beta6-sha1] |
 |  2.0 Beta5 | [下载][2.0-beta5-win] | [下载][2.0-beta5-mac] | [下载][2.0-beta5-linux] | Win: 5c2529de1d0b48ef67f286d54fcb2292726faa6e <br/> Mac: f3bf3bca5e02ccd9a7986d53543608401816ade3 <br/> Linux: f52a50286c10209b8a5d5f86464d850f761884aa |  [查看][2.0-beta5-sha1] |
@@ -92,6 +93,12 @@ AndroidDevTools
 [2.1-p1-linux]:http://pan.baidu.com/s/1c1eMw7Y
 
 [2.1-p1-sha1]:http://ww4.sinaimg.cn/large/8a41f469gw1f1s3pp395yj21jq0uygx8.jpg
+
+[2.0-rc1-win]:http://pan.baidu.com/s/1mieWLkc
+[2.0-rc1-mac]:http://pan.baidu.com/s/1nuG8mNZ
+[2.0-rc1-linux]:http://pan.baidu.com/s/1pK7GEpX
+
+[2.0-rc1-sha1]:http://ww1.sinaimg.cn/large/8a41f469jw1f2fwwiu7a9j21ei0tmn85.jpg
 
 [2.0-beta7-win]:http://pan.baidu.com/s/1kUjwt4j
 [2.0-beta7-mac]:http://pan.baidu.com/s/1qWZIM1A
