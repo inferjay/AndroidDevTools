@@ -2,7 +2,7 @@
 * @Author: inferjay
 * @Date:   2016-03-26 17:47:29
 * @Last Modified by:   inferjay
-* @Last Modified time: 2016-04-03 14:59:00
+* @Last Modified time: 2016-04-03 15:37:21
 */
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -19,9 +19,9 @@ var trackOutboundLink = function(url,category, action) {
             window.open(url);
         }
     });
-    setTimeout(function() {
-        if (!redirectTriggered) {
-            window.open(url);
-        }
-    }, 200);
+    // setTimeout(function() {
+    //     if (!redirectTriggered) {
+    //         window.open(url);
+    //     }
+    // }, 200);
 };
