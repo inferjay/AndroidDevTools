@@ -183,8 +183,17 @@ AndroidDevTools
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |       SHA-1校验码     |       官方SHA-1校验码截图     |
 |:----------|:-----------:|:------|:----------:|:------|:----------:|
+| 24.4.1 | [installer_r24.4.1-windows.exe][installer_r24.4.1-win] [android-sdk_r24.4.1-windows.zip][android-sdk_r24.4.1-win] | [android-sdk_r24.4.1-macosx.zip][android-sdk_r24.4.1-mac] | [android-sdk_r24.4.1-linux.tgz][android-sdk_r24.4.1-linux] | Win:f9b59d72413649d31e633207e31f456443e7ea0b <br/>66b6a6433053c152b22bf8cab19c0f3fef4eba49 <br/> Mac: 85a9cccb0b1f9e6f1f616335c5f07107553840cd<br/> Linux: 725bb360f0f7d04eaccff5a2d57abdd49061326d| [查看][sdk-tools-24.4.1] |
 | 24.3.4 | [installer_r24.3.4-windows.exe][installer_r24.3.4-win] [android-sdk_r24.3.4-windows.zip][android-sdk_r24.3.4-win] | [android-sdk_r24.3.4-macosx.zip][android-sdk_r24.3.4-mac] | [android-sdk_r24.3.4-linux.tgz][android-sdk_r24.3.4-linux] | Win: 094dd45f98a31f839feae898b48f23704f2878dd <br/> 4a8718fb4a2bf2128d34b92f23ddd79fc65839e7 <br/> Mac: 128f10fba668ea490cc94a08e505a48a608879b9 <br/> Linux: fb293d7bca42e05580be56b1adc22055d46603dd | [查看][sdk-tools-24.3.4] |
 
+[installer_r24.4.1-win]:http://pan.baidu.com/s/1i5xug3j
+[android-sdk_r24.4.1-win]:http://pan.baidu.com/s/1kVjIPCV
+
+[android-sdk_r24.4.1-mac]:http://pan.baidu.com/s/1nuWN7V7
+
+[android-sdk_r24.4.1-linux]:http://pan.baidu.com/s/1o8iqMQQ
+
+[sdk-tools-24.4.1]:http://ww2.sinaimg.cn/large/8a41f469jw1f2ng43mgnhj21kw0fmwhi.jpg
 
 [installer_r24.3.4-win]:http://pan.baidu.com/s/1eQppdPC
 [android-sdk_r24.3.4-win]:http://pan.baidu.com/s/1mg08f2K
@@ -611,9 +620,16 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 
 | 版本号| Windows | Mac OSX  | Linux |
 |:----------:|:-------------:|:------:|:----------:|
+|  1.8 u77  | [32位][1.8u77-win-32] [64位][1.8u77-win-64] | [64位][1.8u77-mac-64] | [32位][1.8u77-linux-32] [64位][1.8u77-linux-64] |
 |  1.8 u74  | [32位][1.8u74-win-32] [64位][1.8u74-win-64] | [64位][1.8u74-mac-64] | [32位][1.8u74-linux-32] [64位][1.8u74-linux-64] |
 |  1.7 u80 | [32位][1.7-win-32] [64位][1.7-win-64] | [64位][1.7-mac-64] | [32位][1.7-linux-32] [64位][1.7-linux-64] |
 |  1.6 u45 | [32位][1.6-win-32] [64位][1.6-win-64] | [64位][1.6-mac-64] | [32位][1.6-linux-32] [64位][1.6-linux-64] |
+
+[1.8u77-win-32]:http://pan.baidu.com/s/1hsFDbBu
+[1.8u77-win-64]:http://pan.baidu.com/s/1kUJuzH1
+[1.8u77-mac-64]:http://pan.baidu.com/s/1bRetFw
+[1.8u77-linux-32]:http://pan.baidu.com/s/1i4YX7VZ
+[1.8u77-linux-64]:http://pan.baidu.com/s/1slBWTIH
 
 [1.8u74-win-32]:http://pan.baidu.com/s/1c1w1TCk
 [1.8u74-win-64]:http://pan.baidu.com/s/1nu3BdVj
