@@ -816,7 +816,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [smali]:https://code.google.com/p/smali/
 [AXMLPrinter2]:https://android4me.googlecode.com/files/AXMLPrinter2.jar
 [JAD Java Decompiler]:http://varaneckas.com/jad/
-[JD-GUI Decompiler]:http://
+[JD-GUI Decompiler]:https://github.com/java-decompiler/jd-gui/releases/tag/v1.4.0
 [XJad V2.2]:http://files.cnblogs.com/arix04/XJad_V2.2.rar
 [Android APK Decompiler]:http://www.decompileandroid.com/
 [JADX]:https://github.com/skylot/jadx
