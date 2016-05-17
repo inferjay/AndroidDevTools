@@ -904,6 +904,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [JADX]:https://github.com/skylot/jadx
 [dex2jar]:https://code.google.com/p/dex2jar/
 [SmaliViewer]:http://blog.avlyun.com/wp-content/uploads/2014/04/SmaliViewer.zip
+[JD-GUI Decompiler]:https://github.com/java-decompiler/jd-gui/releases/tag/v1.4.0
 
 [SmaliViewer-guide]:http://blog.avlyun.com/show/《sv用户指南》/
 
