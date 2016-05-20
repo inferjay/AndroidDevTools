@@ -58,6 +58,7 @@ AndroidDevTools
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |       SHA-1校验码     |       官方SHA-1校验码截图     |
 |:------:|:--------------:|:-----------------:|:------------------:|:------------------|:------------------:|
+|  2.2 Preview1 | [下载][2.2-p1-win] | [下载][2.2-p1-mac] | [下载][2.2-p1-linux] | Win: d7d4f1d5c475af7e00c029a73a75ccbf18f7b3d0 <br/> Mac: 6bb5d556d61b455584a708b5e401fae2cb5fdb4f <br/> Linux: f1320e6adbc7206f07e9df6bed577dbbd4299752 |  [查看][2.2-p1-sha1] |
 |  2.1.1 正式版 | [下载][2.1.1-win] | [下载][2.1.1-mac] | [下载][2.1.1-linux] | Win: 6f7fcdc30800bd8b3fbd5a14c2b9857243144650 <br/> d8cb3968814b6155f4effe727baf23b18b9f8360 <br/> 9bec4905e40f0ac16ac7fde63a50f3fbc1eec4d9 <br/> Mac: 4a7ca7532a95c65ee59ed50193c0e976f0272472 <br/> Linux: 55d69ad2da0068d818718b26ba43550fbcbeb7e9 |  [查看][2.1.1-sha1] |
 |  2.1 正式版 | [下载][2.1-win] | [下载][2.1-mac] | [下载][2.1-linux] | Win: 9689ba415e5f09e2dcf5263ea302e7b1d98a8fc6 <br/> Mac: 8d28fcf2a3b502d60922b8624bfcfa4990c2fee8 <br/> Linux: 45dad9b76ad0506c354483aaa67ea0e2468d03a5 |  [查看][2.1-sha1] |
 |  2.0 正式版 | [下载][2.0-win] | [下载][2.0-mac] | [下载][2.0-linux] | Win: c556debf40de6b5d6f6d65d169a64398e3380183 <br/> 3e8c25bd7b7f3aa326f7b2a349c4d67c550d13ac <br/> 705c00f52b715d6a845c97979ced6f9b1b3f11c6 <br/> Mac: 0f3d53a08815c00912c13738abc79e82207b20ed <br/> Linux: b64070ee4ec4868e9dd942b56f76864634cb0c67 |  [查看][2.0-rc1-sha1] |
@@ -79,6 +80,12 @@ AndroidDevTools
 |  2.0 Preview6 | [下载][2.0-p6-win] | [下载][2.0-p6-mac] | [下载][2.0-p6-linux] | Win:79405d5af063319b7d83b9f49ab7339599cf6006 <br/> Mac: 16a2882e7735b5bb5b640a64f2b02bb9f4688ad7 <br/> Linux: 66e143378ecc18769336fe4a77c1c803aea50b15 |  [查看][2.0-p6-sha1] |
 |  2.0 Preview5 | [下载][2.0-p5-win] | [下载][2.0-p5-mac] | [下载][2.0-p5-linux] | Win:33ad8732d64b177164627950fe083a7b9473385a <br/> Mac:6b29d32f9a0d2722166d3e4a685f916b2231a152 <br/> Linux:357af02b67e1278b3b2957d84725d0f58ad6e54e |  [查看][2.0-p5-sha1] |
 |  1.5.1 | [下载][1.5.1-win] | [下载][1.5.1-mac] | [下载][1.5.1-linux] | Win: 64882fb967f960f2142de239200104cdc9b4c75b <br/> Mac: 7ceb97e943836c11844e6f2dbedc9d374b3c2b19 <br/> Linux: b8460a2197abe26979d88e3b01b3c8bfd80a37db |  [查看][1.5.1-sha1] |
+
+[2.2-p1-win]:http://pan.baidu.com/s/1miwAhyK
+[2.2-p1-mac]:http://pan.baidu.com/s/1nuJs1Ot
+[2.2-p1-linux]:http://pan.baidu.com/s/1hsLKKEK
+
+[2.2-p1-sha1]:http://ww1.sinaimg.cn/large/8a41f469gw1f41pqopbbij20sc0lggsw.jpg
 
 [2.1.1-win]:http://pan.baidu.com/s/1i5O0q9J
 [2.1.1-mac]:http://pan.baidu.com/s/1mi4Hxfq
