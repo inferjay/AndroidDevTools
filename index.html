@@ -12,10 +12,99 @@
     <link href="static/css/app-theme.css" rel="stylesheet">
     <link href="static/css/google-roboto-font-face.css" rel="stylesheet" type="text/css">
     <link href="static/css/backtotop.css" rel="stylesheet" type="text/css">
+    <link href="static/css/unslider.css" rel="stylesheet" type="text/css">
+    <link href="static/css/unslider-dots.css" rel="stylesheet" type="text/css">
+    <link href="static/css/banner.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]-->
     <link rel="shortcut icon" href="static/image/favicon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="static/image/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="static/image/apple-touch-icon-114x114.png">
+<!--     <style type="text/css">
+        div#banner.unslider-fade {
+            overflow: visible;
+        }
+        #banner-container .unslider-arrow {
+            display: block;
+            width: 32px;
+            height: 32px;
+
+            top: 50%;
+            right: -50px;
+            left: auto;
+            margin-top: -16px;
+
+            overflow: hidden;
+
+            background: rgba(0,0,0,.2) no-repeat 50% 50%;
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAQCAQAAABuQZ3IAAAAi0lEQVR4AU3OISBEQQBAwS0AACS9NxqQgCZpkiYBVddFvWhAAUABAPQCAGC4g/0vTnrBqCfDIZl70J+kMUBPpEwT4FNXxBxz4F1HxHyr4EVTxBLb4EFNxEon4CJSlVNw9AcV9sC16h8osgke1P1ArgXwouVvdQq86ww/GQefusNf7kBviBlxpT8k+gL/Wox4r1d4MwAAAABJRU5ErkJggg==');
+            background-size: 7px 11px;
+
+            border-radius: 32px;
+            text-indent: -999em;
+
+            opacity: .6;
+            transition: opacity .2s;
+        }
+        #banner-container .unslider-arrow:hover {
+            opacity: 1;
+        }
+        #banner-container .unslider-arrow.prev {
+            left: -50px;
+            right: auto;
+            -ms-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+        }
+        #banner-container .unslider, #banner-container .unslider ul li {
+            height: auto;
+        }
+        nav, .unslider-nav {
+            position: absolute;
+            top: 50px;
+            left: 60px;
+            right: 60px;
+            z-index: 2;
+        }
+        .unslider-nav {
+            right: auto;
+            z-index: 3;
+
+            margin-left: 40px;
+        }
+
+        .unslider-nav li {
+            float: left;
+        }
+        .unslider .unslider-nav li {
+            display: inline-block;
+            float: left;
+            margin: -2px 0 0 32px;
+            padding: 2px 18px;
+            border-radius: 30px;
+
+            color: #fff;
+            color: rgba(255,255,255,.7);
+
+            font-size: 13px;
+            font-weight: 500;
+
+            cursor: pointer;
+            list-style: none;
+
+            transition: color .2s, background .2s;
+        }
+        body > .unslider > .unslider-nav li:first-child {
+            display: none;
+        }
+        .unslider-nav li:hover, .unslider-nav li.unslider-active {
+            color: #fff;
+        }
+        .unslider-nav li:hover {
+            background: rgba(0,0,0,.05);
+        }
+        .unslider-nav li.unslider-active {
+            background: rgba(0,0,0,.1);
+        }
+    </style> -->
 </head>
 
 <body data-target=".content-nav">
@@ -153,10 +242,46 @@
             </div>
     </header>
 
-   <div>
+<!--<div>
         <a href="http://www.androidweekly.cn/30-day-starter-android-dev/" onclick="trackOutboundLink('http://www.androidweekly.cn/30-day-starter-android-dev/', 'Activity', 'click');" title="Study Jams 是一个学习 Google 在线课程的活动。该活动由学员自主发起课程学习小组,带领小 组成员入门 Android 开发,最终将 Android App 上载至 Google Play 并与他人分享自己的学习历程。点击查看活动详情"  >
-            <img src='http://ww2.sinaimg.cn/large/8a41f469jw1f27y2nqh6ij21cw0iw77t.jpg' width="100%%" border="0" />
+            <img src='http://ww2.sinaimg.cn/large/8a41f469jw1f27y2nqh6ij21cw0iw77t.jpg' width="100%" border="0" />
         </a>
+    </div> -->
+<!--     <div id="banner-container">
+            <div id="banner" class="unslider-fade">
+                <ul>
+                    <li style="background-image: url(http://ww1.sinaimg.cn/large/006rtfu7jw1f5s4pkkx4xj31kw0mc3zo.jpg); width: 25%;">
+                        <div class="inner">
+                            <h1>Android 开发技术周报</h1>
+                            <p>就是这个不到3kb的插件！没有奇特的特效或无用的标签。</p>
+                            <a class="btn" href="http://www.androidweekly.cn" onclick="trackOutboundLink('http://www.androidweekly.cn', 'Activity', 'click');" title=""></a>
+                         </div>
+                    </li>
+                    <li>
+                        <a href="http://www.materialdoc.cn" onclick="trackOutboundLink('http://www.materialdoc.cn', 'Activity', 'click');" title="Material Design 开发者参考文档">
+                            <img src='http://ww2.sinaimg.cn/large/006rtfu7jw1f5s4rg2i51j31kw0mcwff.jpg' width="100%" border="0" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div> -->
+    <div class="banner has-dots">
+        <ul>
+            <li style="background-image: url(http://ww1.sinaimg.cn/large/006rtfu7jw1f5tv4qwp4pj31jk0go0tb.jpg); width: 25%;">
+                <div class="inner">
+                    <h1>Android 开发技术周报</h1>
+                    <p>汇集互联网上每周Android开发的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。</p>
+                    <a class="btn" href="http://www.androidweekly.cn" onclick="trackOutboundLink('http://www.androidweekly.cn', 'Activity', 'click');" title="">订阅</a>
+                 </div>
+            </li>
+            <li style="background-image: url(http://ww1.sinaimg.cn/large/006rtfu7jw1f5tuy0n1fkj31jk0goq38.jpg); width: 25%;">
+                <div class="inner">
+                    <h1>Material Design</h1>
+                    <p>开发者参考文档</p>
+                    <a class="btn" href='http://www.materialdoc.cn' onclick="trackOutboundLink('http://www.materialdoc.cn', 'Activity', 'click');" title="">查看</a>
+                 </div>
+            </li>
+        </ul>
     </div>
     <section id="body">
         <div id="body-container" class="container">
@@ -4813,7 +4938,7 @@
 			}
 			lastScrollY = lastScrollY + percent;
 		}
-		window.setInterval("heartBeat()",1);
+		// window.setInterval("heartBeat()",1);
 	</script>
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
@@ -4849,13 +4974,53 @@
     </script>
     <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1948353" charset="utf-8"></script>
     <!-- JiaThis Button END -->
-    <script src="static/js/jquery-1.11.3.min.js"></script>
+    <script src="static/js/jquery-2.1.4.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
     <script src="static/js/jquery.smooth-scroll.min.js"></script>
     <script src="static/js/jquery-maven-artifact.min.js"></script>
     <script src="static/js/prettify.js"></script>
     <script src="static/js/jquery.toTop.min.js"></script>
     <script src="static/js/google-analytics.js"></script>
+    <script src="static/js/unslider.min.js"></script>
+    <script>
+        $(function(){
+            // $('.unslider-fade').unslider({ animation: 'fade', autoplay: true, arrows: false, nav: false});
+            // $('.unslider-fade').unslider({ arrows: false, fluid: true, dots: true});
+            if(window.chrome) {
+                $('.banner li').css('background-size', '100% 100%');
+            }
+
+            $('.banner').unslider({
+                speed: 1000,
+                arrows: false,
+                fluid: true,
+                dots: true
+            });
+
+            //  Find any element starting with a # in the URL
+            //  And listen to any click events it fires
+            $('a[href^="#"]').click(function() {
+                //  Find the target element
+                var target = $($(this).attr('href'));
+
+                //  And get its position
+                var pos = target.offset(); // fallback to scrolling to top || {left: 0, top: 0};
+
+                //  jQuery will return false if there's no element
+                //  and your code will throw errors if it tries to do .offset().left;
+                if(pos) {
+                    //  Scroll the page
+                    $('html, body').animate({
+                        scrollTop: pos.top,
+                        scrollLeft: pos.left
+                    }, 1000);
+                }
+
+                //  Don't let them visit the url, we'll scroll you there
+                return false;
+            });
+        });
+    </script>
     <script>
         $(function() {
             $('.zh-backtotop').toTop();

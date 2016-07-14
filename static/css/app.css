@@ -382,6 +382,9 @@ footer p {
     margin-left: 0;
     *zoom: 1
   }
+  ul.unslider-wrap {
+      height: 40em;
+  }
 }
 
 /* Smaller width browser, tablets. */
@@ -520,10 +523,17 @@ footer p {
   #duoshuo-comment {
     margin-left: 0em;
   }
+  ul.unslider-wrap {
+    height: 30em;
+  }
 }
-
+@media (max-height: 768px) {
+  ul.unslider-wrap {
+    height: 30em;
+  }
+}
 /* One-column mobile display. */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   html, body {
     font-size: 14px;
   }
@@ -704,6 +714,9 @@ footer p {
   #jiathis-share-bar {
     margin-left: 12px;
   }
+  ul.unslider-wrap {
+    height: 30em;
+  }
 }
 
 @media (max-width: 550px) {
@@ -868,6 +881,9 @@ footer p {
   #ad_right_float {
     display: none;
   }
+  ul.unslider-wrap {
+    height: 12em;
+  }
 }
 
 @media (max-width: 320px) {
@@ -1017,5 +1033,8 @@ footer p {
   }
   #ad_right_float {
     display: none;
+  }
+  ul.unslider-wrap {
+    height: 10em;
   }
 }
