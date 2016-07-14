@@ -1,0 +1,395 @@
+.banner {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, .6);
+    text-shadow: 0 0 1px rgba(0, 0, 0, .05), 0 1px 2px rgba(0, 0, 0, .3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+}
+
+.banner ul {
+    list-style: none;
+    width: 300%;
+    margin: 0px;
+}
+
+.banner ul li {
+    display: block;
+    float: left;
+    width: 33%;
+    min-height: 300px;
+    -o-background-size: 100% 100%;
+    -ms-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    box-shadow: inset 0 -3px 6px rgba(0, 0, 0, .1);
+}
+
+.banner .inner {
+    padding: 80px 0 60px;
+}
+
+.banner h1,
+.banner h2 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+}
+
+.banner .btn {
+    display: inline-block;
+    margin: 25px 0 0;
+    padding: 9px 22px 7px;
+    clear: both;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, .6);
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.banner .btn:hover {
+    background: rgba(255, 255, 255, .4);
+}
+
+.banner .btn:active {
+    -webkit-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+    -moz-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+    -ms-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+    -o-filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+    filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, .5));
+}
+
+.banner .btn,
+.banner .dot {
+    -webkit-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+    -moz-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+    -ms-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+    -o-filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+}
+
+.banner .dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    margin: 0;
+}
+
+.banner .dots li {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 4px;
+    text-indent: -999em;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: .4;
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+
+.banner .dots li.active {
+    background: #fff;
+    opacity: 1;
+}
+
+.banner .arrows {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+}
+
+.banner .arrow {
+    display: inline;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+    .banner {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .banner ul {
+        width: 300%;
+    }
+    .banner ul li {
+        min-height: 520px;
+    }
+    .banner .inner {
+        padding: 180px 0 110px;
+    }
+    .banner h1,
+    .banner h2 {
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .banner .btn {
+        margin: 25px 0 0;
+        padding: 9px 22px 7px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    .banner .dots {
+        bottom: 40px;
+    }
+    .banner .dots li {
+        width: 8px;
+        height: 8px;
+        margin: 0 4px;
+        text-indent: -999em;
+        border-radius: 8px;
+    }
+    .banner .arrows {
+        bottom: 20px;
+        right: 20px;
+    }
+    .banner .arrow {
+        padding-left: 10px;
+    }
+}
+
+
+/* Smaller width browser, tablets. */
+
+@media (max-width: 979px) {
+    .banner {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .banner ul {
+        width: 300%;
+    }
+    .banner ul li {
+        width: 33%;
+        min-height: 240px;
+    }
+    .banner .inner {
+        padding: 60px 0 110px;
+    }
+    .banner h1,
+    .banner h2 {
+        font-size: 20px;
+        line-height: 12px;
+    }
+    .banner .btn {
+        margin: 25px 0 0;
+        padding: 4px 18px 4px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    .banner .dots {
+        bottom: 10px;
+    }
+    .banner .dots li {
+        width: 6px;
+        height: 6px;
+        margin: 0 4px;
+        text-indent: -999em;
+        border-radius: 6px;
+    }
+    .banner .arrows {
+        bottom: 20px;
+        right: 20px;
+    }
+    .banner .arrow {
+        padding-left: 10px;
+    }
+    .banner p {
+        font-size: 10px;
+        width: 80%;
+        margin: 0 auto;
+}
+}
+
+// @media (max-height: 768px) {
+//     .banner ul li {
+//         min-height: 300px;
+//     }
+// }
+
+/* One-column mobile display. */
+
+@media (max-width: 768px) {
+    .banner {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .banner ul {
+        width: 300%;
+    }
+    .banner ul li {
+        width: 33%;
+        min-height: 220px;
+}
+    .banner .inner {
+    padding: 40px 0 60px;
+}
+    .banner h1,
+    .banner h2 {
+        /* font-size: 22px; */
+        /* line-height: 22px; */
+}
+    .banner .btn {
+        margin: 25px 0 0;
+        padding: 9px 22px 7px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    .banner .dots {
+    bottom: 10px;
+}
+    .banner .dots li {
+        width: 6px;
+        height: 6px;
+        margin: 0 4px;
+        text-indent: -999em;
+        border-radius: 6px;
+    }
+    .banner .arrows {
+        bottom: 20px;
+        right: 20px;
+    }
+    .banner .arrow {
+        padding-left: 10px;
+    }
+
+    .banner p {
+        font-size: 14px;
+        line-height: 14px;
+}
+}
+
+@media (max-width: 550px) {
+    .banner {
+        font-size: 14px;
+        line-height: 8px;
+    }
+    .banner ul {
+        width: 100%;
+    }
+    .banner ul li {
+        width: 800%;
+        min-height: 200px;
+    }
+    .banner .inner {
+        padding: 20px 0 20px;
+    }
+    .banner h1,
+    .banner h2 {
+        font-size: 16px;
+        line-height: 10px;
+    }
+    .banner .btn {
+        margin: 18px 0 0;
+        padding: 6px 16px 6px;
+        font-size: 8px;
+        border-radius: 4px;
+    }
+    .banner .dots {
+        bottom: 8px;
+    }
+    .banner .dots li {
+        width: 4px;
+        height: 4px;
+        margin: 0 2px;
+        text-indent: -999em;
+        border-radius: 4px;
+    }
+    .banner .arrows {
+        bottom: 20px;
+        right: 20px;
+    }
+    .banner .arrow {
+        padding-left: 10px;
+    }
+    .banner p {
+        font-size: 10px;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner {
+        font-size: 8px;
+        line-height: 6px;
+    }
+    .banner ul {
+        width: 600%;
+    }
+    .banner ul li {
+        width: 100%;
+        min-height: 120px;
+    }
+    .banner .inner {
+        padding: 20px 0 40px;
+    }
+    .banner h1,
+    .banner h2 {
+        font-size: 12px;
+        line-height: 2px;
+    }
+    .banner .btn {
+        margin: 10px 0 0;
+        padding: 0px 12px 0px;
+        font-size: 6px;
+        border: 1px solid rgba(255, 255, 255, .6);
+        border-radius: 1px;
+    }
+    .banner .dots {
+        bottom: 2px;
+    }
+    .banner .dots li {
+        width: 2px;
+        height: 2px;
+        margin: 0 4px;
+        text-indent: -999em;
+        border-radius: 4px;
+    }
+    .banner .arrows {
+        bottom: 10px;
+        right: 10px;
+    }
+    .banner .arrow {
+        padding-left: 4px;
+    }
+    .banner p {
+        font-size: 6px;
+        width: 100%;
+        line-height: 6px;
+    }
+}
+
+// @media only screen and (min-device-width: 320px) and (max-device-width: 480px), (max-width: 900px) {
+//   .banner h1, .banner h2 {
+//     font-size: 24px;
+//     line-height: 30px;
+//   }
+//   .banner ul li {
+//     height: 240px;
+//   }
+//   .banner .inner {
+//     padding-top: 100px;
+//     padding-bottom: 50px;
+//   }
+//   .banner p {
+//     font-size: 15px;
+//     width: 80%;
+//     margin: 0 auto;
+//   }
+// }
+
+
