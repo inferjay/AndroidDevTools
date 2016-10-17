@@ -4276,26 +4276,39 @@
 			var diffY = 0;
 			if (window.pageYOffset) {//这一条滤去了大部分， 只留了IE678
 				diffY = window.pageYOffset;
+                console.log('window.pageYOffset=' + diffY);
 			} else if(document.documentElement.scrollTop) {//IE678 的非quirk模式
 				diffY = document.documentElement.scrollTop;
+                console.log('document.documentElement.scrollTop=' + diffY);
 			} else if(document.body.scrolltop) {//IE678 的quirk模式
 				diffY = document.body.scrolltop;
+                console.log('document.body.scrollTop=' + diffY);
 			}
 			var percent = .1 * ( diffY - lastScrollY);
+            console.log('percent=' + percent);
 			if(percent > 0) {
 				percent = Math.ceil(percent);
 			} else {
 				percent= Math.floor(percent);
 			}
-			if (document.all.ad_right_float.style.pixelTop) {
-				document.all.ad_right_float.style.pixelTop += percent;
-			} else {
-				var top = String(lastScrollY + initTop) + "px";
-				document.all.ad_right_float.style.top = top;
-			}
+            console.log('percent=' + percent);
+			// if (document.all.ad_right_float.style.pixelTop) {
+   //              console.log('pixelTop=' + document.all.ad_right_float.style.pixelTop);
+			// 	document.all.ad_right_float.style.pixelTop += percent;
+			// } else {
+			// 	var top = String(lastScrollY + initTop) + "px";
+   //              console.log('top=' + top);
+			// 	document.all.ad_right_float.style.top = top;
+			// }
+
+            var top = String(lastScrollY + initTop) + "px";
+                console.log('top=' + top);
+                document.all.ad_right_float.style.top = top;
+            console.log('lastScrollY=' + lastScrollY);
 			lastScrollY = lastScrollY + percent;
+            console.log('lastScrollY=' + lastScrollY);
 		}
-		window.setInterval("heartBeat()",1);
+        window.setInterval("heartBeat()",1);
 	</script>
     <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
     <script type="text/javascript">
