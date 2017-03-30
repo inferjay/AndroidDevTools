@@ -12,7 +12,7 @@ AndroidDevTools
 #Android Tools
 ---
 
-####Android SDK在线更新镜像服务器
+#### Android SDK在线更新镜像服务器
 
 1. 中国科学院开源协会镜像站地址:
 
@@ -55,7 +55,7 @@ AndroidDevTools
 
 	<img src="static/image/sdk-manager-proxy-settings.png" width="40%" height="20%" alt="SDK Manager Proxy Settings">
 
-####Android Studio
+#### Android Studio
 
 <blockquote style="color: gray">
                         <strong style="color: red">注意:</strong>以下 Android Studio 下载链接全是 <code>dl.google.com</code> 开头的官方下载，无需tizi，<strong style="color: red">建议用浏览器直接从官方原始链接下载，不要用迅雷下载、不要用迅雷下载、不要用迅雷下载</strong>，重要的事情说三遍，避免类似<a href="https://www.zhihu.com/question/35721299">XCodeGhost</a>的事件！！！
@@ -100,7 +100,7 @@ AndroidDevTools
 [2.1.3-sha1]:http://ww2.sinaimg.cn/large/8a41f469gw1f6ve98yjtxj21kw16baos.jpg
 
 
-####SDK Tools
+#### SDK Tools
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |       SHA-1校验码     |       官方SHA-1校验码截图     |
 |:----------|:-----------:|:------|:----------:|:------|:----------:|
@@ -125,7 +125,7 @@ AndroidDevTools
 
 [sdk-tools-24.3.4]:http://ww1.sinaimg.cn/large/8a41f469gw1ewbnhql68uj21k20jkjw4.jpg
 
-####SDK Platform-Tools
+#### SDK Platform-Tools
 
 这是 adb, fastboot 等工具包。把解压出来的 `platform-tools` 文件夹放在 android sdk 根目录下，并把 `adb`所在的目录添加到系统 `PATH` 路径里，即可在命令行里直接访问了 adb, fastboot 等工具。
 
@@ -213,7 +213,7 @@ AndroidDevTools
 [19.0.0-win]:http://pan.baidu.com/s/1o6I8NBs
 [19.0.0-mac]:http://pan.baidu.com/s/1c0dBDvE
 
-####SDK
+#### SDK
 这是Android开发所需的sdk，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/platforms`文件夹，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 | 系统版本号 	 | Windows | Mac OSX  | Linux |
@@ -279,7 +279,7 @@ AndroidDevTools
 [android-8-win]:http://pan.baidu.com/s/1qW8YzY8
 [android-8-mac]:http://pan.baidu.com/s/1ntmJVmD
 
-####SDK System images
+#### SDK System images
 这是在创建模拟器时需要的system image，也就是在创建模拟器时`CPU/ABI`项需要选择的，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/system-images`文件夹下即可， 如果没有`system-images`目录就先创建此文件夹，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 
@@ -325,7 +325,7 @@ AndroidDevTools
 [Images-10-win]:http://pan.baidu.com/s/1gd3lhYF
 [Images-10-mac]:http://pan.baidu.com/s/1qWJhTwg
 
-####GoogleMap APIs SDK
+#### GoogleMap APIs SDK
 这是GoogleMap APIs SDK，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 
@@ -379,7 +379,7 @@ AndroidDevTools
 [googlemap-8-win]:http://pan.baidu.com/s/1qWJNPyk
 [googlemap-8-mac]:http://pan.baidu.com/s/1eQEc8SU
 
-####Google Glass SDK
+#### Google Glass SDK
 这是GDK，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 | 系统版本 | Windows | Mac OSX  | Linux |
@@ -393,7 +393,7 @@ AndroidDevTools
 [glass-mac-15]:http://pan.baidu.com/s/1hqikzUs
 
 
-####Google TV Addon
+#### Google TV Addon
 这是Google TV Addon，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 
@@ -443,7 +443,7 @@ AndroidDevTools
 | [21](http://pan.baidu.com/s/1o6v78Lk)   |
 | [20](http://pan.baidu.com/s/1eQIMXMy)   |
 
-####Support Library
+#### Support Library
 包含support `v4`、`v7`、`v13`、`v17`、`multidex`和`m2repository`，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 |    版本号  |
@@ -453,7 +453,7 @@ AndroidDevTools
 | [21](http://pan.baidu.com/s/1o6MBWIu)   |
 | [20](http://pan.baidu.com/s/1o6OBlR8)   |
 
-####SDK Samples
+#### SDK Samples
 这是Android SDK自带的示例代码，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/samples`文件夹下，然后重启Eclipse(或Android Studio)。
 。
 
@@ -489,7 +489,7 @@ AndroidDevTools
 [samples-10]:http://pan.baidu.com/s/1hqiQw1Q
 [samples-8]:http://pan.baidu.com/s/1ntv7wut
 
-####NDK
+#### NDK
 C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请戳 [这里](install-method-url)
 
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |       MD5/SHA-1校验码     |       官方SHA-1校验码截图     |
@@ -526,7 +526,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 
 [install-method-url]:https://github.com/inferjay/AndroidDevTools/wiki/Installing-the-NDK-On-Linux-and-Mac-OS-X-(Darwin)
 
-####Android L Preview System Image
+#### Android L Preview System Image
 这个是Android L Preview系统的刷机镜像。
 
 | 设备 | 下载 |
@@ -537,7 +537,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 [Nexus 5]:http://pan.baidu.com/s/1kTsnxsF
 [Nexus 7]:http://pan.baidu.com/s/1mgn1CyG
 
-####JDK
+#### JDK
 
 | 版本号| Windows | Mac OSX  | Linux |
 |:----------:|:-------------:|:------:|:----------:|
@@ -571,7 +571,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 [1.6-linux-64]:http://pan.baidu.com/s/1dDck3O9
 
 
-####ADT Bundle
+#### ADT Bundle
 ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
 
 | 版本号  | Windows                |      Mac OSX       |          Linux         |
@@ -595,7 +595,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [adtb-23-linux-32]:http://pan.baidu.com/s/1mgoh41q
 [adtb-23-linux-64]:http://pan.baidu.com/s/1qWJh4wk
 
-####ADT Plugin
+#### ADT Plugin
 离线安装ADT插件请戳[**项目wiki**](https://github.com/inferjay/AndroidDevTools/wiki/首页)
 
 |    版本号   |
@@ -609,7 +609,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |[ADT-22.6.3](http://pan.baidu.com/s/1jGMb5yQ)|
 |[AdT-22.6.1](http://pan.baidu.com/s/1pJ185Rl)|
 
-####Gradle
+#### Gradle
 
 |    版本号  |
 |:----------|
@@ -1195,7 +1195,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 [Git Cheat Sheet]:https://chrome.google.com/webstore/detail/git-cheat-sheet/mjdmgoiobnbkfcfjcceaodlcodhpokgn?hl=en
 
-##Guides
+## Guides
 
 #### Google Java编程风格指南中文版
 
@@ -1224,16 +1224,16 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 地址：[http://avatarqing.github.io/Gradle-Plugin-User-Guide-Chinese-Verision](http://avatarqing.github.io/Gradle-Plugin-User-Guide-Chinese-Verision)
 
-####Gradle User Guide
+#### Gradle User Guide
 Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com/s/1dD7sC2d)
 
-##Tutorials
+## Tutorials
 
 #### Android学习之路
 
 地址：[http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/](http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/)
 
-####Google Android官方培训课程中文版
+#### Google Android官方培训课程中文版
 
 地址：[http://hukai.me/android-training-course-in-chinese/index.html](http://hukai.me/android-training-course-in-chinese/index.html)
 
@@ -1515,7 +1515,7 @@ Gradle 1.12用户指南：[http://pan.baidu.com/s/1dD7sC2d](http://pan.baidu.com
 
 ## Guides
 
-####Android设计指南非官方简体中文版
+#### Android设计指南非官方简体中文版
 
 Topfun镜像地址：[http://www.topfun.us/adchs/index.html](http://www.topfun.us/adchs/index.html)
 
@@ -1527,11 +1527,11 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 多看阅读镜像地址：[http://www.duokan.com/book/47790](http://www.duokan.com/book/47790)
 
-####Android Cheatsheet for Graphic Designers
+#### Android Cheatsheet for Graphic Designers
 
 地址:[http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/](http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/)
 
-####Google Material Design 中文版
+#### Google Material Design 中文版
 
 地址：[http://design.1sters.com](http://design.1sters.com)
 
