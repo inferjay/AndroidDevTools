@@ -211,7 +211,7 @@
         font-size: 10px;
         width: 80%;
         margin: 0 auto;
-}
+    }
 }
 
 // @media (max-height: 768px) {
@@ -233,15 +233,15 @@
     .banner ul li {
         width: 33%;
         min-height: 220px;
-}
+    }
     .banner .inner {
-    padding: 40px 0 60px;
-}
+        padding: 40px 0 60px;
+    }
     .banner h1,
     .banner h2 {
         /* font-size: 22px; */
         /* line-height: 22px; */
-}
+    }
     .banner .btn {
         margin: 25px 0 0;
         padding: 9px 22px 7px;
@@ -249,8 +249,8 @@
         border-radius: 4px;
     }
     .banner .dots {
-    bottom: 10px;
-}
+        bottom: 10px;
+    }
     .banner .dots li {
         width: 6px;
         height: 6px;
@@ -265,11 +265,10 @@
     .banner .arrow {
         padding-left: 10px;
     }
-
     .banner p {
         font-size: 14px;
         line-height: 14px;
-}
+    }
 }
 
 @media (max-width: 550px) {
@@ -391,5 +390,3 @@
 //     margin: 0 auto;
 //   }
 // }
-
-
