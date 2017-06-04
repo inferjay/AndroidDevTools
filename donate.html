@@ -1677,10 +1677,10 @@
             </div>
             <!-- 多说评论框 -->
             <div class="row">
-                <div id="duoshuo-comment">
-                    <!-- 多说评论框 start -->
-                    <div class="ds-thread" data-thread-key="686835c9a9956699" data-title="AndroidDevTools捐赠" data-url="http://www.androiddevtools.cn/donate.html"></div>
-                    <!-- 多说评论框 end -->
+                <div id="comments">
+                    <!-- 评论框 start -->
+                    <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+                    <!-- 评论框 end -->
                 </div>
             </div>
         </div>
@@ -1698,38 +1698,19 @@
             <p class="published">Published with <a href="http://pages.github.com">GitHub Pages</a></p>
         </footer>
     </div>
-    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-    <script type="text/javascript">
-    var duoshuoQuery = {
-        short_name: "androiddevtoolscndonate"
-    };
-    (function() {
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';
-        ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
+    <!-- 评论JS代码 start (一个网页只需插入一次) -->
+    <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+    <script>
+        var cloudTieConfig = {
+          url: document.location.href, 
+          sourceId: "",
+          productKey: "7bbdea3eb9794282ace07c059f040ae5",
+          target: "cloud-tie-wrapper"
+        };
+        var yunManualLoad = true;
+        Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
     </script>
-    <!-- 多说公共JS代码 end -->
-    <script type="text/javascript">
-    var jiathis_config = {
-        data_track_clickback: true,
-        siteNum: 12,
-        sm: "tsina,weixin,qzone,twitter,googleplus,fb,evernote,pocket,instapaper,reddit,qq,tumblr",
-        url: "http://www.androiddevtools.cn",
-        summary: "",
-        title: "无需翻墙下载最新版Android开发工具 ADT Bundle Android Studio SDK Tools #Android开发工具#",
-        boldNum: 6,
-        pic: "http://ww1.sinaimg.cn/mw690/005GSHYzgw1el9z7zgqbtj31kw0yc45g.jpg",
-        ralateuid: {
-            "tsina": "androiddevtools"
-        },
-        shortUrl: false,
-        hideMore: true
-    }
-    </script>
+    <!-- 评论JS代码 end -->
     <script src="static/js/jquery-2.1.4.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
     <script src="static/js/jquery.smooth-scroll.min.js"></script>

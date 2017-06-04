@@ -257,6 +257,7 @@ footer p {
 
 #jiathis-share-bar {
 	margin-top: 30px;
+  padding-bottom: 30px;
 }
 
 footer p {
@@ -369,7 +370,7 @@ footer p {
 #donate-table {
   margin-left: 7.3em;
 }
-#duoshuo-comment {
+#comments {
   margin-left: 0em;
 }
 
@@ -520,7 +521,7 @@ footer p {
     margin-left: 1em;
     margin-right: 1em;
   }
-  #duoshuo-comment {
+  #comments {
     margin-left: 0em;
   }
   ul.unslider-wrap {
@@ -703,7 +704,7 @@ footer p {
     margin-left: 4em;
     margin-right: 4em;
   }
-  #duoshuo-comment {
+  #comments {
     margin-left: 1em;
     margin-right: 1em;
   }
@@ -867,7 +868,7 @@ footer p {
     margin-left: 1em;
     margin-right: 1em;
   }
-  #duoshuo-comment {
+  #comments {
     margin-left: 1em;
     margin-right: 1em;
   }
@@ -1020,7 +1021,7 @@ footer p {
     margin-left: 0.8em;
     margin-right: 0.8em;
   }
-  #duoshuo-comment {
+  #comments {
     margin-left: 0.8em;
     margin-right: 0.8em
   }

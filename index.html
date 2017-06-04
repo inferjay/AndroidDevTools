@@ -4277,10 +4277,10 @@
                 <!-- JiaThis Button END -->
             </div>
             <div class="row">
-                <div id="duoshuo-comment">
-                    <!-- 多说评论框 start -->
-                    <div class="ds-thread" data-thread-key="686835c9a9956696" data-title="AndroidDevTools" data-url="http://www.androiddevtools.cn"></div>
-                    <!-- 多说评论框 end -->
+                <div id="comments">
+                    <!-- 评论框 start -->
+                    <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+                    <!-- 评论框 end -->
                 </div>
             </div>
         </div>
@@ -4333,21 +4333,20 @@
         }
         window.setInterval("heartBeat()", 1);
     </script>
-    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-    <script type="text/javascript">
-        var duoshuoQuery = {
-            short_name: "androiddevtoolscn"
+    <!-- 评论JS代码 start (一个网页只需插入一次) -->
+    <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+    <script>
+        var cloudTieConfig = {
+          url: document.location.href, 
+          sourceId: "",
+          productKey: "7bbdea3eb9794282ace07c059f040ae5",
+          target: "cloud-tie-wrapper"
         };
-        (function() {
-            var ds = document.createElement('script');
-            ds.type = 'text/javascript';
-            ds.async = true;
-            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-            ds.charset = 'UTF-8';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
+        var yunManualLoad = true;
+        Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
     </script>
-    <!-- 多说公共JS代码 end -->
+    <!-- 评论JS代码 end -->
+    <!-- JiaThis Button END -->
     <script type="text/javascript">
         var jiathis_config = {
             data_track_clickback: true,
