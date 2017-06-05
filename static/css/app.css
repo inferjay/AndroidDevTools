@@ -359,6 +359,11 @@ footer p {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+
+#license {
+  clear: left;
+}
+
 #license strong {
   font-size: 1em;
 }
@@ -372,6 +377,35 @@ footer p {
 }
 #comments {
   margin-left: 0em;
+}
+
+.ad-list ul {
+  list-style: disc;
+  margin-left: 0;
+}
+
+.ad-list ul li {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  list-style: none;
+  float: left;
+  width: 24%;
+}
+
+.ad-list ul li img {
+  height: 100px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.ad-list ul li img:hover {
+  -moz-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
+  -webkit-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
+  box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 
 /* Widescreen desktop. */
