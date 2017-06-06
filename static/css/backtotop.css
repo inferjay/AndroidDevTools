@@ -1,20 +1,23 @@
 .zh-backtotop {
     position: fixed;
     bottom: 80px;
-    left: 50%;
+    left: 52%;
     z-index: 19;
-    margin-left: 580px
+    margin-left: 580px;
 }
 
 .zh-backtotop .btn-action {
     display: block;
-    width: 38px;
-    height: 38px;
-    background-color: #ddd;
-    border-radius: 3px;
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    border-radius: 28px;
     border: 0;
     cursor: pointer;
-    position: relative
+    position: relative;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .2);
 }
 
 .zh-backtotop .btn-action+.btn-action {
@@ -31,17 +34,19 @@
 .zh-backtotop .arrow {
     width: 0;
     height: 0;
-    top: -1px;
-    border: 9px solid transparent;
-    border-bottom-color: #aaa
+    top: -3px;
+    border: 11.5px solid transparent;
+    border-bottom-color: #aaa;
+    margin-top: 5px;
 }
 
 .zh-backtotop .stick {
     width: 8px;
-    height: 14px;
+    height: 18px;
     top: 15px;
     border-radius: 1px;
-    background-color: #aaa
+    background-color: #aaa;
+    margin-top: 10px;
 }
 
 .zh-backtotop .stab {
