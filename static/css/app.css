@@ -12,6 +12,7 @@ header {
   min-height: 80px;
   color: #f6f6f6;
   position: fixed;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
   top: 0;
   left: 0;
   width: 100%;
@@ -257,7 +258,7 @@ footer p {
 
 #jiathis-share-bar {
 	margin-top: 30px;
-  padding-bottom: 30px;
+  //padding-bottom: 30px;
 }
 
 footer p {
@@ -373,15 +374,16 @@ footer p {
   margin-bottom: 0.5em;
 }
 #donate-table {
-  margin-left: 7.3em;
+  margin-left: 4.8em;
 }
 #comments {
-  margin-left: 0em;
+  margin-left: -1em;
+  margin-right: -1em;
 }
 
 .ad-list ul {
   list-style: disc;
-  margin-left: 0;
+  margin-left: 15px;
 }
 
 .ad-list ul li {
@@ -406,6 +408,14 @@ footer p {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+}
+
+#body-container {
+  background-color: white;
+  padding: 16px;
+  margin-top: 56px;
+  border-radius: 3px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .14);
 }
 
 /* Widescreen desktop. */
