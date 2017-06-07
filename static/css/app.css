@@ -1,11 +1,11 @@
 html, body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
 }
 body {
-  background-color: #f6f6f6;
-  padding-bottom: 0px;
-  padding-top: 80px;
+    background-color: #f6f6f6;
+    padding-bottom: 0px;
+    padding-top: 80px;
 }
 
 header {
@@ -191,7 +191,6 @@ table {
  }
 
 section th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
   background: #a8a8a8;
   color: #fff;
@@ -203,7 +202,7 @@ section td {
  }
 
 #nav-title {
-	font-weight: 400;
+  font-weight: 400;
   font-size: 32px;
   color: #ffffff;
 }
@@ -219,57 +218,57 @@ section td {
 .inner {
   position: relative;
   max-width: 640px;
-  padding: 20px 10px;
+  padding: 16px 16px;
   margin: 0 auto;
 }
 
 #footer_wrap {
-	margin-top: 50px;
-  background: #888;
+  margin-top: 56px;
+  background: #BDBDBD;
 }
 
 footer p {
-	color:#ffffff
+  color:#ffffff
 }
 
 #uyan-comment {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 #drop-sdk-tools {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 #drop-dev-tools {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 #drop-dev-guides {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 #drop-dev-tutorials {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 #drop-design-tools {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 #jiathis-share-bar {
-	margin-top: 30px;
+  margin-top: 30px;
   //padding-bottom: 30px;
 }
 
 footer p {
   text-align: center;
   align: center;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 13px;
+  /* padding-bottom: 10px; */
 }
 
 .copyright {
-	float: left;
+  float: left;
   margin-right: 6em;
   margin-left: 6em;
 }
@@ -278,7 +277,7 @@ footer p {
 }
 
 #ts-search-input-li {
-	margin-top: 7px;
+  margin-top: 7px;
 }
 .donate-method-title {
   text-align: center;
@@ -305,14 +304,14 @@ footer p {
   margin-top: 0;
 }
 .home a{
-	display: block;
-	padding-bottom: 0;
+  display: block;
+  padding-bottom: 0;
 }
 
 .home a .logo {
-	width: 223px;
-	height: 86px;
-	margin-top: -8px;
+  width: 223px;
+  height: 86px;
+  margin-top: -8px;
 }
 
 .clearfix {

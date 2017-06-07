@@ -10,7 +10,7 @@
     display: block;
     width: 56px;
     height: 56px;
-    background-color: white;
+    background-color: #ff5722;
     border-radius: 28px;
     border: 0;
     cursor: pointer;
@@ -32,42 +32,16 @@
 }
 
 .zh-backtotop .arrow {
-    width: 0;
-    height: 0;
-    top: -3px;
-    border: 11.5px solid transparent;
-    border-bottom-color: #aaa;
-    margin-top: 6px;
-}
-
-.zh-backtotop .stick {
-    width: 8px;
-    height: 18px;
-    top: 15px;
-    border-radius: 1px;
-    background-color: #aaa;
-    margin-top: 10px;
-}
-
-.zh-backtotop .stab {
     position: absolute;
-    left: 10px;
-    top: 8px;
-    width: 18px;
-    height: 3px;
-    background-color: #aaa
+    top: 16px;
+    left: 16px;
 }
 
-html.no-touch .zh-backtotop .btn-action:hover {
-    background-color: #e2e2e2
-}
-
-html.no-touch .zh-backtotop .btn-action:hover .arrow {
-    border-bottom-color: #bbb
-}
-
-html.no-touch .zh-backtotop .btn-action:hover .stab, html.no-touch .zh-backtotop .btn-action:hover .stick {
-    background-color: #bbb
+.zh-backtotop .btn-action:hover {
+    background-color: #e24134;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 4px 10px rgba(0, 0, 0, .22);
+    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 4px 10px rgba(0, 0, 0, .22);
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 4px 10px rgba(0, 0, 0, .22);
 }
 
 @media only screen and (max-device-width:720px) {
