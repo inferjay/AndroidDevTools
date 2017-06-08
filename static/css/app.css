@@ -231,10 +231,6 @@ footer p {
   color:#ffffff
 }
 
-#uyan-comment {
-  margin-top: 50px;
-}
-
 #drop-sdk-tools {
   margin-right: 5px;
 }
@@ -415,6 +411,16 @@ footer p {
   margin-top: 56px;
   border-radius: 3px;
   box-shadow: 0 0 4px rgba(0, 0, 0, .14);
+}
+
+#ad_right_float {
+  background-color: white; 
+  padding: 6px; 
+  margin-right: 10px;
+  border-radius: 3px; 
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
+  -webkit-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
+  -moz-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
 }
 
 /* Widescreen desktop. */
