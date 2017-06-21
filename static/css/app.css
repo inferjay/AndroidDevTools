@@ -253,7 +253,6 @@ footer p {
 
 #jiathis-share-bar {
   margin-top: 30px;
-  //padding-bottom: 30px;
 }
 
 footer p {
@@ -313,47 +312,51 @@ footer p {
 .clearfix {
     zoom: 1;
 }
-.gay_friends_list {
-  margin-left: 6.5em;
-}
 
-.gay_friends_list ul {
+.link-image-list ul {
   list-style: disc;
-  margin-left: 1.3em;
+  margin: 0;
 }
 
-.gay_friends_list ul li {
+.link-image-list ul li {
   list-style: none;
   float: left;
-  width: 25%;
+  /* width: auto; */
   text-align: center;
-  height: 25%;
-  margin-bottom: 5em;
+  /* height: 25%; */
+  margin: 0em 2em 3em 2em;
+
 }
 
-.gay_friends_list ul li a {
+.link-image-list ul li a {
   display: block;
-  width: 130px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   // background-color: white;
 }
-.gay_friends_list ul li img:hover {
-  -moz-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
-  -webkit-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
-  box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
+
+.link-image-list ul li img {
+  background-color: white;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .20 ), 2px 4px 6px 2px rgba( 0, 0, 0, .10 );
+  -moz-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .20 ), 2px 4px 6px 2px rgba( 0, 0, 0, .10);
+  -webkit-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .20 ), 2px 4px 6px 2px rgba( 0, 0, 0, .10 );
+}
+
+.link-image-list ul li img:hover {
+  -moz-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .30 ), 2px 4px 6px 2px rgba( 0, 0, 0, .15 );
+  -webkit-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .30 ), 2px 4px 6px 2px rgba( 0, 0, 0, .15 );
+  box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .30 ), 2px 4px 6px 2px rgba( 0, 0, 0, .15 );
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-.gay_friends_list ul li img {
-  width: 130px;
-  height: 64px;
-  background-color: white;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+
+.float-left {
+  float: left;
 }
 
 #license {
@@ -376,35 +379,6 @@ footer p {
   margin-right: -1em;
 }
 
-.ad-list ul {
-  list-style: disc;
-  margin-left: 15px;
-}
-
-.ad-list ul li {
-  margin-bottom: 10px;
-  margin-right: 10px;
-  list-style: none;
-  float: left;
-  width: 24%;
-}
-
-.ad-list ul li img {
-  height: 100px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
-.ad-list ul li img:hover {
-  -moz-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
-  -webkit-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
-  box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
 #body-container {
   background-color: white;
   padding: 16px;
@@ -421,6 +395,23 @@ footer p {
   box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
   -webkit-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
   -moz-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
+}
+
+#books-list ul {
+  margin: 0 3.6em;
+}
+
+#fuck-gfw-list ul li {
+  width: 19.8%;
+}
+
+#gay_friends_list ul {
+  margin: 0 0.8em;
+}
+
+#gay_friends_list ul li{
+  margin-top: 3em;
+  margin-bottom: 5em;
 }
 
 /* Widescreen desktop. */
