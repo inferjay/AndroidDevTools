@@ -387,14 +387,15 @@ footer p {
   box-shadow: 0 0 4px rgba(0, 0, 0, .14);
 }
 
-#ad_right_float {
+.ad-float-right {
   background-color: white; 
-  padding: 6px; 
-  margin-right: 10px;
   border-radius: 3px; 
   box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
   -webkit-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
   -moz-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
+  padding: 6px;
+  margin-right: 10px;
+  margin-top: 6px;
 }
 
 #books-list ul {
@@ -406,7 +407,7 @@ footer p {
 }
 
 #gay_friends_list ul {
-  margin: 0 0.8em;
+  margin: 0;
 }
 
 #gay_friends_list ul li{
@@ -428,6 +429,50 @@ footer p {
   }
 }
 
+@media (max-width: 1024px) {
+  .row {
+    margin-left: 0;
+  }
+  .span9 {
+    width: 100%;
+  }
+  .home {
+    float: none;
+  }
+  .home a .logo {
+    width: 100%;
+    height: 80px;
+    margin-top: 0;
+  }
+  header menu {
+    padding-right: 10%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  table thead th{
+    font-size: 16px;
+    padding: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  table tbody td{
+    font-size: 14px;
+    padding: 4px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  #books-list ul li {
+    width: 17.6%;
+  }
+  #fuck-gfw-list ul li {
+    width: 18.5%;
+  }
+  #gay_friends_list ul li {
+    width: 26.7%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+}
 /* Smaller width browser, tablets. */
 @media (max-width: 979px) {
   html, body {
@@ -499,26 +544,32 @@ footer p {
     height: 80px;
     margin-top: 0;
   }
-  .gay_friends_list {
-      margin-left: 0em;
+  table thead th{
+    font-size: 14px;
+    padding: 0;
+    word-wrap: break-word;
+    word-break: break-all;
   }
-  .gay_friends_list ul {
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
+  table tbody td{
+    font-size: 12px;
+    padding: 4px;
+    word-wrap: break-word;
+    word-break: break-all;
   }
-  .gay_friends_list ul li {
-    width: 50%;
-    height: 50%;
-    margin-bottom: 5em;
+  .link-image-list ul {
+    list-style: disc;
+    margin: 0;
   }
-  .gay_friends_list ul li a {
-    margin-left: 7.5em;
-    margin-bottom: 1em;
+
+  .link-image-list ul li {
+    margin: 0em 2em 3em 2em;
   }
-  .gay_friends_list ul li img {
-    width: 92%;
-    height: 97%;
+  #fuck-gfw-list ul li {
+    width: 42%;
+  }
+  #gay_friends_list ul li {
+    width: 25.5%;
+    margin-bottom: 3em;
   }
   .inner {
     height: 40px;
@@ -563,6 +614,9 @@ footer p {
   }
   #comments {
     margin-left: 0em;
+  }
+  #auto-scroll-ad-box {
+    display: none;
   }
   ul.unslider-wrap {
     height: 30em;
@@ -640,10 +694,14 @@ footer p {
   table thead th{
     font-size: 12px;
     padding: 0;
+    word-wrap: break-word;
+    word-break: break-all;
   }
   table tbody td{
     font-size: 8px;
     padding: 4px;
+    word-wrap: break-word;
+    word-break: break-all;
   }
   blockquote {
     padding: 0 12px;
@@ -658,9 +716,7 @@ footer p {
     width: 100%;
     padding-left: 0;
   }
-  header menu {
-    display: none;
-  }
+
   #subtitle {
     position: absolute;
     top: 80px;
@@ -683,28 +739,22 @@ footer p {
     height: 75px;
     margin-top: 0;
   }
-  .gay_friends_list {
-      margin-left: 0em;
+
+  #books-list ul {
+    margin-left: 4em;
+    margin-right: 4em;
   }
-  .gay_friends_list ul {
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
+  #books-list ul li {
+    width: 20%;
   }
-  .gay_friends_list ul li {
-    width: 50%;
-    height: 50%;
-    margin-bottom: 5em;
+  #fuck-gfw-list ul li {
+    width: 36%;
+    padding-left: 1em;
+    margin-top: 0.1em;
   }
-  .gay_friends_list ul li a {
-    margin-left: 7em;
+  #gay_friends_list ul li {
+    width: 40%;
     margin-bottom: 1em;
-    width: 100px;
-    height: 54px;
-  }
-  .gay_friends_list ul li img {
-    width: 100px;
-    height: 54px;
   }
   .inner {
     height: 40px;
@@ -720,7 +770,7 @@ footer p {
     font-size: 12px;
   }
   .copyright {
-    margin-left: 10em;
+    margin-left: 8em;
     margin-right: 0;
   }
   .published {
@@ -748,9 +798,18 @@ footer p {
     margin-left: 1em;
     margin-right: 1em;
   }
+  #body-container {
+    margin-top: 36px;
+  }
+  #footer_wrap {
+    margin-top: 10px;
+  }
   #license strong {
     font-size: 12px;
     margin-left: 12px;
+  }
+  #auto-scroll-ad-box {
+    display: none;
   }
   #jiathis-share-bar {
     margin-left: 12px;
@@ -833,6 +892,8 @@ footer p {
   table tbody td{
     font-size: 7px;
     padding: 2px;
+    word-wrap: break-word;
+    word-break: break-all;
   }
   blockquote {
     padding: 0 10px;
@@ -853,28 +914,20 @@ footer p {
     width: 100%;
     height: 80px;
   }
-  .gay_friends_list {
-    width: 100%;
-    margin-left: 0;
+  .link-image-list ul li {
+    margin: 0em 0.8em 2em 1em;
   }
-  .gay_friends_list ul {
-    width: 100%;
-    height: 50%;
-    margin-left: 0;
+  #books-list ul li {
+    width: 40%;
   }
-  .gay_friends_list ul li {
-    width: 50%;
+  #fuck-gfw-list ul li {
+    width: 40%;
+    padding-left: 0.5em;
+    margin-top: 0.1em;
+  }
+  #gay_friends_list ul li {
+    width: 43%;
     margin-bottom: 2em;
-  }
-  .gay_friends_list ul li a {
-    width: 64px;
-    height: 36px;
-    margin-left: 5em;
-    margin-bottom: 1.5em;
-  }
-  .gay_friends_list ul li img {
-    width: 64px;
-    height: 36px;
   }
   .inner {
     height: 30px;
@@ -912,14 +965,24 @@ footer p {
     margin-left: 1em;
     margin-right: 1em;
   }
+  #body-container {
+    margin-top: 34px;
+  }
+  #footer_wrap {
+    margin-top: 10px;
+  }
   #license strong {
     font-size: 8px;
     margin-left: 10px;
   }
   #jiathis-share-bar {
     margin-left: 1em;
+    margin-top: 15px;
   }
-  #ad_right_float {
+  #jiathis-share-bar .jiathis_txt {
+    font-size: 8px;
+  }
+  #auto-scroll-ad-box {
     display: none;
   }
   ul.unslider-wrap {
@@ -993,6 +1056,8 @@ footer p {
   table tbody td{
     font-size: 6px;
     padding: 0;
+    word-wrap: break-word;
+    word-break: break-all;
   }
   blockquote {
     padding: 0 6px;
@@ -1000,30 +1065,17 @@ footer p {
   blockquote p {
     font-size: 6px;
   }
-  .gay_friends_list {
-    width: 100%;
-    margin-left: 0;
+  .link-image-list ul li {
+    margin: 0em 1em 2em 1em;
   }
-  .gay_friends_list ul {
-    width: 100%;
-    height: 50%;
-    margin-left: 0;
+  #books-list ul li {
+    width: 36%;
   }
-  .gay_friends_list ul li {
-    width: 50%;
-    height: 50%;
-    margin-bottom: 1em;
+  #fuck-gfw-list ul li {
+    width: 38%;
   }
-  .gay_friends_list ul li a {
-    width: 60px;
-    height: 32px;
-    margin-left: 27.4%;
-    margin-bottom: 1em;
-  }
-
-  .gay_friends_list ul li img {
-    width: 60px;
-    height: 32px;
+  #gay_friends_list ul li {
+    width: 41%;
   }
   .inner {
     height: 30px;
@@ -1040,7 +1092,7 @@ footer p {
   }
   .copyright {
     margin-top: 5px;
-    margin-left: 6em;
+    margin-left: 4em;
     margin-right: 0;
   }
   .published {
@@ -1065,6 +1117,12 @@ footer p {
     margin-left: 0.8em;
     margin-right: 0.8em
   }
+  #body-container {
+    margin-top: 24px;
+  }
+  #footer_wrap {
+    margin-top: 10px;
+  }
   #license strong {
     font-size: 6px;
     margin-left: 10px;
@@ -1072,7 +1130,7 @@ footer p {
   #jiathis-share-bar {
     margin-left: 1em;
   }
-  #ad_right_float {
+  #auto-scroll-ad-box {
     display: none;
   }
   ul.unslider-wrap {
