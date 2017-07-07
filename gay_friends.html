@@ -310,7 +310,7 @@
             <div class="row">
 	            <div id="comments">
 	            	<!-- 评论框 start -->
-					<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+					<div id="comments-container"></div>
 					<!-- 论框 end -->
 	            </div>
         	</div>
@@ -331,16 +331,19 @@
     </div>
 
     <!-- 评论JS代码 start (一个网页只需插入一次) -->
-    <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+    <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+    <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
-        var cloudTieConfig = {
-          url: document.location.href, 
-          sourceId: "",
-          productKey: "7bbdea3eb9794282ace07c059f040ae5",
-          target: "cloud-tie-wrapper"
-        };
-        var yunManualLoad = true;
-        Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
+        var gitment = new Gitment({
+          id: 'GayFriendsPageComments', // 可选。默认为 location.href
+          owner: 'inferjay',
+          repo: 'AndroidDevTools',
+          oauth: {
+            client_id: 'd2125d4a0d86391b925e',
+            client_secret: '70fb5a42e94b8d3d94c3a6d009eb60fabdc203da',
+          },
+        })
+        gitment.render('comments-container')
     </script>
     <!-- 评论JS代码 end -->
     <script src="static/js/jquery-2.1.4.min.js"></script>
