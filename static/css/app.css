@@ -378,7 +378,7 @@ footer p {
   
 }
 
-#body-container {
+.body-container {
   background-color: white;
   padding: 16px;
   margin-top: 56px;
@@ -412,6 +412,10 @@ footer p {
 #gay_friends_list ul li{
   margin-top: 3em;
   margin-bottom: 5em;
+}
+
+.margin-top-16 {
+    margin-top: 16px;
 }
 
 /* Widescreen desktop. */
@@ -715,7 +719,6 @@ footer p {
     width: 100%;
     padding-left: 0;
   }
-
   #subtitle {
     position: absolute;
     top: 80px;
@@ -797,7 +800,7 @@ footer p {
     margin-left: 1em;
     margin-right: 1em;
   }
-  #body-container {
+  .body-container {
     margin-top: 36px;
   }
   #footer_wrap {
@@ -816,6 +819,9 @@ footer p {
   ul.unslider-wrap {
     height: 30em;
   }
+  .margin-top-16 {
+    margin-top: 12px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -829,6 +835,9 @@ footer p {
   }
   header {
     padding: 0;
+  }
+  header menu {
+    display: none;
   }
   h1 {
     font-size: 18px;
@@ -964,7 +973,7 @@ footer p {
     margin-left: 1em;
     margin-right: 1em;
   }
-  #body-container {
+  .body-container {
     margin-top: 34px;
   }
   #footer_wrap {
@@ -986,6 +995,9 @@ footer p {
   }
   ul.unslider-wrap {
     height: 12em;
+  }
+  .margin-top-16 {
+    margin-top: 10px;
   }
 }
 
@@ -1116,7 +1128,7 @@ footer p {
     margin-left: 0.8em;
     margin-right: 0.8em
   }
-  #body-container {
+  .body-container {
     margin-top: 24px;
   }
   #footer_wrap {
@@ -1134,5 +1146,8 @@ footer p {
   }
   ul.unslider-wrap {
     height: 10em;
+  }
+  .margin-top-16 {
+    margin-top: 6px;
   }
 }
