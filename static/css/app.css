@@ -291,6 +291,7 @@ footer p {
 .content-title {
   text-align: center;
   width: 100%;
+  font-size: 32px;
   margin-top: 2em;
   margin-bottom: 2em;
 }

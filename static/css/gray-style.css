@@ -1,0 +1,14 @@
+/*
+* @Author: inferjay
+* @Date:   2017-07-14 11:54:54
+* @Last Modified by:   inferjay
+* @Last Modified time: 2017-07-14 11:55:07
+*/
+html{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
