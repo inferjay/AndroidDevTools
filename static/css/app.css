@@ -1,4 +1,4 @@
-html, body {
+ahtml, body {
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 15px;
 }
@@ -394,7 +394,7 @@ footer p {
   -webkit-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
   -moz-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px; 
   padding: 6px;
-  margin-right: 10px;
+  margin-right: 0px;
   margin-top: 6px;
 }
 
