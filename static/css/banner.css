@@ -43,20 +43,21 @@
 .banner .btn {
     display: inline-block;
     margin: 25px 0 0;
-    padding: 9px 22px 7px;
+    padding: 10px 22px;
     clear: both;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    border: 2px solid rgba(255, 255, 255, .6);
+    border: 0px;
     border-radius: 4px;
-    background: rgba(255, 255, 255, 0);
+    background: #F8940A;
 }
 
 .banner .btn:hover {
-    background: rgba(255, 255, 255, .4);
+    background: #C77606;
+    border: 0px;
 }
 
 .banner .btn:active {
@@ -138,8 +139,8 @@
     }
     .banner .btn {
         margin: 25px 0 0;
-        padding: 9px 22px 7px;
-        font-size: 12px;
+        padding: 10px 22px;
+        font-size: 14px;
         border-radius: 4px;
     }
     .banner .dots {
