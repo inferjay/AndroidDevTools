@@ -5318,7 +5318,9 @@
                 var link = $(element).attr('data-link'),
                     tag = $(element).attr('data-tag'),
                     type = $(element).attr('data-event-type');
-                $(element).bind('click', function(event) {
+                $(element).unbind('click').bind('click', function(event) {
+                    event.preventDefault();
+                    event.stopPropagation();
                     trackOutboundLink(link, tag, type);
                     window.location.href = link;
                     console.log(link)
