@@ -71,7 +71,7 @@
                                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#support-library">Support Library</a></li>
                                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#sdk-samples">SDK Samples</a></li>
                                         <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-framework-source-code">Android Framework Source Code</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-l-preview-system-image">Android L Preview System Image</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-system-image">Android System Image</a></li>
                                     </ul>
                                 </li>
                                 <!--  Android Dev Tools -->
@@ -336,8 +336,8 @@
                                 <th>平台</th>
                                 <th>下载</th>
                                 <th>大小</th>
-                                <th>SHA-1/SHA-256校验码</th>
-                                <th>官方SHA-1/SHA-256校验码截图</th>
+                                <th>SHA-256 校验码</th>
+                                <th>官方 SHA-256 校验码截图</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -1690,8 +1690,8 @@
                                 <th>Platform</th>
                                 <th>Package</th>
                                 <th style="white-space:nowrap">Size (Bytes)</th>
-                                <th>MD5/SHA1 Checksum</th>
-                                <th>官方MD5校验码截图</th>
+                                <th>SHA-256 校验码</th>
+                                <th>官方 SHA-256 校验码截图</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -1893,29 +1893,70 @@
                         </tbody>
                     </table>
                 </div>
-                <div id="android-l-preview-system-image">
-                    <h4>Android L Preview System Image</h4>
-                    <p>这个是Android L Preview系统的刷机镜像。</p>
+                <div id="android-system-image">
+                    <h4>Android System Image</h4>
+                    <p>这个是 Android 系统的刷机镜像。</p>
                     <table>
-                        <thead>
-                            <tr>
-                                <th align="center">设备</th>
-                                <th align="center">下载</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td align="center">Nexus 5 (GSM/LTE) "hammerhead"</td>
-                                <td align="center"><a href="http://pan.baidu.com/s/1kTsnxsF">hammerhead-lpv79-preview-ac1d8a8e.tgz</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="center">Nexus 7 (Wifi) "razor"</td>
-                                <td align="center"><a href="http://pan.baidu.com/s/1mgn1CyG">razor-lpv79-preview-d0ddf8ce.tgz</a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                      <tbody>
+                        <tr>
+                            <th scope="col">版本</th>
+                            <th scope="col">设备</th>
+                            <th scope="col">下载</th>
+                            <th scope="col">SHA-256 校验码</th>
+                            <th scope="col">官方 SHA-256 校验码截图</th>
+                        </tr>
+
+                        <tr id="bullhead">
+                            <td rowspan="8">8.0</td>
+                            <td align="left">Nexus 5X</td>
+                            <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/bullhead-opr6.170623.013-factory-203642e1.zip">bullhead-opr6.170623.013-factory-203642e1.zip</a></td>
+                            <td align="left"><code>203642e1a27ee0f00302cbf0003adfb8fabfb27821a6f33bad393472a20b97c8</code></td>
+                            <td rowspan="8"><a href="https://ws2.sinaimg.cn/large/006tNc79ly1fiuk0yshzlj31kw0tcn71.jpg">查看</a></td>
+                        </tr>
+
+                        <tr id="angler">
+                            <td align="left">Nexus 6P</td>
+                            <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/angler-opr6.170623.013-factory-a63b2f21.zip">angler-opr6.170623.013-factory-a63b2f21.zip</a></td>
+                            <td align="left"><code>a63b2f21ad07d7b163cdb0ff26b4d3aedfa3869462d4b86369dc35d5653895bb</code></td>
+                        </tr>
+
+                        <tr id="fugu">
+                            <td align="left">Nexus Player</td>
+                            <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/fugu-opr6.170623.015-factory-56e03f51.zip">fugu-opr6.170623.015-factory-56e03f51.zip</a></td>
+                            <td align="left"><code>56e03f51214e56a8754d8018d5cae89b4a0f360f3108b20a18754c7d49cbb6a7</code></td>
+                        </tr>
+
+                        <tr id="ryu">
+                            <td align="left">Pixel C</td>
+                            <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/ryu-opr6.170623.010-factory-81a1479d.zip">ryu-opr6.170623.010-factory-81a1479d.zip</a></td>
+                            <td align="left"><code>81a1479d62eddc5657c6b496a5581bafe07265b61f7e0c3b259430fcc7119758</code></td>
+                        </tr>
+
+                        <tr id="sailfish-fi">
+                            <td align="left">Pixel (Telstra, Rogers, TMO, Sprint, USCC, Project Fi)</td>
+                            <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/sailfish-opr6.170623.011-factory-0d712594.zip">sailfish-opr6.170623.011-factory-0d712594.zip</a></td>
+                            <td align="left"><code>0d71259400371b8da44e6300324dbd6cbe26d6ae2641745becab9d7d1607e9db</code></td>
+                        </tr>
+
+                        <tr id="sailfish-other">
+                            <td align="left">Pixel (other carriers)</td>
+                            <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/sailfish-opr6.170623.012-factory-8ada9373.zip">sailfish-opr6.170623.012-factory-8ada9373.zip</a></td>
+                            <td align="left"><code>8ada9373e6f86cac20023bd6c7889edb0449fc7085913d1e45f8a1491b17942c</code></td>
+                        </tr>
+
+                        <tr id="marlin-fi">
+                            <td align="left">Pixel XL (Telstra, Rogers, TMO, Sprint, USCC, Project Fi)</td>
+                            <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/marlin-opr6.170623.011-factory-985fd412.zip">marlin-opr6.170623.011-factory-985fd412.zip</a></td>
+                            <td align="left"><code>985fd412c40dd1ec6ee780185b30c5854627b5301da2a48f252155a0265116de</code></td>
+                        </tr>
+
+                        <tr id="marlin-other">
+                            <td align="left">Pixel XL (other carriers)</td>
+                            <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/marlin-opr6.170623.012-factory-6304451d.zip">marlin-opr6.170623.012-factory-6304451d.zip</a></td>
+                            <td align="left"><code>6304451dd6744b1a2faadd7921f28a217e8dbe4bf20c6cfc20bf350b1e0f07df</code></td>
+                        </tr>
+                    </tbody>
+                </table>
                 </div>
                 <div id="jdk">
                     <h4>JDK</h4>
