@@ -13,10 +13,6 @@ AndroidDevTools
 ---
 
 #### Android SDK在线更新镜像服务器
-	
-1. 大连东软信息学院镜像服务器地址: 
-
-	* `mirrors.neusoft.edu.cn` 端口：80
 
 1. 郑州大学开源镜像站:
 
