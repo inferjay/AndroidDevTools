@@ -13,37 +13,14 @@ AndroidDevTools
 ---
 
 #### Android SDK在线更新镜像服务器
-
-1. 中国科学院开源协会镜像站地址:
-
-   * IPV4/IPV6: `mirrors.opencas.cn` 端口：80
-
-   * IPV4/IPV6: `mirrors.opencas.org` 端口：80
-
-   * IPV4/IPV6: `mirrors.opencas.ac.cn` 端口：80
-
-	
-1. 上海GDG镜像服务器地址:
-
-	* `sdk.gdgshanghai.com `  端口：8000	
-
-1. 北京化工大学镜像服务器地址: 
-   	
-   * IPv4: `ubuntu.buct.edu.cn/` 端口：80
-   
-   * IPv4: `ubuntu.buct.cn/`   端口：80
-   
-   * IPv6: `ubuntu.buct6.edu.cn/`  端口：80
 	
 1. 大连东软信息学院镜像服务器地址: 
 
 	* `mirrors.neusoft.edu.cn` 端口：80
 
-1. 腾讯Bugly 镜像:
+1. 郑州大学开源镜像站:
 
-	* `android-mirror.bugly.qq.com` 端口：8080
-
-	腾讯镜像使用方法: [http://android-mirror.bugly.qq.com:8080/include/usage.html](http://android-mirror.bugly.qq.com:8080/include/usage.html)
+  * `mirrors.zzu.edu.cn` 端口：80
 
 **使用方法**：
 	
