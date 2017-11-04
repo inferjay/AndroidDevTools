@@ -419,6 +419,14 @@ footer p {
     margin-top: 16px;
 }
 
+.hide {
+  display: none:
+}
+
+.show {
+  display: block;
+}
+
 /* Widescreen desktop. */
 @media (min-width: 1200px) {
   .content-nav {
