@@ -279,15 +279,17 @@ footer p {
   padding: 0;
 }
 .donate-method-qr {
-  width: 50%;
+  width: 30%;
   display: block;
   float: left;
 }
 .donate-method-qr-img {
-  width: 370px;
-  height: 372px;
-  margin-left: 7.3em;
+  width: 100%;
 }
+.donate-method-bitcoin {
+  padding-top: 2em;
+}
+
 .content-title {
   text-align: center;
   width: 100%;
