@@ -4873,6 +4873,7 @@
     <!-- add target attr to all a tag -->
     <script type="text/javascript">
         //bind a click
+        var utm_info = "utm_source=androiddevtools&utm_medium=website";
         $(document).bind('DOMNodeInserted', function(event) {
             $('a[href^="http"]').each(
                 function() {
@@ -4883,13 +4884,15 @@
                     if (url.indexOf("androiddevtools.cn") != -1) {
                         $(this).attr('target', '_self')
                     } else {
-                        if (url.indexOf("?") == -1 || url.indexOf("/?") == -1) {
-                            url += '?';
-                        } else {
-                            url += '&';
+                        if (url && url.indexOf(utm_info) == -1) {
+                            if (url.indexOf("?") == -1 || url.indexOf("/?") == -1) {
+                                url += '?';
+                            } else {
+                                url += '&';
+                            }
+                            url += utm_info;
+                            $(this).attr('href', url);
                         }
-                        url += "utm_source=androiddevtools&utm_medium=website";
-                        $(this).attr('href', url);
                     }
                 }
             );
