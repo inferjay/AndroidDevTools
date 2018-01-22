@@ -180,6 +180,11 @@
             </a>
         </div>
         <div class="ad-float-right">
+            <a href="https://candy.one/i/565706" title="多种数字货币年终糖果大礼包注册即送 100 个糖果！" onclick="trackOutboundLink('https://candy.one/i/565706', 'AD-Candy', 'click');" target="_blank">
+                <img src="https://ws4.sinaimg.cn/large/006tNc79ly1fnpgfyl7wmj303m064gm7.jpg">
+            </a>
+        </div>
+        <div class="ad-float-right">
             <a href="https://otcbtc.com/referrals/INFERJAY" title="扫码注册，领比特币红包，OTCBTC 最流畅、最靠谱、最好用的场外交易平台。" onclick="trackOutboundLink('https://otcbtc.com/referrals/INFERJAY', 'AD-OTCBTC-Redpacket', 'click');" target="_blank">
                 <img src="https://ws1.sinaimg.cn/large/006tNc79ly1fmvgx80nrej303m05tmxv.jpg">
             </a>
@@ -205,7 +210,7 @@
                 <img src="http://ws3.sinaimg.cn/large/006tKfTcly1fhw3x145mrj303m03mmx3.jpg">
             </a>
         </div>
-        <div class="ad-float-right">
+        <div class="ad-float-right hide">
             <a href="http://t.cn/RKtmj6v" title="遵循公约的应用，后台不费电、手机不卡顿，跟 iPhone 一样省心。" onclick="trackOutboundLink('http://t.cn/RKtmj6v', 'GreenAndroid', 'click');" target="_blank">
                 <img src="http://ws2.sinaimg.cn/large/006tKfTcly1fhw3x0z64zj303m03m0sm.jpg">
             </a>
@@ -4846,7 +4851,7 @@
     <!--   浮动广告      -->
     <script>
         var lastScrollY = 0;
-        var initTop = 160;
+        var initTop = 120;
 
         function heartBeat() {
             var diffY = 0;
@@ -4863,14 +4868,6 @@
             } else {
                 percent = Math.floor(percent);
             }
-            // if (document.all.ad_right_float.style.pixelTop) {
-            //              console.log('pixelTop=' + document.all.ad_right_float.style.pixelTop);
-            //  document.all.ad_right_float.style.pixelTop += percent;
-            // } else {
-            //  var top = String(lastScrollY + initTop) + "px";
-            //              console.log('top=' + top);
-            //  document.all.ad_right_float.style.top = top;
-            // }
 
             var top = String(lastScrollY + initTop) + "px";
             $("#auto-scroll-ad-box").css("top", top);
