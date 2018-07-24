@@ -190,6 +190,11 @@
             </a>
         </div>
         <div class="ad-float-right">
+            <a href="http://2018.tlc.ivweb.io/" title="" onclick="trackOutboundLink('http://2018.tlc.ivweb.io/', 'AD-IVWeb', 'click');" target="_blank">
+                <img src="https://ws1.sinaimg.cn/large/006tNc79gy1ftl9okam60j303m05twf1.jpg" style="height: 209px; width: 130px;">
+            </a>
+        </div>
+        <div class="ad-float-right">
             <a href="http://stuq.com/a/100kM" title="深入拆解 Java 虚拟机" onclick="trackOutboundLink('http://stuq.com/a/100kM', 'AD-GeekTime-Deep-JVM', 'click');" target="_blank">
                 <img src="https://ws2.sinaimg.cn/large/006tNc79gy1ftdwsfqykyj30u01hcgor.jpg" style="height: 209px; width: 130px;">
             </a>
@@ -5799,10 +5804,10 @@
                     tag = $(element).attr('data-tag'),
                     type = $(element).attr('data-event-type');
                 $(element).unbind('click').bind('click', function(event) {
-                    event.preventDefault();
-                    event.stopPropagation();
                     trackOutboundLink(link, tag, type);
                     window.location.href = link;
+                    event.preventDefault();
+                    event.stopPropagation();
                     console.log(link)
                 });
             });
