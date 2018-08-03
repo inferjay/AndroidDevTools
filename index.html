@@ -382,6 +382,76 @@
                             </tr>
                         </thead>
                         <tbody>
+                            <!-- 3.3 Canary 4 -->
+                            <tr>
+                                <td rowspan="5">3.3 Canary 4</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Windows</td>
+                                <td align="left">
+                                    <a href="https://dl.google.com/dl/android/studio/ide-zips/3.3.0.3/android-studio-ide-182.4924367-windows.zip">android-studio-ide-182.4924367-windows.zip</a>
+                                </td>
+                                <td>1014055539 bytes</td>
+                                <td>e57164adc3a0daba639d70fafdc65fac6cc591315adbf1c98a762a0c7b3f0b08</td>
+                                <td rowspan="5"><a href="https://ws4.sinaimg.cn/large/006tKfTcly1ftwblnc4xqj31is0nyjxo.jpg">查看</a></td>
+                            </tr>
+                            <tr>
+                                <td align="left"><a href="https://dl.google.com/dl/android/studio/ide-zips/3.3.0.3/android-studio-ide-182.4924367-windows32.zip">android-studio-ide-182.4924367-windows32.zip</a>
+                                </td>
+                                <td>1013525857 bytes</td>
+                                <td>67e6047ac0ae23643a2b6ed214370959603d987d668c6506c914558f71a0225f</td>
+                            </tr>
+                            <tr>
+                                <td>Mac OS X</td>
+                                <td align="left">
+                                    <a href="https://dl.google.com/dl/android/studio/ide-zips/3.3.0.3/android-studio-ide-182.4924367-mac.zip">android-studio-ide-182.4924367-mac.dmg</a>
+                                </td>
+                                <td>1005632579 bytes</td>
+                                <td>5963b090b245d7c8cb08617183c73b713f20a3fde640109c083c920845e7068e</td>
+                            </tr>
+                            <tr>
+                                <td>Linux</td>
+                                <td align="left">
+                                    <a href="https://dl.google.com/dl/android/studio/ide-zips/3.3.0.3/android-studio-ide-182.4924367-linux.zip">android-studio-ide-182.4924367-linux.zip</a>
+                                </td>
+                                <td>1020170378 bytes</td>
+                                <td>cded22d2b3a1b21923d2b6ed846bf5254f1dc89a74dba0b5a6f3e6a56997dd0d</td>
+                            </tr>
+                            <!-- 3.2 Beta 5 -->
+                            <tr>
+                                <td rowspan="5">3.2 Beta 5</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Windows</td>
+                                <td align="left">
+                                    <a href="https://dl.google.com/dl/android/studio/ide-zips/3.2.0.22/android-studio-ide-181.4913314-windows.zip">android-studio-ide-181.4913314-windows.zip</a>
+                                </td>
+                                <td>1047144260 bytes</td>
+                                <td>4f570b0d60948c569db1ae23117b4182b79fd93d8b2f89697e9dc42e927152db</td>
+                                <td rowspan="5"><a href="https://ws1.sinaimg.cn/large/006tKfTcly1ftwbhnradwj31kw0ihn2j.jpg">查看</a></td>
+                            </tr>
+                            <tr>
+                                <td align="left"><a href="https://dl.google.com/dl/android/studio/ide-zips/3.2.0.22/android-studio-ide-181.4913314-windows32.zip">android-studio-ide-181.4913314-windows32.zip</a>
+                                </td>
+                                <td>1046614578 bytes</td>
+                                <td>07c0139228bd3802b3bbae5e3963b190723aa2c83089718061c6393c99a3f2cf</td>
+                            </tr>
+                            <tr>
+                                <td>Mac OS X</td>
+                                <td align="left">
+                                    <a href="https://dl.google.com/dl/android/studio/ide-zips/3.2.0.22/android-studio-ide-181.4913314-mac.zip">android-studio-ide-181.4913314-mac.dmg</a>
+                                </td>
+                                <td>1038828168 bytes</td>
+                                <td>0db1b1bab56b812f3e4084d27dd3081aa0dede58e418d2789990a61829ad12b0</td>
+                            </tr>
+                            <tr>
+                                <td>Linux</td>
+                                <td align="left">
+                                    <a href="https://dl.google.com/dl/android/studio/ide-zips/3.2.0.22/android-studio-ide-181.4913314-linux.zip">android-studio-ide-181.4913314-linux.zip</a>
+                                </td>
+                                <td>1053259065 bytes</td>
+                                <td>a91bd9c27eb51daca69d9f78d67a73692ccc483db8810713023e6e7c83f5d604</td>
+                            </tr>
                             <!-- 3.2 Beta 4 -->
                             <tr>
                                 <td rowspan="5">3.2 Beta 4</td>
@@ -5215,6 +5285,15 @@
 
         ga('create', 'UA-52369435-2', 'auto');
         ga('send', 'pageview');
+        var trackOutboundLink = function(url, category, action) {
+            var redirectTriggered = false;
+            ga('send', 'event', category, action, url, {
+                'hitCallback': function() {
+                    redirectTriggered = true;
+                    window.open(url);
+                }
+            });
+        };
     </script>
     <!-- End Google Analytics -->
     <script>
