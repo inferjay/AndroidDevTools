@@ -15,13 +15,13 @@
     <link href="static/css/app-theme.css" rel="stylesheet">
     <link href="static/css/google-roboto-font-face.css" rel="stylesheet" type="text/css">
     <link href="static/css/backtotop.css" rel="stylesheet" type="text/css">
-    <link href="static/css/unslider.css" rel="stylesheet" type="text/css">
-    <link href="static/css/unslider-dots.css" rel="stylesheet" type="text/css">
     <link href="static/css/banner.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]-->
     <link rel="shortcut icon" href="static/image/favicon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="static/image/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="static/image/apple-touch-icon-114x114.png">
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <!-- GrowingIO 统计 -->
     <script type='text/javascript'>
         var _vds = _vds || [];
@@ -174,100 +174,103 @@
             </div>
         </div>
     </header>
-    <div id="auto-scroll-ad-box" style="z-index: 10; right: 0px; position: absolute; top: 1012px;">
+    <div id="auto-scroll-ad-box" style="z-index: 10; right: 0px; position: absolute; top: 1112px;">
         <div class="ad-float-right">
             <a href="https://plus.hencoder.com" title="用碎片化的时间，学习系统化内容；短期暴力提升，快速突破瓶颈。HenCoder Plus 作为一套全方位系统化的在线直播课程，开课两期以来，吸纳了来自 BAT、头条、滴滴等公司以及硅谷、台湾和日本的众多学员报名参加，并且众多学员在毕业一个月内先后入职阿里、腾讯、小米、头条等公司。其中一位学员拿到 80w+ 的年薪，多位学员年薪达到 45w 左右。" onclick="trackOutboundLink('https://plus.hencoder.com', 'AD-HenCoderPlus', 'click');"
                 target="_blank">
                 <img src="https://i.loli.net/2019/05/23/5ce663bb003ec62326.gif" style="height: 313.5px; width: 192.5px;">
             </a>
         </div>
-        <div class="ad-float-right">
-            <a href="http://1t.click/aBcQ" title="助力产业智慧升级，云服务器首年88元起，更有千元代金券礼包免费领！" onclick="trackOutboundLink('http://1t.click/aBcQ', 'AD-RIGHT-TencentCloud-1111-2019', 'click');" target="_blank">
-                <img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g7z1oqrqwqj306y0a0gn9.jpg" style="height: 313.5px; width: 192.5px;">
-            </a>
+    </div>
+    <section>
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <a href="https://www.androiddevtools.cn/ad/lizhi-2019-1111.html?utm_source=androiddevtools.cn&amp;utm_medium=banner" target="_blank"
+                            onclick="trackOutboundLink('https://www.androiddevtools.cn/ad/lizhi-2019-1111.html', 'LiZhi-1111-Button', 'click');" title="我们的老朋友「数码荔枝」近日开始了正版软件届的双十一活动。活动时间：11月1日～11 月 12 日,                            
+                            1. 在商城首页参与抽奖 (三次机会)，最高可得 200 元现金红包；
+                            2. 10 款软件，300 个注册码，每日 11.11 元秒杀；
+                            3. 好友助力，秒杀再减 10 元 (1.11 元)；
+                            4. 30 余款软件 6 折起，全店 95 折；">
+                        <img src="https://i.loli.net/2019/10/31/fnKFVJLsDhvjO34.png">
+                </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://androidweekly.io?utm_source=androiddevtools.cn&amp;utm_medium=banner" target="_blank" onclick="trackOutboundLink('https://androidweekly.io', 'AndroidWeekly', 'click');" title="汇集互联网上每周Android开发的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。" >
+                        <img src="https://i.loli.net/2019/10/31/DZd9HX31jL2NlxY.png">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href='http://www.materialdoc.cn?utm_source=androiddevtools.cn&amp;utm_medium=banner' target="_blank" onclick="trackOutboundLink('https://www.materialdoc.cn', 'Materialdoc', 'click');" title="Material Design 开发者参考文档">
+                        <img src="https://i.loli.net/2019/10/31/ybcFZ9NnEzt4R37.jpg">
+                    </a>
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
         </div>
-    </div>
+        <style>
+            :root {
+                --swiper-theme-color: #FFFFFF;
+            }
+            .swiper-container {
+                width: 94%;
+                margin-top: 20px;
+                border-radius: 6px;
+            }
 
-    <div class="banner has-dots" id="ad-banner-list">
-        <ul>
-            <li style="background-image: url(https://i.loli.net/2019/06/18/5d0842481578724529.png); width: 25%;" data-link="https://www.androiddevtools.cn/ad/lizhi-618.html?utm_source=androiddevtools.cn&amp;utm_medium=banner" data-tag="LiZhi-li" data-event-type="click">
-                <div class="inner">
-                    <h1></h1>
-                    <p style="color: darkgray"><br/><br/><br/></p>
-                    <a class="btn" href="https://www.androiddevtools.cn/ad/lizhi-618.html?utm_source=androiddevtools.cn&amp;utm_medium=banner" onclick="trackOutboundLink('https://www.androiddevtools.cn/ad/lizhi-618.html', 'LiZhi-618-Button', 'click');" title="">去领劵</a>
-                </div>
-            </li>
-            <!-- <li class="hide" style="background-image: url(https://i.loli.net/2019/05/10/5cd4dfb5f1a74.png); width: 25%;" data-link="https://partner.lizhi.io/androiddevtools/cp?utm_source=androiddevtools.cn&amp;utm_medium=banner" data-tag="LiZhi-li" data-event-type="click">
-                <div class="inner">
-                    <h1>众多精选正版软件</h1>
-                    <p style="color: darkgray">买正版，售后好，三折起<br/><br/><br/></p>
-                    <a class="btn" href="https://partner.lizhi.io/androiddevtools/cp?utm_source=androiddevtools.cn&amp;utm_medium=banner" onclick="trackOutboundLink('https://partner.lizhi.io/androiddevtools/cp', 'LiZhi-Button', 'click');" title="">去领劵</a>
-                </div>
-            </li> -->
-            <li style="background-image: url(https://i.loli.net/2019/05/10/5cd4dff4e976e.png); width: 25%;" data-link="https://androidweekly.io/android-pie/?utm_source=androiddevtools_banner&amp;utm_medium=website" data-tag="Android-P-li" data-event-type="click">
-                <div class="inner">
-                    <h1>Android Pie</h1>
-                    <p style="color: darkgray">采用 AI 技术，让智能手机变得更智能、操作更简便且更贴合您的需求。</p>
-                    <a class="btn" href="https://androidweekly.io/android-pie/?utm_source=androiddevtools_banner&amp;utm_medium=website" onclick="trackOutboundLink('https://androidweekly.io/android-pie/', 'Android-P-Page', 'click');" title="">去看看</a>
-                </div>
-            </li>
-            <!-- <li class="hide" style="background-image: url(https://i.loli.net/2019/05/10/5cd4e011ebea9.png); width: 25%;" data-link="https://developer.android.google.cn/jetpack/?utm_source=androiddevtools_banner&amp;utm_medium=website" data-tag="Android-Jetpack-li"
-                data-event-type="click">
-                <div class="inner">
-                    <h1>Android Jetpack</h1>
-                    <p style="color: darkgray">Android 软件组件的集合，使您更容易地开发优秀的 Android 应用程序。</p>
-                    <a class="btn" href="https://developer.android.google.cn/jetpack/?utm_source=androiddevtools_banner&amp;utm_medium=website" onclick="trackOutboundLink('https://developer.android.google.cn/jetpack/', 'Android-Jetpack-Page', 'click');" title="">去试试</a>
-                </div>
-            </li> -->
-            <li style="background-image: url(https://i.loli.net/2019/05/10/5cd4e030e1e64.png); width: 25%;" data-link="http://www.androidweekly.cn?utm_source=androiddevtools.cn&utm_medium=website" data-tag="AndroidWeekly-li" data-event-type="click">
-                <div class="inner">
-                    <h1>Android 开发技术周报</h1>
-                    <p>汇集互联网上每周Android开发的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。</p>
-                    <a class="btn" href="http://www.androidweekly.cn" onclick="trackOutboundLink('http://www.androidweekly.cn', 'AndroidWeekly', 'click');" title="汇集互联网上每周Android开发的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。">去订阅</a>
-                </div>
-            </li>
-            <li style="background-image: url(https://i.loli.net/2019/05/10/5cd4e04a004b4.png);" data-link="https://developer.android.google.cn/develop/index.html?utm_source=androiddevtools.cn&utm_medium=website" data-tag="Android-Architecture-Components-li" data-event-type="click">
-                <div class="inner">
-                    <h1>Android Architecture Components</h1>
-                    <p>Android 架构组件</p>
-                    <a class="btn" href='https://developer.android.google.cn/develop/index.html' onclick="trackOutboundLink('https://developer.android.google.cn/develop/index.html', 'Android-Architecture-Components', 'click');" title="官方下载 Android Studio">去学习</a>
-                </div>
-            </li>
-            <li style="background-image: url(https://i.loli.net/2019/05/10/5cd4e0c6a672c.png); width: 25%;" data-link="http://www.materialdoc.cn?utm_source=androiddevtools.cn&utm_medium=website" data-tag="Materialdoc-li" data-event-type="click">
-                <div class="inner">
-                    <h1>Material Design</h1>
-                    <p>开发者参考文档</p>
-                    <a class="btn" href='http://www.materialdoc.cn' onclick="trackOutboundLink('http://www.materialdoc.cn', 'Materialdoc', 'click');" title="开发者参考文档">去查查</a>
-                </div>
-            </li>
-            <li style="background-image: url(https://i.loli.net/2019/05/10/5cd4e3ef822db.png); width: 25%;" data-link="https://developers.google.cn?utm_source=androiddevtools.cn&utm_medium=website" data-tag="GoogleDevelopers-li" data-event-type="click">
-                <div class="inner">
-                    <h1>Google Developers</h1>
-                    <p>官方 Google 开发者网站</p>
-                    <a class="btn" href='https://developers.google.cn' onclick="trackOutboundLink('https://developers.google.cn', 'Google Developers', 'click');" title="官方 Google 开发者网站">去瞅瞅</a>
-                </div>
-            </li>
-            <!-- <li class="hide" style="background-image: url(http://ww4.sinaimg.cn/large/006tNc79ly1fem3vspxegj31e90g478v.jpg); width: 25%;" data-link="http://www.studyjamscn.com/?utm_source=androiddevtools.cn&utm_medium=website" data-tag="StudyJams-li" data-event-type="click">
-                <div class="inner">
-                    <h1>Google StudyJams</h1>
-                    <p style="color: darkgray">Study Jams 活动可以帮助任何零基础的学员入门 Android 开发，无需任何费用，优秀学员还可以得到 Google 的纪念证书。</p>
-                    <a class="btn" href="http://www.studyjamscn.com/" onclick="trackOutboundLink('http://www.studyjamscn.com/', 'StudyJams', 'click');" title="Study Jams 活动可以帮助任何零基础的学员入门 Android 开发，无需任何费用，优秀学员还可以得到 Google 的纪念证书">去瞅瞅</a>
-                </div>
-            </li> -->
-        </ul>
-    </div>
+            .swiper-slide img {
+                width: 100%;
+            }
+            
+            .swiper-pagination {
+                margin-bottom: 20px;
+                
+            }
+            .swiper-pagination-bullet {
+                width: 12px;
+                height: 12px;
+            }
+        </style>
+        <script>
+            var mySwiper = new Swiper ('.swiper-container', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+                autoplay: {
+                    delay: 4500,
+                    disableOnInteraction: true,
+                },
+                 // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                }
+            });
+        </script>
+    </section>
     <section id="body">
         <div class="container body-container">
             <div class="row">
-                <div>
-                    <p class="center">
+                <div >
+                    <p class="center hide">
                         <a href="http://1t.click/aBcQ" title="助力产业智慧升级，云服务器首年88元起，更有千元代金券礼包免费领！" onclick="trackOutboundLink('http://1t.click/aBcQ', 'AD-TencentCloud-1111-2019', 'click');" target="_blank">
                             <img src="https://i.loli.net/2019/10/15/8NojldgUEmpYFyu.jpg">
                         </a>
                     </p>
                     <h1 id="introduction" class="content-title" algin="center">AndroidDevTools</h1>
-                    <p>收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。</p>
-                    <p>欢迎大家推荐自己在Android开发过程中用的好用的工具、学习开发教程、用到设计素材。如果你觉得本站对你有用，你可以点击底部的分享按钮，把本站分享到社交网络让你的小伙伴和更多的人知道。</p>
+                    <p>收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。欢迎大家推荐自己在Android开发过程中用的好用的工具、学习开发教程、用到设计素材。如果你觉得本站对你有用，你可以点击底部的分享按钮，把本站分享到社交网络让你的小伙伴和更多的人知道。</p>
                     <p>或者可以考虑对本站<a href="./donate.html"><strong>捐赠</strong></a>支持下，支持我把本站做的更好，帮助更多的人。目前支持支付宝和微信，金额随意。</p>
                 </div>
                 <div id="android-dev-tools" class="hide">
@@ -277,7 +280,7 @@
                         <ol>
                             <li>
                                 <p>郑州大学开源镜像站: </p>
-                                <p><code>mirrors.zzu.edu.cn</code> 端口：80</p>
+                                <p><code></code>mirrors.zzu.edu.cn</code> 端口：80</p>
                             </li>
                         </ol>
                         <h4><strong>使用方法：</strong></h4>
@@ -2412,32 +2415,32 @@
                                 <td rowspan="7">8.1</td>
                                 <td>Nexus 5X</td>
                                 <td><a href="#top" onclick="onDownload(this)" data-modal-toggle="preview_tos">bullhead-opp5.170921.005-factory-e5622807.zip</a></td>
-                                <td><code>e5622807e9273b327ca5ccaec72abdd5a57a4f8895d30af3b1db9b13648e93d3</code></td>
+                                <td>e5622807e9273b327ca5ccaec72abdd5a57a4f8895d30af3b1db9b13648e93d3</td>
                                 <td rowspan="7"><a href="https://ws1.sinaimg.cn/large/006tNc79ly1flrubsku5wj31kw0p9anb.jpg">查看</a></td>
                             </tr>
 
                             <tr id="angler">
                                 <td>Nexus 6P</td>
                                 <td><a href="#top" onclick="onDownload(this)" data-modal-toggle="preview_tos">angler-opp5.170921.005-factory-a45d3eab.zip</a></td>
-                                <td><code>a45d3eab4bc4244b6661fe677f26ec8d375a0fa568a345c0a2a76bd36f56c433</code></td>
+                                <td>a45d3eab4bc4244b6661fe677f26ec8d375a0fa568a345c0a2a76bd36f56c433</td>
                             </tr>
 
                             <tr id="ryu">
                                 <td>Pixel C</td>
                                 <td><a href="#top" onclick="onDownload(this)" data-modal-toggle="preview_tos">ryu-opp5.170921.005-factory-94249682.zip</a></td>
-                                <td><code>94249682b612ab0d4f9f484b737a3899be6aa5d68e6cf59877fd0e3a1ee55344</code></td>
+                                <td>94249682b612ab0d4f9f484b737a3899be6aa5d68e6cf59877fd0e3a1ee55344</td>
 
                             </tr>
                             <tr id="sailfish">
                                 <td>Pixel</td>
                                 <td><a href="#top" onclick="onDownload(this)" data-modal-toggle="preview_tos">sailfish-opp5.170921.005-factory-47da29c4.zip</a></td>
-                                <td><code>47da29c416a5803869a0d88cfdcbcdb08b1c7468d13af127f53bd1301025ba7e</code></td>
+                                <td>47da29c416a5803869a0d88cfdcbcdb08b1c7468d13af127f53bd1301025ba7e</td>
                             </tr>
 
                             <tr id="marlin">
                                 <td>Pixel XL</td>
                                 <td><a href="#top" onclick="onDownload(this)" data-modal-toggle="preview_tos">marlin-opp5.170921.005-factory-56bbae3e.zip</a></td>
-                                <td><code>56bbae3e97ebf85ec403886045e9f6d6987f0ad37c75d65dd48397873bb78619</code></td>
+                                <td>56bbae3e97ebf85ec403886045e9f6d6987f0ad37c75d65dd48397873bb78619</td>
                             </tr>
 
                             <tr id="walleye">
@@ -2452,56 +2455,56 @@
                             <tr id="taimen">
                                 <td>Pixel 2 XL</td>
                                 <td><a href="#top" onclick="onDownload(this)" data-modal-toggle="preview_tos">taimen-opp5.170921.005-factory-879b105d.zip</a></td>
-                                <td><code>879b105dd93a856ca0dad3f0d86a10938e57e6f33c5a628c5be95e6f4740824e</code></td>
+                                <td>879b105dd93a856ca0dad3f0d86a10938e57e6f33c5a628c5be95e6f4740824e</td>
                             </tr>
                             <tr id="bullhead">
                                 <td rowspan="8">8.0</td>
                                 <td align="left">Nexus 5X</td>
                                 <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/bullhead-opr6.170623.013-factory-203642e1.zip">bullhead-opr6.170623.013-factory-203642e1.zip</a></td>
-                                <td align="left"><code>203642e1a27ee0f00302cbf0003adfb8fabfb27821a6f33bad393472a20b97c8</code></td>
+                                <td align="left">203642e1a27ee0f00302cbf0003adfb8fabfb27821a6f33bad393472a20b97c8</td>
                                 <td rowspan="8"><a href="https://ws2.sinaimg.cn/large/006tNc79ly1fiuk0yshzlj31kw0tcn71.jpg">查看</a></td>
                             </tr>
 
                             <tr id="angler">
                                 <td align="left">Nexus 6P</td>
                                 <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/angler-opr6.170623.013-factory-a63b2f21.zip">angler-opr6.170623.013-factory-a63b2f21.zip</a></td>
-                                <td align="left"><code>a63b2f21ad07d7b163cdb0ff26b4d3aedfa3869462d4b86369dc35d5653895bb</code></td>
+                                <td align="left">a63b2f21ad07d7b163cdb0ff26b4d3aedfa3869462d4b86369dc35d5653895bb</td>
                             </tr>
 
                             <tr id="fugu">
                                 <td align="left">Nexus Player</td>
                                 <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/fugu-opr6.170623.015-factory-56e03f51.zip">fugu-opr6.170623.015-factory-56e03f51.zip</a></td>
-                                <td align="left"><code>56e03f51214e56a8754d8018d5cae89b4a0f360f3108b20a18754c7d49cbb6a7</code></td>
+                                <td align="left">56e03f51214e56a8754d8018d5cae89b4a0f360f3108b20a18754c7d49cbb6a7</td>
                             </tr>
 
                             <tr id="ryu">
                                 <td align="left">Pixel C</td>
                                 <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/ryu-opr6.170623.010-factory-81a1479d.zip">ryu-opr6.170623.010-factory-81a1479d.zip</a></td>
-                                <td align="left"><code>81a1479d62eddc5657c6b496a5581bafe07265b61f7e0c3b259430fcc7119758</code></td>
+                                <td align="left">81a1479d62eddc5657c6b496a5581bafe07265b61f7e0c3b259430fcc7119758</td>
                             </tr>
 
                             <tr id="sailfish-fi">
                                 <td align="left">Pixel (Telstra, Rogers, TMO, Sprint, USCC, Project Fi)</td>
                                 <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/sailfish-opr6.170623.011-factory-0d712594.zip">sailfish-opr6.170623.011-factory-0d712594.zip</a></td>
-                                <td align="left"><code>0d71259400371b8da44e6300324dbd6cbe26d6ae2641745becab9d7d1607e9db</code></td>
+                                <td align="left">0d71259400371b8da44e6300324dbd6cbe26d6ae2641745becab9d7d1607e9db</td>
                             </tr>
 
                             <tr id="sailfish-other">
                                 <td align="left">Pixel (other carriers)</td>
                                 <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/sailfish-opr6.170623.012-factory-8ada9373.zip">sailfish-opr6.170623.012-factory-8ada9373.zip</a></td>
-                                <td align="left"><code>8ada9373e6f86cac20023bd6c7889edb0449fc7085913d1e45f8a1491b17942c</code></td>
+                                <td align="left">8ada9373e6f86cac20023bd6c7889edb0449fc7085913d1e45f8a1491b17942c</td>
                             </tr>
 
                             <tr id="marlin-fi">
                                 <td align="left">Pixel XL (Telstra, Rogers, TMO, Sprint, USCC, Project Fi)</td>
                                 <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/marlin-opr6.170623.011-factory-985fd412.zip">marlin-opr6.170623.011-factory-985fd412.zip</a></td>
-                                <td align="left"><code>985fd412c40dd1ec6ee780185b30c5854627b5301da2a48f252155a0265116de</code></td>
+                                <td align="left">985fd412c40dd1ec6ee780185b30c5854627b5301da2a48f252155a0265116de</td>
                             </tr>
 
                             <tr id="marlin-other">
                                 <td align="left">Pixel XL (other carriers)</td>
                                 <td align="left"><a href="http://storage.googleapis.com/androiddevelopers/shareables/preview/marlin-opr6.170623.012-factory-6304451d.zip">marlin-opr6.170623.012-factory-6304451d.zip</a></td>
-                                <td align="left"><code>6304451dd6744b1a2faadd7921f28a217e8dbe4bf20c6cfc20bf350b1e0f07df</code></td>
+                                <td align="left">6304451dd6744b1a2faadd7921f28a217e8dbe4bf20c6cfc20bf350b1e0f07df</td>
                             </tr>
                         </tbody>
                     </table>
@@ -5361,7 +5364,7 @@
     <!--   浮动广告      -->
     <script>
         var lastScrollY = 0;
-        var initTop = 120;
+        var initTop = 460;
 
         function heartBeat() {
             var diffY = 0;
