@@ -148,7 +148,7 @@ h3 {
     font-weight: 300;
     color: #888;
     font-size: 22px;
-    padding-top: 115px;
+    padding-top: 20px;
     margin-top: 0;
 }
 
@@ -453,6 +453,34 @@ footer p {
     display: block;
 }
 
+.pop {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #000000AA;
+    text-align: center;
+    z-index: 100;
+    display: none;
+}
+
+.pop-container {
+    height: 80%;
+    margin-top: 10%;
+}
+
+.pop-links {
+    text-decoration: none;
+}
+
+.pop-image {
+    max-height: 70%;
+}
+
+.pop-text {
+    color: white;
+}
 
 /* Widescreen desktop. */
 
