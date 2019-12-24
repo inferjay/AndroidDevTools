@@ -20,8 +20,8 @@
     <link rel="shortcut icon" href="static/image/favicon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="static/image/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="static/image/apple-touch-icon-114x114.png">
-    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <script src="static/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="static/css/swiper.min.css">
     <!-- GrowingIO 统计 -->
     <script type='text/javascript'>
         var _vds = _vds || [];
@@ -197,7 +197,7 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
                     <a href="https://www.androiddevtools.cn/ad/lizhi-2019-1111.html?utm_source=androiddevtools.cn&amp;utm_medium=banner" target="_blank"
                             onclick="trackOutboundLink('https://www.androiddevtools.cn/ad/lizhi-2019-1111.html', 'LiZhi-1111-Button', 'click');" title="我们的老朋友「数码荔枝」近日开始了正版软件届的双十一活动。活动时间：11月1日～11 月 12 日,                            
                             1. 在商城首页参与抽奖 (三次机会)，最高可得 200 元现金红包；
@@ -205,8 +205,8 @@
                             3. 好友助力，秒杀再减 10 元 (1.11 元)；
                             4. 30 余款软件 6 折起，全店 95 折；">
                         <img src="https://i.loli.net/2019/10/31/fnKFVJLsDhvjO34.png">
-                </a>
-                </div>
+                    </a>
+                </div> -->
                 <div class="swiper-slide">
                     <a href="https://androidweekly.io?utm_source=androiddevtools.cn&amp;utm_medium=banner" target="_blank" onclick="trackOutboundLink('https://androidweekly.io', 'AndroidWeekly', 'click');" title="汇集互联网上每周Android开发的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。" >
                         <img src="https://i.loli.net/2019/10/31/DZd9HX31jL2NlxY.png">
@@ -5594,18 +5594,36 @@
         let image = $('.pop-image');
         let link = $('.pop-links');
         let text = $('.pop-text');
-    
-        let index = Math.floor(Math.random() * 10);
+        let adArray = [
+            {
+                "title": "学生认证立享特权，课程一律 5 折",
+                "link": "http://gk.link/a/10am6?utm_source=androiddevtools.cn&utm_medium=fixed_ad",
+                "image": "https://i.loli.net/2019/11/24/7x31a8fM5g6k9Yv.jpg"
+            },{
+                "title": "扫码关注「Android开发技术周报」公众号",
+                "link": "ttps://androidweekly.io?utm_source=androiddevtools.cn&utm_medium=fixed_ad",
+                "image": "https://i.loli.net/2019/11/06/SQXtbdrDxAkynEz.jpg"
+            },{
+                "title": "站长自家种的草莓🍓红了，👏欢迎扫码咨询订购尝鲜！",
+                "link": "#",
+                "image": "https://i.loli.net/2019/12/24/hDCBcJ2uwTpxUbt.jpg"
+            }
+        ];
+        let index = Math.floor(Math.random() * adArray.length);
         console.log('index = ' + index);
-        if (index % 2 == 0){
-            image.attr('src', "https://i.loli.net/2019/11/24/7x31a8fM5g6k9Yv.jpg");
-            link.attr('href', "http://gk.link/a/10am6?utm_source=androiddevtools.cn&utm_medium=fixed_ad");
-            text.text("学生认证立享特权，课程一律 5 折");
-        } else {
-            image.attr('src', "https://i.loli.net/2019/11/06/SQXtbdrDxAkynEz.jpg");
-            link.attr('href', "https://androidweekly.io?utm_source=androiddevtools.cn&utm_medium=fixed_ad");
-            text.text("扫码关注「Android开发技术周报」公众号");
-        }
+        // if (index % 2 == 0){
+        //     image.attr('src', "https://i.loli.net/2019/11/24/7x31a8fM5g6k9Yv.jpg");
+        //     link.attr('href', "http://gk.link/a/10am6?utm_source=androiddevtools.cn&utm_medium=fixed_ad");
+        //     text.text("学生认证立享特权，课程一律 5 折");
+        // } else {
+        //     image.attr('src', "https://i.loli.net/2019/11/06/SQXtbdrDxAkynEz.jpg");
+        //     link.attr('href', "https://androidweekly.io?utm_source=androiddevtools.cn&utm_medium=fixed_ad");
+        //     text.text("扫码关注「Android开发技术周报」公众号");
+        // }
+        let adItem = adArray[index]; 
+        image.attr('src', adItem['image']);
+        link.attr('href', adItem['link']);
+        text.text(adItem['title']);
         var currentTime = new Date().getTime();
         if (localStorage.hideExpiredTime == null || localStorage.hideExpiredTime == undefined || localStorage.hideExpiredTime == ''){
           localStorage.hideExpiredTime = 0;
