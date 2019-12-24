@@ -5611,15 +5611,6 @@
         ];
         let index = Math.floor(Math.random() * adArray.length);
         console.log('index = ' + index);
-        // if (index % 2 == 0){
-        //     image.attr('src', "https://i.loli.net/2019/11/24/7x31a8fM5g6k9Yv.jpg");
-        //     link.attr('href', "http://gk.link/a/10am6?utm_source=androiddevtools.cn&utm_medium=fixed_ad");
-        //     text.text("学生认证立享特权，课程一律 5 折");
-        // } else {
-        //     image.attr('src', "https://i.loli.net/2019/11/06/SQXtbdrDxAkynEz.jpg");
-        //     link.attr('href', "https://androidweekly.io?utm_source=androiddevtools.cn&utm_medium=fixed_ad");
-        //     text.text("扫码关注「Android开发技术周报」公众号");
-        // }
         let adItem = adArray[index]; 
         image.attr('src', adItem['image']);
         link.attr('href', adItem['link']);
