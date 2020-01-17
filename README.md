@@ -1,4 +1,4 @@
-<p align="center"><img src="./static/image/preview.jpg" width="480/></p>
+<p align="center"><img src="./static/image/preview.jpg"/></p>
 <p align="center"><h1 align="center">AndroidDevTools</h1></p>
 
 ---
