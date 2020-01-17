@@ -1,13 +1,13 @@
-AndroidDevTools
-===============
+<p align="center"><img src="./static/image/preview.jpg" width="480/></p>
+<p align="center"><h1 align="center">AndroidDevTools</h1></p>
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inferjay/AndroidDevTools?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-**Android Dev Tools官网地址：[www.androiddevtools.cn](http://www.androiddevtools.cn)**
+---
+**官网地址：[www.androiddevtools.cn](https://www.androiddevtools.cn)**
 
 收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。
 
 欢迎大家推荐自己在Android开发过程中用的好用的工具、学习开发教程、用到设计素材，欢迎Star、Fork 😄。
+
 
 # Android Tools
 ---
