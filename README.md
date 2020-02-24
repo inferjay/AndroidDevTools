@@ -1662,6 +1662,10 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 [免费的编程中文书籍索引](http://siberiawolf.com/free_programming/index.html)
 
+# 🎁福利
+
+<a href="http://gk.link/a/10ga3" target="_blank"><img src="./static/image/geek-time-ad.jpg" /></a>
+
 # Disclaimer
 ---
 
