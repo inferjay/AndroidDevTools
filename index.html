@@ -174,11 +174,17 @@
             </div>
         </div>
     </header>
-    <div id="auto-scroll-ad-box" style="z-index: 10; right: 0px; position: absolute; top: 1112px;">
+    <div id="auto-scroll-ad-box" style="z-index: 19; right: 0px; position: fixed; top: 25%; bottom: 25%">
         <div class="ad-float-right">
             <a href="https://plus.hencoder.com" title="用碎片化的时间，学习系统化内容；短期暴力提升，快速突破瓶颈。HenCoder Plus 作为一套全方位系统化的在线直播课程，开课两期以来，吸纳了来自 BAT、头条、滴滴等公司以及硅谷、台湾和日本的众多学员报名参加，并且众多学员在毕业一个月内先后入职阿里、腾讯、小米、头条等公司。其中一位学员拿到 80w+ 的年薪，多位学员年薪达到 45w 左右。" onclick="trackOutboundLink('https://plus.hencoder.com', 'AD-HenCoderPlus', 'click');"
                 target="_blank">
-                <img src="https://i.loli.net/2019/05/23/5ce663bb003ec62326.gif" style="height: 313.5px; width: 192.5px;">
+                <img src="https://i.loli.net/2019/05/23/5ce663bb003ec62326.gif">
+            </a>
+        </div>
+        <div class="ad-float-right">
+            <a href="https://www.ucloud.cn/site/global.html?ytag=androiddevtools" title="" onclick="trackOutboundLink('https://www.ucloud.cn/site/global.html?ytag=androiddevtools', 'AD-UCloud', 'click');"
+                target="_blank">
+                <img src="https://i.loli.net/2020/03/18/T5eLUJ4VdFf3bOR.png">
             </a>
         </div>
     </div>
@@ -191,7 +197,7 @@
             <span class="pop-btn-close"><svg t="1573004385562" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2029" width="32" height="32"><path d="M679.453315 383.633401c-0.409322-10.153244-4.200672-20.195971-11.954263-27.948539-7.751544-7.749498-17.767666-11.517311-27.947516-11.954263-11.301394-0.436952-22.709211 3.330862-31.335682 11.954263l-96.099708 96.127338-96.100732-96.127338c-8.625448-8.623401-20.034289-12.391215-31.333636-11.954263-10.152221 0.436952-20.195971 4.204765-27.948539 11.954263-7.752568 7.751544-11.544941 17.795295-11.954263 27.948539-0.464581 11.299347 3.327792 22.708188 11.954263 31.333636l96.099708 96.127338-96.099708 96.074126c-8.626471 8.625448-12.418844 20.034289-11.954263 31.333636 0.409322 10.152221 4.201695 20.195971 11.954263 27.948539 7.751544 7.751544 17.795295 11.57257 27.948539 11.95631 11.299347 0.490164 22.708188-3.330862 31.333636-11.95631l96.100732-96.073102 96.099708 96.073102c8.626471 8.625448 20.034289 12.44545 31.335682 11.95631 10.178827-0.38374 20.194948-4.203742 27.947516-11.95631 7.752568-7.751544 11.543917-17.796318 11.954263-27.948539 0.463558-11.299347-3.327792-22.708188-11.954263-31.333636l-96.099708-96.074126 96.099708-96.127338C676.125523 406.341588 679.916872 394.932748 679.453315 383.633401zM512.116145 63.916728c-246.953462 0-447.178669 200.227254-447.178669 447.178669 0 246.953462 200.225207 447.177646 447.178669 447.177646 246.953462 0 447.178669-200.224184 447.178669-447.177646C959.294814 264.143982 759.069607 63.916728 512.116145 63.916728zM512.116145 874.427426c-200.333678 0-363.332029-162.996305-363.332029-363.333052 0-200.333678 162.999374-363.333052 363.332029-363.333052s363.333052 162.999374 363.333052 363.333052C875.449197 711.431122 712.449823 874.427426 512.116145 874.427426z" p-id="2030" fill="#bfbfbf"></path></svg></span>
         </div>
     </div>
-    <section>
+    <section id="banner-slider">
         <!-- Slider main container -->
         <div class="swiper-container">
             <!-- Additional required wrapper -->
@@ -5440,7 +5446,7 @@
         </div>
     </section>
     <div class="zh-backtotop">
-        <a data-action="backtotop" data-tip="s$r$回到顶部" class="btn-backtotop btn-action">
+        <a data-action="backtotop" data-tip="s$r$回到顶部" class="btn-backtotop btn-action" href="#banner-slider">
             <img class="arrow" src="static/image/backtotop_arrow.png">
         </a>
     </div>
@@ -5488,8 +5494,8 @@
             },
             {
                 "title": "扫码关注「Android开发技术周报」公众号",
-                "link": "ttps://androidweekly.io?utm_source=androiddevtools.cn&utm_medium=fixed_ad",
-                "image": "https://i.loli.net/2019/11/06/SQXtbdrDxAkynEz.jpg"
+                "link": "https://androidweekly.io?utm_source=androiddevtools.cn&utm_medium=fixed_ad",
+                "image": "https://i.loli.net/2020/03/13/xVsk5mqEgF7joz6.jpg"
             }
         ];
         let index = Math.floor(Math.random() * adArray.length);
@@ -5513,9 +5519,9 @@
         })
     </script>
     <!--   浮动广告      -->
-    <script>
+    <!-- <script>
         var lastScrollY = 0;
-        var initTop = 460;
+        var initTop = 100;
 
         function heartBeat() {
             var diffY = 0;
@@ -5538,7 +5544,7 @@
             lastScrollY = lastScrollY + percent;
         }
         window.setInterval("heartBeat()", 1);
-    </script>
+    </script> -->
     <!-- Google Analytics -->
     <script>
         (function(i, s, o, g, r, a, m) {
@@ -5566,11 +5572,11 @@
         };
     </script>
     <!-- End Google Analytics -->
-    <script>
+    <!-- <script>
         $(function() {
             $('.zh-backtotop').toTop();
         });
-    </script>
+    </script> -->
     <script type="text/javascript">
         $(function() {
             // Syntax highlight code blocks.

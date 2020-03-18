@@ -414,13 +414,18 @@ footer p {
 
 .ad-float-right {
     background-color: white;
-    border-radius: 6px;
+    border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px;
     -moz-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px;
-    padding: 6px;
+    padding: 4px;
     margin-right: 0px;
     margin-top: 6px;
+}
+
+.ad-float-right {
+    width: 130px;
+    border-radius: 4px;
 }
 
 #books-list ul {

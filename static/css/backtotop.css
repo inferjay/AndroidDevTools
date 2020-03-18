@@ -1,9 +1,8 @@
 .zh-backtotop {
     position: fixed;
-    bottom: 80px;
-    left: 52%;
+    bottom: 15px;
+    right: 1%;
     z-index: 19;
-    margin-left: 580px;
 }
 
 .zh-backtotop .btn-action {
