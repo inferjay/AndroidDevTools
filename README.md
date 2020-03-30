@@ -116,47 +116,7 @@
 
 #### Android Studio
 
-<blockquote style="color: gray">
-                        <strong style="color: red">注意:</strong>以下 Android Studio 下载链接全是 <code>dl.google.com</code> 开头的官方下载，无需tizi，<strong style="color: red">建议用浏览器直接从官方原始链接下载，不要用迅雷下载、不要用迅雷下载、不要用迅雷下载</strong>，重要的事情说三遍，避免类似<a href="https://www.zhihu.com/question/35721299">XCodeGhost</a>的事件！！！
-                    </blockquote>
-
-| 版本号  |   Windows         |       Mac OSX     |       Linux     |       SHA-1校验码     |       官方SHA-1校验码截图     |
-|:------:|:--------------:|:-----------------:|:------------------:|:------------------|:------------------:|
-|  2.1.3 正式版 | [下载 (推荐)][2.1.3-sdk-win] <br/> [下载 (不含SDK Tools)][2.1.3-zip-win] <br/> [下载][2.1.3-win] | [下载][2.1.3-mac] | [下载][2.1.3-linux] | Win: 10d319c772b80f3cb0cde952451af8429ea1b68b <br/> 43f84de7e61f37880a126c3d567b7fa6cb90c90e <br/> 8ad212c55c7f4dc7ab490e4b7e77ec48001ae224 <br/> Mac: 06166759b0e1e1ee91a147dcf5227d897a184277 <br/> Linux: 8729e6f2f1fa58f04df9f8d1caac2f5be9dfc549 |  [查看][2.1.3-sha1] |
-|  2.2 Beta | [下载][2.2-beta-win] | [下载][2.2-beta-mac] | [下载][2.2-beta-linux] | Win: 7d2c9861e90dc985b1e6ba78ebd8497b610a8620 <br/> Mac:050a443ffee51922eabddbcd260c845a8e06e4a9 <br/> Linux: bafb5d7029d2678e8274e24da1c7ce0a00f3a644 |  [查看][2.2-beta-sha1] |
-|  2.2 Preview7 | [下载][2.2-p7-win] | [下载][2.2-p7-mac] | [下载][2.2-p7-linux] | Win: e6ea4c9d9bf4ae46dbea82e3cc5638fd93194c33 <br/> Mac: 56327a0f97d999a6b7a15f3e9e513aa42881c989 <br/> Linux: b85c4e27401f7f18af19e39e453cca8575041dbb |  [查看][2.1.3-sha1] |
-|  2.1.2 正式版 | [下载(推荐)][2.1.2-sdk-win] <br/> [下载(不含SDK Tools)][2.1.2-zip-win] <br/> [下载][2.1.2-win] | [下载][2.1.2-mac] | [下载][2.1.2-linux] | Win: 10d319c772b80f3cb0cde952451af8429ea1b68b <br/> 43f84de7e61f37880a126c3d567b7fa6cb90c90e <br/> 8ad212c55c7f4dc7ab490e4b7e77ec48001ae224 <br/> Mac: <br/> Linux: |  [查看][2.1.2-sha1] |
-
-
-[2.2-p7-win]:https://dl.google.com/dl/android/studio/ide-zips/2.2.0.6/android-studio-ide-145.3111935-windows.zip
-[2.2-p7-mac]:https://dl.google.com/dl/android/studio/ide-zips/2.2.0.6/android-studio-ide-145.3111935-mac.zip
-[2.2-p7-linux]:https://dl.google.com/dl/android/studio/ide-zips/2.2.0.6/android-studio-ide-145.3111935-linux.zip
-
-[2.2-p7-sha1]:http://ww3.sinaimg.cn/large/8a41f469gw1f6iopbz2e6j20rm0i0ahj.jpg
-
-[2.1.2-sdk-win]:https://dl.google.com/dl/android/studio/install/2.1.2.0/android-studio-bundle-143.2915827-windows.exe
-[2.1.2-win]:https://dl.google.com/dl/android/studio/install/2.1.2.0/android-studio-ide-143.2915827-windows.exe
-[2.1.2-zip-win]:https://dl.google.com/dl/android/studio/ide-zips/2.1.2.0/android-studio-ide-143.2915827-windows.zip
-[2.1.2-mac]:https://dl.google.com/dl/android/studio/install/2.1.2.0/android-studio-ide-143.2915827-mac.dmg
-[2.1.2-linux]:https://dl.google.com/dl/android/studio/ide-zips/2.1.2.0/android-studio-ide-143.2915827-linux.zip
-
-[2.1.2-sha1]:http://ww4.sinaimg.cn/large/8a41f469gw1f6ve8k9nkij21kw15316t.jpg
-
-
-[2.2-beta-win]:https://dl.google.com/dl/android/studio/ide-zips/2.2.0.7/android-studio-ide-145.3128856-windows.zip
-[2.2-beta-mac]:https://dl.google.com/dl/android/studio/ide-zips/2.2.0.7/android-studio-ide-145.3128856-mac.zip
-[2.2-beta-linux]:https://dl.google.com/dl/android/studio/ide-zips/2.2.0.7/android-studio-ide-145.3128856-linux.zip
-
-[2.2-beta-sha1]:http://ww1.sinaimg.cn/large/8a41f469gw1f6ve698vw9j21ih1304jw.jpg
-
-
-[2.1.3-sdk-win]:https://dl.google.com/dl/android/studio/install/2.1.3.0/android-studio-bundle-143.3101438-windows.exe
-[2.1.3-win]:https://dl.google.com/dl/android/studio/install/2.1.3.0/android-studio-ide-143.3101438-windows.exe
-[2.1.3-zip-win]:https://dl.google.com/dl/android/studio/ide-zips/2.1.3.0/android-studio-ide-143.3101438-windows.zip
-[2.1.3-mac]:https://dl.google.com/dl/android/studio/install/2.1.3.0/android-studio-ide-143.3101438-mac.dmg
-[2.1.3-linux]:https://dl.google.com/dl/android/studio/ide-zips/2.1.3.0/android-studio-ide-143.3101438-linux.zip
-
-[2.1.3-sha1]:http://ww2.sinaimg.cn/large/8a41f469gw1f6ve98yjtxj21kw16baos.jpg
+<blockquote style="color: gray"><strong style="color: red">注意:</strong>请到 <a href="https://www.androiddevtools.cn">本项目官网</a> 或者 <a href="https://developer.android.google.cn/studio/archive">Android Studio 官网</a> 下载</blockquote>
 
 
 #### SDK Tools
