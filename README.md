@@ -1,7 +1,6 @@
 <p align="center"><img src="./static/image/preview.jpg"/></p>
 <p align="center"><h1 align="center">AndroidDevTools</h1></p>
 
----
 **官网地址：[www.androiddevtools.cn](https://www.androiddevtools.cn)**
 
 收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。
@@ -14,7 +13,6 @@
 
  * [AndroidDevTools](#androiddevtools)
  * [Android Tools](#android-tools)
-      * [Android SDK在线更新镜像服务器](#android-sdk在线更新镜像服务器)
       * [Android Studio](#android-studio)
       * [SDK Tools](#sdk-tools)
       * [SDK Platform-Tools](#sdk-platform-tools)
@@ -35,103 +33,86 @@
           * [Gradle](#gradle)
           * [Android Gradle Plugin DSL 在线文档](#android-gradle-plugin-dsl-在线文档)
           * [Gradle Dependencies Configuration Generator（需要梯子）](#gradle-dependencies-configuration-generator需要梯子)
-          * [版本控制工具](#版本控制工具)
-             * [Git](#git)
-             * [SVN Plugin For Eclipse](#svn-plugin-for-eclipse)
-          * [反编译工具](#反编译工具)
-          * [安全工具](#安全工具)
-          * [静态代码分析工具](#静态代码分析工具)
-          * [搜索工具](#搜索工具)
-          * [Debug调试工具](#debug调试工具)
-       * [Api测试工具](#api测试工具)
-          * [Eclipse/Android Studio/IDEA插件](#eclipseandroid-studioidea插件)
-             * [Eclipse](#eclipse)
-             * [Android Studio/IDEA](#android-studioidea)
-          * [Android资源/Themes/Style生成工具](#android资源themesstyle生成工具)
-          * [Android资源分析工具](#android资源分析工具)
-          * [Android Layout Parser工具](#android-layout-parser工具)
-          * [Android Content Provider代码生成工具](#android-content-provider代码生成工具)
-          * [Android Fragment Code Generator代码生成工具](#android-fragment-code-generator代码生成工具)
-          * [代码生成工具](#代码生成工具)
-          * [Android Native开发工具](#android-native开发工具)
-          * [Android测试工具](#android测试工具)
-          * [Android多渠道打包工具](#android多渠道打包工具)
-          * [Android Bug日志收集工具](#android-bug日志收集工具)
-          * [其他语言开发Android应用工具](#其他语言开发android应用工具)
-          * [传感器模拟工具](#传感器模拟工具)
-          * [Android串口开发工具](#android串口开发工具)
-          * [图片尺寸处理工具](#图片尺寸处理工具)
-          * [图片压缩工具](#图片压缩工具)
-          * [资源清理工具](#资源清理工具)
-          * [px和dp转换/计算工具](#px和dp转换计算工具)
-          * [Java To iOS](#java-to-ios)
-          * [JSON/XML转换为POJO Class工具](#jsonxml转换为pojo-class工具)
-          * [Java DAO Generate工具](#java-dao-generate工具)
-          * [Chrome插件](#chrome插件)
-             * [Android插件](#android插件)
-             * [JSON/XML格式化插件](#jsonxml格式化插件)
-             * [Encode/Decode插件](#encodedecode插件)
-             * [Git](#git-1)
-    * [Guides](#guides)
-          * [Google Java编程风格指南中文版](#google-java编程风格指南中文版)
-          * [Android Developers 国内镜像站](#android-developers-国内镜像站)
-          * [Android Api中文版](#android-api中文版)
-          * [Android Proguard混淆配置指南](#android-proguard混淆配置指南)
-          * [Gradle插件使用指南中文版](#gradle插件使用指南中文版)
-          * [Gradle User Guide](#gradle-user-guide)
-    * [Tutorials](#tutorials)
-          * [Android学习之路](#android学习之路)
-          * [Google Android官方培训课程中文版](#google-android官方培训课程中文版)
-          * [Developing Android Apps](#developing-android-apps)
-          * [Java Design Patterns Samples in Java.](#java-design-patterns-samples-in-java)
+ * [版本控制工具](#版本控制工具)
+    * [Git](#git)
+    * [SVN Plugin For Eclipse](#svn-plugin-for-eclipse)
+ * [反编译工具](#反编译工具)
+ * [安全工具](#安全工具)
+ * [静态代码分析工具](#静态代码分析工具)
+ * [搜索工具](#搜索工具)
+ * [Debug调试工具](#debug调试工具)
+ * [Api测试工具](#api测试工具)
+ * [Eclipse/Android Studio/IDEA插件](#eclipseandroid-studioidea插件)
+ * [Eclipse](#eclipse)
+ * [Android Studio/IDEA](#android-studioidea)
+ * [Android资源/Themes/Style生成工具](#android资源themesstyle生成工具)
+ * [Android资源分析工具](#android资源分析工具)
+ * [Android Layout Parser工具](#android-layout-parser工具)
+ * [Android Content Provider代码生成工具](#android-content-provider代码生成工具)
+ * [Android Fragment Code Generator代码生成工具](#android-fragment-code-generator代码生成工具)
+ * [代码生成工具](#代码生成工具)
+ * [Android Native开发工具](#android-native开发工具)
+ * [Android测试工具](#android测试工具)
+ * [Android多渠道打包工具](#android多渠道打包工具)
+ * [Android Bug日志收集工具](#android-bug日志收集工具)
+ * [其他语言开发Android应用工具](#其他语言开发android应用工具)
+ * [传感器模拟工具](#传感器模拟工具)
+ * [Android串口开发工具](#android串口开发工具)
+ * [图片尺寸处理工具](#图片尺寸处理工具)
+ * [图片压缩工具](#图片压缩工具)
+ * [资源清理工具](#资源清理工具)
+ * [px和dp转换/计算工具](#px和dp转换计算工具)
+ * [Java To iOS](#java-to-ios)
+ * [JSON/XML转换为POJO Class工具](#jsonxml转换为pojo-class工具)
+ * [Java DAO Generate工具](#java-dao-generate工具)
+ * [Chrome插件](#chrome插件)
+    * [Android插件](#android插件)
+    * [JSON/XML格式化插件](#jsonxml格式化插件)
+    * [Encode/Decode插件](#encodedecode插件)
+    * [Git](#git-1)
+ * [Guides](#guides)
+    * [Google Java编程风格指南中文版](#google-java编程风格指南中文版)
+    * [Android Developers 国内镜像站](#android-developers-国内镜像站)
+    * [Android Api中文版](#android-api中文版)
+    * [Android Proguard混淆配置指南](#android-proguard混淆配置指南)
+    * [Gradle插件使用指南中文版](#gradle插件使用指南中文版)
+    * [Gradle User Guide](#gradle-user-guide)
+ * [Tutorials](#tutorials)
+    * [Android学习之路](#android学习之路)
+    * [Google Android官方培训课程中文版](#google-android官方培训课程中文版)
+    * [Developing Android Apps](#developing-android-apps)
+    * [Java Design Patterns Samples in Java.](#java-design-patterns-samples-in-java)
  * [Design](#design)
     * [Design Tools](#design-tools)
-          * [Photoshop插件](#photoshop插件)
-          * [矢量图设计工具](#矢量图设计工具)
-          * [切图工具](#切图工具)
-          * [设计稿尺寸标注工具](#设计稿尺寸标注工具)
-          * [原型设计工具](#原型设计工具)
-          * [交互设计工具](#交互设计工具)
-          * [UI效果预览工具](#ui效果预览工具)
-          * [配色工具](#配色工具)
-          * [设计稿版本控制工具](#设计稿版本控制工具)
-          * [图标处理工具](#图标处理工具)
-          * [在线Icon库](#在线icon库)
-          * [取色工具](#取色工具)
-          * [不透明度16进制值](#不透明度16进制值)
-          * [手机To电脑同步预览工具](#手机to电脑同步预览工具)
-          * [Gif图片录制工具](#gif图片录制工具)
+       * [Photoshop插件](#photoshop插件)
+       * [矢量图设计工具](#矢量图设计工具)
+       * [切图工具](#切图工具)
+       * [设计稿尺寸标注工具](#设计稿尺寸标注工具)
+       * [原型设计工具](#原型设计工具)
+       * [交互设计工具](#交互设计工具)
+       * [UI效果预览工具](#ui效果预览工具)
+       * [配色工具](#配色工具)
+       * [设计稿版本控制工具](#设计稿版本控制工具)
+       * [图标处理工具](#图标处理工具)
+       * [在线Icon库](#在线icon库)
+       * [取色工具](#取色工具)
+       * [不透明度16进制值](#不透明度16进制值)
+       * [手机To电脑同步预览工具](#手机to电脑同步预览工具)
+       * [Gif图片录制工具](#gif图片录制工具)
     * [UI Programming Language](#ui-programming-language)
     * [Tutorials](#tutorials-1)
     * [Games](#games)
     * [Guides](#guides-1)
-          * [Android设计指南非官方简体中文版](#android设计指南非官方简体中文版)
-          * [Android Cheatsheet for Graphic Designers](#android-cheatsheet-for-graphic-designers)
-          * [Google Material Design 中文版](#google-material-design-中文版)
-          * [Designer's Guide To dpi](#designers-guide-to-dpi)
-          * [Email Design Guide](#email-design-guide)
+        * [Android设计指南非官方简体中文版](#android设计指南非官方简体中文版)
+        * [Android Cheatsheet for Graphic Designers](#android-cheatsheet-for-graphic-designers)
+        * [Google Material Design 中文版](#google-material-design-中文版)
+        * [Designer's Guide To dpi](#designers-guide-to-dpi)
+        * [Email Design Guide](#email-design-guide)
     * [Free Design Resources](#free-design-resources)
  * [Books](#books)
  * [Disclaimer](#disclaimer)
 
 # Android Tools
----
-
-#### Android SDK在线更新镜像服务器
-
-1. 郑州大学开源镜像站:
-
-  * `mirrors.zzu.edu.cn` 端口：80
-
-**使用方法**：
-	
-1. 启动 Android SDK Manager ，打开主界面，依次选择『**Tools**』、『**Options...**』，弹出『**Android SDK Manager - Settings**』窗口；
-
-2. 在『**Android SDK Manager - Settings**』窗口中，在『**HTTP Proxy Server」和「HTTP Proxy Port**』输入框内填入上面镜像服务器地址(**不包含http://**，如下图)和端口，并且选中『**Force https://... sources to be fetched using http://...**』复选框。设置完成后单击『**Close**』按钮关闭『**Android SDK Manager - Settings**』窗口返回到主界面；
-
-3. 依次选择『**Packages**』、『**Reload**』。
-
-	<img src="static/image/sdk-manager-proxy-settings.png" width="40%" height="20%" alt="SDK Manager Proxy Settings">
 
 #### Android Studio
 
@@ -472,6 +453,7 @@
 
 
 #### Google TV Addon
+
 这是Google TV Addon，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/add-ons`文件夹，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 
@@ -482,7 +464,8 @@
 [tv-win-13]:http://pan.baidu.com/s/1qWLPFfm
 [tv-mac-13]:http://pan.baidu.com/s/1eQFy1KA
 
-####Android Framework Source Code
+#### Android Framework Source Code
+
 这是Android Framework Source Code，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/sources`文件夹下，然后重启Eclipse(或Android Studio)，这样当你在Eclipse里面按住`Ctrl`键点击某个系统类时就可以打开该类的源码文件查看源码了。
 
 | 系统版本 |
@@ -512,6 +495,7 @@
 [sources-8]:http://pan.baidu.com/s/1bny9E2b
 
 #### Android SDK Extras
+
 包含 `Android Support Library` 、 `Google Cloud Messaging for Android Library` 、`Google Play services` 、 `Google Play services for fit preview` 、`Google Play services for Froyo` 、`Google Play APK Expansion Library `、`Google Play Billing Library` 、`Google Play Licensing Library` 等，下载解压后将解压出的整个文件夹复制或者移动到`your sdk`根目录下下，如果已经存在`extras`文件夹就替换掉。
 
 |    版本号  |
@@ -522,6 +506,7 @@
 | [20](http://pan.baidu.com/s/1eQIMXMy)   |
 
 #### Support Library
+
 包含support `v4`、`v7`、`v13`、`v17`、`multidex`和`m2repository`，下载解压后将解压出的整个文件夹复制或者移动到`your sdk 路径/extras`下，然后打开SDK Manager，打开`Tools(工具)`菜单选择`Options(选项)`菜单项打开Android SDK Manager Setting对话框，点击`Clear Cache(清除缓存)`按钮，然后重启Eclipse(或Android Studio)和SDK Manager。
 
 |    版本号  |
@@ -532,6 +517,7 @@
 | [20](http://pan.baidu.com/s/1o6OBlR8)   |
 
 #### SDK Samples
+
 这是Android SDK自带的示例代码，下载并解压后，将解压出的整个文件夹复制或者移动到`your sdk 路径/samples`文件夹下，然后重启Eclipse(或Android Studio)。
 。
 
@@ -568,6 +554,7 @@
 [samples-8]:http://pan.baidu.com/s/1ntv7wut
 
 #### NDK
+
 C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请戳 [这里](install-method-url)
 
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |       MD5/SHA-1校验码     |       官方SHA-1校验码截图     |
@@ -650,6 +637,7 @@ C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请
 
 
 #### ADT Bundle
+
 ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，只需安装好Jdk即可开始开发，推荐初学者下载ADT Bundle，不用再折腾开发环境。
 
 | 版本号  | Windows                |      Mac OSX       |          Linux         |
