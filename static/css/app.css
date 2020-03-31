@@ -296,13 +296,17 @@ footer p {
 }
 
 .donate-method-qr {
-    width: 30%;
+    width: 25%;
     display: block;
     float: left;
 }
 
 .donate-method-qr-img {
     width: 100%;
+}
+
+.donate-method-qr span {
+    font-size: 10px;
 }
 
 .donate-method-bitcoin {
