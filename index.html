@@ -174,20 +174,7 @@
             </div>
         </div>
     </header>
-    <div id="auto-scroll-ad-box" style="z-index: 19; right: 0px; position: fixed; top: 25%; bottom: 25%">
-        <div class="ad-float-right">
-            <a href="https://plus.hencoder.com" title="短期暴力提升，快速突破瓶颈。HenCoder Plus 作为一套全方位系统化的高级进阶课程，开课四期以来，吸纳了来自阿里、腾讯、百度、头条、滴滴等公司以及硅谷、台湾和日本的众多学员报名参加，多位学员在毕业一个月内先后入职阿里、腾讯、小米、头条等公司。学员年薪最高达到 80w，多位学员年薪达到 45w 左右。" onclick="trackOutboundLink('https://plus.hencoder.com', 'AD-HenCoderPlus', 'click');"
-                target="_blank">
-                <img src="https://i.loli.net/2019/05/23/5ce663bb003ec62326.gif">
-            </a>
-        </div>
-        <div class="ad-float-right">
-            <a href="https://www.ucloud.cn/site/global.html?ytag=androiddevtools" title="" onclick="trackOutboundLink('https://www.ucloud.cn/site/global.html?ytag=androiddevtools', 'AD-UCloud', 'click');"
-                target="_blank">
-                <img src="https://i.loli.net/2020/03/18/T5eLUJ4VdFf3bOR.png">
-            </a>
-        </div>
-    </div>
+    <div id="auto-scroll-ad-box" style="z-index: 19; right: 0px; position: fixed; top: 25%; bottom: 25%"></div>
     <div class="pop">
         <div class="pop-container">
             <a class="pop-links" href="#" target="_blank">
@@ -5866,6 +5853,60 @@
     <script src="static/js/google-analytics.js"></script>
     <script src="static/js/unslider.min.js"></script>
 
+    <!-- 工具函数 -->
+    <script>
+        Array.prototype.randomDiffElement = function(last) {
+            if (this.length == 0) {
+                return;
+            } else if (this.length == 1) {
+                return this[0];
+            } else {
+                var num = 0;
+                do {
+                    num = Math.floor(Math.random() * this.length);
+                } while (Array.isArray(last) ? last.includes(this[num]) : this[num] == last);
+                return this[num];
+            }
+        };
+        var isShow = function isShow(value) {
+            return value && value.isshow;
+        };
+        var now = new Date().getTime();
+        var isExpired = function(item) {
+            let start = Date.parse(item.start_time);
+            let end = Date.parse(item.end_time);
+            return item && start <= now && now <= end;
+        };
+    </script>
+    <!-- 右侧浮动广告 -->
+    <script>
+        let rightAdContainer = $('#auto-scroll-ad-box');
+        let rightAds = [
+            {
+                "title": "短期暴力提升，快速突破瓶颈。HenCoder Plus 作为一套全方位系统化的高级进阶课程，开课四期以来，吸纳了来自阿里、腾讯、百度、头条、滴滴等公司以及硅谷、台湾和日本的众多学员报名参加，多位学员在毕业一个月内先后入职阿里、腾讯、小米、头条等公司。学员年薪最高达到 80w，多位学员年薪达到 45w 左右。",
+                "link": "https://plus.hencoder.com",
+                "image": "https://i.loli.net/2019/05/23/5ce663bb003ec62326.gif",
+                "ad_tag": "AD-HenCoderPlus",
+                "isshow": true,
+                "start_time": "2020-1-1 00:00",
+                "end_time": "2020-7-24 00:00"
+            },
+            {
+                "title": "",
+                "link": "https://www.ucloud.cn/site/global.html?ytag=androiddevtools",
+                "image": "https://i.loli.net/2020/03/18/T5eLUJ4VdFf3bOR.png",
+                "ad_tag": "AD-UCloud",
+                "isshow": true,
+                "start_time": "2020-1-1 00:00",
+                "end_time": "2021-5-15 00:00"
+            }
+        ];
+        rightAds.filter(isShow).filter(isExpired).forEach((item) => {
+            let {title, link, ad_tag, image} = item;
+            let adElement = `<div class="ad-float-right"><a href="${link}" title="${title}" onclick="trackOutboundLink('${link}', '${ad_tag}', 'click');" target="_blank"><img src="${image}"></a></div>`;
+            rightAdContainer.append(adElement);
+        });
+    </script>
     <!-- 顶层固定广告 -->
     <script>
         let image = $('.pop-image');
@@ -5875,27 +5916,44 @@
             {
                 "title": "学生认证立享特权，课程一律 5 折",
                 "link": "http://gk.link/a/10ga3?utm_source=androiddevtools.cn&utm_medium=fixed_ad",
-                "image": "https://i.loli.net/2020/02/24/L65vDBcAF8oIwW7.jpg"
+                "image": "https://i.loli.net/2020/02/24/L65vDBcAF8oIwW7.jpg",
+                "isshow": false,
+                "start_time": "2020-1-1 00:00",
+                "end_time": "2021-12-31 23:59"
             },
             {
                 "title": "扫码关注「Android开发技术周报」公众号",
                 "link": "https://androidweekly.io?utm_source=androiddevtools.cn&utm_medium=fixed_ad",
-                "image": "https://i.loli.net/2020/03/13/xVsk5mqEgF7joz6.jpg"
+                "image": "https://i.loli.net/2020/03/13/xVsk5mqEgF7joz6.jpg",
+                "isshow": false,
+                "start_time": "2020-1-1 00:00",
+                "end_time": "2021-12-31 23:59"
+            },
+            {
+                "title": "将于 5 月 1 日涨价至 ¥129，现在秒杀仅需 ¥68",
+                "link": "https://time.geekbang.org/column/intro/100017301?code=C0DIG6h7m4XJmsain29Nu3IGPaD81er7Xq6%2FJiFFOC0%3D",
+                "image": "https://i.loli.net/2020/04/27/ObkxPvY2QFnrG1A.jpg",
+                "isshow": true,
+                "start_time": "2020-4-27 00:00",
+                "end_time": "2020-5-1 00:00"
             }
         ];
-        let index = Math.floor(Math.random() * adArray.length);
-        console.log('index = ' + index);
-        let adItem = adArray[index]; 
-        image.attr('src', adItem['image']);
-        link.attr('href', adItem['link']);
-        text.text(adItem['title']);
-        var currentTime = new Date().getTime();
-        if (localStorage.hideExpiredTime == null || localStorage.hideExpiredTime == undefined || localStorage.hideExpiredTime == ''){
-          localStorage.hideExpiredTime = 0;
+        let showAds = adArray.filter(isShow).filter(isExpired);
+        let index = Math.floor(Math.random() * showAds.length);
+        let adItem = showAds[index];
+        if(adItem) {
+            image.attr('src', adItem['image']);
+            link.attr('href', adItem['link']);
+            text.text(adItem['title']);
+            var currentTime = new Date().getTime();
+            if (localStorage.hideExpiredTime == null || localStorage.hideExpiredTime == undefined || localStorage.hideExpiredTime == ''){
+            localStorage.hideExpiredTime = 0;
+            }
+            if (currentTime - localStorage.hideExpiredTime > 120000000){
+            $('.pop').show();
+            }  
         }
-        if (currentTime - localStorage.hideExpiredTime > 120000000){
-          $('.pop').show();
-        }
+        
         $(document).ready(function(){
             $('.pop-btn-close').click(function(){
                 localStorage.hideExpiredTime = currentTime;
@@ -6475,10 +6533,6 @@
 
         function isEquals() {
 
-        }
-
-        function isShow(value) {
-            return value && value.isshow;
         }
 
         var buildBookItem = function(book) {
