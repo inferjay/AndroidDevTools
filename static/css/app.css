@@ -240,6 +240,7 @@ section td {
 
 #footer_wrap {
     margin-top: 56px;
+    margin-bottom: 56px;
     background: #BDBDBD;
 }
 
@@ -895,6 +896,7 @@ footer p {
     }
     #footer_wrap {
         margin-top: 10px;
+        margin-bottom: 96px;
     }
     #license strong {
         font-size: 12px;
