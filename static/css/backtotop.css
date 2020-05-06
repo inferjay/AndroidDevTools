@@ -1,6 +1,6 @@
 .zh-backtotop {
     position: fixed;
-    bottom: 15px;
+    bottom: 65px;
     right: 1%;
     z-index: 19;
 }
@@ -48,7 +48,7 @@
         margin: auto;
         left: auto;
         right: 1em;
-        bottom: 1em
+        bottom: 6.5em
     }
 }
 
@@ -57,7 +57,7 @@
         margin: auto;
         left: auto;
         right: 1em;
-        bottom: 1em
+        bottom: 6.5em
     }
 }
 
@@ -66,7 +66,7 @@
         margin: auto;
         left: auto;
         right: 1em;
-        bottom: 1em
+        bottom: 6.5em
     }
 }
 
