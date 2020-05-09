@@ -476,7 +476,7 @@ footer p {
 
 .pop-container {
     height: 80%;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 
 .pop-links {
@@ -489,6 +489,10 @@ footer p {
 
 .pop-text {
     color: white;
+    width: 60%;
+    color: white;
+    margin-top: 20px;
+    line-height: 30px;
 }
 
 .html {
