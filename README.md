@@ -1614,6 +1614,10 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 <a href="http://gk.link/a/10ga3" target="_blank"><img src="./static/image/geek-time-ad.jpg" /></a>
 
+# 赞助商
+
+<a href="https://tracking.gitads.io/?campaign=gitads&repo=AndroidDevTools&redirect=gitads.io" target="_blank"><img src="https://i.loli.net/2020/06/19/vMRdL6c4F2GlQqX.jpg" /></a>
+
 # Disclaimer
 ---
 
