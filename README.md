@@ -7,6 +7,9 @@
 
 欢迎大家推荐自己在Android开发过程中用的好用的工具、学习开发教程、用到设计素材，欢迎Star、Fork 😄。
 
+# 赞助商
+
+<a href="https://tracking.gitads.io/?campaign=gitads&repo=AndroidDevTools&redirect=gitads.io" target="_blank"><img src="https://images.gitads.io/AndroidDevTools" /></a>
 
 目录
 =================
@@ -1616,7 +1619,7 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 
 # 赞助商
 
-<a href="https://tracking.gitads.io/?campaign=gitads&repo=AndroidDevTools&redirect=gitads.io" target="_blank"><img src="https://i.loli.net/2020/06/19/vMRdL6c4F2GlQqX.jpg" /></a>
+<a href="https://tracking.gitads.io/?campaign=gitads&repo=AndroidDevTools&redirect=gitads.io" target="_blank"><img src="https://images.gitads.io/AndroidDevTools" /></a>
 
 # Disclaimer
 ---
