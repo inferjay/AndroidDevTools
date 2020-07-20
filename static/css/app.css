@@ -506,6 +506,38 @@ footer p {
     -webkit-filter: grayscale(1);
 }
 
+.top-ads-link {
+    width: 49.8%;
+    display: inline-block;
+}
+
+.top-ads-img {
+    width: 85%;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.ads-text {
+    color: #999;
+    font-size: 10px;
+    padding: 0px 4px;
+    border-radius: 4px;
+    position: relative;
+    float: right;
+    right: 10px;
+    top: 10px;
+    margin-bottom: -50px;
+    z-index: 10;
+    background-color: white;
+    opacity: 70%;
+}
+
+.d-block {
+    display: block;
+}
+
 /* Widescreen desktop. */
 
 @media (min-width: 1200px) {
