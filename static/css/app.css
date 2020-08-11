@@ -455,7 +455,7 @@ footer p {
 }
 
 .hide {
-    display: none;
+    display: none!important;
 }
 
 .show {
