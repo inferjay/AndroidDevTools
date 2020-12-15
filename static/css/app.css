@@ -538,6 +538,28 @@ footer p {
     display: block;
 }
 
+.btn-action {
+    border-radius: 4px;
+    font-size: 20px; 
+    background-color: #ff5722;
+    border: 0;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .2)
+}
+
+.btn-action:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #e24134;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 4px 10px rgba(0, 0, 0, .22);
+    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 4px 10px rgba(0, 0, 0, .22);
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 4px 10px rgba(0, 0, 0, .22);
+
+}
+
 /* Widescreen desktop. */
 
 @media (min-width: 1200px) {
