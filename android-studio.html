@@ -9,12 +9,11 @@
     <meta name="keyword" content="Android,Android开发,Android开发工具,Android开发,Android Studio,AndroidStudio,Android Studio下载,Android SDK,Android SDK下载,SDK下载,SDK Tools,Gradle,Gradle下载">
     <meta name="ujianVerification" content="ee5a6c5854f1826b3123039d726496c9" />
     <meta name="referrer" content="no-referrer" />
-    <link href="static/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link href="static/css/app.css" rel="stylesheet">
     <link href="static/css/app-theme.css" rel="stylesheet">
     <link href="static/css/google-roboto-font-face.css" rel="stylesheet" type="text/css">
     <link href="static/css/backtotop.css" rel="stylesheet" type="text/css">
-    <link href="static/css/banner.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]-->
     <link rel="shortcut icon" href="static/image/favicon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="static/image/apple-touch-icon-72x72.png">
@@ -41,137 +40,140 @@
 </head>
 
 <body data-target=".content-nav">
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="home">
-                    <a href="index.html"><!-- <h1 id="nav-title">AndroidDevTools</h1> --><img class="logo" src="./static/image/androiddevtools_logo.svg" /></a>
-                </div>
-                <div class="span9">
-                    <menu>
-                        <ul class="nav navbar-nav">
-                            <ul class="nav nav-pills" role="tablist">
-                                <!--  Android SDK Tools -->
-                                <li role="presentation" class="dropdown">
-                                    <a id="drop-sdk-tools" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Android SDK 工具</span></a>
-                                    <ul id="menu-sdl-tools" class="dropdown-menu" role="menu" aria-labelledby="drop-sdk-tools">
-                                        <li role="presentation"><a role="menuitem" tabindex="0" href="#android-studio">Android Studio</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="2" href="#sdk-tools">SDK Tools</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="2" href="#sdk-platform-tools">Platform-tools</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="2" href="#build-tools">Build Tools</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="3" href="#sdk-list">SDK</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#ndk">NDK</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#jdk">JDK</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#adt-bundle">ADT Bundle</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="1" href="#adt-plugin">ADT Plugin</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="4" href="#sdk-system-images">SDK System images</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#googlemap-apis-sdk">GoogleMap APIs SDK</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#google-glass-sdk">Google Glass SDK</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#google-tv-addon">Google TV Addon</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-sdk-extras">Android SDK Extras</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#support-library">Support Library</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#sdk-samples">SDK Samples</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-framework-source-code">Android Framework Source Code</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-system-image">Android System Image</a></li>
-                                    </ul>
-                                </li>
-                                <!--  Android Dev Tools -->
-                                <li role="presentation" class="dropdown">
-                                    <a id="drop-dev-tools" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Android 开发工具</a>
-                                    <ul id="menu-dev-tool" class="dropdown-menu" role="menu" aria-labelledby="drop-dev-tools">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#gradle">Gradle</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#version-control-tools">版本控制工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#apk-decompile-tools">Apk反编译工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#security-tools">安全工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#static-code-analysis-tools">静态代码分析工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#search-tools">搜索工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#debug-tools">Debug调试工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#api-test-tools">Api测试工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#eclipse-android-studio-idea-plugin">IDE插件</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-res-themes-style-generator-tools">Themes/Style生成工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-res-analysis-tools">资源分析工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-layout-parser-tools">Layout Parser工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-content-provider-generator-tools">Content Provider代码生成工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-fragment-code-generator-tools">Fragment代码生成工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-code-generator-tools">代码生成工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-native-dev-tools">Native开发工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-test-tools">测试工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#multi-channel-apk-genterator-tools">Apk多渠道打包工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-log-collection-tools">日志收集工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-other-language-dev-tools">其他语言开发Android应用工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#adroid-sensors-simulate-tools">传感器模拟工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-serial-dev-tools">串口开发工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#img-size-handle-tools">图片尺寸处理工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#img-compress-tools">图片压缩工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-res-clean-tools">资源清理工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#px-to-dp-convert-tools">px和dp转换/计算工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#java-to-ios">Java To iOS</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#json-xml-to-pojo-class-tools">JSON/XML转换为POJO Class工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#java-dao-generate-tools">Java DAO Generate工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#books-list">Books</a></li>
-                                    </ul>
-                                </li>
-                                <!--  Android Dev Guides    -->
-                                <li role="presentation" class="dropdown">
-                                    <a id="drop-dev-guides" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">指南</a>
-                                    <ul id="menu-dev-guides" class="dropdown-menu" role="menu" aria-labelledby="drop-dev-guides">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-dev-docs">Android 开发文档</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#google-java-program-guide-cn">Google Java编程风格指南中文版</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-api-doc-cn">Android Api中文版</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-api-guide-cn">Android API指南中文版</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#proguard-config-guide">Proguard混淆配置指南</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#gradle-plugin-guide-cn">Gradle插件使用指南中文版</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#gradle-user-guide">Gradle User Guide</a></li>
-                                    </ul>
-                                </li>
-                                <!--  Android Dev Tutorials -->
-                                <li role="presentation" class="dropdown">
-                                    <a id="drop-dev-tutorials" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">教程</a>
-                                    <ul id="menu3" class="dropdown-menu" role="menu" aria-labelledby="drop-dev-tutorials">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#android-learning-way">Android学习之路</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#google-androidtraining-tutorials">Android官方培训课程中文版</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#developing-android-apps">Developing Android Apps</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#java-design-patterns-samples-in-java">Java Design Patterns Samples</a></li>
-                                    </ul>
-                                </li>
-                                <!--  Design Tools  -->
-                                <li role="presentation" class="dropdown">
-                                    <a id="drop-design-tools" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">设计工具</a>
-                                    <ul id="menu4" class="dropdown-menu" role="menu" aria-labelledby="drop-design-tools">
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#photoshop-plugin">Photoshop插件</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#vector-img-design-tools">矢量图设计工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#ui-icon-export-ools">切图工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#desgin-size-mark-tools">设计稿尺寸标注工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#prototype-design-tools">原型设计工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#interaction-desgin-tools">交互设计工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#ui-effect-preview-tools">UI效果预览工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#harmonize-colors-tools">配色工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#design-cvs-tools">设计稿版本控制工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#icon-handle-tools">图标处理工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#online-icon-library">在线Icon库</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#take-color-tools">取色工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#hex-opacity-list">不透明度16进制值</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#phone-to-computer-preview-tools">同步预览工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#gif-record-tools">Gif图片录制工具</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#design-tutorials">Design Tutorials</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#design-guides">Design Guides</a></li>
-                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#free-design-resources">Design Resources</a></li>
-                                    </ul>
-                                </li>
-                                <li role="presentation" class="dropdown"><a href="#books-list">书</a></li>
-                                <li role="presentation" class="dropdown"><a href="#fuck-gfw-list">福利</a></li>
-                                <li role="presentation" class="dropdown"><a id="gay_friends" href="gay_friends.html">好基友们</a></li>
-                                <li role="presentation" class="dropdown"><a id="donate" href="donate.html">捐赠</a></li>
-                                <!-- <li id="ts-search-input-li"><form><input type="search" id="ts-search-input" placeholder="搜索: Android Studio"></form></li> -->
-                                <li>
-                                    <a href="https://github.com/inferjay/AndroidDevTools" data-title="View GitHub Project" class="menu-github-icon"><img src="static/image/icon-github.png" alt="GitHub" /></a>
-                                </li>
-                            </ul>
-                        </ul>
-                    </menu>
-                </div>
+    <header class="row align-items-center">
+        <nav class="navbar navbar-expand-lg navbar-light mx-lg-auto">
+            <a class="navbar-brand mr-lg-4" href="index.html"><!-- <h1 id="nav-title">AndroidDevTools</h1> --><img height="32px" src="./static/image/androiddevtools.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav align-items-center">
+                <!--  Android SDK Tools -->
+                <li class="nav-item dropdown mx-4">
+                    <a id="drop-sdk-tools" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span>Android SDK 工具</span></a>
+                    <div id="menu-sdl-tools" class="dropdown-menu" role="menu" aria-labelledby="drop-sdk-tools">
+                        <a class="dropdown-item" href="index.html/#android-studio">Android Studio</a>
+                        <a class="dropdown-item" href="index.html/#sdk-tools">SDK Tools</a>
+                        <a class="dropdown-item" href="index.html/#sdk-platform-tools">Platform-tools</a>
+                        <a class="dropdown-item" href="index.html/#build-tools">Build Tools</a>
+                        <a class="dropdown-item" href="index.html/#sdk-list">SDK</a>
+                        <a class="dropdown-item" href="index.html/#ndk">NDK</a>
+                        <a class="dropdown-item" href="index.html/#jdk">JDK</a>
+                        <a class="dropdown-item" href="index.html/#adt-bundle">ADT Bundle</a>
+                        <a class="dropdown-item" href="index.html/#adt-plugin">ADT Plugin</a>
+                        <a class="dropdown-item" href="index.html/#sdk-system-images">SDK System images</a>
+                        <a class="dropdown-item" href="index.html/#googlemap-apis-sdk">GoogleMap APIs SDK</a>
+                        <a class="dropdown-item" href="index.html/#google-glass-sdk">Google Glass SDK</a>
+                        <a class="dropdown-item" href="index.html/#google-tv-addon">Google TV Addon</a>
+                        <a class="dropdown-item" href="index.html/#android-sdk-extras">Android SDK Extras</a>
+                        <a class="dropdown-item" href="index.html/#support-library">Support Library</a>
+                        <a class="dropdown-item" href="index.html/#sdk-samples">SDK Samples</a>
+                        <a class="dropdown-item" href="index.html/#android-framework-source-code">Android Framework Source Code</a>
+                        <a class="dropdown-item" href="index.html/#android-system-image">Android System Image</a>
+                    </div>
+                </li>
+                <!--  Android Dev Tools -->
+                <li class="nav-item dropdown mx-4">
+                    <a id="drop-dev-tools" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Android 开发工具</a>
+                    <div id="menu-dev-tool" class="dropdown-menu" role="menu" aria-labelledby="drop-dev-tools">
+                        <a class="dropdown-item" href="index.html/#gradle">Gradle</a>
+                        <a class="dropdown-item" href="index.html/#version-control-tools">版本控制工具</a>
+                        <a class="dropdown-item" href="index.html/#apk-decompile-tools">Apk反编译工具</a>
+                        <a class="dropdown-item" href="index.html/#security-tools">安全工具</a>
+                        <a class="dropdown-item" href="index.html/#static-code-analysis-tools">静态代码分析工具</a>
+                        <a class="dropdown-item" href="index.html/#search-tools">搜索工具</a>
+                        <a class="dropdown-item" href="index.html/#debug-tools">Debug调试工具</a>
+                        <a class="dropdown-item" href="index.html/#api-test-tools">Api测试工具</a>
+                        <a class="dropdown-item" href="index.html/#eclipse-android-studio-idea-plugin">IDE插件</a>
+                        <a class="dropdown-item" href="index.html/#android-res-themes-style-generator-tools">Themes/Style生成工具</a>
+                        <a class="dropdown-item" href="index.html/#android-res-analysis-tools">资源分析工具</a>
+                        <a class="dropdown-item" href="index.html/#android-layout-parser-tools">Layout Parser工具</a>
+                        <a class="dropdown-item" href="index.html/#android-content-provider-generator-tools">Content Provider代码生成工具</a>
+                        <a class="dropdown-item" href="index.html/#android-fragment-code-generator-tools">Fragment代码生成工具</a>
+                        <a class="dropdown-item" href="index.html/#android-code-generator-tools">代码生成工具</a>
+                        <a class="dropdown-item" href="index.html/#android-native-dev-tools">Native开发工具</a>
+                        <a class="dropdown-item" href="index.html/#android-test-tools">测试工具</a>
+                        <a class="dropdown-item" href="index.html/#multi-channel-apk-genterator-tools">Apk多渠道打包工具</a>
+                        <a class="dropdown-item" href="index.html/#android-log-collection-tools">日志收集工具</a>
+                        <a class="dropdown-item" href="index.html/#android-other-language-dev-tools">其他语言开发Android应用工具</a>
+                        <a class="dropdown-item" href="index.html/#adroid-sensors-simulate-tools">传感器模拟工具</a>
+                        <a class="dropdown-item" href="index.html/#android-serial-dev-tools">串口开发工具</a>
+                        <a class="dropdown-item" href="index.html/#img-size-handle-tools">图片尺寸处理工具</a>
+                        <a class="dropdown-item" href="index.html/#img-compress-tools">图片压缩工具</a>
+                        <a class="dropdown-item" href="index.html/#android-res-clean-tools">资源清理工具</a>
+                        <a class="dropdown-item" href="index.html/#px-to-dp-convert-tools">px和dp转换/计算工具</a>
+                        <a class="dropdown-item" href="index.html/#java-to-ios">Java To iOS</a>
+                        <a class="dropdown-item" href="index.html/#json-xml-to-pojo-class-tools">JSON/XML转换为POJO Class工具</a>
+                        <a class="dropdown-item" href="index.html/#java-dao-generate-tools">Java DAO Generate工具</a>
+                    </div>
+                </li>
+                <!--  Android Dev Guides    -->
+                <li class="nav-item dropdown mx-4">
+                    <a id="drop-dev-guides" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">指南</a>
+                    <div id="menu-dev-guides" class="dropdown-menu" role="menu" aria-labelledby="drop-dev-guides">
+                        <a class="dropdown-item" href="index.html/#android-dev-docs">Android 开发文档</a>
+                        <a class="dropdown-item" href="index.html/#google-java-program-guide-cn">Google Java编程风格指南中文版</a>
+                        <a class="dropdown-item" href="index.html/#android-api-doc-cn">Android Api中文版</a>
+                        <a class="dropdown-item" href="index.html/#android-api-guide-cn">Android API指南中文版</a>
+                        <a class="dropdown-item" href="index.html/#proguard-config-guide">Proguard混淆配置指南</a>
+                        <a class="dropdown-item" href="index.html/#gradle-plugin-guide-cn">Gradle插件使用指南中文版</a>
+                        <a class="dropdown-item" href="index.html/#gradle-user-guide">Gradle User Guide</a>
+                    </div>
+                </li>
+                <!--  Android Dev Tutorials -->
+                <li class="nav-item dropdown mx-4">
+                    <a id="drop-dev-tutorials" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">教程</a>
+                    <div id="menu3" class="dropdown-menu" role="menu" aria-labelledby="drop-dev-tutorials">
+                        <a class="dropdown-item" href="index.html/#android-learning-way">Android学习之路</a>
+                        <a class="dropdown-item" href="index.html/#google-androidtraining-tutorials">Android官方培训课程中文版</a>
+                        <a class="dropdown-item" href="index.html/#developing-android-apps">Developing Android Apps</a>
+                        <a class="dropdown-item" href="index.html/#java-design-patterns-samples-in-java">Java Design Patterns Samples</a>
+                    </div>
+                </li>
+                <!--  Design Tools  -->
+                <li class="nav-item dropdown mx-4">
+                    <a id="drop-design-tools" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">设计工具</a>
+                    <div id="menu4" class="dropdown-menu" role="menu" aria-labelledby="drop-design-tools">
+                        <a class="dropdown-item" href="index.html/#photoshop-plugin">Photoshop插件</a>
+                        <a class="dropdown-item" href="index.html/#vector-img-design-tools">矢量图设计工具</a>
+                        <a class="dropdown-item" href="index.html/#ui-icon-export-ools">切图工具</a>
+                        <a class="dropdown-item" href="index.html/#desgin-size-mark-tools">设计稿尺寸标注工具</a>
+                        <a class="dropdown-item" href="index.html/#prototype-design-tools">原型设计工具</a>
+                        <a class="dropdown-item" href="index.html/#interaction-desgin-tools">交互设计工具</a>
+                        <a class="dropdown-item" href="index.html/#ui-effect-preview-tools">UI效果预览工具</a>
+                        <a class="dropdown-item" href="index.html/#harmonize-colors-tools">配色工具</a>
+                        <a class="dropdown-item" href="index.html/#design-cvs-tools">设计稿版本控制工具</a>
+                        <a class="dropdown-item" href="index.html/#icon-handle-tools">图标处理工具</a>
+                        <a class="dropdown-item" href="index.html/#online-icon-library">在线Icon库</a>
+                        <a class="dropdown-item" href="index.html/#take-color-tools">取色工具</a>
+                        <a class="dropdown-item" href="index.html/#hex-opacity-list">不透明度16进制值</a>
+                        <a class="dropdown-item" href="index.html/#phone-to-computer-preview-tools">同步预览工具</a>
+                        <a class="dropdown-item" href="index.html/#gif-record-tools">Gif图片录制工具</a>
+                        <a class="dropdown-item" href="index.html/#design-tutorials">Design Tutorials</a>
+                        <a class="dropdown-item" href="index.html/#design-guides">Design Guides</a>
+                        <a class="dropdown-item" href="index.html/#free-design-resources">Design Resources</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mx-4">
+                    <a id="drop-more" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">更多</a>
+                    <div id="menu5" class="dropdown-menu" role="menu" aria-labelledby="drop-more">
+                        <a class="dropdown-item" href="index.html/#books-list">书</a>
+                        <a class="dropdown-item" href="index.html/#fuck-gfw-list">福利</a>
+                        <a class="dropdown-item" href="gay_friends.html" id="gay_friends">好基友们</a>
+                    </div>
+                </li>
+                <!-- <li class="nav-item"><a class="nav-link" href="#books-list">书</a></li>
+                <li class="nav-item"><a class="nav-link" href="#fuck-gfw-list">福利</a></li>
+                <li class="nav-item"><a class="nav-link" id="gay_friends" href="gay_friends.html">好基友们</a></li> -->
+                <li class="nav-item mx-4"><a class="nav-link" id="donate" href="donate.html">捐赠</a></li>
+                <!-- <li id="ts-search-input-li"><form><input type="search" id="ts-search-input" placeholder="搜索: Android Studio"></form></li> -->
+                <li class="nav-item mx-4">
+                    <a class="nav-link menu-github-icon" href="https://github.com/inferjay/AndroidDevTools" data-title="View GitHub Project"><img width="36px" src="static/image/icon-github.png" alt="GitHub" /></a>
+                </li>
+              </ul>
             </div>
-        </div>
+        </nav>
     </header>
     <div id="auto-scroll-ad-box" style="z-index: 19; right: 0px; position: fixed; top: 25%; bottom: 25%"></div>
     <div class="pop hidden-phone">
@@ -184,7 +186,7 @@
         </div>
     </div>
     <section id="body">
-        <div class="container body-container">
+        <div class="container body-container pb-4">
                 <div id="android-studio">
                     <h1 class="content-title" algin="center">Android Studio</h1>
                     <blockquote style="color: gray">
@@ -3179,36 +3181,7 @@
                         </tbody>
                     </table>
                 </div>
-                
-                <div id="books-list" class="link-image-list" style="display: none">
-                    <h2 id="book-list-title"></h2>
-                    <ul></ul>
-                </div>
-                <div id="fuck-gfw-list" class="float-left">
-                    <div class="link-image-list">
-                        <h2>开启新世界大门的🔑</h2>
-                        <ul>
-                            <li>
-                                <a href="https://bwh1.net/aff.php?aff=133&amp;pid=57" title="注册即送 10 刀，更有直连中国的线路仅需 3.99 刀一个月，年付只需 29 刀，使用优惠码 BWH1ZBPVK 再节省 6%" onclick="trackOutboundLink('https://bwh1.net/aff.php?aff=133&amp;pid=56', 'Host-bandwagonhost', 'click');" target="_blank"><img class="carousel-inner img-responsive img-rounded" src="http://ww1.sinaimg.cn/large/006tNbRwly1ffe62qvivcj308g02st92.jpg"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.vultr.com/?ref=706872" title="VultrVultr 注册即送 30 刀，节点多，最便宜 2.5 刀一个月" onclick="trackOutboundLink('https://www.vultr.com/?ref=706872', 'Host-vultr', 'click');" target="_blank"><img class="carousel-inner img-responsive img-rounded" src="http://ww1.sinaimg.cn/large/006tNbRwly1ffe62qbnm4j308g02saa8.jpg"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.digitalocean.com/?refcode=ef15936ffa93" title="DigitalOcean注册即送 10 刀，节点多，最便宜 5 刀一个月" onclick="trackOutboundLink('https://www.digitalocean.com/?refcode=ef15936ffa93', 'Host-digitalocean', 'click');" target="_blank"><img class="carousel-inner img-responsive img-rounded" src="http://ww1.sinaimg.cn/large/006tNbRwly1ffe62qnb5ij308g02s0t1.jpg"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linode.com/?r=9343985e91d6bd860b71f5284ea5c8f674f2775e" title="Linode注册即送 10 刀，节点多，最便宜 5 刀一个月" onclick="trackOutboundLink('https://www.linode.com/?r=9343985e91d6bd860b71f5284ea5c8f674f2775e', 'Host-linode', 'click');" target="_blank"><img class="carousel-inner img-responsive img-rounded" src="http://ww1.sinaimg.cn/large/006tNbRwly1ffe62qir5cj308g02swew.jpg"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="ad-list" class="float-left">
-                    <h2>服务器</h2>
-                    <a href="https://promotion.aliyun.com/ntms/act/vmpt/aliyun-group/home.html?userCode=j7dufdfe&utm_source=androiddevtools.cn&utm_medium=website-bottom">
-                        <img src="https://wx4.sinaimg.cn/large/006tNbRwly1fwetq3nyf6j30xc0320td.jpg">
-                    </a>
-                </div>
+
                 <div id="license">
                     <h2>Disclaimer</h2>
                     <strong>版权归原作者所有，这里仅做收集整理，欢迎自由转载-非商用-非衍生-保持署名和本网站网址。</strong>
@@ -3217,7 +3190,7 @@
             </div>
         </div>
         <div class="container body-container margin-top-16">
-            <div class="row">
+            <div class="row px-3">
                 <div id="comments">
                     <!-- 评论框 start -->
                     <div id="comments-container"></div>
@@ -3227,7 +3200,7 @@
         </div>
     </section>
     <div class="zh-backtotop">
-        <a data-action="backtotop" data-tip="s$r$回到顶部" class="btn-backtotop btn-action" href="#banner-slider">
+        <a data-action="backtotop" data-tip="s$r$回到顶部" class="btn-backtotop btn-action" href="#body">
             <img class="arrow" src="static/image/backtotop_arrow.png">
         </a>
     </div>
@@ -3235,7 +3208,7 @@
     <div id="footer_wrap" class="outer">
         <footer class="inner">
             <p class="copyright">Made by <a href="https://weibo.com/234959219" target="_blank">脉脉不得语</a></p>
-            <p class="published">Hosted by <a href="https://pages.coding.me" style="font-weight: bold" target="_blank">Coding Pages</a> and <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
+            <p class="published">Hosted by <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
         </footer>
     </div>
     <!-- 评论JS代码 start (一个网页只需插入一次) -->
@@ -3260,8 +3233,8 @@
     <!-- END COPY CODEFUND EMBED -->
 
     <!-- 评论JS代码 end -->
-    <script src="static/js/jquery-2.1.4.min.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <script src="static/js/jquery.smooth-scroll.min.js"></script>
     <script src="static/js/jquery-maven-artifact.min.js"></script>
     <script src="static/js/jquery.toTop.min.js"></script>
@@ -3322,277 +3295,6 @@
             rightAdContainer.append(adElement);
         });
     </script>
-    <!-- 顶层固定广告 -->
-    <!-- <script>
-        let image = $('.pop-image');
-        let link = $('.pop-links');
-        let text = $('.pop-text');
-        let adArray = [
-            {
-                "title": "学生认证立享特权，课程一律 5 折",
-                "link": "http://gk.link/a/10ga3?utm_source=androiddevtools.cn&utm_medium=fixed_ad",
-                "image": "https://i.loli.net/2020/05/09/xpOoSrsfjMhKkad.png",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 23:59"
-            },
-            {
-                "title": "扫码关注「Android开发技术周报」公众号",
-                "link": "https://androidweekly.io?utm_source=androiddevtools.cn&utm_medium=fixed_ad",
-                "image": "https://i.loli.net/2020/03/13/xVsk5mqEgF7joz6.jpg",
-                "isshow": true,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 23:59"
-            },
-            {
-                "title": "20 年技术老兵，独家分享 C++ 常见陷阱及避坑经验，早鸟+口令「luoge6666」到手仅 ¥58，免费试读👆",
-                "link": "https://time.geekbang.org/column/intro/100051801?code=wM%2FchWta-oOE78PL6wo4tj7nwK-L0YsyUhIDMs4GUuA%3D",
-                "image": "https://i.loli.net/2020/05/09/G863MdyLA7WsQjg.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2020-6-1 00:00"
-            },
-            {
-                "title": "设计模式之美",
-                "link": "https://time.geekbang.org/column/intro/100039001?code=WA3%2FyyREnVMQiNIIdtEuF9zs9AH1EqeYFsTq9E79dP4%3D",
-                "image": "https://i.loli.net/2020/05/09/Liprktm5xW1M9DC.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "Java业务开发常见错误100例",
-                "link": "https://time.geekbang.org/column/intro/100047701?code=27vqicKbAU4sE53isHbXlaBmSfFfj2%2FbhQoBpOMRbpo%3D",
-                "image": "https://i.loli.net/2020/05/09/uga2AjcWUSzmCv8.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "订阅量Top1，50000+程序员的算法课堂，整个专栏会涵盖100 多个算法真实项目场景案例，作者是前Google工程师王争，相信会开启你的趣味学习算法之旅。",
-                "link": "https://time.geekbang.org/column/intro/100017301?code=C0DIG6h7m4XJmsain29Nu3IGPaD81er7Xq6%2FJiFFOC0%3D",
-                "image": "https://i.loli.net/2020/05/09/rGgMPbkf1E43xhj.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "如果你想认真进阶Java或者准备面试，我推荐你好好看下《Java核心技术36讲》专栏。作者从核心知识点和能力出发，精选出36道Java面试题。作者杨晓峰是前 Oracle 首席工程师，大家都知道，Java就是Oracle公司的，内部人的专栏，给你与众不同的视角。",
-                "link": "https://time.geekbang.org/column/intro/100017301?code=C0DIG6h7m4XJmsain29Nu3IGPaD81er7Xq6%2FJiFFOC0%3D",
-                "image": "https://i.loli.net/2020/05/09/bDtoVumxHkaciOR.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "基于最新 Python 3，通过实际场景来学习，全面讲解标准库、第三方库和机器学习库。另有一个大模块专门讲解爬虫技能，是一个入门 Python 必看的视频课程。现已有8600+用户订阅，跟着这个课程学，从零基础到入门绝对没问题。",
-                "link": "https://time.geekbang.org/course/intro/100008801?code=tKqeDSeaNexuDiJO11BlWccFgJqpO67e9PsdjXivH5A%3D",
-                "image": "https://i.loli.net/2020/05/09/da6qf4UNF1WPHZO.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "作为 Java 程序员，如果你不去深入理解 Java 虚拟机，那基本是与进阶加薪无缘了。这个专栏，我记得当时上线不到3天，已经有1W人订阅，异常火爆。1、Java虚拟机确实是面试大题；2、作者是郑雨迪，Oracle Labs高级研究员，专攻Graal编译器，也在研究HotSpot虚拟机项目。",
-                "link": "https://time.geekbang.org/column/intro/100010301?code=8G6pg79pz4j47n5YiavleP6AIiV6QhVzxDRk3Y8KqtU%3D",
-                "image": "https://i.loli.net/2020/05/09/9Unv4Cmwhj73O2e.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "批量爬虫企业数据，违法吗？搬运其他网站的用户评论到自家平台，侵权吗？开源代码的版权，到底怎么看？转正申请不被批，劳动合同你看懂了吗？无故被裁员，工资社保跟谁要？租房碰上黑中介，维权从哪儿入手？资深律师老周为程序员量身定制，选取了职场、技术、生活三个领域中与程序员联系最密切的 40 个法律问题，给到你最实用有效的处理办法。",
-                "link": "https://time.geekbang.org/column/intro/100020001?code=tkVmTFNhJeYgqPDrQecziWbs6TDJyHLq1VnD1V1NiGw%3D",
-                "image": "https://i.loli.net/2020/05/09/7F3Khj6GXYzSg4q.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "前Facebook面试官覃超带你通关算法面试，他结合自己多年面试官的经验，将高频面试题做了系统性的梳理和总结，总结出了适合大厂算法面试的LeetCode 高效切题四件套，帮你从面试中脱颖而出。课程已更新完毕，共62讲，好评如潮。",
-                "link": "https://time.geekbang.org/course/intro/100019701?code=uSka4cDHATMxqMU%2FwcViKwajV-CM3oy%2FTYPTHEt8zXs%3D",
-                "image": "https://i.loli.net/2020/05/09/l1BTH5m4nWwx937.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "一门为Android开发者量身定制的进阶课程，说实话，确实有点难，但如果愿意啃下去，你必然会与身边的Android开发者慢慢拉开差距。整个专栏包含3大模块：高质量应用、实现高效开发和架构演进，还有张绍文老师精心设计的练习Sample，帮助你快速掌握解决复杂问题的思路和方法。",
-                "link": "https://time.geekbang.org/column/intro/100021101?code=CzZyMVt9D2DFD9KOOd%2FHWS%2FW7nYNu7p67rdgtXS2rsw%3D",
-                "image": "https://i.loli.net/2020/05/09/1zFapeO6fSgEVml.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "为什么越优秀的技术公司，越强调软件工程的应用？为什么自学编程会遇到日常搬砖、增删改查的情况？扎实的“基本功”，决定了技术人的发展高度。作为软件行业知识体系的内核，无论是做技术还是管理，都绕不开，20+日常工作真实场景，及微软、谷歌大厂实践案例，帮你掌握拿来即用的软件工程方法论。",
-                "link": "https://time.geekbang.org/column/intro/100023701?code=wPnxlncVDCE6XXVfHtfAAXvnNKUZqkV8JrLLozcU%2F9o%3D",
-                "image": "https://i.loli.net/2020/05/09/7UBpizyPTGO9owS.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "",
-                "link": "https://time.geekbang.org/column/intro/100023401?code=VrRl7fEev4DqzgujRTklRT3tK5-Shw9V-xx%2FCbL6j2M%3D",
-                "image": "https://i.loli.net/2020/05/09/iga725LBuJtw68l.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "这门课程是极客时间订阅最多的视频课，同时也是市面上性价比最高的付费教程，20000+订阅，课程由丁雪丰（市面上畅销书《SpringBoot实战》和《Spring攻略》的译者）主讲",
-                "link": "https://time.geekbang.org/course/intro/100023501?code=gB%2F75zNLw1wf%2Fi9k1JXNZLQomTiX%2FrtucFOfeUXVlz4%3D",
-                "image": "https://i.loli.net/2020/05/09/VgI5M72YcosrRL6.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "【完结超值优惠】《Java并发编程实战》已完结，超过1.1w人加入学习。「图文并茂+课后思考+用户留言+老师及时答复」，铸就了这个“好评超高”的专栏。真的，想要系统学并发的，推荐这个专栏。",
-                "link": "https://time.geekbang.org/column/intro/100023901?code=WWJAkT6HAAZIRumT3DwmkwrN-rbHMvStnTN6lsOWksg%3D",
-                "image": "https://i.loli.net/2020/05/09/5Diy3LCmvUAt9Hg.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "想要成为一名优秀的工程师，首先要搞懂计算机是怎么工作的。",
-                "link": "https://time.geekbang.org/column/intro/100026001?code=EKhY-WxkjjjU6r-5XvZoTOn1zBribOeKrgbp9BN0W2o%3D",
-                "image": "https://i.loli.net/2020/05/09/jVieBT6J5W4ZOMv.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "《零基础学 Java》视频课中，讲师臧萌拒绝死记硬背式的讲解，而是通过大量比喻、类比来辅助你理解抽象概念。让你边理解，边学习，掌握语法后的本质，从而不再视编程语言为“天书”。",
-                "link": "https://time.geekbang.org/course/intro/100027801?code=hcWUgPZaUT23ozr-uD%2FVDGmayWP14ZDvbllTLLOLD78%3D",
-                "image": "https://i.loli.net/2020/05/09/zP837RvWZ5bVjcr.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "从编程思维到架构思维的升级，这是3-5年的高级工程师将会遇到的第一个槛，早点锻炼自己的架构思维，多储备知识，才能在合适的时机升级，承担起架构设计的任务。推荐你学习这个专栏～",
-                "link": "https://time.geekbang.org/column/intro/100006601?code=IV4zM5uhwnjlxtzJXppdt1cupEb6H-D9iC8s9xWPqqE%3D",
-                "image": "https://i.loli.net/2020/05/09/2mHlxs1SJVMBqeR.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "像小说一样的网络协议入门课",
-                "link": "https://time.geekbang.org/column/intro/100007101?code=L43XxbZJUkOnNmo-8tnojoTLEOTpki1Wlfdz8weHtyg%3D",
-                "image": "https://i.loli.net/2020/05/09/Vf1ASxt8s2quNIK.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "互联网人的英语私教课",
-                "link": "https://time.geekbang.org/column/intro/100051901?code=jPIIxr7KvDc15yBGdN-Hc4g3TmkDhMafbrveRzpNBww%3D",
-                "image": "https://i.loli.net/2020/05/11/NEXby82VLi4ImeH.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2020-05-23 00:00"
-            },
-            {
-                "title": "职场求生攻略，原价 ¥99，早鸟优惠+口令「zhichang8」入手仅需 ¥58",
-                "link": "https://time.geekbang.org/column/intro/100052201?code=pBWk%2F-ehsvDaZHumau%2FRTBe5MJvZNMFVd8DiyzWzAtE%3D",
-                "image": "https://i.loli.net/2020/05/18/BvkF7tWAqVy5fdY.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2020-05-30 00:00"
-            },
-            {
-                "title": "微信小程序全栈开发实战，原价 ¥129，早鸟优惠+口令「52program」入手仅需 ¥89，立省 ¥40 ",
-                "link": "https://time.geekbang.org/course/intro/100052401?code=gbWJRWPKzSzyCGiP60yesvVCvH%2F-FzJ4bsFuqrXppr0%3D",
-                "image": "https://i.loli.net/2020/05/20/hAMp3l9Ic2qePKx.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "原价￥99，早鸟 + 口令「zhengye66」，到手价￥58",
-                "link": "https://time.geekbang.org/column/intro/100052601?code=6DdY69L9bMjwjdbZpBL4kyho%2FbPd0ekjch9hM08CM8o%3D",
-                "image": "https://i.loli.net/2020/05/25/JIwYclmDnCQVW27.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "原价￥129，早鸟 + 口令「bianyi666」，到手价￥89",
-                "link": "https://time.geekbang.org/column/intro/100052801?code=07uHhn7RCHZkHP-CTc6mtjFgZlpZVzked%2FXMVjPHwts%3D",
-                "image": "https://i.loli.net/2020/06/01/xuP5sTSdeE8UXvg.png",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "仅需 1 元，搞定 Flutter，掌握跨端开发技术，升职加薪快人一步！",
-                "link": "https://t.lagou.com/4R5BRORXRk118",
-                "image": "https://i.loli.net/2020/06/09/thUWMRQm6DaJZpv.png",
-                "isshow": false,
-                "start_time": "2020-06-09 00:00",
-                "end_time": "2021-12-31 00:00"
-            },
-            {
-                "title": "早鸟优惠 ¥55，结算用口令「weizhong8」，再减 5 元，到手 ¥50，仅限 100 人",
-                "link": "https://time.geekbang.org/column/intro/100053301?code=9WTzzc7Yn8Fk8lH5ILrBfQg26wGhciLRopuzC-WEoGE%3D",
-                "image": "https://i.loli.net/2020/06/09/vCkYA9M3VTsnDxl.jpg",
-                "isshow": false,
-                "start_time": "2020-06-10 00:00",
-                "end_time": "2021-12-31 00:00"
-            }
-        ];
-        let showAds = adArray.filter(isShow).filter(isExpired);
-        let index = Math.floor(Math.random() * showAds.length);
-        let adItem = showAds[index];
-        if(adItem) {
-            image.attr('src', adItem['image']);
-            link.attr('href', adItem['link']);
-            text.text(adItem['title']);
-            var currentTime = new Date().getTime();
-            if (localStorage.hideExpiredTime == null || localStorage.hideExpiredTime == undefined || localStorage.hideExpiredTime == ''){
-                localStorage.hideExpiredTime = 0;
-            }
-            if (currentTime - localStorage.hideExpiredTime > 120000000){
-                $('.pop').show();
-            }
-        }
-        
-        $('.pop-btn-close').click(function(){
-            localStorage.hideExpiredTime = currentTime;
-            $('.pop').hide();
-        })
-    </script> -->
-    <!--   浮动广告      -->
-    <!-- <script>
-        var lastScrollY = 0;
-        var initTop = 100;
-
-        function heartBeat() {
-            var diffY = 0;
-            if (window.pageYOffset) { //这一条滤去了大部分， 只留了IE678
-                diffY = window.pageYOffset;
-            } else if (document.documentElement.scrollTop) { //IE678 的非quirk模式
-                diffY = document.documentElement.scrollTop;
-            } else if (document.body.scrolltop) { //IE678 的quirk模式
-                diffY = document.body.scrolltop;
-            }
-            var percent = .1 * (diffY - lastScrollY);
-            if (percent > 0) {
-                percent = Math.ceil(percent);
-            } else {
-                percent = Math.floor(percent);
-            }
-
-            var top = String(lastScrollY + initTop) + "px";
-            $("#auto-scroll-ad-box").css("top", top);
-            lastScrollY = lastScrollY + percent;
-        }
-        window.setInterval("heartBeat()", 1);
-    </script> -->
     <!-- Google Analytics -->
     <script>
         (function(i, s, o, g, r, a, m) {
@@ -3675,528 +3377,6 @@
                 }
             );
         });
-    </script>
-    <!-- Recommend Books List -->
-    <script type="text/javascript">
-        var isShowBookList = true;
-        var books = {
-            title: "书",
-            showCount: 15,
-            data: [{
-                title: "无界面交互:潜移默化的UX设计方略",
-                url: "http://t.cn/Rotrq7Z",
-                description: "本书通过丰富的示例和生动的讲解，深刻揭示了当今屏幕至上的界面设计的种种怪象。本书呼吁将设计的重心由界面转向对用户个性化需求的关怀，并提出了无界面交互设计方略的三个原则以构建优质用户体验：贴合日常生活流程，做电脑的主人而非仆人，适应个体情况。",
-                img_url: "http://wx3.sinaimg.cn/large/006tNc79ly1fgt2uu0odfj304605gdfw.jpg",
-                tags: "Design,UX",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "极简主义:风靡欧美的工作与生活理念",
-                url: "http://t.cn/RotrQOG",
-                description: "本书适合所有想提高做事效率、提升人生幸福感的人士阅读。如果你真的想简化繁重的工作事务和日常生活，请一定要记住：好方法往往最简单。",
-                img_url: "https://i.loli.net/2020/02/09/u9vEwL1exS4ghHK.jpg",
-                tags: "工作,生活",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "Gradle for Android中文版",
-                url: "http://t.cn/RotVOIb",
-                description: "本书共分9章，依次介绍了Gradle的基础知识、基本自定义构建、依赖管理、创建构建Variants、管理多模块构建、运行测试、创建tasks和插件、设置持续集       成，以及高级自定义构建。",
-                img_url: "http://wx4.sinaimg.cn/large/006tNc79ly1fgt2uvgvrxj304605gaat.jpg",
-                tags: "Android,Gradle",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "增长黑客实战",
-                url: "http://t.cn/RotfVPF",
-                description: "本书围绕硅谷前沿的增长黑客职业，讲解增长理念的树立、增长团队的组建、流程制度的创立、技术营销的运用等团队运营成功实战经验。本书适合希望成功创业       的CEO、公司经理、开发人员、产品经理和市场运营人员，以及任何有创意并且想创业的人。",
-                img_url: "http://wx2.sinaimg.cn/large/006tNc79ly1fgt2uuiz4oj304605gaav.jpg",
-                tags: "运营,Growth Hacking",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "提问的智慧",
-                url: "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md",
-                description: "本指南将教你如何正确的提问以获得你满意的答案。",
-                img_url: "http://wx1.sinaimg.cn/large/006tNc79ly1fgt2uu43mxj304605g747.jpg",
-                tags: "OpenSource Book,提问",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "A Primer on Bézier Curves",
-                url: "https://pomax.github.io/bezierinfo/zh-CN/",
-                description: "一本讲解贝塞尔曲线的开源书",
-                img_url: "http://wx4.sinaimg.cn/large/006tNc79ly1fgt2uvmdckj304605gwei.jpg",
-                tags: "OpenSource Book,贝塞尔曲线",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "免费的编程中文书籍索引",
-                url: "http://siberiawolf.com/free_programming/index.html",
-                description: "本索引包含：国外程序员在 stackoverflow 推荐的程序员必读书籍，中文版；stackoverflow 上的程序员应该阅读的非编程类书籍有哪些？      中文版；github 上的一个流行的编程书籍索引 中文版",
-                img_url: "https://i.loli.net/2020/02/09/dtWTrUp968HaiBk.jpg",
-                tags: "OpenSource Book,Free",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "人类简史：从动物到上帝",
-                url: "http://t.cn/Rot8C7R",
-                description: "以色列新锐历史学家的一部重磅作品。从十万年前有生命迹象开始到21世纪资本、科技交织的人类发展史。十万年前，地球上至少有六个人种，为何今天却只剩下      了我们自己？我们曾经只是非洲角落一个毫不起眼的族群，对地球上生态的影响力和萤火虫、猩猩或者水母相差无几。为何我们能登上生物链的顶端，最终成为地球的主宰？",
-                img_url: "https://i.loli.net/2020/02/09/st6ADOUTgEpmY4i.jpg",
-                tags: "社会学",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "重来:更为简单有效的商业思维",
-                url: "http://t.cn/RotRYYU",
-                description: "大多数的企业管理的书籍都会告诉你：制定商业计划、分析竞争形势、寻找投资人等等。如果你要找的是那样的书，那么把《重来:更为简单有效的商业思维》放       回书架吧。《重来:更为简单有效的商业思维》呈现的是一种更好、更简单的经商成功之道。",
-                img_url: "http://wx4.sinaimg.cn/large/006tNc79ly1fgt33ayhphj304605gq3d.jpg",
-                tags: "创业,商业",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "重新定义团队:谷歌如何工作",
-                url: "http://t.cn/RotEwoG",
-                description: "在谷歌，人始终被当作企业最重要的财富，谷歌管理层始终将发掘、培养和留住人才，作为企业高战略，这是谷歌成为幸福企业和成功企业的根本。正如作者所说       ，谷歌的这些原则对任何团队的组建和管理都适用。不管你是苦于找不到合伙人的初创公司老板，还是面临好人才跳槽的企业经理人，抑或是面对互联网转型的企业高管，都能从书     中重新发现人才的重要性和团队的价值。",
-                img_url: "http://wx2.sinaimg.cn/large/006tNc79ly1fgt32yrb2hj304605gdg4.jpg",
-                tags: "谷歌,创业,运营,招聘",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "鱼羊野史(第1卷)",
-                url: "http://t.cn/RotEnk4",
-                description: "历史，有的时候是故事，有的时候是事故，有的时候山重水复疑无路。 人类，有的时候聪明，有的时候傻，但始终在进化。       历史不是镜子，历史是开了又落的花，朝花夕拾, 跟高晓松一起，重温故国、故城、故人芳华刹那",
-                img_url: "http://wx3.sinaimg.cn/large/006tNc79ly1fgt32nssm2j304605gq38.jpg",
-                tags: "历史",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "重新定义公司:谷歌是如何运营的",
-                url: "http://t.cn/RotnCxs",
-                description: "今日的谷歌是全球最具标志性的企业，在各个领域都有创新突破，并向技术的极限推进。《重新定义公司：谷歌是如何运营的》作者是谷歌执行董事长埃里克·施       密特和前高级副总裁乔纳森·罗森伯格，他们亲自分享十余年来帮助谷歌成长所领悟到的管理启示：科技正在改变商业的方方面面，这种改变速度空前，而且仍在加速，公司若想在     互联网时代站稳脚跟，就要制定新的商业规则。",
-                img_url: "http://wx3.sinaimg.cn/large/006tNc79ly1fgt32ez88zj304605gq36.jpg",
-                tags: "谷歌,创业,运营",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "腾讯传1998—2016",
-                url: "http://t.cn/RotuPIN",
-                description: "从1998年开始创业到成为世界级互联网巨头，腾讯以即时通信工具起步，逐渐进入社交网络、互动娱乐、网络媒体、电子商务等领域，在超高速发展的同时亦饱      受争议，在“3Q大战”的激烈冲突之后又进一步走向开放……腾讯的发展路径，亦是中国互联网企业成长的缩影。我们可以看到，中国的互联网人在应用性迭代和对本国消费者的行为   了解上，找到了自己的办法，并开始领跑全球。",
-                img_url: "http://wx2.sinaimg.cn/large/006tNc79ly1fgt323ldckj304605gwem.jpg",
-                tags: "腾讯,传记",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "把时间当作朋友(第3版)",
-                url: "http://t.cn/RotuIRJ",
-                description: "从心智成长的角度来谈自我积累。李笑来老师通过自己职业生涯中遇到的事例，告诉我们：如何打开心智，如何运用心智来和时间做朋友，从而开启人生的成功旅       程。畅销多年，虽经反复咀嚼依然不断有新的启发，令人受用至今——这就是本书的魅力！",
-                img_url: "http://wx2.sinaimg.cn/large/006tNc79ly1fgt2uu8drjj304605g74f.jpg",
-                tags: "认知,心智,时间",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "从0到1:开启商业与未来的秘密",
-                url: "http://t.cn/RotuRhL",
-                description: "硅谷创投教父、PayPal创始人作品，斯坦福大学改变未来的一堂课，为世界创造价值的商业哲学。在科技剧烈改变世界的今天，想要成功，你必须在一切发生之     前研究结局。你必须找到创新的独特方式，让未来不仅仅与众不同，而且更加美好。从0到1，为自己创造无限的机会与价值！",
-                img_url: "http://wx4.sinaimg.cn/large/006tNc79ly1fgt2uv6wjbj304605gq3i.jpg",
-                tags: "创业",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "把你的英语用起来!(新版) ",
-                url: "http://t.cn/Rot3UrV",
-                description: "在这本书中，作者刘晓光和伍君仪以自己英语逆袭的亲身经历入手，提供了一套理论清晰、操作性强的英语训练体系，向所有英语学习者传达了这样的理念：语言学习没有捷径，但没有捷径并不意味着学习者要坚持下去一定会十分艰辛。",
-                img_url: "http://wx3.sinaimg.cn/large/006tNc79ly1fgt2uue2ckj304605gmyi.jpg",
-                tags: "英语",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "1368个单词就够了",
-                url: "http://t.cn/Rot3YSK",
-                description: "这本书是作者王乐平先生历时4年研发，在教学过程中更好的实现了本书思想的实际指导作用。这本书的基础在于：中国人背了多年的单词，学语法，练习听力和       口语，参加了多种类型的考试，但由于缺乏语言环境，很多人在真正使用英语的时候，还是出现表达障碍。",
-                img_url: "http://wx2.sinaimg.cn/large/006tNc79ly1fgt2uvqtvmj304605g75d.jpg",
-                tags: "英语",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "每天最重要的2小時",
-                url: "http://t.cn/Rot1JHR",
-                description: "本書作者戴維斯告訴我們，企圖以效法電腦效率的方式來管理我們的時間，注定要失敗。他以淺顯易懂且有趣的文筆生動地解釋行為科學，告訴我們一天當中真正       有效率的關鍵時刻，而且一樣重要的是，他也告訴我們如何用更好的方式，安排其他效率沒那麼好的平凡時刻。",
-                img_url: "http://wx1.sinaimg.cn/large/006tNc79ly1fgt2utawcdj304605gaa7.jpg",
-                tags: "时间",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "增长黑客:创业公司的用户与收入增长秘籍",
-                url: "http://t.cn/RotBEcK",
-                description: "增长黑客”这一概念近年来兴起于美国互联网创业圈，最早是由互联网创业者Sean        Ellis提出。增长黑客是介于技术和市场之间的新型团队角色，主要依靠技术和数据的力量来达成各种营销目标，而非传统意义上靠砸钱来获取用户的市场推广角色。",
-                img_url: "http://wx2.sinaimg.cn/large/006tNc79ly1fgt2uut31hj304605gwf3.jpg",
-                tags: "创业,Growth Hacking",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "第一行代码——Android（第2版）",
-                url: "http://t.cn/Roluf0E",
-                description: "本书基于Android 7.0对第1版进行了全面更新，将所有知识点都在最新的Android系统上进行了重新适配，使用全新的Android Studio开发工具代替之前的Eclipse，并添加了对Material Design、运行时权限、多窗口模式、Gradle、RecyclerView、百分比布局、OkHttp、Lambda表达式等全新知识点的详细讲解。",
-                img_url: "http://wx4.sinaimg.cn/large/006tKfTcly1fh120qi0t9j304605gaak.jpg",
-                tags: "Android,Material Design,RecyclerView,Gradle, Android Studio,OkHttp,Lambda",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "Android 应用安全防护和逆向分析",
-                url: "https://amazon.cn/gp/product/B0788XV9WC/ref=as_li_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B0788XV9WC&linkCode=as2&tag=androiddevtools-bottom-book-",
-                description: "本书全面介绍Android应用的安全防护方法与逆向分析技术，分为四篇：基础篇、防护篇、工具篇、操作篇，共26章。基础篇包括第1~7章，主要介绍移动应用安全的基础知识，包括Android中NDK开发知识、逆向中需要用到的命令、编译之后的apk包含的四类主要文件格式解析等。防护篇包括第8~14章，主要介绍移动应用安全防护的相关技术，包括混淆、签名校验、反调试检测等安全策略，Android应用升级权限、降低权限等，配置文件中的问题，应用签名机制，apk的加固策略，so文件的加固策略等。工具篇包括第15~19章，主要介绍逆向分析常用的工具以及使用场景，包括如何开启设备的总调试开关，反编译利器apktool、Jadx、Xposed、CydiaSubstrate等。操作篇包括第20~26章，主要介绍Android中的逆向分析技巧，包括静态方式和动态方式，介",
-                img_url: "https://wx2.sinaimg.cn/large/006tNc79ly1fmojaxsu2kj304605gq30.jpg",
-                tags: "Android,安全,逆向",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "Android Things 中文文档社区预览版",
-                url: "https://atdocs.cn/",
-                description: "全球已经有很多开发者使用 Android Things 开发出了非常有意思的应用，使用 Android Things 技术在物联网领域占得一席之地。这一次，我们希望中国的开发者也能参与，不掉队。我们与官方取得联系，在 Android Things 的文档最近进行的一次大改动之后，计划招募志愿者将文档中文化，并持续跟进。欢迎大家不停的 Review 这份翻译文档。在我们的社区校对完成之后，文档就是 Google Developers 中文官方文档。",
-                img_url: "https://wx2.sinaimg.cn/large/006tKfTcly1fmpjxtm14yj304605gwer.jpg",
-                tags: "Android,Android Things,物联网,IoT",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }, {
-                title: "JavaScript Promise 迷你书（中文版）",
-                url: "http://liubin.org/promises-book/",
-                description: "本书的目的是以目前还在制定中的 ECMAScript 6 Promises 规范为中心，着重向各位读者介绍 JavaScript 中对 Promise 相关技术的支持情况。通过阅读本书，我们希望各位读者能在下面三个目标上有所收获：1.学习 Promise 相关内容，能熟练使用 Promise 模式并进行测试；2.学习 Promise 适合什么、不适合什么，知道 Promise 不是万能的，不能什么都想用 Promise 来解决；3.以 ES6 Promises 为基础进行学习，逐渐发展形成自己的风格。像上面所提到的那样，本书主要是以 ES6 Promises，即 JavaScript 的标准规范为基础的、Promise 的相关知识为主要讲解内容。",
-                img_url: "https://wx3.sinaimg.cn/large/006tKfTcly1fmpktm97s8j304605g3ys.jpg",
-                tags: "JavaScript,Promise,ECMAScript 6",
-                isshow: true,
-                isShowCover: true,
-                isad: false,
-                ad_config: {
-                    category: "AD",
-                    action: "click",
-                    label: "",
-                    value: "",
-                    nodeid: "",
-                },
-                style: {
-                    isRound: true
-                }
-            }]
-        };
-
-        Array.prototype.randomDiffElement = function(last) {
-            if (this.length == 0) {
-                return;
-            } else if (this.length == 1) {
-                return this[0];
-            } else {
-                var num = 0;
-                do {
-                    num = Math.floor(Math.random() * this.length);
-                } while (Array.isArray(last) ? last.includes(this[num]) : this[num] == last);
-                return this[num];
-            }
-        };
-
-        function isEquals() {
-
-        }
-
-        var buildBookItem = function(book) {
-            var link = '<a href="' + book.url + '" target="_blank" title="' + book.description;
-            link = link + (book.isad ? '" onclick="trackOutboundLink(\'' + book.url + '\', \'' + book.ad_config.category + "-" + book.ad_config.label + '\', \'' + book.ad_config.action + '\');" >' : '" >');
-            if (book.isShowCover && book.img_url) {
-                var imgClass;
-                if (book.style.isRound) {
-                    imgClass = "carousel-inner img-responsive img-rounded"
-                } else {
-                    imgClass = "carousel-inner img-responsive"
-                }
-                link = link + '<img class="' + imgClass + '" src="' + book.img_url + '">';
-            }
-            return '<li>' + link + '</a></li>';
-        };
-
-        var initBookList = function() {
-            if (isShowBookList && books) {
-                if (books.title && books.title.length > 0) {
-                    $("#books-list").find('#book-list-title').text(books.title);
-                } else {
-                    $("#books-list").find('#book-list-title').hide();
-                }
-                if (books.data && books.data.length > 0) {
-                    var bookListBox = $('#books-list ul');
-                    var lastRandomBook = [];
-                    for (var i = 0; i < books.showCount; i++) {
-                        var book = books.data.filter(isShow).randomDiffElement(lastRandomBook);
-                        if (book) {
-                            bookListBox.append(buildBookItem(book))
-                        }
-                        lastRandomBook.push(book);
-                    }
-                    if ($(bookListBox).children()) {
-                        $('#books-list').show();
-                    }
-                }
-            }
-        };
-
-        function addBannerItemClickEvent() {
-            var bannerItems = $('#ad-banner-list').find('ul>li').toArray();
-            console.log(Array.isArray(bannerItems));
-            bannerItems.forEach(function(element) {
-                var link = $(element).attr('data-link'),
-                    tag = $(element).attr('data-tag'),
-                    type = $(element).attr('data-event-type');
-                $(element).unbind('click').bind('click', function(event) {
-                    trackOutboundLink(link, tag, type);
-                    window.location.href = link;
-                    event.preventDefault();
-                    event.stopPropagation();
-                    console.log(link)
-                });
-            });
-        }
-        initBookList();
-        addBannerItemClickEvent();
     </script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e313f50a3c838b7"></script>
 </body>
