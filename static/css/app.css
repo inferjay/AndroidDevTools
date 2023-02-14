@@ -576,6 +576,50 @@ footer p {
 
 }
 
+.downloads {
+    border: 1px solid #ddd;
+    font: 13px/18px Consolas, "Liberation Mono", Menlo, Monaco, Courier, monospace;
+    margin-bottom: 24px;
+    overflow: auto;
+    padding: 0 24px 24px;
+    white-space: pre-line;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .expand-control {
+    background: #eee;
+    padding: 5px 0 5px 28px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #4caf50;
+  }
+
+  .expand-control span {
+    color: #202124;
+    font-weight: normal;
+  }
+
+  .expand-control.exw-expanded::before {
+    background: url(../image/disclosure_up.png) no-repeat center center;
+  }
+
+  .expand-control::before {
+    background: url(../image/disclosure_down.png) no-repeat center center;
+    background-size: 34px 34px;
+    color: transparent;
+    content: '';
+    display: block;
+    height: 20px;
+    left: 20px;
+    margin-top: 2px;
+    position: absolute;
+    width: 20px;
+  }
+
+
 /* Widescreen desktop. */
 
 @media (min-width: 1200px) {
