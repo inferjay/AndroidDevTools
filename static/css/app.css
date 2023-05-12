@@ -1,1347 +1,1379 @@
+:root {
+  --animate-duration: 2s;
+  --animate-delay: 2s;
+  --animate-repeat: 2;
+}
+
 html,
 body {
-    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 15px;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
 }
 
 body {
-    background-color: #f6f6f6;
-    padding-bottom: 0px;
-    padding-top: 56px;
+  background-color: #f6f6f6;
+  padding-bottom: 0px;
+  padding-top: 56px;
 }
 
 header {
-    color: #f6f6f6;
-    position: fixed;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .23), 0 3px 10px rgba(0, 0, 0, .16);
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 99;
+  color: #f6f6f6;
+  position: fixed;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.23), 0 3px 10px rgba(0, 0, 0, 0.16);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
 }
 
 header h1 {
-    margin: 10px 0;
-    font-size: 50px;
-    line-height: 60px;
-    font-weight: 100;
-    text-rendering: auto;
+  margin: 10px 0;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 100;
+  text-rendering: auto;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #f6f6f6;
-    padding: 3px 6px;
+  color: #f6f6f6;
+  padding: 3px 6px;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link,
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #6ab344;
-    background-color: white;
-    padding: 3px 6px;
-    border-radius: 4px;
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #6ab344;
+  background-color: white;
+  padding: 3px 6px;
+  border-radius: 4px;
 }
 
 .row {
-    margin-right: 0;
-    margin-left: 0;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .dropdown-item {
-    display: inline-block;
+  display: inline-block;
 }
 
 header menu {
-    margin: 14px 0 0;
-    padding: 0;
-    height: 40px;
+  margin: 14px 0 0;
+  padding: 0;
+  height: 40px;
 }
 
 header menu ul {
-    margin: 0;
-    padding: 0;
-    float: right;
+  margin: 0;
+  padding: 0;
+  float: right;
 }
 
 header menu li {
-    list-style: none;
-    float: left;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 
 header menu li a {
-    display: inline-block;
-    height: 40px;
-    font-size: 17px;
-    line-height: 40px;
-    color: #f6f6f6;
-    vertical-align: bottom;
+  display: inline-block;
+  height: 40px;
+  font-size: 17px;
+  line-height: 40px;
+  color: #f6f6f6;
+  vertical-align: bottom;
 }
 
 header menu li a li a {
-    display: inline-block;
-    height: 40px;
-    font-size: 12px;
-    line-height: 10px;
-    color: #f6f6f6;
-    vertical-align: bottom;
+  display: inline-block;
+  height: 40px;
+  font-size: 12px;
+  line-height: 10px;
+  color: #f6f6f6;
+  vertical-align: bottom;
 }
 
 header menu li a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header menu li a img {
-    margin: 0;
-    padding: 5px 0;
-    vertical-align: bottom;
-    width: 30px;
-    height: 30px;
+  margin: 0;
+  padding: 5px 0;
+  vertical-align: bottom;
+  width: 30px;
+  height: 30px;
 }
 
 #subtitle {
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
 }
 
 a.dl {
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 40px;
-    padding: 3px 10px;
-    display: inline-block;
-    border-radius: 6px;
-    color: #f0f0f0;
-    margin: 5px 0;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 3px 10px;
+  display: inline-block;
+  border-radius: 6px;
+  color: #f0f0f0;
+  margin: 5px 0;
 }
 
 a.dl:hover {
-    color: #f0f0f0;
-    text-decoration: none;
+  color: #f0f0f0;
+  text-decoration: none;
 }
 
 .content-nav {
-    margin-top: 130px;
-    width: 220px;
+  margin-top: 130px;
+  width: 220px;
 }
 
 .content-nav.affix {
-    top: 0;
+  top: 0;
 }
 
 .content-nav li.active a,
 .content-nav li.active a:hover {
-    background-color: transparent;
-    color: #555;
-    border-left-width: 2px;
+  background-color: transparent;
+  color: #555;
+  border-left-width: 2px;
 }
 
 .content-nav .secondary a {
-    color: #aaa;
+  color: #aaa;
 }
 
 .content-nav .secondary a:hover {
-    color: #888;
+  color: #888;
 }
 
 h1 {
-    font-weight: 300;
-    font-size: 26px;
-    color: #888;
+  font-weight: 300;
+  font-size: 26px;
+  color: #888;
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 30px;
-    padding: 15px 0px;
-    margin: 0;
-    color: #888;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 15px 0px;
+  margin: 0;
+  color: #888;
 }
 
 h2 strong {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 h3 {
-    font-weight: 300;
-    color: #888;
-    font-size: 22px;
-    padding-top: 20px;
-    margin-top: 0;
+  font-weight: 300;
+  color: #888;
+  font-size: 22px;
+  padding-top: 20px;
+  margin-top: 0;
 }
 
 h4 {
-    font-weight: 400;
-    color: #888;
-    font-size: 18px;
-    padding-top: 20px;
+  font-weight: 400;
+  color: #888;
+  font-size: 18px;
+  padding-top: 20px;
 }
 
 h5 {
-    font-weight: 500;
-    color: #888;
-    font-size: 15px;
-    padding-top: 20px;
+  font-weight: 500;
+  color: #888;
+  font-size: 15px;
+  padding-top: 20px;
 }
 
 h6 {
-    font-weight: 600;
-    color: #888;
-    font-size: 12px;
-    padding-top: 20px;
+  font-weight: 600;
+  color: #888;
+  font-size: 12px;
+  padding-top: 20px;
 }
 
 p.license {
-    font-family: fixed-width;
+  font-family: fixed-width;
 }
 
 .row .logo {
-    text-align: center;
-    margin-top: 150px;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .row .logo img {
-    height: 30px;
+  height: 30px;
 }
 
 pre,
 code {
-    color: #666;
+  color: #666;
 }
 
 code {
-    border: 0;
-    background-color: transparent;
+  border: 0;
+  background-color: transparent;
 }
 
 .screenshot {
-    text-align: center;
+  text-align: center;
 }
 
 table {
-    border: 1px solid #b1b1b1;
-    margin-bottom: 20px;
-    text-align: center;
+  border: 1px solid #b1b1b1;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 section th {
-    padding: 10px;
-    background: #a8a8a8;
-    color: #fff;
+  padding: 10px;
+  background: #a8a8a8;
+  color: #fff;
 }
 
 section td {
-    padding: 10px;
-    border: 1px solid #b1b1b1;
+  padding: 10px;
+  border: 1px solid #b1b1b1;
 }
 
 #nav-title {
-    font-weight: 400;
-    font-size: 32px;
-    color: #ffffff;
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
 }
 
 #nav-sub-title {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .outer {
-    width: 100%;
+  width: 100%;
 }
 
 .inner {
-    position: relative;
-    max-width: 640px;
-    padding: 16px 16px;
-    margin: 0 auto;
+  position: relative;
+  max-width: 640px;
+  padding: 16px 16px;
+  margin: 0 auto;
 }
 
 #footer_wrap {
-    margin-top: 56px;
-    margin-bottom: 56px;
-    background: #BDBDBD;
+  margin-top: 56px;
+  margin-bottom: 56px;
+  background: #bdbdbd;
 }
 
 footer p {
-    color: #ffffff
+  color: #ffffff;
 }
 
 #drop-sdk-tools {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 #drop-dev-tools {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 #drop-dev-guides {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 #drop-dev-tutorials {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 #drop-design-tools {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 #jiathis-share-bar {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 footer p {
-    text-align: center;
-    align: center;
-    padding-top: 13px;
-    /* padding-bottom: 10px; */
+  text-align: center;
+  align: center;
+  padding-top: 13px;
+  /* padding-bottom: 10px; */
 }
 
 .copyright {
-    float: left;
-    margin-right: 6em;
-    margin-left: 6em;
+  float: left;
+  margin-right: 6em;
+  margin-left: 6em;
 }
 
-.published {}
+.published {
+}
 
 #ts-search-input-li {
-    margin-top: 7px;
+  margin-top: 7px;
 }
 
 .donate-method-title {
-    text-align: center;
-    padding: 0;
+  text-align: center;
+  padding: 0;
 }
 
 .donate-method-qr {
-    width: 25%;
-    display: block;
-    float: left;
+  width: 25%;
+  display: block;
+  float: left;
 }
 
 .donate-method-qr-img {
-    width: 100%;
+  width: 100%;
 }
 
 .donate-method-qr span {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .donate-method-bitcoin {
-    padding-top: 2em;
+  padding-top: 2em;
 }
 
 .content-title {
-    text-align: center;
-    width: 100%;
-    color: #484848;
-    font-size: 36px;
-    font-style: bold;
-    font-weight: 700;
-    margin-top: 1.3em;
-    margin-bottom: 1.3em;
+  text-align: center;
+  width: 100%;
+  color: #484848;
+  font-size: 36px;
+  font-style: bold;
+  font-weight: 700;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
 }
 
 .home {
-    float: left;
-    margin-top: 0;
+  float: left;
+  margin-top: 0;
 }
 
 .home a {
-    display: block;
-    padding-bottom: 0;
+  display: block;
+  padding-bottom: 0;
 }
 
 .home a .logo {
-    width: 223px;
-    height: 86px;
-    margin-top: -8px;
+  width: 223px;
+  height: 86px;
+  margin-top: -8px;
 }
 
 .clearfix {
-    zoom: 1;
+  zoom: 1;
 }
 
 .link-image-list ul {
-    list-style: disc;
-    margin: 0;
+  list-style: disc;
+  margin: 0;
 }
 
 .link-image-list ul li {
-    list-style: none;
-    float: left;
-    /* width: auto; */
-    text-align: center;
-    /* height: 25%; */
-    margin: 0em 2em 3em 2em;
+  list-style: none;
+  float: left;
+  /* width: auto; */
+  text-align: center;
+  /* height: 25%; */
+  margin: 0em 2em 3em 2em;
 }
 
 .link-image-list ul li a {
-    display: block;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
+  display: block;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
 
 .link-image-list ul li img {
-    background-color: white;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 4px;
-    box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .20), 2px 4px 6px 2px rgba( 0, 0, 0, .10);
-    -moz-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .20), 2px 4px 6px 2px rgba( 0, 0, 0, .10);
-    -webkit-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .20), 2px 4px 6px 2px rgba( 0, 0, 0, .10);
+  background-color: white;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 4px;
+  box-shadow: -2px 4px 6px -2px rgba(0, 0, 0, 0.2),
+    2px 4px 6px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -2px 4px 6px -2px rgba(0, 0, 0, 0.2),
+    2px 4px 6px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: -2px 4px 6px -2px rgba(0, 0, 0, 0.2),
+    2px 4px 6px 2px rgba(0, 0, 0, 0.1);
 }
 
 .link-image-list ul li img:hover {
-    -moz-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .30), 2px 4px 6px 2px rgba( 0, 0, 0, .15);
-    -webkit-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .30), 2px 4px 6px 2px rgba( 0, 0, 0, .15);
-    box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .30), 2px 4px 6px 2px rgba( 0, 0, 0, .15);
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
+  -moz-box-shadow: -2px 4px 6px -2px rgba(0, 0, 0, 0.3),
+    2px 4px 6px 2px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: -2px 4px 6px -2px rgba(0, 0, 0, 0.3),
+    2px 4px 6px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: -2px 4px 6px -2px rgba(0, 0, 0, 0.3),
+    2px 4px 6px 2px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
 
 .float-left {
-    float: left;
+  float: left;
 }
 
 #license {
-    clear: left;
+  clear: left;
 }
 
 #license strong {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 #donate-title {
-    text-align: center;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
 
-#comments {}
+#comments {
+}
 
 .body-container {
-    background-color: white;
-    margin-top: 20px;
-    border-radius: 6px;
-    box-shadow: 0 0 4px rgba(0, 0, 0, .14);
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14);
 }
 
 .ad-float-right {
-    background-color: white;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px;
-    padding: 4px;
-    margin-right: 0px;
-    margin-top: 6px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px, rgba(0, 0, 0, 0.14) 0px 4px 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px,
+    rgba(0, 0, 0, 0.14) 0px 4px 8px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px,
+    rgba(0, 0, 0, 0.14) 0px 4px 8px;
+  padding: 4px;
+  margin-right: 0px;
+  margin-top: 6px;
 }
 
 .ad-float-right {
-    width: 130px;
-    border-radius: 4px;
+  width: 130px;
+  border-radius: 4px;
 }
 
 #books-list ul {
-    margin: 0 3.6em;
+  margin: 0 3.6em;
 }
 
 #fuck-gfw-list ul li {
-    width: 19.8%;
+  width: 19.8%;
 }
 
 #gay_friends_list ul {
-    margin: 0;
+  margin: 0;
 }
 
 #gay_friends_list ul li {
-    margin-top: 3em;
-    margin-bottom: 5em;
+  margin-top: 3em;
+  margin-bottom: 5em;
 }
 
 .margin-top-16 {
-    margin-top: 16px;
+  margin-top: 16px;
 }
 
 .hide {
-    display: none!important;
+  display: none !important;
 }
 
 .show {
-    display: block;
+  display: block;
 }
 
 .pop {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: #000000AA;
-    text-align: center;
-    z-index: 100;
-    display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #000000aa;
+  text-align: center;
+  z-index: 100;
+  display: none;
 }
 
 .pop-container {
-    height: 80%;
-    margin-top: 7%;
+  height: 80%;
+  margin-top: 7%;
 }
 
 .pop-links {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .pop-image {
-    max-height: 70%;
+  max-height: 70%;
 }
 
 .pop-text {
-    color: white;
-    width: 60%;
-    color: white;
-    margin-top: 20px;
-    line-height: 30px;
+  color: white;
+  width: 60%;
+  color: white;
+  margin-top: 20px;
+  line-height: 30px;
 }
 
 .html {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: url("data:image/svg+xml;utf8,#grayscale");
-    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
-    -webkit-filter: grayscale(1);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: url("data:image/svg+xml;utf8,#grayscale");
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  -webkit-filter: grayscale(1);
 }
 
 .top-ads-link {
-    width: 49.8%;
-    display: inline-block;
+  width: 49.8%;
+  display: inline-block;
 }
 
 .top-ads-img {
-    width: 85%;
+  width: 85%;
 }
 
 .text-align-right {
-    text-align: right;
+  text-align: right;
 }
 
 .ads-text {
-    color: #999;
-    font-size: 10px;
-    padding: 0px 4px;
-    border-radius: 4px;
-    position: relative;
-    float: right;
-    right: 10px;
-    top: 10px;
-    margin-bottom: -50px;
-    z-index: 10;
-    background-color: white;
-    opacity: 70%;
+  color: #999;
+  font-size: 10px;
+  padding: 0px 4px;
+  border-radius: 4px;
+  position: relative;
+  float: right;
+  right: 10px;
+  top: 10px;
+  margin-bottom: -50px;
+  z-index: 10;
+  background-color: white;
+  opacity: 70%;
 }
 
 .d-block {
-    display: block;
+  display: block;
 }
 
 .btn-action {
-    border-radius: 4px;
-    font-size: 20px; 
-    background-color: #ff5722;
-    border: 0;
-    color: white;
-    text-decoration: none;
-    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .2);
-    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .2);
-    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .2)
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: #ff5722;
+  border: 0;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn-action:hover {
-    color: white;
-    text-decoration: none;
-    background-color: #e24134;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 4px 10px rgba(0, 0, 0, .22);
-    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 4px 10px rgba(0, 0, 0, .22);
-    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .16), 0 4px 10px rgba(0, 0, 0, .22);
-
+  color: white;
+  text-decoration: none;
+  background-color: #e24134;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.16),
+    0 4px 10px rgba(0, 0, 0, 0.22);
 }
 
 .downloads {
-    border: 1px solid #ddd;
-    font: 13px/18px Consolas, "Liberation Mono", Menlo, Monaco, Courier, monospace;
-    margin-bottom: 24px;
-    overflow: auto;
-    padding: 0 24px 24px;
-    white-space: pre-line;
-  }
+  border: 1px solid #ddd;
+  font: 13px/18px Consolas, "Liberation Mono", Menlo, Monaco, Courier, monospace;
+  margin-bottom: 24px;
+  overflow: auto;
+  padding: 0 24px 24px;
+  white-space: pre-line;
+}
 
-  .hide {
-    display: none;
-  }
+.hide {
+  display: none;
+}
 
-  .expand-control {
-    background: #eee;
-    padding: 5px 0 5px 28px;
-    font-weight: bold;
-    font-size: 1rem;
-    color: #4caf50;
-  }
+.expand-control {
+  background: #eee;
+  padding: 5px 0 5px 28px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #4caf50;
+}
 
-  .expand-control span {
-    color: #202124;
-    font-weight: normal;
-  }
+.expand-control span {
+  color: #202124;
+  font-weight: normal;
+}
 
-  .expand-control.exw-expanded::before {
-    background: url(../image/disclosure_up.png) no-repeat center center;
-  }
+.expand-control.exw-expanded::before {
+  background: url(../image/disclosure_up.png) no-repeat center center;
+}
 
-  .expand-control::before {
-    background: url(../image/disclosure_down.png) no-repeat center center;
-    background-size: 34px 34px;
-    color: transparent;
-    content: '';
-    display: block;
-    height: 20px;
-    left: 20px;
-    margin-top: 2px;
-    position: absolute;
-    width: 20px;
-  }
+.expand-control::before {
+  background: url(../image/disclosure_down.png) no-repeat center center;
+  background-size: 34px 34px;
+  color: transparent;
+  content: "";
+  display: block;
+  height: 20px;
+  left: 20px;
+  margin-top: 2px;
+  position: absolute;
+  width: 20px;
+}
 
+.new-tag::after {
+  content: "New";
+  color: white;
+  font-size: 10px;
+  font-style: italic;
+  font-weight: bolder;
+  background-color: #ff5722;
+  padding: 1px 5px;
+  border-radius: 5px 5px 5px 0;
+  position: relative;
+  top: -15px;
+  text-align: center;
+  z-index: 1031;
+}
 
 /* Widescreen desktop. */
 
 @media (min-width: 1200px) {
-    .content-nav {
-        width: 270px;
-    }
-    ul.unslider-wrap {
-        height: 40em;
-    }
+  .content-nav {
+    width: 270px;
+  }
+  ul.unslider-wrap {
+    height: 40em;
+  }
 }
 
 @media (max-width: 1024px) {
-    .span9 {
-        width: 100%;
-    }
-    .home {
-        float: none;
-    }
-    .home a .logo {
-        width: 100%;
-        height: 80px;
-        margin-top: 0;
-    }
-    header menu {
-        padding-right: 10%;
-        margin-top: -10px;
-        margin-bottom: 10px;
-    }
-    table thead th {
-        font-size: 16px;
-        padding: 0;
-        word-wrap: break-word;
-        word-break: break-all;
-    }
-    table tbody td {
-        font-size: 14px;
-        padding: 4px;
-        word-wrap: break-word;
-        word-break: break-all;
-    }
-    #books-list ul li {
-        width: 17.6%;
-    }
-    #fuck-gfw-list ul li {
-        width: 18.5%;
-    }
-    #gay_friends_list ul li {
-        width: 26.7%;
-        margin-top: 2em;
-        margin-bottom: 2em;
-    }
+  .span9 {
+    width: 100%;
+  }
+  .home {
+    float: none;
+  }
+  .home a .logo {
+    width: 100%;
+    height: 80px;
+    margin-top: 0;
+  }
+  header menu {
+    padding-right: 10%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  table thead th {
+    font-size: 16px;
+    padding: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  table tbody td {
+    font-size: 14px;
+    padding: 4px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  #books-list ul li {
+    width: 17.6%;
+  }
+  #fuck-gfw-list ul li {
+    width: 18.5%;
+  }
+  #gay_friends_list ul li {
+    width: 26.7%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
 }
-
 
 /* Smaller width browser, tablets. */
 
 @media (max-width: 979px) {
-    html,
-    body {
-        font-size: 14px;
-    }
-    body {
-        height: auto;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    h1 {
-        font-size: 22px;
-    }
-    .content-nav {
-        width: 166px;
-    }
-    header menu {
-        margin-top: 0;
-        padding-right: 7%;
-    }
-    menu .nav navbar-nav {
-        margin-right: 3%;
-    }
-    header menu li a {
-        height: 30px;
-        font-size: 12px;
-        line-height: 30px;
-        vertical-align: center;
-    }
-    header menu li a li a {
-        display: inline-block;
-        height: 30px;
-        font-size: 4px;
-        line-height: 8px;
-        color: #f6f6f6;
-        vertical-align: center;
-    }
-    header menu li a img {
-        padding: 0 0;
-        vertical-align: center;
-        width: 25px;
-        height: 25px;
-        margin-bottom: 4px;
-    }
-    .nav navbar-nav {
-        margin-right: 0;
-    }
-    .content-title {
-        margin-top: 1em;
-        margin-bottom: 1em;
-    }
-    .home {
-        float: none;
-        width: 100%;
-    }
-    .home a .logo {
-        width: 100%;
-        height: 80px;
-        margin-top: 0;
-    }
-    table thead th {
-        font-size: 14px;
-        padding: 0;
-        word-wrap: break-word;
-        word-break: break-all;
-    }
-    table tbody td {
-        font-size: 12px;
-        padding: 4px;
-        word-wrap: break-word;
-        word-break: break-all;
-    }
-    .link-image-list ul {
-        list-style: disc;
-        margin: 0;
-    }
-    .link-image-list ul li {
-        margin: 0em 2em 3em 2em;
-    }
-    #fuck-gfw-list ul li {
-        width: 42%;
-    }
-    #gay_friends_list ul li {
-        width: 25.5%;
-        margin-bottom: 3em;
-    }
-    .inner {
-        height: 40px;
-        padding: 10px 10px;
-    }
-    footer p {
-        font-size: 12px;
-        float: left;
-        padding: 10px 10px;
-        margin-bottom: 0;
-    }
-    footer p a {
-        font-size: 12px;
-    }
-    .copyright {
-        margin-left: 10em;
-        margin-right: 0;
-    }
-    .published {
-        margin-left: 20px;
-    }
-    .donate-method-qr {
-        width: 50%;
-        height: 50%;
-    }
-    .donate-method-qr-img {
-        width: 250px;
-        height: 250px;
-        margin-left: 4em;
-    }
-    #license strong {
-        font-size: 1em;
-    }
-    #donate-title {
-        text-align: center;
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
-    }
-    #donate-table {
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-    #comments {
-        margin-left: 0em;
-    }
-    #auto-scroll-ad-box {
-        display: none;
-    }
-    ul.unslider-wrap {
-        height: 30em;
-    }
+  html,
+  body {
+    font-size: 14px;
+  }
+  body {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .content-nav {
+    width: 166px;
+  }
+  header menu {
+    margin-top: 0;
+    padding-right: 7%;
+  }
+  menu .nav navbar-nav {
+    margin-right: 3%;
+  }
+  header menu li a {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    vertical-align: center;
+  }
+  header menu li a li a {
+    display: inline-block;
+    height: 30px;
+    font-size: 4px;
+    line-height: 8px;
+    color: #f6f6f6;
+    vertical-align: center;
+  }
+  header menu li a img {
+    padding: 0 0;
+    vertical-align: center;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 4px;
+  }
+  .nav navbar-nav {
+    margin-right: 0;
+  }
+  .content-title {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .home {
+    float: none;
+    width: 100%;
+  }
+  .home a .logo {
+    width: 100%;
+    height: 80px;
+    margin-top: 0;
+  }
+  table thead th {
+    font-size: 14px;
+    padding: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  table tbody td {
+    font-size: 12px;
+    padding: 4px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  .link-image-list ul {
+    list-style: disc;
+    margin: 0;
+  }
+  .link-image-list ul li {
+    margin: 0em 2em 3em 2em;
+  }
+  #fuck-gfw-list ul li {
+    width: 42%;
+  }
+  #gay_friends_list ul li {
+    width: 25.5%;
+    margin-bottom: 3em;
+  }
+  .inner {
+    height: 40px;
+    padding: 10px 10px;
+  }
+  footer p {
+    font-size: 12px;
+    float: left;
+    padding: 10px 10px;
+    margin-bottom: 0;
+  }
+  footer p a {
+    font-size: 12px;
+  }
+  .copyright {
+    margin-left: 10em;
+    margin-right: 0;
+  }
+  .published {
+    margin-left: 20px;
+  }
+  .donate-method-qr {
+    width: 50%;
+    height: 50%;
+  }
+  .donate-method-qr-img {
+    width: 250px;
+    height: 250px;
+    margin-left: 4em;
+  }
+  #license strong {
+    font-size: 1em;
+  }
+  #donate-title {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  #donate-table {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  #comments {
+    margin-left: 0em;
+  }
+  #auto-scroll-ad-box {
+    display: none;
+  }
+  ul.unslider-wrap {
+    height: 30em;
+  }
 }
 
 @media (max-height: 768px) {
-    ul.unslider-wrap {
-        height: 30em;
-    }
+  ul.unslider-wrap {
+    height: 30em;
+  }
 }
-
 
 /* One-column mobile display. */
 
 @media (max-width: 768px) {
-    html,
-    body {
-        font-size: 14px;
-    }
-    body {
-        height: auto;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    h1 {
-        font-size: 20px;
-        text-align: center;
-    }
-    h2 {
-        font-size: 18px;
-        margin: 0 0 0 15px;
-        padding: 0;
-    }
-    h2 strong {
-        font-weight: 300;
-    }
-    h3 {
-        font-size: 16px;
-    }
-    h4 {
-        font-size: 14px;
-        padding: 0 0 0 15px
-    }
-    h5 {
-        font-size: 12px;
-        padding-left: 8px;
-        padding-top: 12px;
-    }
-    h6 {
-        font-size: 10px;
-    }
-    p {
-        font-size: 12px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-    p code {
-        font-size: 12px;
-    }
-    ol {
-        font-size: 10px;
-        margin: 0 25px 6px 25px;
-        padding: 0 16px 0 16px;
-    }
-    ol li p {
-        margin-left: 8px;
-        margin-bottom: 8px;
-    }
-    ol ul {
-        margin-left: 18px;
-    }
-    ol ul li {
-        font-size: 8px;
-    }
-    table {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-    }
-    table thead th {
-        font-size: 12px;
-        padding: 0;
-        word-wrap: break-word;
-        word-break: break-all;
-    }
-    table tbody td {
-        font-size: 8px;
-        padding: 4px;
-        word-wrap: break-word;
-        word-break: break-all;
-    }
-    blockquote {
-        padding: 0 12px;
-    }
-    blockquote p {
-        font-size: 12px;
-    }
-    header {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        padding-left: 0;
-    }
-    #subtitle {
-        position: absolute;
-        top: 80px;
-        left: 0;
-        width: 100%;
-        padding-left: 20px;
-    }
-    .content-nav {
-        display: none;
-    }
-    .content-title {
-        margin-top: 1.2em;
-        margin-bottom: 1.2em;
-    }
-    .home {
-        float: none;
-    }
-    .home a .logo {
-        width: 100%;
-        height: 75px;
-        margin-top: 0;
-    }
-    #books-list ul {
-        margin-left: 4em;
-        margin-right: 4em;
-    }
-    #books-list ul li {
-        width: 20%;
-    }
-    #fuck-gfw-list ul li {
-        width: 36%;
-        padding-left: 1em;
-        margin-top: 0.1em;
-    }
-    #gay_friends_list ul li {
-        width: 40%;
-        margin-bottom: 1em;
-    }
-    .inner {
-        height: 40px;
-        padding: 10px 10px;
-    }
-    footer p {
-        font-size: 12px;
-        float: left;
-        padding: 10px 10px;
-        margin-bottom: 0;
-    }
-    footer p a {
-        font-size: 12px;
-    }
-    .copyright {
-        margin-left: 8em;
-        margin-right: 0;
-    }
-    .published {
-        margin-left: 20px;
-    }
-    .donate-method-qr {
-        width: 50%;
-        height: 50%;
-    }
-    .donate-method-qr-img {
-        width: 150px;
-        height: 150px;
-        margin-left: 5.4em;
-    }
-    #donate-title {
-        text-align: center;
-        margin-top: 2em;
-        margin-bottom: 1em;
-    }
-    #donate-table {
-        margin-left: 4em;
-        margin-right: 4em;
-    }
-    #comments {
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-    .body-container {
-        margin-top: 36px;
-    }
-    #footer_wrap {
-        margin-top: 10px;
-        margin-bottom: 96px;
-    }
-    #license strong {
-        font-size: 12px;
-        margin-left: 12px;
-    }
-    #auto-scroll-ad-box {
-        display: none;
-    }
-    #jiathis-share-bar {
-        margin-left: 12px;
-    }
-    ul.unslider-wrap {
-        height: 30em;
-    }
-    .margin-top-16 {
-        margin-top: 12px;
-    }
+  html,
+  body {
+    font-size: 14px;
+  }
+  body {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 0 0 0 15px;
+    padding: 0;
+  }
+  h2 strong {
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 14px;
+    padding: 0 0 0 15px;
+  }
+  h5 {
+    font-size: 12px;
+    padding-left: 8px;
+    padding-top: 12px;
+  }
+  h6 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  p code {
+    font-size: 12px;
+  }
+  ol {
+    font-size: 10px;
+    margin: 0 25px 6px 25px;
+    padding: 0 16px 0 16px;
+  }
+  ol li p {
+    margin-left: 8px;
+    margin-bottom: 8px;
+  }
+  ol ul {
+    margin-left: 18px;
+  }
+  ol ul li {
+    font-size: 8px;
+  }
+  table {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  table thead th {
+    font-size: 12px;
+    padding: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  table tbody td {
+    font-size: 8px;
+    padding: 4px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  blockquote {
+    padding: 0 12px;
+  }
+  blockquote p {
+    font-size: 12px;
+  }
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 0;
+  }
+  #subtitle {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .content-nav {
+    display: none;
+  }
+  .content-title {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  .home {
+    float: none;
+  }
+  .home a .logo {
+    width: 100%;
+    height: 75px;
+    margin-top: 0;
+  }
+  #books-list ul {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  #books-list ul li {
+    width: 20%;
+  }
+  #fuck-gfw-list ul li {
+    width: 36%;
+    padding-left: 1em;
+    margin-top: 0.1em;
+  }
+  #gay_friends_list ul li {
+    width: 40%;
+    margin-bottom: 1em;
+  }
+  .inner {
+    height: 40px;
+    padding: 10px 10px;
+  }
+  footer p {
+    font-size: 12px;
+    float: left;
+    padding: 10px 10px;
+    margin-bottom: 0;
+  }
+  footer p a {
+    font-size: 12px;
+  }
+  .copyright {
+    margin-left: 8em;
+    margin-right: 0;
+  }
+  .published {
+    margin-left: 20px;
+  }
+  .donate-method-qr {
+    width: 50%;
+    height: 50%;
+  }
+  .donate-method-qr-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 5.4em;
+  }
+  #donate-title {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  #donate-table {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  #comments {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .body-container {
+    margin-top: 36px;
+  }
+  #footer_wrap {
+    margin-top: 10px;
+    margin-bottom: 96px;
+  }
+  #license strong {
+    font-size: 12px;
+    margin-left: 12px;
+  }
+  #auto-scroll-ad-box {
+    display: none;
+  }
+  #jiathis-share-bar {
+    margin-left: 12px;
+  }
+  ul.unslider-wrap {
+    height: 30em;
+  }
+  .margin-top-16 {
+    margin-top: 12px;
+  }
 }
 
 @media (max-width: 550px) {
-    html,
-    body {
-        font-size: 12px;
-    }
-    body {
-        height: auto;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    header {
-        padding: 0;
-    }
-    header menu {
-        display: none;
-    }
-    h1 {
-        font-size: 18px;
-        text-align: center;
-    }
-    h2 {
-        font-size: 14px;
-        margin: 0 0 0 10px;
-        padding: 0;
-    }
-    h2 strong {
-        font-weight: 300;
-    }
-    h3 {
-        font-size: 12px;
-    }
-    h4 {
-        font-size: 10px;
-        padding: 0 0 0 10px
-    }
-    h5 {
-        font-size: 8px;
-        padding-left: 8px;
-        padding-top: 12px;
-    }
-    h6 {
-        font-size: 6px;
-    }
-    p {
-        font-size: 8px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    p code {
-        font-size: 8px;
-    }
-    ol {
-        font-size: 8px;
-        margin: 0 20px 6px 20px;
-        padding: 0 12px 0 12px;
-    }
-    ol li p {
-        margin-left: 4px;
-        margin-bottom: 4px;
-    }
-    ol ul {
-        margin-left: 14px;
-    }
-    ol ul li {
-        font-size: 6px;
-    }
-    table {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-    }
-    table thead th {
-        font-size: 9px;
-        padding: 0;
-    }
-    table tbody td {
-        font-size: 7px;
-        padding: 2px;
-        word-wrap: break-word;
-        word-break: break-all;
-    }
-    blockquote {
-        padding: 0 10px;
-    }
-    blockquote p {
-        font-size: 14px;
-    }
-    .content-title {
-        margin-top: 1em;
-        margin-bottom: 1em;
-    }
-    .home {
-        width: 100%;
-        height: 80%;
-        float: none;
-    }
-    .home a .logo {
-        width: 100%;
-        height: 80px;
-    }
-    .link-image-list ul li {
-        margin: 0em 0.8em 2em 1em;
-    }
-    #books-list ul li {
-        width: 40%;
-    }
-    #fuck-gfw-list ul li {
-        width: 40%;
-        padding-left: 0.5em;
-        margin-top: 0.1em;
-    }
-    #gay_friends_list ul li {
-        width: 43%;
-        margin-bottom: 2em;
-    }
-    .inner {
-        height: 30px;
-        padding: 5px 5px;
-    }
-    footer p {
-        font-size: 8px;
-        float: left;
-        padding: 5px 5px;
-        margin-bottom: 0;
-    }
-    footer p a {
-        font-size: 8px;
-    }
-    .copyright {
-        margin-left: 8.4em;
-        margin-right: 0;
-    }
-    .published {
-        margin-left: 10px;
-    }
-    .donate-method-qr-img {
-        width: 130px;
-        height: 130px;
-        margin-left: 15%;
-    }
-    #donate-title {
-        text-align: center;
-    }
-    #donate-table {
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-    #comments {
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-    .body-container {
-        margin-top: 34px;
-    }
-    #footer_wrap {
-        margin-top: 10px;
-    }
-    #license strong {
-        font-size: 8px;
-        margin-left: 10px;
-    }
-    #jiathis-share-bar {
-        margin-left: 1em;
-        margin-top: 15px;
-    }
-    #jiathis-share-bar .jiathis_txt {
-        font-size: 8px;
-    }
-    #auto-scroll-ad-box {
-        display: none;
-    }
-    ul.unslider-wrap {
-        height: 12em;
-    }
-    .margin-top-16 {
-        margin-top: 10px;
-    }
+  html,
+  body {
+    font-size: 12px;
+  }
+  body {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  header {
+    padding: 0;
+  }
+  header menu {
+    display: none;
+  }
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 14px;
+    margin: 0 0 0 10px;
+    padding: 0;
+  }
+  h2 strong {
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 10px;
+    padding: 0 0 0 10px;
+  }
+  h5 {
+    font-size: 8px;
+    padding-left: 8px;
+    padding-top: 12px;
+  }
+  h6 {
+    font-size: 6px;
+  }
+  p {
+    font-size: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  p code {
+    font-size: 8px;
+  }
+  ol {
+    font-size: 8px;
+    margin: 0 20px 6px 20px;
+    padding: 0 12px 0 12px;
+  }
+  ol li p {
+    margin-left: 4px;
+    margin-bottom: 4px;
+  }
+  ol ul {
+    margin-left: 14px;
+  }
+  ol ul li {
+    font-size: 6px;
+  }
+  table {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  table thead th {
+    font-size: 9px;
+    padding: 0;
+  }
+  table tbody td {
+    font-size: 7px;
+    padding: 2px;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  blockquote {
+    padding: 0 10px;
+  }
+  blockquote p {
+    font-size: 14px;
+  }
+  .content-title {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .home {
+    width: 100%;
+    height: 80%;
+    float: none;
+  }
+  .home a .logo {
+    width: 100%;
+    height: 80px;
+  }
+  .link-image-list ul li {
+    margin: 0em 0.8em 2em 1em;
+  }
+  #books-list ul li {
+    width: 40%;
+  }
+  #fuck-gfw-list ul li {
+    width: 40%;
+    padding-left: 0.5em;
+    margin-top: 0.1em;
+  }
+  #gay_friends_list ul li {
+    width: 43%;
+    margin-bottom: 2em;
+  }
+  .inner {
+    height: 30px;
+    padding: 5px 5px;
+  }
+  footer p {
+    font-size: 8px;
+    float: left;
+    padding: 5px 5px;
+    margin-bottom: 0;
+  }
+  footer p a {
+    font-size: 8px;
+  }
+  .copyright {
+    margin-left: 8.4em;
+    margin-right: 0;
+  }
+  .published {
+    margin-left: 10px;
+  }
+  .donate-method-qr-img {
+    width: 130px;
+    height: 130px;
+    margin-left: 15%;
+  }
+  #donate-title {
+    text-align: center;
+  }
+  #donate-table {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  #comments {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .body-container {
+    margin-top: 34px;
+  }
+  #footer_wrap {
+    margin-top: 10px;
+  }
+  #license strong {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+  #jiathis-share-bar {
+    margin-left: 1em;
+    margin-top: 15px;
+  }
+  #jiathis-share-bar .jiathis_txt {
+    font-size: 8px;
+  }
+  #auto-scroll-ad-box {
+    display: none;
+  }
+  ul.unslider-wrap {
+    height: 12em;
+  }
+  .margin-top-16 {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 320px) {
-    body {
-        height: auto;
-        padding-left: 0px;
-        padding-right: 0px;
-        line-height: 10px;
-    }
-    h1 {
-        font-size: 16px;
-        text-align: center;
-    }
-    h2 {
-        font-size: 12px;
-    }
-    h2 strong {
-        font-weight: 300;
-    }
-    h3 {
-        font-size: 10px;
-    }
-    h4 {
-        font-size: 8px;
-        padding-left: 8px
-    }
-    h5 {
-        font-size: 7px;
-        padding-left: 8px;
-        padding-top: 12px;
-    }
-    h6 {
-        font-size: 6px;
-    }
-    p {
-        font-size: 6px;
-        margin-left: 10px;
-    }
-    p code {
-        font-size: 6px;
-    }
-    ol {
-        font-size: 6px;
-        margin: 0 15px 4px 15px;
-        padding: 0 10px 0 10px;
-    }
-    ol li p {
-        margin-left: 2px;
-        margin-bottom: 2px;
-    }
-    ol ul {
-        margin-left: 12px;
-    }
-    ol ul li {
-        font-size: 4px;
-    }
-    table {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-        font-weight: 100;
-    }
-    table thead th {
-        font-size: 6px;
-        padding: 0;
-    }
-    table tbody td {
-        font-size: 6px;
-        padding: 0;
-        word-wrap: break-word;
-        word-break: break-all;
-    }
-    blockquote {
-        padding: 0 6px;
-    }
-    blockquote p {
-        font-size: 6px;
-    }
-    .link-image-list ul li {
-        margin: 0em 1em 2em 1em;
-    }
-    #books-list ul li {
-        width: 36%;
-    }
-    #fuck-gfw-list ul li {
-        width: 38%;
-    }
-    #gay_friends_list ul li {
-        width: 41%;
-    }
-    .inner {
-        height: 30px;
-        padding: 5px 5px;
-    }
-    footer p {
-        font-size: 8px;
-        float: left;
-        padding: 5px 5px;
-        margin-bottom: 0;
-    }
-    footer p a {
-        font-size: 8px;
-    }
-    .copyright {
-        margin-top: 5px;
-        margin-left: 4em;
-        margin-right: 0;
-    }
-    .published {
-        margin-top: 5px;
-        margin-left: 10px;
-    }
-    .donate-method-qr-img {
-        width: 36%;
-        height: 36%;
-        margin-left: 32%;
-    }
-    #donate-title {
-        text-align: center;
-        margin-top: 1em;
-        margin-bottom: 0.5em;
-    }
-    #donate-table {
-        margin-left: 0.8em;
-        margin-right: 0.8em;
-    }
-    #comments {
-        margin-left: 0.8em;
-        margin-right: 0.8em
-    }
-    .body-container {
-        margin-top: 24px;
-    }
-    #footer_wrap {
-        margin-top: 10px;
-    }
-    #license strong {
-        font-size: 6px;
-        margin-left: 10px;
-    }
-    #jiathis-share-bar {
-        margin-left: 1em;
-    }
-    #auto-scroll-ad-box {
-        display: none;
-    }
-    ul.unslider-wrap {
-        height: 10em;
-    }
-    .margin-top-16 {
-        margin-top: 6px;
-    }
+  body {
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 10px;
+  }
+  h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  h2 strong {
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  h4 {
+    font-size: 8px;
+    padding-left: 8px;
+  }
+  h5 {
+    font-size: 7px;
+    padding-left: 8px;
+    padding-top: 12px;
+  }
+  h6 {
+    font-size: 6px;
+  }
+  p {
+    font-size: 6px;
+    margin-left: 10px;
+  }
+  p code {
+    font-size: 6px;
+  }
+  ol {
+    font-size: 6px;
+    margin: 0 15px 4px 15px;
+    padding: 0 10px 0 10px;
+  }
+  ol li p {
+    margin-left: 2px;
+    margin-bottom: 2px;
+  }
+  ol ul {
+    margin-left: 12px;
+  }
+  ol ul li {
+    font-size: 4px;
+  }
+  table {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-weight: 100;
+  }
+  table thead th {
+    font-size: 6px;
+    padding: 0;
+  }
+  table tbody td {
+    font-size: 6px;
+    padding: 0;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  blockquote {
+    padding: 0 6px;
+  }
+  blockquote p {
+    font-size: 6px;
+  }
+  .link-image-list ul li {
+    margin: 0em 1em 2em 1em;
+  }
+  #books-list ul li {
+    width: 36%;
+  }
+  #fuck-gfw-list ul li {
+    width: 38%;
+  }
+  #gay_friends_list ul li {
+    width: 41%;
+  }
+  .inner {
+    height: 30px;
+    padding: 5px 5px;
+  }
+  footer p {
+    font-size: 8px;
+    float: left;
+    padding: 5px 5px;
+    margin-bottom: 0;
+  }
+  footer p a {
+    font-size: 8px;
+  }
+  .copyright {
+    margin-top: 5px;
+    margin-left: 4em;
+    margin-right: 0;
+  }
+  .published {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .donate-method-qr-img {
+    width: 36%;
+    height: 36%;
+    margin-left: 32%;
+  }
+  #donate-title {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  #donate-table {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+  }
+  #comments {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+  }
+  .body-container {
+    margin-top: 24px;
+  }
+  #footer_wrap {
+    margin-top: 10px;
+  }
+  #license strong {
+    font-size: 6px;
+    margin-left: 10px;
+  }
+  #jiathis-share-bar {
+    margin-left: 1em;
+  }
+  #auto-scroll-ad-box {
+    display: none;
+  }
+  ul.unslider-wrap {
+    height: 10em;
+  }
+  .margin-top-16 {
+    margin-top: 6px;
+  }
 }
