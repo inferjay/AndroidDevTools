@@ -4421,7 +4421,7 @@
         </div>
     </section>
     <div class="zh-backtotop">
-        <a data-action="backtotop" data-tip="s$r$回到顶部" class="btn-backtotop btn-action" href="#banner-slider">
+        <a data-action="backtotop" data-tip="回到顶部" class="btn-backtotop btn-action" href="#banner-slider">
             <img class="arrow" src="static/image/backtotop_arrow.png">
         </a>
     </div>
@@ -5388,6 +5388,17 @@
         addBannerItemClickEvent();
     </script>
     <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e313f50a3c838b7"></script> -->
+    <script>
+        if(location.href.indexOf('?id=') > 0) {
+            let url = new URL(location.href);
+            let id = url.searchParams.get('id');
+            const dom = document.getElementById(`${id}`);
+            window.scrollTo({
+                top: dom.offsetTop,
+                behavior: "smooth"
+            })
+        }
+    </script>
 </body>
 
 </html>
