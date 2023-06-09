@@ -156,10 +156,13 @@ a.dl:hover {
   color: #888;
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  color: #393939;
+}
+
 h1 {
   font-weight: 300;
   font-size: 26px;
-  color: #888;
 }
 
 h2 {
@@ -168,7 +171,6 @@ h2 {
   line-height: 30px;
   padding: 15px 0px;
   margin: 0;
-  color: #888;
 }
 
 h2 strong {
@@ -177,7 +179,6 @@ h2 strong {
 
 h3 {
   font-weight: 300;
-  color: #888;
   font-size: 22px;
   padding-top: 20px;
   margin-top: 0;
@@ -185,21 +186,18 @@ h3 {
 
 h4 {
   font-weight: 400;
-  color: #888;
   font-size: 18px;
   padding-top: 20px;
 }
 
 h5 {
   font-weight: 500;
-  color: #888;
   font-size: 15px;
   padding-top: 20px;
 }
 
 h6 {
   font-weight: 600;
-  color: #888;
   font-size: 12px;
   padding-top: 20px;
 }
