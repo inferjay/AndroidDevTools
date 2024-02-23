@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh_CN">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="icon" type="image/x-icon" href="static/image/favicon.ico">
-    <title>AndroidDevTools</title>
+    <title>AndroidDevTools - Android开发工具 Android SDK下载 Android Studio下载 Gradle下载 SDK Tools下载</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="下载 最新版 Android开发工具 ADT Bundle Android Studio AndroidStudio 2.0 Android SDK SDK Tools Gradle Android SDK下载 android sdk下载 Android Studio下载 android studio下载 Gradle下载  gradle下载 SDK Tools下载 sDK tools下载">
+    <meta name="description" content="AndroidDevTools 是一个收集整理 Android 开发所需的 Android SDK、开发中用到的工具、Android 开发教程、Android 设计规范，免费的设计素材等的网站。">
+    <meta name="keyword" content="Android,Android开发,Android开发工具,Android开发,Android Studio,AndroidStudio,Android Studio下载,Android SDK,Android SDK下载,SDK下载,SDK Tools,Gradle,Gradle下载">
     <meta name="ujianVerification" content="ee5a6c5854f1826b3123039d726496c9" />
+    <meta name="referrer" content="no-referrer" />
     <link rel="stylesheet" href="https://cdn.staticfile.net/bootstrap/4.6.2/css/bootstrap.min.css">
-    <link href="static/css/app.css?v=20230512" rel="stylesheet">
-    <link href="static/css/app-theme.css" rel="stylesheet">
+    <link href="static/css/app.css?v=20230512" rel="stylesheet" type="text/css">
+    <link href="static/css/app-theme.css" rel="stylesheet" type="text/css">
     <link href="static/css/google-roboto-font-face.css" rel="stylesheet" type="text/css">
     <link href="static/css/backtotop.css" rel="stylesheet" type="text/css">
+    
     <!--[if lt IE 9]><script src="static/html5shiv.min.js"></script><![endif]-->
     <link rel="shortcut icon" href="static/image/favicon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="static/image/apple-touch-icon-72x72.png">
@@ -20,12 +22,17 @@
     <link rel="stylesheet" href="https://cdn.staticfile.net/animate.css/4.1.1/animate.min.css"/>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517858206486320"
     crossorigin="anonymous"></script>
+    <style>
+        #android-emulator-install-guide li {
+            margin: 12px 0;
+        }
+    </style>
 </head>
 
 <body data-target=".content-nav">
     <header class="row align-items-center">
         <nav class="navbar navbar-expand-lg navbar-light mx-lg-auto">
-            <a class="navbar-brand mr-lg-4" href="index.html"><!-- <h1 id="nav-title">AndroidDevTools</h1> --><img height="32px" src="./static/image/androiddevtools.png"></a>
+            <a class="navbar-brand mr-lg-4" href="index.html"><!-- <h1 id="nav-title">AndroidDevTools</h1> --><img style="height: 32px" src="./static/image/androiddevtools.png"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -152,146 +159,97 @@
             </div>
         </nav>
     </header>
+    <div id="auto-scroll-ad-box" style="z-index: 19; right: 0px; position: fixed; top: 25%; bottom: 25%"></div>
+    <div class="pop hidden-phone">
+        <div class="pop-container">
+            <a class="pop-links" href="#" target="_blank">
+                <img class="pop-image" src=""/>
+            </a>
+            <center><h4 class="pop-text"></h4></center>
+            <span class="pop-btn-close"><svg t="1573004385562" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2029" width="32" height="32"><path d="M679.453315 383.633401c-0.409322-10.153244-4.200672-20.195971-11.954263-27.948539-7.751544-7.749498-17.767666-11.517311-27.947516-11.954263-11.301394-0.436952-22.709211 3.330862-31.335682 11.954263l-96.099708 96.127338-96.100732-96.127338c-8.625448-8.623401-20.034289-12.391215-31.333636-11.954263-10.152221 0.436952-20.195971 4.204765-27.948539 11.954263-7.752568 7.751544-11.544941 17.795295-11.954263 27.948539-0.464581 11.299347 3.327792 22.708188 11.954263 31.333636l96.099708 96.127338-96.099708 96.074126c-8.626471 8.625448-12.418844 20.034289-11.954263 31.333636 0.409322 10.152221 4.201695 20.195971 11.954263 27.948539 7.751544 7.751544 17.795295 11.57257 27.948539 11.95631 11.299347 0.490164 22.708188-3.330862 31.333636-11.95631l96.100732-96.073102 96.099708 96.073102c8.626471 8.625448 20.034289 12.44545 31.335682 11.95631 10.178827-0.38374 20.194948-4.203742 27.947516-11.95631 7.752568-7.751544 11.543917-17.796318 11.954263-27.948539 0.463558-11.299347-3.327792-22.708188-11.954263-31.333636l-96.099708-96.074126 96.099708-96.127338C676.125523 406.341588 679.916872 394.932748 679.453315 383.633401zM512.116145 63.916728c-246.953462 0-447.178669 200.227254-447.178669 447.178669 0 246.953462 200.225207 447.177646 447.178669 447.177646 246.953462 0 447.178669-200.224184 447.178669-447.177646C959.294814 264.143982 759.069607 63.916728 512.116145 63.916728zM512.116145 874.427426c-200.333678 0-363.332029-162.996305-363.332029-363.333052 0-200.333678 162.999374-363.333052 363.332029-363.333052s363.333052 162.999374 363.333052 363.333052C875.449197 711.431122 712.449823 874.427426 512.116145 874.427426z" p-id="2030" fill="#bfbfbf"></path></svg></span>
+        </div>
+    </div>
     <section id="body">
-        <div class="container body-container">
-            <div class="row">
-                <div id="friends_list" class="link-image-list">
-                    <center>
-                        <h2>好朋友们</h2>
-                    </center>
-                    <p>以下是我的好朋友们，他们既是 Android 牛人，也是活跃在社区，乐于分享帮助他人，推动技术进步的有为青年，以及其他一些有用的、有意思的网站。</p>
-                    <ul>
-                        <li>
-                            <a href="http://www.androidweekly.io/" target="_blank" title="汇集互联网上每周Android开发相关的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。">
-                                <img src="https://i.loli.net/2019/05/01/5cc9475b258bd.png" />
-                            </a>
+        <div class="container body-container pb-4">
+          <div class="row flex-column p-3">
+                <div id="android-emulator-install-guide">
+                    <h1 class="content-title" algin="center">如何手动安装指定版本的模拟器</h1>
+                    <p>如需在 Android Studio 上手动安装指定版本的模拟器，你需要将所需的模拟器软件包内容复制粘贴到 Android SDK 安装目录中，然后更改 <code dir="ltr" translate="no">package.xml</code> 文件中指定的模拟器版本。具体而言，请按以下步骤操作: </p>
+                    <ol>
+                        <li>找到你的 Android SDK 安装目录。此目录的默认位置因平台而异：
+                       <ul>
+                          <li>在 Windows 上，该目录为 <code dir="ltr" translate="no">%LocalAppData%\Android\Sdk</code>。这通常可以扩展为 <code dir="ltr" translate="no">C:\Users\&lt;username&gt;\AppData\Local\Android\Sdk</code>，不过可能会因系统而异。</li>
+                          <li>在 macOS 上，该目录为 <code dir="ltr" translate="no">$HOME/Library/Android/sdk</code>。</li>
+                          <li>在 Linux 上，该目录为 <code dir="ltr" translate="no">$HOME/Android/Sdk</code>。</li>
+                        </ul>
+                      
+                        <p>你可以打开 Android Studio 并依次点击 <strong>Android Studio &gt; Preferences &gt; Appearances &amp; Behavior &gt; System Settings &gt; Android SDK</strong>，查看 SDK 安装目录的位置。<strong>Android SDK Location</strong> 文件路径即是 SDK 安装目录的位置。</p>
+                      
+                        <p>如果你使用的是 macOS，并使用“访达”浏览内容，则默认情况下，<code dir="ltr" translate="no">Library</code> 文件夹可能不会显示。如需转到该文件夹，请打开“访达”，然后依次点击<strong>“前往”&gt;“前往文件夹”</strong>并搜索“资源库”。</p></li>
+                      
+                        <li>重命名 SDK 安装目录中现有的 <code dir="ltr" translate="no">emulator</code> 目录，因为下一步需要在这里解压缩新下载的 <code dir="ltr" translate="no">emulator</code> 目录。例如，将其命名为 <code dir="ltr" translate="no">emulator_original</code>。</li>
+                      
+                        <li>解压缩下载的模拟器 ZIP 文件。将内容移到 SDK 安装目录中。</li>
+                      
+                        <li><p>在 macOS 上：解压缩模拟器 ZIP 文件后，请通过运行以下命令清除模拟器软件包上的“quarantine”属性：</p>
+                      
+                        <code dir="ltr" translate="no">
+                        xattr -dr com.apple.quarantine emulator/
+                        </code>
+                      
+                        <p>这样应该可以减少关于应检查还是屏蔽该软件包的消息。</p></li>
+                      
+                        <li>将 <code dir="ltr" translate="no">emulator_original</code> 目录中的 <code dir="ltr" translate="no">package.xml</code> 文件粘贴到新的 <code dir="ltr" translate="no">emulator</code> 目录中。</li>
+                      
+                        <li><p>将 <code dir="ltr" translate="no">package.xml</code> 文件中指定的模拟器版本更改为你已下载的要使用的版本。如需执行此操作，请滚动到 <code dir="ltr" translate="no">package.xml</code> 文件的底部，然后找到如下文本：</p>
+                      
+                        <code dir="ltr" translate="no">
+                        &lt;revision&gt;&lt;major&gt;31&lt;/major&gt;&lt;minor&gt;1&lt;/minor&gt;&lt;micro&gt;4&lt;/micro&gt;&lt;/revision&gt;
+                        </code>
+                      
                         </li>
-                        <li>
-                            <a href="http://www.codekk.com" target="_blank" title="codeKK，专注于开源项目源码解析及优秀开源项目的分享">
-                                <img src="https://p.ipic.vip/ae5bku.jpg" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.trinea.cn/" target="_blank" title="Trinea，目前在滴滴出行担任技术专家，主攻 Java 和 Android，专于性能调优和框架设计。">
-                                <img src="https://p.ipic.vip/i837pv.jpg" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://droidyue.com/" target="_blank" title="技术小黑屋，Android 工程师，Infoq译者， 2015 GDG Devfest讲师;不是90后，89年出生的保定人在北京;喜欢终端上完成操作，对GUI有点偏见;一个优秀的程序员应该是一位艺术家，其代码不可增不可减。">
-                                <img src="https://i.loli.net/2019/05/01/5cc948d45fc58.png" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://gityuan.com" target="_blank" title="Android 系统工程师，专注于 Android 最新源码的架构分析">
-                                <img src="https://i.loli.net/2019/04/28/5cc5a09d75aab.jpg" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.gcssloop.com" target="_blank" title="一名来自2.5次元的魔法师，Android自定义View系列文章作者，非著名程序员">
-                                <img src="https://p.ipic.vip/jgmukj.jpg" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://hencoder.com" target="_blank" title="扔物线辞职在家憋了一年的大招，良心之作。">
-                                <img src="https://i.loli.net/2019/04/28/5cc5a1a4c8d44.jpg" />
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                      </ol>
+                      <p>你可以 <a href="android-emulator.html">去这里</a> 下载想要安装的模拟器版本。</p>
+                    <!-- Google Ads -->
+                    <div class="ads-container">
+                      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517858206486320"
+                          crossorigin="anonymous"></script>
+                      <!-- AndroidDevTools -->
+                      <ins class="adsbygoogle"
+                          style="display:block"
+                          data-ad-client="ca-pub-5517858206486320"
+                          data-ad-slot="5790477697"
+                          data-ad-format="auto"
+                          data-full-width-responsive="true"></ins>
+                      <script>
+                          (adsbygoogle = window.adsbygoogle || []).push({});
+                      </script>
+                    </div>
 
-                <div id="friends_list" class="link-image-list" style="clear: both;">
-                    <center>
-                        <h2>Google 相关网站</h2>
-                    </center>
-                    <ul>
-                        <li>
-                            <a href="http://www.materialdoc.cn" target="_blank" title="Material Design 开发者参考文档">
-                                <img src="https://i.loli.net/2019/04/28/5cc5a05e9bef0.jpg" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://code-labs.cn/io2017" target="_blank" title="Google I/O CodeLabs 2017">
-                                <img src="https://i.loli.net/2019/04/28/5cc5a0b4e1fac.jpg" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://developers.google.cn" target="_blank" title="无需翻墙就可以访问的 Google Developers 网站">
-                                <img src="https://i.loli.net/2019/04/28/5cc5a149c01b2.jpg" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.womentechmakers.com/" target="_blank" title="Google 女性开发者网站">
-                                <img src="https://i.loli.net/2019/04/28/5cc5a16549cc5.jpg" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://gdgzhengzhou.org" target="_blank" title="郑州谷歌开发者社区官网">
-                                <img src="https://i.loli.net/2019/04/28/5cc5a18004ac1.jpg" />
-                            </a>
-                        </li>
-                    </ul>
                 </div>
-
-                <div id="friends_list" class="link-image-list" style="clear: both;">
-                    <center>
-                        <h2>其他有趣的网站</h2>
-                    </center>
-                    <ul>
-                        <li>
-                            <a href="http://aihunt.one" target="_blank" title="AI 工具导航，收录了国内外的众多 AI工具，包括AI写作工具、AI图像生成和处理、AI视频制作、AI音频转录、AI辅助编程、AI音乐生成、AI绘画设计、AI对话聊天等AI工具，以及AI学习开发的常用网站、教程、开源框架、开源模型和数据集等。">
-                                <img src="https://p.ipic.vip/h1fcsf.png" />
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.typeisbeautiful.com" target="_blank" title="Type is Beautiful">
-                                <img src="https://i.loli.net/2019/04/28/5cc5a1226f252.jpg" />
-                            </a>
-                        </li>
-                        <!-- <li>
-                            <a href="https://green-android.org/" target="_blank" title="Android 绿色应用公约">
-                                <img src="https://i.loli.net/2019/04/28/5cc5a0eb9b3a5.jpg" />
-                            </a>
-                        </li> -->
-                        <li>
-                            <a href="http://choosealicense.online" target="_blank" title="如何选择一个开源授权协议？">
-                                <img src="https://i.loli.net/2019/04/28/5cc5a19a851d0.jpg" />
-                            </a>
-                        </li>
-                    </ul>
+                <div id="license">
+                    <h2>Disclaimer</h2>
+                    <strong>版权归原作者所有，这里仅做收集整理，欢迎自由转载-非商用-非衍生-保持署名和本网站网址。</strong>
+                    <br/>
                 </div>
-                <!-- Google Ads -->
-                <div class="ads-container">
-                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517858206486320"
-                        crossorigin="anonymous"></script>
-                    <!-- AndroidDevTools -->
-                    <ins class="adsbygoogle"
-                        style="display:block"
-                        data-ad-client="ca-pub-5517858206486320"
-                        data-ad-slot="5790477697"
-                        data-ad-format="auto"
-                        data-full-width-responsive="true"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                  </div>
             </div>
+          </div>
         </div>
         <div class="container body-container margin-top-16">
             <div class="row px-3">
                 <div id="comments">
                     <!-- 评论框 start -->
                     <div id="comments-container"></div>
-                    <!-- 论框 end -->
+                    <!-- 评论框 end -->
                 </div>
             </div>
         </div>
     </section>
     <div class="zh-backtotop">
-        <a data-action="backtotop" data-tip="回到顶部" class="btn-backtotop btn-action">
+        <a data-action="backtotop" data-tip="回到顶部" class="btn-backtotop btn-action" href="#body">
             <img class="arrow" src="static/image/backtotop_arrow.png">
         </a>
     </div>
-    <br/>
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
         <footer class="inner">
@@ -299,13 +257,12 @@
             <p class="published">Hosted by <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
         </footer>
     </div>
-    
     <!-- 评论JS代码 start (一个网页只需插入一次) -->
     <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     <script>
         var gitment = new Gitment({
-            id: 'GayFriendsPageComments', // 可选。默认为 location.href
+            id: 'HomePageComments', // 可选。默认为 location.href
             owner: 'inferjay',
             repo: 'AndroidDevTools',
             oauth: {
@@ -315,17 +272,94 @@
         })
         gitment.render('comments-container')
     </script>
+
     <!-- 评论JS代码 end -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <script src="static/js/jquery.smooth-scroll.min.js"></script>
     <script src="static/js/jquery-maven-artifact.min.js"></script>
     <script src="static/js/jquery.toTop.min.js"></script>
+    <script src="static/js/google-analytics.js"></script>
+    <script src="static/js/unslider.min.js"></script>
+
+    <!-- 工具函数 -->
     <script>
+        Array.prototype.randomDiffElement = function(last) {
+            if (this.length == 0) {
+                return;
+            } else if (this.length == 1) {
+                return this[0];
+            } else {
+                var num = 0;
+                do {
+                    num = Math.floor(Math.random() * this.length);
+                } while (Array.isArray(last) ? last.includes(this[num]) : this[num] == last);
+                return this[num];
+            }
+        };
+        var isShow = function isShow(value) {
+            return value && value.isshow;
+        };
+        var now = new Date().getTime();
+        var isExpired = function(item) {
+            let start = Date.parse(item.start_time);
+            let end = Date.parse(item.end_time);
+            return item && start <= now && now <= end;
+        };
+    </script>
+    <!-- 右侧浮动广告 -->
+    <script>
+        let rightAdContainer = $('#auto-scroll-ad-box');
+        let rightAds = [
+            {
+                "title": "短期暴力提升，快速突破瓶颈。HenCoder Plus 作为一套全方位系统化的高级进阶课程，开课四期以来，吸纳了来自阿里、腾讯、百度、头条、滴滴等公司以及硅谷、台湾和日本的众多学员报名参加，多位学员在毕业一个月内先后入职阿里、腾讯、小米、头条等公司。学员年薪最高达到 80w，多位学员年薪达到 45w 左右。",
+                "link": "https://plus.hencoder.com",
+                "image": "https://i.loli.net/2019/05/23/5ce663bb003ec62326.gif",
+                "ad_tag": "AD-HenCoderPlus",
+                "isshow": true,
+                "start_time": "2019-3-30 00:30:00",
+                "end_time": "2021-8-5 00:00:00"
+            },
+            {
+                "title": "",
+                "link": "https://www.ucloud.cn/site/global.html?ytag=androiddevtools",
+                "image": "https://i.loli.net/2020/05/15/DOv28AnZ73qfmiE.png",
+                "ad_tag": "AD-UCloud",
+                "isshow": true,
+                "start_time": "2020-1-1 00:00",
+                "end_time": "2021-5-15 00:00"
+            }
+        ];
+        rightAds.filter(isShow).filter(isExpired).forEach((item) => {
+            let {title, link, ad_tag, image} = item;
+            let adElement = `<div class="ad-float-right"><a href="${link}" title="${title}" onclick="trackOutboundLink('${link}', '${ad_tag}', 'click');" target="_blank"><img src="${image}"></a></div>`;
+            rightAdContainer.append(adElement);
+        });
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQH6H0E3Y6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-NQH6H0E3Y6');
+        var trackOutboundLink = function(url, category, action) {
+            var redirectTriggered = false;
+            gtag('send', 'event', category, action, url, {
+                'hitCallback': function() {
+                    redirectTriggered = false;
+                    window.open(url, '_blank');
+                }
+            });
+        };
+    </script>
+    <!-- End Google Analytics -->
+    <!-- <script>
         $(function() {
             $('.zh-backtotop').toTop();
         });
-    </script>
+    </script> -->
     <script type="text/javascript">
         $(function() {
             // Syntax highlight code blocks.
@@ -349,46 +383,35 @@
             });
         });
     </script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQH6H0E3Y6"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-NQH6H0E3Y6');
-        var trackOutboundLink = function(url, category, action) {
-            var redirectTriggered = false;
-            gtag('send', 'event', category, action, url, {
-                'hitCallback': function() {
-                    redirectTriggered = false;
-                    window.open(url, '_blank');
-                }
-            });
-        };
-    </script>
-    <!-- End Google Analytics -->
-
     <!-- add target attr to all a tag -->
     <script type="text/javascript">
         //bind a click
+        var utm_info = "utm_source=androiddevtools&utm_medium=website";
         $(document).bind('DOMNodeInserted', function(event) {
             $('a[href^="http"]').each(
                 function() {
                     if (!$(this).attr('target')) {
                         $(this).attr('target', '_blank')
                     }
-                    if ($(this).attr('href').indexOf("androiddevtools.cn") != -1) {
+                    var url = $(this).attr('href');
+                    if (url.indexOf("androiddevtools.cn") != -1) {
                         $(this).attr('target', '_self')
+                    } else {
+                        if (url && url.indexOf(utm_info) == -1) {
+                            if (url.indexOf("?") == -1) {
+                                url += '?';
+                            } else {
+                                url += '&';
+                            }
+                            url += utm_info;
+                            $(this).attr('href', url);
+                        }
                     }
                 }
             );
         });
     </script>
-    <script>
-        $('a[title=站长统计]').hide();
-    </script>
+    <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e313f50a3c838b7"></script> -->
 </body>
 
 </html>

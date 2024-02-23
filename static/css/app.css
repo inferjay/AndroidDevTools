@@ -6,8 +6,7 @@
 
 html,
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 body {
@@ -217,12 +216,16 @@ p.license {
 
 pre,
 code {
-  color: #666;
+  color: #37474f;
 }
 
 code {
-  border: 0;
-  background-color: transparent;
+  border: 1px solid #e8eaed;
+  border-radius: var(--devsite-inline-code-border-radius, 4px);
+  font: 500 90%/1em var(--devsite-code-font-family);
+  word-break: break-word;
+  background-color: #f8f9fa;
+  padding: 1px 4px;
 }
 
 .screenshot {
@@ -349,10 +352,9 @@ footer p {
   width: 100%;
   color: #484848;
   font-size: 36px;
-  font-style: bold;
   font-weight: 700;
-  margin-top: 1.3em;
-  margin-bottom: 1.3em;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 .home {
@@ -373,6 +375,23 @@ footer p {
 
 .clearfix {
   zoom: 1;
+}
+
+li {
+  margin: 0 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+blockquote {
+  margin: 0 0 1rem;
+  /* border-left: 4px solid #4caf50; */
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  line-height: 1.5em;
 }
 
 .link-image-list ul {
@@ -652,6 +671,12 @@ footer p {
   z-index: 1031;
 }
 
+.row-cols-4>* {
+  -ms-flex: 0 0 24%;
+  flex: 0 0 24%;
+  max-width: 24%;
+}
+
 /* Widescreen desktop. */
 
 @media (min-width: 1200px) {
@@ -913,6 +938,7 @@ footer p {
   ol ul li {
     font-size: 8px;
   }
+
   table {
     margin-left: 0.5em;
     margin-right: 0.5em;
