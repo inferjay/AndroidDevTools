@@ -1,32 +1,40 @@
 /* http://www.colorhexa.com/b94948 */
 
 /*** Primary ***/
-
+:root {
+  --site-primary-color: #34a853;
+  --site-secondary-color: #689f38;
+  --site-warning-color: #ffc107;
+  --site-error-color: #dc3545;
+  --site-mute-color: #DCE2EE;
+  
+  --site-hover-status-color: #208738;
+}
 header,
 #subtitle,
 a.dl {
-  background-color: #6ab344;
+  background-color: var(--site-primary-color);
 }
 
 .content-nav li.active a,
 .content-nav li.active a:hover {
-  border-left-color: #6ab344;
+  border-left-color: var(--site-primary-color);
 }
 
 /*** One step left on the monochromatic scale ***/
 
 header menu li a:hover,
 a.dl:hover {
-  background-color: #6ab344;
+  background-color: var(--site-primary-color);
 }
 a {
-  color: #4caf50;
+  color: var(--site-primary-color);
 }
 
 /*** Three steps left on the monochromatic scale ***/
 
 a:hover {
-  color: #5e9c3d;
+  color: var(--site-hover-status-color);
 }
 
 
