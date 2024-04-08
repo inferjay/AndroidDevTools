@@ -618,6 +618,11 @@ blockquote {
     0 4px 10px rgba(0, 0, 0, 0.22);
 }
 
+.btn-add-comments {
+  color: #FFFFFF!important;
+  text-decoration: none!important;
+}
+
 .downloads {
   border: 1px solid #ddd;
   font: 13px/18px Consolas, "Liberation Mono", Menlo, Monaco, Courier, monospace;
