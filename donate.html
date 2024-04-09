@@ -2424,74 +2424,28 @@
     <script src="https://cdn.staticfile.net/bootstrap/4.6.2/js/bootstrap.bundle.min.js"
         crossorigin="anonymous"></script>
     <script src="static/js/jquery.smooth-scroll.min.js"></script>
-    <script src="static/js/jquery-maven-artifact.min.js"></script>
-    <script src="static/js/jquery.toTop.min.js"></script>
-    <script>
-        $(function () {
-            $('.zh-backtotop').toTop();
-        });
-    </script>
-    <script type="text/javascript">
-        $(function () {
-            // Syntax highlight code blocks.
-            //prettyPrint();
+    <script async src="static/js/jquery-maven-artifact.min.js"></script>
+    <script async src="static/js/jquery.toTop.min.js"></script>
+    <script async src="static/js/unslider.min.js"></script>
 
-            // Spy on scroll position for real-time updating of current section.
-            $('body').scrollspy();
+    <!-- 工具函数 -->
+    <script async src="./static/js/utils.js"></script>
 
-            // Use smooth-scroll for internal links.
-            $('a').smoothScroll();
-
-            // Enable tooltips on the header nav image items.
-            $('.menu').tooltip({
-                placement: 'bottom',
-                trigger: 'hover',
-                container: 'body',
-                delay: {
-                    show: 500,
-                    hide: 0
-                }
-            });
-        });
-    </script>
+    <!-- <script async src="./static/js/float-ad.js"></script> -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQH6H0E3Y6"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-NQH6H0E3Y6');
-        var trackOutboundLink = function (url, category, action) {
-            var redirectTriggered = false;
-            gtag('send', 'event', category, action, url, {
-                'hitCallback': function () {
-                    redirectTriggered = false;
-                    window.open(url, '_blank');
-                }
-            });
-        };
-    </script>
+    <script src="./static/js/google-analytics.js"></script>
     <!-- End Google Analytics -->
+    <!-- 右侧浮动广告 -->
+    <!-- <script async src="./static/js/right-float-ad.js"></script> -->
+    <!-- 顶层弹窗广告 -->
+    <!-- <script async src="./static/js/top-layer-pop-ad.js"></script> -->
+    <!--   浮动广告      -->
     <!-- add target attr to all a tag -->
-    <script type="text/javascript">
-        //bind a click
-        $(document).bind('DOMNodeInserted', function (event) {
-            $('a[href^="http"]').each(
-                function () {
-                    if (!$(this).attr('target')) {
-                        $(this).attr('target', '_blank')
-                    }
-                    if ($(this).attr('href').indexOf("androiddevtools.cn") != -1) {
-                        $(this).attr('target', '_self')
-                    }
-                }
-            );
-        });
-    </script>
-    <script>
-        $('a[title=站长统计]').hide();
-    </script>
+    <script type="text/javascript" async src="./static/js/add-utm-info-to-link.js"> </script>
+    <!-- Recommend Books List -->
+    <!-- <script async src="./static/js/books.js"></script> -->
+    <script src="./static/js/smooth-scroll-to-top.js"></script>
 </body>
 
 </html>
