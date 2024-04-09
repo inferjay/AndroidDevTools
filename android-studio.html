@@ -21,6 +21,8 @@
   <link rel="shortcut icon" href="static/image/favicon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="static/image/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="static/image/apple-touch-icon-114x114.png">
+  <script src="static/js/swiper.min.js"></script>
+  <link rel="stylesheet" href="static/css/swiper.min.css">
   <link rel="stylesheet" href="https://cdn.staticfile.net/animate.css/4.1.1/animate.min.css" />
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517858206486320"
     crossorigin="anonymous"></script>
@@ -197,6 +199,113 @@
         </svg></span>
     </div>
   </div>
+  <section id="banner-slider">
+    <!-- Slider main container -->
+    <div class="swiper-container container mx-auto">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <a href='https://aihunt.one?utm_source=androiddevtools.cn&amp;utm_medium=index-banner'
+                    target="_blank" onclick="trackOutboundLink('https://aihunt.one', 'AIHunt', 'click');"
+                    title="收录了国内外的众多 AI工具，包括AI写作工具、AI图像生成和处理、AI视频制作、AI音频转录、AI辅助编程、AI音乐生成、AI绘画设计、AI对话聊天等AI工具，以及AI学习开发的常用网站、教程、开源框架、开源模型和数据集等。">
+                    <img src="/static/image/banner/aihunt.webp">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://androidweekly.io?utm_source=androiddevtools.cn&amp;utm_medium=banner"
+                    target="_blank"
+                    onclick="trackOutboundLink('https://androidweekly.io', 'AndroidWeekly', 'click');"
+                    title="汇集互联网上每周Android开发的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。">
+                    <img src="/static/image/banner/androidweekly.webp">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href='http://www.materialdoc.cn?utm_source=androiddevtools.cn&amp;utm_medium=banner'
+                    target="_blank"
+                    onclick="trackOutboundLink('https://www.materialdoc.cn', 'Materialdoc', 'click');"
+                    title="Material Design 开发者参考文档">
+                    <img src="/static/image/banner/materialdoc.webp">
+                </a>
+            </div>
+            <!-- AndroidDevTools 首页 Banner -->
+            <!-- <div class="swiper-slide">
+                <div class="ads-container">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517858206486320"
+                        crossorigin="anonymous"></script>
+                    
+                    <ins class="adsbygoogle"
+                        style="display:block"
+                        data-ad-client="ca-pub-5517858206486320"
+                        data-ad-slot="4217675821"
+                        data-ad-format="auto"
+                        data-full-width-responsive="true"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div> -->
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <style>
+        :root {
+            --swiper-theme-color: var(--site-primary-color);
+            --swiper-navigation-size: 28px;
+        }
+
+        .swiper-container {
+            margin-top: 20px;
+            border-radius: 6px;
+            background-color: white;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+        }
+
+        .swiper-pagination {
+            margin-bottom: 20px;
+
+        }
+
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background: gray;
+            opacity: 0.6;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: var(--swiper-theme-color);
+        }
+    </style>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            autoplay: {
+                delay: 4500,
+                disableOnInteraction: true,
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            }
+        });
+    </script>
+</section>
   <section id="body">
     <div class="container body-container pb-4">
       <div class="row flex-column p-3">

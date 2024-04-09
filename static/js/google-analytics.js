@@ -2,26 +2,19 @@
 * @Author: inferjay
 * @Date:   2016-03-26 17:47:29
 * @Last Modified by:   inferjay
-* @Last Modified time: 2016-04-03 15:37:21
+* @Last Modified time: 2024-04-09 13:16:21
 */
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+window.dataLayer = window.dataLayer || [];
+function gtag() { dataLayer.push(arguments); }
+gtag('js', new Date());
 
-ga('create', 'UA-52369435-2', 'auto');
-ga('send', 'pageview');
-var trackOutboundLink = function(url,category, action) {
+gtag('config', 'G-NQH6H0E3Y6');
+var trackOutboundLink = function (url, category, action) {
     var redirectTriggered = false;
-    ga('send', 'event', category, action, url, {'hitCallback':
-        function() {
-            redirectTriggered = true;
-            window.open(url);
+    gtag('send', 'event', category, action, url, {
+        'hitCallback': function () {
+            redirectTriggered = false;
+            window.open(url, '_blank');
         }
     });
-    // setTimeout(function() {
-    //     if (!redirectTriggered) {
-    //         window.open(url);
-    //     }
-    // }, 200);
 };
