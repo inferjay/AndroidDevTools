@@ -597,8 +597,9 @@ blockquote {
 
 .btn-action {
   border-radius: 4px;
-  font-size: 20px;
-  background-color: #ff5722;
+  font-size: 18px;
+  padding: 10px;
+  background-color: #4caf50;
   border: 0;
   color: white;
   text-decoration: none;
@@ -610,7 +611,7 @@ blockquote {
 .btn-action:hover {
   color: white;
   text-decoration: none;
-  background-color: #e24134;
+  background-color: #218024;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.22);
   -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.22);
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.16),

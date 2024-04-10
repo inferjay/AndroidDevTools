@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh_CN">
-
+<html lang="zh">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="icon" type="image/x-icon" href="static/image/favicon.ico">
@@ -39,8 +38,9 @@
 <body data-target=".content-nav">
     <header class="row align-items-center">
         <nav class="navbar navbar-expand-lg navbar-light mx-lg-auto">
-            <a class="navbar-brand mr-lg-4" href="index.html"><!-- <h1 id="nav-title">AndroidDevTools</h1> --><img
-                    height="32px" src="./static/image/androiddevtools.png"></a>
+            <a class="navbar-brand mr-lg-4" href="index.html" alt="首页">
+                <img height="32px" src="./static/image/androiddevtools.png" alt="Logo">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -213,7 +213,7 @@
                     <a href='https://aihunt.one?utm_source=androiddevtools.cn&amp;utm_medium=index-banner'
                         target="_blank" onclick="trackOutboundLink('https://aihunt.one', 'AIHunt', 'click');"
                         title="收录了国内外的众多 AI工具，包括AI写作工具、AI图像生成和处理、AI视频制作、AI音频转录、AI辅助编程、AI音乐生成、AI绘画设计、AI对话聊天等AI工具，以及AI学习开发的常用网站、教程、开源框架、开源模型和数据集等。">
-                        <img src="/static/image/banner/aihunt.webp">
+                        <img src="/static/image/banner/aihunt.webp" alt="aihunt">
                     </a>
                 </div>
                 <div class="swiper-slide">
@@ -221,7 +221,7 @@
                         target="_blank"
                         onclick="trackOutboundLink('https://androidweekly.io', 'AndroidWeekly', 'click');"
                         title="汇集互联网上每周Android开发的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。">
-                        <img src="/static/image/banner/androidweekly.webp">
+                        <img src="/static/image/banner/androidweekly.webp" alt="Android 开发技术周报">
                     </a>
                 </div>
                 <div class="swiper-slide">
@@ -229,11 +229,11 @@
                         target="_blank"
                         onclick="trackOutboundLink('https://www.materialdoc.cn', 'Materialdoc', 'click');"
                         title="Material Design 开发者参考文档">
-                        <img src="/static/image/banner/materialdoc.webp">
+                        <img src="/static/image/banner/materialdoc.webp" alt="Material Design 开发者参考文档">
                     </a>
                 </div>
                 <!-- AndroidDevTools 首页 Banner -->
-                <!-- <div class="swiper-slide">
+                <div class="swiper-slide">
                     <div class="ads-container">
                         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517858206486320"
                             crossorigin="anonymous"></script>
@@ -248,7 +248,7 @@
                             (adsbygoogle = window.adsbygoogle || []).push({});
                         </script>
                     </div>
-                </div> -->
+                </div>
             </div>
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
@@ -314,14 +314,6 @@
         <div class="container body-container">
             <div class="row flex-column p-3">
                 <div>
-                    <!-- <p class="center">
-                        <a class="top-ads-link text-center" href="https://tracking.gitads.io/?campaign=gitads&repo=AndroidDevTools&redirect=gitads.io" title="GitAds" onclick="trackOutboundLink('https://tracking.gitads.io/?campaign=gitads&repo=AndroidDevTools&redirect=gitads.io', 'GitAds', 'click');" target="_blank">
-                            <span class="ads-text">广告</span><img src="https://images.gitads.io/AndroidDevTools">
-                        </a>
-                        <a class="top-ads-link text-center" href="https://www.androidweekly.io" title="Android开发技术周报" onclick="trackOutboundLink('https://www.androidweekly.io', 'AndroidWeekly-top', 'click');" target="_blank">
-                            <img class="top-ads-img" src="https://tva1.sinaimg.cn/large/007S8ZIlly1ggx7qxpfv5j30p00go75l.jpg">
-                        </a>
-                    </p> -->
                     <h1 id="introduction" class="content-title" algin="center">AndroidDevTools</h1>
                     <p>收集整理Android开发所需的Android
                         SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。欢迎大家推荐自己在Android开发过程中用的好用的工具、学习开发教程、用到设计素材。如果你觉得本站对你有用，你可以点击底部的分享按钮，把本站分享到社交网络让你的小伙伴和更多的人知道。
@@ -341,47 +333,13 @@
                         (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
                 </div>
-                <div id="android-dev-tools" class="hide">
-                    <h2>Android Tools</h2>
-                    <div id="android-sdk-online-server">
-                        <h2>Android SDK在线更新镜像服务器</h2>
-                        <ol>
-                            <li>
-                                <p>郑州大学开源镜像站: </p>
-                                <p><code></code>mirrors.zzu.edu.cn</code> 端口：80</p>
-                            </li>
-                        </ol>
-                        <h2><strong>使用方法：</strong></h2>
-                        <ol>
-                            <li>
-                                <p>启动 Android SDK Manager
-                                    ，打开主界面，依次选择『<strong>Tools</strong>』、『<strong>Options...</strong>』，弹出『<strong>Android
-                                        SDK Manager - Settings</strong>』窗口；</p>
-                            </li>
-                            <li>
-                                <p>在『<strong>Android SDK Manager - Settings</strong>』窗口中，在『<strong>HTTP Proxy
-                                        Server』和『HTTP Proxy
-                                        Port</strong>』输入框内填入上面镜像服务器地址(<strong>不包含http://</strong>，如下图)和端口，并且选中『<strong>Force
-                                        https://... sources to be fetched using
-                                        http://...</strong>』复选框。设置完成后单击『<strong>Close</strong>』按钮关闭『<strong>Android SDK
-                                        Manager - Settings</strong>』窗口返回到主界面；</p>
-                            </li>
-                            <li>
-                                <p>依次选择『<strong>Packages</strong>』、『<strong>Reload</strong>』。</p>
-                            </li>
-                        </ol>
-                        <img src="static/image/sdk-manager-proxy-settings.png" width="40%" height="20%"
-                            style="margin-left: 2.5em;" alt="SDK Manager Proxy Settings" />
-                    </div>
-                </div>
                 <div id="android-studio">
                     <h2>Android Studio</h2>
 
                     <blockquote style="color: gray">
                         <strong style="color: red">注意:</strong>以下 Android Studio 下载链接全是 <code>redirector.gvt1.com</code>
                         开头的官方下载，无需tizi，<strong
-                            style="color: red">建议用浏览器直接从官方原始链接下载，不要用迅雷下载、不要用迅雷下载、不要用迅雷下载</strong>，重要的事情说三遍，避免类似 <a
-                            href="https://www.zhihu.com/question/35721299">XCodeGhost</a> 的事件！！！
+                            style="color: red">建议用浏览器直接从官方原始链接下载，不要用迅雷下载、不要用迅雷下载、不要用迅雷下载</strong>，重要的事情说三遍，避免类似 <code>XCodeGhost</code> 的事件！！！
                     </blockquote>
                     <devsite-expandable is-upgraded="" id="expandable-1">
                         <p class="expand-control" aria-controls="expandable-1" aria-expanded="false" tabindex="0"
@@ -502,8 +460,8 @@
                         <strong style="color: red">注意:</strong>如何手动安装指定版本的模拟器，请 <a
                             href="android-emulator-install-guide.html">点击这里</a> 查看安装指南！
                     </blockquote>
-                    <devsite-expandable is-upgraded="" id="expandable-1">
-                        <p class="expand-control" aria-controls="expandable-1" aria-expanded="false" tabindex="0"
+                    <devsite-expandable is-upgraded="" id="expandable-3">
+                        <p class="expand-control" aria-controls="expandable-3" aria-expanded="false" tabindex="0"
                             role="button">Android Emulator (34.2.5) Canary
                             <span class="new-tag animate__animated animate__pulse animate__infinite">Jan 23, 2024</span>
                         </p>
@@ -535,8 +493,8 @@
                         </div>
                     </devsite-expandable>
 
-                    <devsite-expandable is-upgraded="" id="expandable-2">
-                        <p class="expand-control" aria-controls="expandable-2" aria-expanded="false" tabindex="0"
+                    <devsite-expandable is-upgraded="" id="expandable-4">
+                        <p class="expand-control" aria-controls="expandable-4" aria-expanded="false" tabindex="0"
                             role="button">Android Emulator (34.2.4) Canary
                             <span>Jan 16, 2024</span>
                         </p>
@@ -591,7 +549,7 @@
                             <tr>
                                 <td>Windows</td>
                                 <td align="left">
-                                    <a id="win-tools"
+                                    <a id="win-tools-3859397"
                                         href="https://dl.google.com/android/repository/sdk-tools-windows-3859397.zip">sdk-tools-windows-3859397.zip</a>
                                 </td>
                                 <td>132 MB</td>
@@ -605,7 +563,7 @@
                                     <nobr>Mac OS X</nobr>
                                 </td>
                                 <td align="left">
-                                    <a id="mac-tools"
+                                    <a id="mac-tools-3859397"
                                         href="https://dl.google.com/android/repository/sdk-tools-darwin-3859397.zip">sdk-tools-darwin-3859397.zip</a>
                                 </td>
                                 <td>82 MB</td>
@@ -614,7 +572,7 @@
                             <tr>
                                 <td>Linux</td>
                                 <td align="left">
-                                    <a id="linux-tools"
+                                    <a id="linux-tools-3859397"
                                         href="https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip">sdk-tools-linux-3859397.zip</a>
                                 </td>
                                 <td>130 MB</td>
@@ -626,7 +584,7 @@
                             <tr>
                                 <td rowspan="2">Windows</td>
                                 <td align="left">
-                                    <a id="win-tools"
+                                    <a id="win-tools-24.4.1"
                                         href="https://dl.google.com/android/installer_r24.4.1-windows.exe">installer_r24.4.1-windows.exe</a>
                                 </td>
                                 <td>144 MB</td>
@@ -648,7 +606,7 @@
                                     <nobr>Mac OS X</nobr>
                                 </td>
                                 <td align="left">
-                                    <a id="mac-tools"
+                                    <a id="mac-tools-24.4.1"
                                         href="https://dl.google.com/android/android-sdk_r24.4.1-macosx.zip">android-sdk_r24.4.macosx.zip</a>
                                 </td>
                                 <td>98 MB</td>
@@ -657,7 +615,7 @@
                             <tr>
                                 <td>Linux</td>
                                 <td align="left">
-                                    <a id="linux-tools"
+                                    <a id="linux-tools-24.4.1"
                                         href="https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz">androiddk_r24.4.1-linux.tgz</a>
                                 </td>
                                 <td>311 MB</td>
@@ -4796,8 +4754,8 @@
         </div>
     </section>
     <div class="zh-backtotop">
-        <a data-action="backtotop" data-tip="回到顶部" class="btn-backtotop btn-action" href="#banner-slider">
-            <img class="arrow" src="static/image/backtotop_arrow.png">
+        <a data-action="backtotop" data-tip="回到顶部" alt="回到顶部" class="btn-backtotop btn-action" href="#banner-slider">
+            <img class="arrow" alt="回到顶部图标" src="static/image/backtotop_arrow.png">
         </a>
     </div>
     <!-- FOOTER  -->
