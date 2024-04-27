@@ -155,7 +155,18 @@ a.dl:hover {
   color: #888;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #393939;
 }
 
@@ -229,7 +240,7 @@ code {
 }
 
 blockquote code {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .screenshot {
@@ -619,8 +630,8 @@ blockquote {
 }
 
 .btn-add-comments {
-  color: #FFFFFF!important;
-  text-decoration: none!important;
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
 
 .downloads {
@@ -681,30 +692,30 @@ blockquote {
   z-index: 1031;
 }
 
-.row-cols-4>* {
+.row-cols-4 > * {
   -ms-flex: 0 0 24%;
   flex: 0 0 24%;
   max-width: 24%;
 }
 
 .mr-2-5 {
-  margin-right: 0.9rem!important; 
+  margin-right: 0.9rem !important;
 }
 
 .card-body {
   padding: 1rem;
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
   background-color: var(--site-primary-color);
 }
-
 
 .c-tag {
   font-size: 13px;
   border-radius: 4px;
   padding: 0.14rem 0.6rem;
-  color: white!important;
+  color: white !important;
   margin: 0 5px;
   background-color: #5f6368;
 }
@@ -712,6 +723,11 @@ blockquote {
 .c-tag-h {
   background-color: var(--site-warning-color);
 }
+
+.max-w-100 {
+  max-width: 100%;
+}
+
 /* Widescreen desktop. */
 
 @media (min-width: 1200px) {

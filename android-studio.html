@@ -165,20 +165,20 @@
           <li class="nav-item mx-4"><a class="nav-link" id="aihunt" href="https://aihunt.one">🤖 AI 工具</a></li>
           <li class="nav-item mx-4"><a class="nav-link new-tag animate__animated animate__pulse animate__infinite"
               id="usesora" href="https://usesora.io" title="使用 Sora 生成 AI 视频，以及发现 Sora 生成的精彩视频">👉UseSora👈</a></li>
-          <li class="nav-item mx-4"><a class="nav-link" id="donate" href="donate.html">💰 捐赠</a></li>
-          <li class="nav-item dropdown mx-4">
-              <a id="drop-more" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">🔽 更多</a>
-              <div id="menu5" class="dropdown-menu" role="menu" aria-labelledby="drop-more">
-                <a class="dropdown-item" href="welfare-pi.html" id="welfare">🎁 福利𝝅</a>
-                <a class="dropdown-item" href="friends.html" id="friends">🧑‍🤝‍🧑 好朋友们</a>
-                <a class="dropdown-item" href="https://github.com/inferjay/AndroidDevTools"
-                  data-title="View GitHub Project"><img width="18px"
-                    src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub" />&nbsp;&nbsp;GitHub</a>
-                <a class="dropdown-item"
-                  href="https://github.com/inferjay/AndroidDevTools/issues/54?utm_source=androiddevtools&utm_medium=website"
-                  id="feedback">🙋 问题反馈</a>
-              </div>
-          </li>
+              <li class="nav-item dropdown mx-4">
+                <a id="drop-more" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">🔽 更多</a>
+                <div id="menu5" class="dropdown-menu" role="menu" aria-labelledby="drop-more">
+                    <a class="dropdown-item" id="donate" href="donate.html">🍗 捐赠</a>
+                    <a class="dropdown-item" href="welfare-pi.html" id="welfare">🎁 福利𝝅</a>
+                    <a class="dropdown-item" href="friends.html" id="friends">🧑‍🤝‍🧑 好朋友们</a>
+                    <a class="dropdown-item"
+                      href="https://github.com/inferjay/AndroidDevTools/issues/54?utm_source=androiddevtools&utm_medium=website"
+                      id="feedback">🙋 问题反馈</a>
+                    <a class="dropdown-item" href="https://github.com/inferjay/AndroidDevTools"
+                      data-title="View GitHub Project"><img width="18px"
+                        src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub" />&nbsp;&nbsp;GitHub</a>
+                  </div>
+            </li>
           <!-- <li id="ts-search-input-li"><form><input type="search" id="ts-search-input" placeholder="搜索: Android Studio"></form></li> -->
         </ul>
       </div>
@@ -311,7 +311,7 @@
   <section id="body">
     <div class="container body-container pb-4">
       <div class="row flex-column p-3">
-        <div id="android-studio">
+        <div id="android-studio" class="max-w-100">
           <h1 class="content-title" algin="center">Android Studio</h1>
           <blockquote style="color: gray">
             <strong style="color: red">注意:</strong>以下 Android Studio 下载链接全是 <code>redirector.gvt1.com</code>
@@ -12570,6 +12570,9 @@
     </div>
   </section>
   <div class="zh-backtotop">
+    <a data-tip="捐赠" alt="捐赠" class="btn-action btn-donate" href="donate.html">
+      <img class="icon-donate" alt="捐赠图标" src="static/image/jitui.webp">
+    </a>
     <a data-action="backtotop" data-tip="回到顶部" alt="回到顶部" class="btn-backtotop btn-action" href="#body">
       <img class="arrow" alt="回到顶部图标" src="static/image/backtotop_arrow.png">
     </a>
@@ -12583,146 +12586,32 @@
   </div>
   <!-- 评论JS代码 start (一个网页只需插入一次) -->
   <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-
   <!-- 评论JS代码 end -->
   <script src="https://cdn.staticfile.net/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdn.staticfile.net/bootstrap/4.6.2/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   <script src="static/js/jquery.smooth-scroll.min.js"></script>
-  <script src="static/js/jquery-maven-artifact.min.js"></script>
-  <script src="static/js/jquery.toTop.min.js"></script>
-  <script src="static/js/google-analytics.js"></script>
-  <script src="static/js/unslider.min.js"></script>
+  <script async src="static/js/jquery-maven-artifact.min.js"></script>
+  <script async src="static/js/jquery.toTop.min.js"></script>
+  <script async src="static/js/unslider.min.js"></script>
 
   <!-- 工具函数 -->
-  <script>
-    Array.prototype.randomDiffElement = function (last) {
-      if (this.length == 0) {
-        return;
-      } else if (this.length == 1) {
-        return this[0];
-      } else {
-        var num = 0;
-        do {
-          num = Math.floor(Math.random() * this.length);
-        } while (Array.isArray(last) ? last.includes(this[num]) : this[num] == last);
-        return this[num];
-      }
-    };
-    var isShow = function isShow(value) {
-      return value && value.isshow;
-    };
-    var now = new Date().getTime();
-    var isExpired = function (item) {
-      let start = Date.parse(item.start_time);
-      let end = Date.parse(item.end_time);
-      return item && start <= now && now <= end;
-    };
-  </script>
-  <!-- 右侧浮动广告 -->
-  <script>
-    let rightAdContainer = $('#auto-scroll-ad-box');
-    let rightAds = [
-      {
-        "title": "短期暴力提升，快速突破瓶颈。HenCoder Plus 作为一套全方位系统化的高级进阶课程，开课四期以来，吸纳了来自阿里、腾讯、百度、头条、滴滴等公司以及硅谷、台湾和日本的众多学员报名参加，多位学员在毕业一个月内先后入职阿里、腾讯、小米、头条等公司。学员年薪最高达到 80w，多位学员年薪达到 45w 左右。",
-        "link": "https://plus.hencoder.com",
-        "image": "https://i.loli.net/2019/05/23/5ce663bb003ec62326.gif",
-        "ad_tag": "AD-HenCoderPlus",
-        "isshow": true,
-        "start_time": "2019-3-30 00:30:00",
-        "end_time": "2021-8-5 00:00:00"
-      },
-      {
-        "title": "",
-        "link": "https://www.ucloud.cn/site/global.html?ytag=androiddevtools",
-        "image": "https://i.loli.net/2020/05/15/DOv28AnZ73qfmiE.png",
-        "ad_tag": "AD-UCloud",
-        "isshow": true,
-        "start_time": "2020-1-1 00:00",
-        "end_time": "2021-5-15 00:00"
-      }
-    ];
-    rightAds.filter(isShow).filter(isExpired).forEach((item) => {
-      let { title, link, ad_tag, image } = item;
-      let adElement = `<div class="ad-float-right"><a href="${link}" title="${title}" onclick="trackOutboundLink('${link}', '${ad_tag}', 'click');" target="_blank"><img src="${image}"></a></div>`;
-      rightAdContainer.append(adElement);
-    });
-  </script>
+  <script async src="./static/js/utils.js"></script>
+
+  <!-- <script async src="./static/js/float-ad.js"></script> -->
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQH6H0E3Y6"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-NQH6H0E3Y6');
-    var trackOutboundLink = function (url, category, action) {
-      var redirectTriggered = false;
-      gtag('send', 'event', category, action, url, {
-        'hitCallback': function () {
-          redirectTriggered = false;
-          window.open(url, '_blank');
-        }
-      });
-    };
-  </script>
+  <script src="./static/js/google-analytics.js"></script>
   <!-- End Google Analytics -->
-  <!-- <script>
-        $(function() {
-            $('.zh-backtotop').toTop();
-        });
-    </script> -->
-  <script type="text/javascript">
-    $(function () {
-      // Syntax highlight code blocks.
-      //prettyPrint();
-
-      // Spy on scroll position for real-time updating of current section.
-      $('body').scrollspy();
-
-      // Use smooth-scroll for internal links.
-      $('a').smoothScroll();
-
-      // Enable tooltips on the header nav image items.
-      $('.menu').tooltip({
-        placement: 'bottom',
-        trigger: 'hover',
-        container: 'body',
-        delay: {
-          show: 500,
-          hide: 0
-        }
-      });
-    });
-  </script>
+  <!-- 右侧浮动广告 -->
+  <!-- <script async src="./static/js/right-float-ad.js"></script> -->
+  <!-- 顶层弹窗广告 -->
+  <!-- <script async src="./static/js/top-layer-pop-ad.js"></script> -->
+  <!--   浮动广告      -->
   <!-- add target attr to all a tag -->
-  <script type="text/javascript">
-    //bind a click
-    var utm_info = "utm_source=androiddevtools&utm_medium=website";
-    $(document).bind('DOMNodeInserted', function (event) {
-      $('a[href^="http"]').each(
-        function () {
-          if (!$(this).attr('target')) {
-            $(this).attr('target', '_blank')
-          }
-          var url = $(this).attr('href');
-          if (url.indexOf("androiddevtools.cn") != -1) {
-            $(this).attr('target', '_self')
-          } else {
-            if (url && url.indexOf(utm_info) == -1) {
-              if (url.indexOf("?") == -1) {
-                url += '?';
-              } else {
-                url += '&';
-              }
-              url += utm_info;
-              $(this).attr('href', url);
-            }
-          }
-        }
-      );
-    });
-  </script>
-  <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e313f50a3c838b7"></script> -->
+  <script type="text/javascript" async src="./static/js/add-utm-info-to-link.js"> </script>
+  <!-- Recommend Books List -->
+  <!-- <script async src="./static/js/books.js"></script> -->
+  <script src="./static/js/smooth-scroll-to-top.js"></script>
 </body>
 
 </html>

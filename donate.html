@@ -171,18 +171,18 @@
                     <li class="nav-item mx-4"><a
                             class="nav-link new-tag animate__animated animate__pulse animate__infinite" id="usesora"
                             href="https://usesora.io" title="使用 Sora 生成 AI 视频，以及发现 Sora 生成的精彩视频">👉UseSora👈</a></li>
-                    <li class="nav-item mx-4"><a class="nav-link" id="donate" href="donate.html">💰 捐赠</a></li>
                     <li class="nav-item dropdown mx-4">
                         <a id="drop-more" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">🔽 更多</a>
                         <div id="menu5" class="dropdown-menu" role="menu" aria-labelledby="drop-more">
+                            <a class="dropdown-item" id="donate" href="donate.html">🍗 捐赠</a>
                             <a class="dropdown-item" href="welfare-pi.html" id="welfare">🎁 福利𝝅</a>
                             <a class="dropdown-item" href="friends.html" id="friends">🧑‍🤝‍🧑 好朋友们</a>
-                            <a class="dropdown-item" href="https://github.com/inferjay/AndroidDevTools"
-                              data-title="View GitHub Project"><img width="18px"
-                                src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub" />&nbsp;&nbsp;GitHub</a>
                             <a class="dropdown-item"
                               href="https://github.com/inferjay/AndroidDevTools/issues/54?utm_source=androiddevtools&utm_medium=website"
                               id="feedback">🙋 问题反馈</a>
+                            <a class="dropdown-item" href="https://github.com/inferjay/AndroidDevTools"
+                              data-title="View GitHub Project"><img width="18px"
+                                src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub" />&nbsp;&nbsp;GitHub</a>
                           </div>
                     </li>
                     <!-- <li id="ts-search-input-li"><form><input type="search" id="ts-search-input" placeholder="搜索: Android Studio"></form></li> -->
@@ -193,7 +193,7 @@
     <section id="body d-flex flex-column">
         <div class="container body-container d-flex flex-column">
             <!-- 捐赠 -->
-            <div>
+            <div class="max-w-100" id="donate-desc">
                 <h1 class="content-title">捐赠</h1>
                 <p>非常感谢您考虑对本站进行捐赠。支持把本站做的更好，帮助更多的人，<strong>金额随意。</strong>为了感谢您的捐赠，捐赠后记得在底部留言板留下你的<strong>昵称(如果不想显示真实姓名)</strong>、<strong>金额</strong>，以及博客、<strong>Github</strong>、<strong>Twitter</strong>、<strong>微博</strong>
                     等任何可以在社交网络上找到你的链接以便将您的信息添加到捐赠列表。🙏</p>
@@ -2409,8 +2409,12 @@
             </div>
         </div>
     </section>
+
     <div class="zh-backtotop">
-        <a data-action="backtotop" data-tip="回到顶部" alt="回到顶部" class="btn-backtotop btn-action">
+        <a data-tip="捐赠" alt="捐赠" class="btn-action btn-donate" href="donate.html">
+            <img class="icon-donate" alt="捐赠图标" src="static/image/jitui.webp">
+        </a>
+        <a data-action="backtotop" data-tip="回到顶部" alt="回到顶部" class="btn-backtotop btn-action" href="#donate-desc">
             <img class="arrow" alt="回到顶部图标" src="static/image/backtotop_arrow.png">
         </a>
     </div>

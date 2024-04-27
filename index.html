@@ -165,18 +165,18 @@
                     </li>
                     <li class="nav-item mx-4"><a class="nav-link" id="aihunt" href="https://aihunt.one">🤖 AI 工具</a></li>
                     <li class="nav-item mx-4"><a class="nav-link new-tag animate__animated animate__pulse animate__infinite" id="usesora" href="https://usesora.io" title="使用 Sora 生成 AI 视频，以及发现 Sora 生成的精彩视频">👉UseSora👈</a></li>
-                    <li class="nav-item mx-4"><a class="nav-link" id="donate" href="donate.html">💰 捐赠</a></li>
                     <li class="nav-item dropdown mx-4">
                         <a id="drop-more" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">🔽 更多</a>
                         <div id="menu5" class="dropdown-menu" role="menu" aria-labelledby="drop-more">
+                            <a class="dropdown-item" id="donate" href="donate.html">🍗 捐赠</a>
                             <a class="dropdown-item" href="welfare-pi.html" id="welfare">🎁 福利𝝅</a>
                             <a class="dropdown-item" href="friends.html" id="friends">🧑‍🤝‍🧑 好朋友们</a>
-                            <a class="dropdown-item" href="https://github.com/inferjay/AndroidDevTools"
-                              data-title="View GitHub Project"><img width="18px"
-                                src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub" />&nbsp;&nbsp;GitHub</a>
                             <a class="dropdown-item"
                               href="https://github.com/inferjay/AndroidDevTools/issues/54?utm_source=androiddevtools&utm_medium=website"
                               id="feedback">🙋 问题反馈</a>
+                            <a class="dropdown-item" href="https://github.com/inferjay/AndroidDevTools"
+                              data-title="View GitHub Project"><img width="18px"
+                                src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub" />&nbsp;&nbsp;GitHub</a>
                           </div>
                     </li>
                     <!-- <li id="ts-search-input-li"><form><input type="search" id="ts-search-input" placeholder="搜索: Android Studio"></form></li> -->
@@ -308,7 +308,7 @@
     <section id="body">
         <div class="container body-container">
             <div class="row flex-column p-3">
-                <div style="max-width: 100%;">
+                <div class="max-w-100">
                     <h1 id="introduction" class="content-title" algin="center">AndroidDevTools</h1>
                     <p>收集整理Android开发所需的Android
                         SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。欢迎大家推荐自己在Android开发过程中用的好用的工具、学习开发教程、用到设计素材。如果你觉得本站对你有用，你可以点击底部的分享按钮，把本站分享到社交网络让你的小伙伴和更多的人知道。
@@ -328,7 +328,7 @@
                         (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
                 </div>
-                <div id="android-studio" style="max-width: 100%;">
+                <div id="android-studio" class="max-w-100">
                     <h2>Android Studio</h2>
 
                     <blockquote style="color: gray">
@@ -401,7 +401,7 @@
                     <center><a class="btn btn-large btn-action" href="android-studio.html">👉去下载其他版本👈</a></center>
                     <br>
                 </div>
-                <div id="android-emulator" style="max-width: 100%;">
+                <div id="android-emulator" class="max-w-100">
                     <h2>Android Emulator</h2>
                     <blockquote style="color: gray">
                         <strong style="color: red">注意:</strong>如何手动安装指定版本的模拟器，请 <a href="android-emulator-install-guide.html">点击这里</a> 查看安装指南！
@@ -4673,7 +4673,11 @@
             </div>
         </div>
     </section>
+
     <div class="zh-backtotop">
+        <a data-tip="捐赠" alt="捐赠" class="btn-action btn-donate" href="donate.html">
+            <img class="icon-donate" alt="捐赠图标" src="static/image/jitui.webp">
+        </a>
         <a data-action="backtotop" data-tip="回到顶部" alt="回到顶部" class="btn-backtotop btn-action" href="#banner-slider">
             <img class="arrow" alt="回到顶部图标" src="static/image/backtotop_arrow.png">
         </a>
