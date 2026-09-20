@@ -1,0 +1,104 @@
+name: Update Android downloads
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:20 Asia/Shanghai (00:20 UTC), intentionally away from the hour.
+    - cron: "20 0 * * *"
+
+concurrency:
+  group: update-android-downloads
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out automation source
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: master
+          path: automation
+          fetch-depth: 1
+
+      - name: Check out published site
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: gh-pages
+          path: site
+          fetch-depth: 0
+
+      - name: Run offline regression tests
+        working-directory: automation
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Run the guarded update
+        run: >-
+          python3 automation/scripts/update_android_downloads.py
+          --site-dir site
+          --mode write
+          --report-json update-report.json
+
+      - name: Fail if the update escaped its allowlist
+        working-directory: site
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mapfile -t changed_files < <(git diff --name-only)
+          if [ "${#changed_files[@]}" -eq 0 ]; then
+            echo "No Android download changes detected."
+            exit 0
+          fi
+
+          for file in "${changed_files[@]}"; do
+            case "$file" in
+              android-studio.html|android-emulator.html|index.html) ;;
+              *)
+                echo "Unexpected changed file: $file" >&2
+                exit 1
+                ;;
+            esac
+          done
+
+          changed_lines="$(git diff --numstat -- android-studio.html android-emulator.html index.html | awk '{ additions += $1; deletions += $2 } END { print additions + deletions + 0 }')"
+          if [ "$changed_lines" -gt 2000 ]; then
+            echo "Refusing an unusually large generated diff: $changed_lines lines" >&2
+            exit 1
+          fi
+
+          cat ../update-report.json >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Create or update the review PR
+        working-directory: site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- android-studio.html android-emulator.html index.html; then
+            echo "No generated page changes; no PR needed."
+            exit 0
+          fi
+
+          git config user.name "androiddevtools-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          branch="automation/android-downloads"
+          git switch -C "$branch"
+          git add android-studio.html android-emulator.html index.html
+          git commit -m "chore: update Android downloads"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin "HEAD:${branch}"
+
+          body_file="../update-report.json"
+          pr_number="$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$branch" --base gh-pages --state open --json number --jq '.[0].number')"
+          if [ -n "$pr_number" ]; then
+            gh pr edit "$pr_number" --title "chore: update Android downloads" --body-file "$body_file"
+          else
+            gh pr create --repo "$GITHUB_REPOSITORY" --base gh-pages --head "$branch" \
+              --title "chore: update Android downloads" --body-file "$body_file"
+          fi
