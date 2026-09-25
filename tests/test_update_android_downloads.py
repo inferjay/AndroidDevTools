@@ -55,6 +55,44 @@ class UpdateAndroidDownloadsTests(unittest.TestCase):
             checks,
         )
 
+    def test_repository_newer_beta_rollout_is_reported_without_failing(self) -> None:
+        releases, _ = updater.parse_releases(self.emulator_frame, "Android Emulator")
+        newer_repository_xml = self.repository_xml.replace(
+            "<micro>10</micro>\n    </revision>\n    <display-name>Android Emulator</display-name>\n"
+            "    <uses-license ref=\"android-sdk-license\"/>\n    <channelRef ref=\"channel-1\"/>",
+            "<micro>11</micro>\n    </revision>\n    <display-name>Android Emulator</display-name>\n"
+            "    <uses-license ref=\"android-sdk-license\"/>\n    <channelRef ref=\"channel-1\"/>",
+            1,
+        )
+
+        checks = updater.validate_emulator_repository(releases, newer_repository_xml)
+
+        self.assertEqual(
+            [
+                {"channel": "stable", "version": "37.1.11", "status": "matched"},
+                {
+                    "channel": "beta",
+                    "version": "37.2.10",
+                    "status": "repository-newer",
+                    "repository_version": "37.2.11",
+                },
+            ],
+            checks,
+        )
+
+    def test_repository_older_beta_rollout_still_fails_closed(self) -> None:
+        releases, _ = updater.parse_releases(self.emulator_frame, "Android Emulator")
+        older_repository_xml = self.repository_xml.replace(
+            "<micro>10</micro>\n    </revision>\n    <display-name>Android Emulator</display-name>\n"
+            "    <uses-license ref=\"android-sdk-license\"/>\n    <channelRef ref=\"channel-1\"/>",
+            "<micro>9</micro>\n    </revision>\n    <display-name>Android Emulator</display-name>\n"
+            "    <uses-license ref=\"android-sdk-license\"/>\n    <channelRef ref=\"channel-1\"/>",
+            1,
+        )
+
+        with self.assertRaisesRegex(updater.UpdateError, "未找到 beta Emulator 37.2.10"):
+            updater.validate_emulator_repository(releases, older_repository_xml)
+
     def test_download_validation_rejects_untrusted_host(self) -> None:
         download = updater.Download(
             platform="Linux",

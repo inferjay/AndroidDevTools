@@ -567,6 +567,10 @@ def _version_from_emulator_name(name: str) -> str:
     return match.group(0)
 
 
+def _version_key(version: str) -> tuple[int, ...]:
+    return tuple(int(part) for part in version.split("."))
+
+
 def validate_emulator_repository(releases: Sequence[Release], xml_text: str) -> list[dict[str, str]]:
     packages = parse_repository_emulator(xml_text)
     checks: list[dict[str, str]] = []
@@ -580,6 +584,26 @@ def validate_emulator_repository(releases: Sequence[Release], xml_text: str) -> 
             None,
         )
         if package is None:
+            newer_packages = [
+                item
+                for item in packages
+                if item["channel"] == channel_ref
+                and _version_key(str(item["revision"])) > _version_key(version)
+            ]
+            if newer_packages:
+                repository_version = max(
+                    (str(item["revision"]) for item in newer_packages),
+                    key=_version_key,
+                )
+                checks.append(
+                    {
+                        "channel": channel,
+                        "version": version,
+                        "status": "repository-newer",
+                        "repository_version": repository_version,
+                    }
+                )
+                continue
             raise UpdateError(f"Repository XML 未找到 {channel} Emulator {version} 的交叉校验包")
         archives = package["archives"]
         assert isinstance(archives, dict)
