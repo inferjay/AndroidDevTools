@@ -4,9 +4,12 @@
 from __future__ import annotations
 
 import sys
+import datetime as dt
+from dataclasses import replace
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,7 +68,9 @@ class UpdateAndroidDownloadsTests(unittest.TestCase):
             1,
         )
 
-        checks = updater.validate_emulator_repository(releases, newer_repository_xml)
+        checks = updater.validate_emulator_repository(
+            releases, newer_repository_xml, today=dt.date(2026, 9, 18),
+        )
 
         self.assertEqual(
             [
@@ -75,10 +80,50 @@ class UpdateAndroidDownloadsTests(unittest.TestCase):
                     "version": "37.2.10",
                     "status": "repository-newer",
                     "repository_version": "37.2.11",
+                    "archive_release_date": "2026-09-17",
+                    "checked_date_utc": "2026-09-18",
+                    "archive_age_days": 1,
+                    "warning_threshold_days": 7,
+                    "staleness_basis": "archive-age-proxy-not-observed-mismatch-duration",
                 },
             ],
             checks,
         )
+
+    def test_repository_newer_staleness_boundary_and_future_date(self) -> None:
+        releases, _ = updater.parse_releases(self.emulator_frame, "Android Emulator")
+        newer_xml = self.repository_xml.replace("<micro>10</micro>", "<micro>11</micro>")
+        for age in (-1, 0, 6, 7, 14):
+            with self.subTest(age=age):
+                checks = updater.validate_emulator_repository(
+                    releases, newer_xml,
+                    today=dt.date(2026, 9, 17) + dt.timedelta(days=age),
+                )
+                beta = checks[1]
+                self.assertEqual("repository-newer", beta["status"])
+                self.assertEqual(age, beta["archive_age_days"])
+                self.assertEqual(age >= 7, "warning" in beta)
+                self.assertNotIn("warning", checks[0])
+                if age >= 7:
+                    self.assertIn("not confirmed mismatch duration", beta["warning"])
+
+    def test_old_matched_release_has_no_staleness_warning(self) -> None:
+        releases, _ = updater.parse_releases(self.emulator_frame, "Android Emulator")
+        checks = updater.validate_emulator_repository(
+            releases, self.repository_xml, today=dt.date(2027, 1, 1),
+        )
+        self.assertTrue(all(check["status"] == "matched" for check in checks))
+        self.assertTrue(all("warning" not in check for check in checks))
+
+    def test_fresh_archive_rollover_clears_warning(self) -> None:
+        releases, _ = updater.parse_releases(self.emulator_frame, "Android Emulator")
+        newer_xml = self.repository_xml.replace("<micro>10</micro>", "<micro>11</micro>")
+        releases = [replace(r, date_iso="2026-10-01") if r.channel == "beta" else r for r in releases]
+        checks = updater.validate_emulator_repository(
+            releases, newer_xml, today=dt.date(2026, 10, 1),
+        )
+        self.assertEqual("repository-newer", checks[1]["status"])
+        self.assertNotIn("warning", checks[1])
 
     def test_repository_older_beta_rollout_still_fails_closed(self) -> None:
         releases, _ = updater.parse_releases(self.emulator_frame, "Android Emulator")
@@ -200,6 +245,20 @@ class UpdateAndroidDownloadsTests(unittest.TestCase):
             self.assertEqual(list(updater.TARGET_FILES), first["changed_files"])
             self.assertFalse(second["changed"])
             self.assertFalse(third["changed"])
+            self.assertEqual(snapshot, {name: (site_dir / name).read_bytes() for name in updater.TARGET_FILES})
+
+            # A stale warning must survive a no-change write without touching pages.
+            sources = updater.load_sources(True, ROOT / "scripts" / "update_android_downloads.py")
+            newer_xml = sources[2].replace("<micro>10</micro>", "<micro>11</micro>")
+            validate = updater.validate_emulator_repository
+            with patch.object(updater, "load_sources", return_value=(sources[0], sources[1], newer_xml, sources[3])), patch.object(
+                updater, "validate_emulator_repository",
+                side_effect=lambda releases, xml: validate(releases, xml, today=dt.date(2026, 10, 1)),
+            ):
+                stale = updater.run_update(site_dir, "write", True, ROOT / "scripts" / "update_android_downloads.py")
+            self.assertFalse(stale["changed"])
+            self.assertEqual("repository-newer", stale["repository_cross_validation"][1]["status"])
+            self.assertIn("warning", stale["repository_cross_validation"][1])
             self.assertEqual(snapshot, {name: (site_dir / name).read_bytes() for name in updater.TARGET_FILES})
 
 
