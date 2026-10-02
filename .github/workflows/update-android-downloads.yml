@@ -43,6 +43,21 @@ jobs:
           --mode write
           --report-json update-report.json
 
+      - name: Report cross-validation (including no-change runs)
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          report = json.loads(Path("update-report.json").read_text())
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as summary:
+              for check in report["repository_cross_validation"]:
+                  if "warning" in check:
+                      summary.write(f"**WARNING:** {check['warning']}\n\n")
+              summary.write("```json\n" + json.dumps(report, ensure_ascii=False, indent=2) + "\n```\n")
+          PY
+
       - name: Fail if the update escaped its allowlist
         working-directory: site
         shell: bash
@@ -70,8 +85,6 @@ jobs:
             echo "Refusing an unusually large generated diff: $changed_lines lines" >&2
             exit 1
           fi
-
-          cat ../update-report.json >> "$GITHUB_STEP_SUMMARY"
 
       - name: Create or update the review PR
         working-directory: site

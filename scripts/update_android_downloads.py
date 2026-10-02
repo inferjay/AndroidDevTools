@@ -59,6 +59,8 @@ MARKERS = {
 }
 MIN_COUNT_RATIO = 0.8
 MAX_DIFF_LINES = 2000
+# Archive age is a stateless staleness proxy, not observed mismatch duration.
+REPOSITORY_NEWER_WARNING_DAYS = 7
 USER_AGENT = "AndroidDevTools-download-updater/1.0 (+https://github.com/inferjay/AndroidDevTools)"
 DATE_RE = re.compile(
     r"\b(?:January|February|March|April|May|June|July|August|September|October|November|December|"
@@ -571,9 +573,12 @@ def _version_key(version: str) -> tuple[int, ...]:
     return tuple(int(part) for part in version.split("."))
 
 
-def validate_emulator_repository(releases: Sequence[Release], xml_text: str) -> list[dict[str, str]]:
+def validate_emulator_repository(
+    releases: Sequence[Release], xml_text: str, *, today: dt.date | None = None,
+) -> list[dict[str, object]]:
     packages = parse_repository_emulator(xml_text)
-    checks: list[dict[str, str]] = []
+    today = today if today is not None else dt.datetime.now(dt.timezone.utc).date()
+    checks: list[dict[str, object]] = []
     for channel, channel_ref in (("stable", "channel-0"), ("beta", "channel-1")):
         candidate = next((release for release in releases if release.channel == channel), None)
         if candidate is None:
@@ -595,14 +600,27 @@ def validate_emulator_repository(releases: Sequence[Release], xml_text: str) -> 
                     (str(item["revision"]) for item in newer_packages),
                     key=_version_key,
                 )
-                checks.append(
-                    {
-                        "channel": channel,
-                        "version": version,
-                        "status": "repository-newer",
-                        "repository_version": repository_version,
-                    }
-                )
+                archive_age_days = (today - dt.date.fromisoformat(candidate.date_iso)).days
+                check: dict[str, object] = {
+                    "channel": channel,
+                    "version": version,
+                    "status": "repository-newer",
+                    "repository_version": repository_version,
+                    "archive_release_date": candidate.date_iso,
+                    "checked_date_utc": today.isoformat(),
+                    "archive_age_days": archive_age_days,
+                    "warning_threshold_days": REPOSITORY_NEWER_WARNING_DAYS,
+                    "staleness_basis": "archive-age-proxy-not-observed-mismatch-duration",
+                }
+                if archive_age_days >= REPOSITORY_NEWER_WARNING_DAYS:
+                    check["warning"] = (
+                        f"Emulator {channel}: archive {version} (released {candidate.date_iso}, "
+                        f"{archive_age_days} days old) is behind Repository XML {repository_version}. "
+                        f"Archive age reached the {REPOSITORY_NEWER_WARNING_DAYS}-day staleness threshold; "
+                        "investigate upstream archive freshness. This is an archive-age proxy, "
+                        "not confirmed mismatch duration. repository-newer remains non-blocking."
+                    )
+                checks.append(check)
                 continue
             raise UpdateError(f"Repository XML 未找到 {channel} Emulator {version} 的交叉校验包")
         archives = package["archives"]
