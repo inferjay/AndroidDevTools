@@ -28,6 +28,38 @@ class UpdateAndroidDownloadsTests(unittest.TestCase):
         cls.emulator_frame = (FIXTURES / "emulator-frame.html").read_text(encoding="utf-8")
         cls.repository_xml = (FIXTURES / "repository2.xml").read_text(encoding="utf-8")
 
+    @staticmethod
+    def _repository_package(release: updater.Release, channel: str) -> str:
+        major, minor, micro = updater._release_version(release)
+        archives = "".join(
+            f"<archive><complete><url>{download.filename}</url>"
+            f"<size>{download.size.split()[0]}</size></complete></archive>"
+            for download in release.downloads
+        )
+        return (
+            '<remotePackage path="emulator"><revision>'
+            f"<major>{major}</major><minor>{minor}</minor><micro>{micro}</micro>"
+            f'</revision><channelRef ref="{channel}"/><archives>{archives}</archives>'
+            '</remotePackage>'
+        )
+
+    def _supersession_sources(self) -> tuple[list[updater.Release], str]:
+        # Model the 2026-10-02 failure: stable 37.2.12, archived beta 37.2.11,
+        # and no dedicated beta in XML. Reuse valid fixture download metadata.
+        releases, _ = updater.parse_releases(self.emulator_frame, "Android Emulator")
+        stable = replace(
+            next(r for r in releases if r.channel == "stable"),
+            name="Android Emulator (37.2.12) Stable",
+            date_display="October 1, 2026", date_iso="2026-10-01",
+        )
+        beta = replace(
+            next(r for r in releases if r.channel == "beta"),
+            name="Android Emulator (37.2.11) Beta",
+            date_display="October 1, 2026", date_iso="2026-10-01",
+        )
+        xml = '<sdk-repository>' + self._repository_package(stable, "channel-0") + '</sdk-repository>'
+        return [stable, beta, *releases], xml
+
     def test_studio_fixture_parses_expected_count_and_latest_release(self) -> None:
         releases, duplicates = updater.parse_releases(self.studio_frame, "Android Studio")
 
@@ -137,6 +169,93 @@ class UpdateAndroidDownloadsTests(unittest.TestCase):
 
         with self.assertRaisesRegex(updater.UpdateError, "未找到 beta Emulator 37.2.10"):
             updater.validate_emulator_repository(releases, older_repository_xml)
+
+    def test_absent_beta_is_reported_as_superseded_by_matched_stable(self) -> None:
+        releases, xml = self._supersession_sources()
+
+        checks = updater.validate_emulator_repository(releases, xml, today=dt.date(2027, 1, 1))
+
+        self.assertEqual({"channel": "stable", "version": "37.2.12", "status": "matched"}, checks[0])
+        beta = checks[1]
+        self.assertEqual("37.2.11", beta["version"])
+        self.assertEqual("beta-superseded-by-stable", beta["status"])
+        self.assertEqual("stable", beta["repository_channel"])
+        self.assertEqual("37.2.12", beta["repository_version"])
+        self.assertEqual("2026-10-01", beta["archive_release_date"])
+        self.assertEqual("2026-10-01", beta["archive_stable_release_date"])
+        self.assertIn("metadata was not matched", beta["warning"])
+        self.assertIn("not archive-newer rollout-lag tolerance", beta["warning"])
+
+    def test_supersession_requires_independently_matched_newer_stable(self) -> None:
+        releases, xml = self._supersession_sources()
+        stable, beta = releases[:2]
+        cases = {
+            "stable older than beta": ([stable, replace(beta, name="Android Emulator (37.2.13) Beta")], xml),
+            "same version": ([stable, replace(beta, name="Android Emulator (37.2.12) Beta")], xml),
+            "beta published later": ([stable, replace(beta, date_iso="2026-10-02")], xml),
+            "stable absent from archive": ([beta], xml),
+            "stable only repository-newer": (releases, xml.replace("<micro>12</micro>", "<micro>13</micro>")),
+            "only higher channel available": (releases, xml.replace('ref="channel-0"', 'ref="channel-2"')),
+        }
+        for case, (candidates, repository) in cases.items():
+            with self.subTest(case=case), self.assertRaisesRegex(updater.UpdateError, "未找到"):
+                updater.validate_emulator_repository(candidates, repository)
+
+    def test_existing_older_beta_package_does_not_use_stable_fallback(self) -> None:
+        releases, xml = self._supersession_sources()
+        old_beta = next(r for r in releases[2:] if r.channel == "beta")
+        xml = xml.replace('</sdk-repository>', self._repository_package(old_beta, "channel-1") + '</sdk-repository>')
+
+        with self.assertRaisesRegex(updater.UpdateError, "未找到 beta Emulator 37.2.11"):
+            updater.validate_emulator_repository(releases, xml)
+
+    def test_exact_beta_match_and_mismatches_take_priority_over_supersession(self) -> None:
+        releases, xml = self._supersession_sources()
+        beta = releases[1]
+        beta_package = self._repository_package(beta, "channel-1")
+        exact_xml = xml.replace('</sdk-repository>', beta_package + '</sdk-repository>')
+        checks = updater.validate_emulator_repository(releases, exact_xml)
+        self.assertEqual({"channel": "beta", "version": "37.2.11", "status": "matched"}, checks[1])
+        for corrupted_package in (
+            beta_package.replace(beta.downloads[0].filename, "missing.zip"),
+            beta_package.replace(beta.downloads[0].size.split()[0], "1"),
+        ):
+            with self.subTest(package=corrupted_package[:100]), self.assertRaises(updater.UpdateError):
+                updater.validate_emulator_repository(
+                    releases, xml.replace('</sdk-repository>', corrupted_package + '</sdk-repository>'),
+                )
+
+    def test_stable_download_mismatches_still_fail_before_supersession(self) -> None:
+        releases, xml = self._supersession_sources()
+        stable = releases[0]
+        for corrupted_xml in (
+            xml.replace(stable.downloads[0].filename, "missing.zip"),
+            xml.replace(stable.downloads[0].size.split()[0], "1"),
+        ):
+            with self.subTest(xml=corrupted_xml[:100]), self.assertRaises(updater.UpdateError):
+                updater.validate_emulator_repository(releases, corrupted_xml)
+
+    def test_incomplete_beta_entry_is_not_treated_as_absent(self) -> None:
+        releases, xml = self._supersession_sources()
+        beta_package = self._repository_package(releases[1], "channel-1")
+        incomplete_package = beta_package[:beta_package.index('<archives>')] + '</remotePackage>'
+        incomplete_xml = xml.replace('</sdk-repository>', incomplete_package + '</sdk-repository>')
+        for invalid_xml in (incomplete_xml, '<broken', '<sdk-repository/>'):
+            with self.subTest(xml=invalid_xml[:100]), self.assertRaises(updater.UpdateError):
+                updater.validate_emulator_repository(releases, invalid_xml)
+
+    def test_superseded_beta_keeps_archive_download_validation(self) -> None:
+        releases, _ = self._supersession_sources()
+        beta = releases[1]
+        for invalid_download in (
+            replace(beta.downloads[0], url="https://example.invalid/emulator.zip"),
+            replace(beta.downloads[0], checksum=""),
+            replace(beta.downloads[0], size=""),
+        ):
+            invalid_beta = replace(beta, downloads=(invalid_download, *beta.downloads[1:]))
+            frame = updater.render_releases("emulator", [releases[0], invalid_beta])
+            with self.subTest(download=invalid_download), self.assertRaises(updater.UpdateError):
+                updater.parse_releases(frame, "Android Emulator", accept_all_devsite_expandables=True)
 
     def test_download_validation_rejects_untrusted_host(self) -> None:
         download = updater.Download(
@@ -260,6 +379,29 @@ class UpdateAndroidDownloadsTests(unittest.TestCase):
             self.assertEqual("repository-newer", stale["repository_cross_validation"][1]["status"])
             self.assertIn("warning", stale["repository_cross_validation"][1])
             self.assertEqual(snapshot, {name: (site_dir / name).read_bytes() for name in updater.TARGET_FILES})
+
+            # Supersession must allow a real page update and still report on a
+            # subsequent no-change run, without altering the write allowlist.
+            releases, xml = self._supersession_sources()
+            frame = updater.render_releases("emulator", releases).replace(
+                '<devsite-expandable ', '<devsite-expandable class="expandable" ',
+            )
+            with patch.object(updater, "load_sources", return_value=(sources[0], frame, xml, sources[3])):
+                promoted = updater.run_update(site_dir, "write", True, ROOT / "scripts" / "update_android_downloads.py")
+                promoted_snapshot = {name: (site_dir / name).read_bytes() for name in updater.TARGET_FILES}
+                no_change = updater.run_update(site_dir, "write", True, ROOT / "scripts" / "update_android_downloads.py")
+            self.assertEqual(["android-emulator.html", "index.html"], promoted["changed_files"])
+            self.assertFalse(no_change["changed"])
+            self.assertEqual("beta-superseded-by-stable", no_change["repository_cross_validation"][1]["status"])
+            self.assertIn("warning", no_change["repository_cross_validation"][1])
+            self.assertEqual(promoted_snapshot, {name: (site_dir / name).read_bytes() for name in updater.TARGET_FILES})
+
+            # A validation failure in write mode must not partially write pages.
+            invalid_xml = xml.replace(releases[0].downloads[0].size.split()[0], "1")
+            with patch.object(updater, "load_sources", return_value=(sources[0], frame, invalid_xml, sources[3])):
+                with self.assertRaises(updater.UpdateError):
+                    updater.run_update(site_dir, "write", True, ROOT / "scripts" / "update_android_downloads.py")
+            self.assertEqual(promoted_snapshot, {name: (site_dir / name).read_bytes() for name in updater.TARGET_FILES})
 
 
 if __name__ == "__main__":

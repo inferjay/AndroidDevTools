@@ -555,8 +555,10 @@ def parse_repository_emulator(xml_text: str) -> list[dict[str, object]]:
                 archives[Path(url_element.text.strip()).name] = int(size_element.text.strip())
             except ValueError as exc:
                 raise UpdateError(f"Repository XML 的 emulator size 不是整数: {size_element.text!r}") from exc
-        if revision and channel and archives:
-            packages.append({"revision": revision, "channel": channel, "archives": archives})
+        if not revision or not channel or not archives:
+            # An incomplete beta entry must not look like an absent channel.
+            raise UpdateError("Repository XML 的 emulator 包缺少版本、渠道或下载信息")
+        packages.append({"revision": revision, "channel": channel, "archives": archives})
     if not packages:
         raise UpdateError("Repository XML 中没有找到 emulator 包")
     return packages
@@ -579,6 +581,7 @@ def validate_emulator_repository(
     packages = parse_repository_emulator(xml_text)
     today = today if today is not None else dt.datetime.now(dt.timezone.utc).date()
     checks: list[dict[str, object]] = []
+    matched_stable: Release | None = None
     for channel, channel_ref in (("stable", "channel-0"), ("beta", "channel-1")):
         candidate = next((release for release in releases if release.channel == channel), None)
         if candidate is None:
@@ -622,6 +625,36 @@ def validate_emulator_repository(
                     )
                 checks.append(check)
                 continue
+            # SDK channels are cumulative: beta also includes stable packages.
+            # https://developer.android.com/tools/sdkmanager#options
+            # A newer, independently matched stable can supersede an archived
+            # beta after the dedicated beta package disappears from the feed.
+            # Do not use this for an older/present beta or an unverified stable.
+            if (
+                channel == "beta"
+                and not any(item["channel"] == channel_ref for item in packages)
+                and matched_stable is not None
+                and _release_version(matched_stable) > _version_key(version)
+                and matched_stable.date_iso >= candidate.date_iso
+            ):
+                stable_version = _version_from_emulator_name(matched_stable.name)
+                checks.append({
+                    "channel": channel,
+                    "version": version,
+                    "status": "beta-superseded-by-stable",
+                    "repository_channel": "stable",
+                    "repository_version": stable_version,
+                    "archive_release_date": candidate.date_iso,
+                    "archive_stable_release_date": matched_stable.date_iso,
+                    "warning": (
+                        f"Emulator beta {version}: Repository XML has no dedicated beta package; "
+                        f"newer stable {stable_version} was matched by filename and size. "
+                        "The historical beta is retained from the official archive, but its "
+                        "download metadata was not matched against Repository XML. "
+                        "This is channel supersession, not archive-newer rollout-lag tolerance."
+                    ),
+                })
+                continue
             raise UpdateError(f"Repository XML 未找到 {channel} Emulator {version} 的交叉校验包")
         archives = package["archives"]
         assert isinstance(archives, dict)
@@ -635,6 +668,8 @@ def validate_emulator_repository(
                     f"({download.size} != {archives[download.filename]})"
                 )
         checks.append({"channel": channel, "version": version, "status": "matched"})
+        if channel == "stable":
+            matched_stable = candidate
     if not checks:
         raise UpdateError("Emulator frame 没有可用于 Repository XML 交叉校验的 Stable/Beta 条目")
     return checks
