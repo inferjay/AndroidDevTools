@@ -3,8 +3,15 @@ name: Update Android downloads
 on:
   workflow_dispatch:
   schedule:
-    # 08:20 Asia/Shanghai (00:20 UTC), intentionally away from the hour.
-    - cron: "20 0 * * *"
+    # Best-effort checks at 08:20, 10:20 and 12:20 Asia/Shanghai (UTC+8).
+    # Keep 00:20 UTC; add two narrow catch-up opportunities after persistent
+    # 4-6 hour schedule delays. Each attempt uses the same guarded update/PR path.
+    # Do not skip later attempts after success: upstream may change meanwhile.
+    # GitHub may delay or drop ALL slots; this is not a freshness deadline.
+    # If a deadline is required, an external timer can call the existing
+    # workflow_dispatch on master, then monitor completion and retry failures.
+    # That bypasses schedule delivery, but runner availability is still best-effort.
+    - cron: "20 0,2,4 * * *"
 
 concurrency:
   group: update-android-downloads
