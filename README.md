@@ -1098,11 +1098,13 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 | Pngcrush         |                  | [下载][Pngcrush]            |                 |
 | ImageOptim       |                  | [下载][ImageOptim]             |                 |
 | Tinypng          |                  | [下载][tinypng]             |                 |
+| Practical Web Tools | 1,400+ free browser tools (PDF, converters, calculators), all client-side | [下载][practicalwebtools] |                 |
 
 [OptiPNG]:http://optipng.sourceforge.net/
 [Pngcrush]:http://pmt.sourceforge.net/pngcrush/
 [ImageOptim]:https://imageoptim.com)
 [tinypng]:https://tinypng.com/
+[practicalwebtools]:https://practicalwebtools.com/
 	
 #### 资源清理工具
 
