@@ -113,7 +113,7 @@ class UpdateAndroidDownloadsTests(unittest.TestCase):
         # A date correction on the same revision is not a binary downgrade.
         corrected = replace(high, date_iso="2026-10-05")
         updater._validate_transition(old, [corrected, low, stable], "Android Emulator")
-        advanced_canary = replace(high, name="Android Emulator (37.3.10) Canary", date_iso="2026-10-05")
+        advanced_canary = replace(high, name="Android Emulator (37.3.10) Canary", date_iso="2026-10-05", date_display="Oct 05, 2026")
         updater._validate_transition(old, [advanced_canary, low, stable], "Android Emulator")
         nine = replace(high, name="Android Emulator (37.3.9) Canary")
         numeric_frame = updater.render_releases("emulator", [nine, advanced_canary])
