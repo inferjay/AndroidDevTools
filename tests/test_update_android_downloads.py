@@ -90,6 +90,69 @@ class UpdateAndroidDownloadsTests(unittest.TestCase):
             checks,
         )
 
+    def test_emulator_numeric_order_preserves_official_dates_and_downloads(self) -> None:
+        frame = (FIXTURES / "emulator-nonmonotonic-frame.html").read_text(encoding="utf-8")
+        releases, _ = updater.parse_releases(frame, "Android Emulator")
+        self.assertEqual(["37.3.3", "37.3.1"], [updater._version_from_emulator_name(r.name) for r in releases])
+        self.assertEqual(["2026-10-06", "2026-10-07"], [r.date_iso for r in releases])
+        self.assertEqual("emulator-linux_x64-16489710.zip", releases[0].downloads[0].filename)
+        self.assertEqual("a0da0fa20903a69ae52ab501f30fc5c768dcce31434cd2f55d52addc1a2c0495", releases[0].downloads[0].checksum)
+        self.assertEqual(4, len(releases[1].downloads))
+
+    def test_emulator_transition_checks_numeric_maximum_per_channel(self) -> None:
+        frame = (FIXTURES / "emulator-nonmonotonic-frame.html").read_text(encoding="utf-8")
+        high, low = updater.parse_releases(frame, "Android Emulator")[0]
+        stable = replace(high, name="Android Emulator (37.2.12) Stable", channel="stable")
+        # Unsorted old pages and a newer publication date cannot mask rollback.
+        old = [low, high, stable]
+        updater._validate_transition(old, [high, low, stable], "Android Emulator")
+        advanced = replace(stable, name="Android Emulator (38.0.0) Stable")
+        for new in ([low, advanced], [advanced], [high, low]):
+            with self.subTest(new=new), self.assertRaises(updater.UpdateError):
+                updater._validate_transition(old, new, "Android Emulator")
+        # A date correction on the same revision is not a binary downgrade.
+        corrected = replace(high, date_iso="2026-10-05")
+        updater._validate_transition(old, [corrected, low, stable], "Android Emulator")
+        advanced_canary = replace(high, name="Android Emulator (37.3.10) Canary", date_iso="2026-10-05")
+        updater._validate_transition(old, [advanced_canary, low, stable], "Android Emulator")
+        nine = replace(high, name="Android Emulator (37.3.9) Canary")
+        numeric_frame = updater.render_releases("emulator", [nine, advanced_canary])
+        ordered, _ = updater.parse_releases(numeric_frame, "Android Emulator", True)
+        self.assertEqual(advanced_canary, ordered[0])
+
+    def test_nonmonotonic_emulator_update_is_idempotent_and_rollback_writes_nothing(self) -> None:
+        sources = updater.load_sources(True, ROOT / "scripts" / "update_android_downloads.py")
+        frame = (FIXTURES / "emulator-nonmonotonic-frame.html").read_text(encoding="utf-8")
+        with tempfile.TemporaryDirectory() as temporary_dir:
+            site = Path(temporary_dir)
+            for filename, marker_names in (
+                ("android-studio.html", ["studio"]),
+                ("android-emulator.html", ["emulator"]),
+                ("index.html", ["studio-summary", "emulator-summary"]),
+            ):
+                parts = []
+                for name in marker_names:
+                    product = "studio" if name.startswith("studio") else "emulator"
+                    releases, _ = updater.parse_releases(sources[0 if product == "studio" else 1], "Android " + ("Studio" if product == "studio" else "Emulator"))
+                    start, end = updater.MARKERS[name]
+                    parts.append(start + "\n" + updater.render_releases(product, releases) + "\n" + end)
+                (site / filename).write_text("\n".join(parts), encoding="utf-8")
+            with patch.object(updater, "load_sources", return_value=(sources[0], frame + sources[1], sources[2], sources[3])):
+                report = updater.run_update(site, "write", True, ROOT / "scripts" / "update_android_downloads.py")
+                snapshot = {name: (site / name).read_bytes() for name in updater.TARGET_FILES}
+                again = updater.run_update(site, "write", True, ROOT / "scripts" / "update_android_downloads.py")
+            self.assertEqual("Android Emulator (37.3.3) Canary", report["emulator"]["latest"])
+            self.assertFalse(again["changed"])
+            for name in ("index.html", "android-emulator.html"):
+                page = snapshot[name].decode()
+                self.assertLess(page.index("37.3.3"), page.index("37.3.1"))
+            low = updater.parse_releases(frame, "Android Emulator")[0][1]
+            rollback_frame = updater.render_releases("emulator", [low]).replace('<devsite-expandable ', '<devsite-expandable class="expandable" ')
+            with patch.object(updater, "load_sources", return_value=(sources[0], rollback_frame + sources[1], sources[2], sources[3])):
+                with self.assertRaises(updater.UpdateError):
+                    updater.run_update(site, "write", True, ROOT / "scripts" / "update_android_downloads.py")
+            self.assertEqual(snapshot, {name: (site / name).read_bytes() for name in updater.TARGET_FILES})
+
     def test_repository_newer_beta_rollout_is_reported_without_failing(self) -> None:
         releases, _ = updater.parse_releases(self.emulator_frame, "Android Emulator")
         newer_repository_xml = self.repository_xml.replace(

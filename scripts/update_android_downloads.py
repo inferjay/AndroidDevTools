@@ -355,6 +355,11 @@ def parse_releases(source: str, kind: str, accept_all_devsite_expandables: bool 
         if previous.fingerprint() != release.fingerprint():
             raise UpdateError(f"{kind} 出现相同版本但下载元数据不同: {release.name} / {release.date_iso}")
         duplicate_count += 1
+    if "Android Emulator" in kind:
+        # Archive insertion dates are not monotonic with Emulator revisions
+        # (37.3.1 was listed after 37.3.3). Keep every validated entry, but
+        # use numeric revision for pages, summaries and channel selection.
+        unique.sort(key=_emulator_order_key, reverse=True)
     return unique, duplicate_count
 
 
@@ -365,6 +370,11 @@ def _release_version(release: Release) -> tuple[int, ...]:
 
 def _release_order_key(release: Release) -> tuple[str, tuple[int, ...], str]:
     return (release.date_iso, _release_version(release), release.name)
+
+
+def _emulator_order_key(release: Release) -> tuple[tuple[int, ...], str, str]:
+    version = _version_from_emulator_name(release.name)
+    return (_version_key(version), release.date_iso, release.name)
 
 
 def _release_id(product: str, release: Release) -> str:
@@ -520,6 +530,15 @@ def _validate_transition(old: Sequence[Release], new: Sequence[Release], kind: s
     minimum = max(1, int(len(old) * MIN_COUNT_RATIO))
     if len(new) < minimum:
         raise UpdateError(f"{kind} 条目数异常下降: 旧 {len(old)}，新 {len(new)}，最低允许 {minimum}")
+    if kind == "Android Emulator":
+        # Compare maxima within each channel, including unsorted legacy pages.
+        # A newer stable/canary must not hide a regression or missing channel.
+        for channel in {release.channel for release in old}:
+            previous = max((r for r in old if r.channel == channel), key=_emulator_order_key)
+            candidates = [r for r in new if r.channel == channel]
+            if not candidates or max(_emulator_order_key(r)[0] for r in candidates) < _emulator_order_key(previous)[0]:
+                raise UpdateError(f"{kind} {channel} 最新版本倒退或缺失: 旧 {previous.name}")
+        return
     if _release_order_key(new[0]) < _release_order_key(old[0]):
         raise UpdateError(f"{kind} 最新版本倒退: 旧 {old[0].name}，新 {new[0].name}")
 
