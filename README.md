@@ -48,7 +48,6 @@
  * [Android资源分析工具](#android资源分析工具)
  * [Android Layout Parser工具](#android-layout-parser工具)
  * [Android Content Provider代码生成工具](#android-content-provider代码生成工具)
- * [Android Fragment Code Generator代码生成工具](#android-fragment-code-generator代码生成工具)
  * [代码生成工具](#代码生成工具)
  * [Android Native开发工具](#android-native开发工具)
  * [Android测试工具](#android测试工具)
@@ -71,7 +70,6 @@
     * [Git](#git-1)
  * [Guides](#guides)
     * [Google Java编程风格指南中文版](#google-java编程风格指南中文版)
-    * [Android Developers 国内镜像站](#android-developers-国内镜像站)
     * [Android Api中文版](#android-api中文版)
     * [Android Proguard混淆配置指南](#android-proguard混淆配置指南)
     * [Gradle插件使用指南中文版](#gradle插件使用指南中文版)
@@ -949,13 +947,6 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 [ContentProviderCodeGenerator]:https://github.com/BoD/android-contentprovider-generator
 
-#### Android Fragment Code Generator代码生成工具
-| 名称                            |      简介       |         下载地址                     |    使用教程      |
-|:-------------------------------|:----------------|:----------------------------------:|:---------------:|
-| Android Fragment Code Generator |                 | [下载][FregmentCodeGenerator] |                 |
-
-[FregmentCodeGenerator]:http://techisfun.github.io/pages/android-fragment-generator/
-
 #### 代码生成工具
 | 名称              |      简介        |         下载地址            |    使用教程      |
 |:-----------------|:-----------------|:--------------------------:|:---------------:|
@@ -1229,10 +1220,6 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 地址0：[http://hawstein.com/posts/google-java-style.html](http://hawstein.com/posts/google-java-style.html)
 
 地址1：[https://github.com/codeset/google-java-styleguide](https://github.com/codeset/google-java-styleguide)
-
-#### Android Developers 国内镜像站
-
-地址: [Android Developers 国内镜像站](http://androiddoc.qiniudn.com/)
 
 #### Android Api中文版
 地址：[http://www.embeddedlinux.org.cn/androidapi/](http://www.embeddedlinux.org.cn/androidapi/)
