@@ -18,6 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
+  checks: read
   contents: write
   pull-requests: write
 
@@ -93,7 +94,8 @@ jobs:
             exit 1
           fi
 
-      - name: Create or update the review PR
+      - name: Create or update the Android downloads PR
+        id: download_pr
         working-directory: site
         env:
           GH_TOKEN: ${{ github.token }}
@@ -108,6 +110,7 @@ jobs:
           git config user.name "androiddevtools-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           branch="automation/android-downloads"
+          base_sha="$(git rev-parse HEAD)"
           git switch -C "$branch"
           git add android-studio.html android-emulator.html index.html
           git commit -m "chore: update Android downloads"
@@ -121,4 +124,28 @@ jobs:
           else
             gh pr create --repo "$GITHUB_REPOSITORY" --base gh-pages --head "$branch" \
               --title "chore: update Android downloads" --body-file "$body_file"
+            pr_number="$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$branch" --base gh-pages --state open --json number --jq '.[0].number')"
           fi
+          if [[ ! "$pr_number" =~ ^[0-9]+$ ]]; then
+            echo "Could not identify the Android downloads PR" >&2
+            exit 1
+          fi
+          {
+            echo "number=$pr_number"
+            echo "head_sha=$(git rev-parse HEAD)"
+            echo "base_sha=$base_sha"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Merge verified Android downloads PR
+        if: github.ref == 'refs/heads/master' && steps.download_pr.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ steps.download_pr.outputs.number }}
+          HEAD_SHA: ${{ steps.download_pr.outputs.head_sha }}
+          BASE_SHA: ${{ steps.download_pr.outputs.base_sha }}
+        run: >-
+          python3 automation/scripts/auto_merge_android_download_pr.py
+          --repo "$GITHUB_REPOSITORY"
+          --pr-number "$PR_NUMBER"
+          --head-sha "$HEAD_SHA"
+          --base-sha "$BASE_SHA"
