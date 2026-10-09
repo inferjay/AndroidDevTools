@@ -110,7 +110,7 @@ def merge_verified_pr(repo: str, number: int, head_sha: str, base_sha: str, *, a
 
     _validate_pr(_get_json(pr_endpoint), _get_json(files_endpoint), repo, head_sha)
     _validate_base_ref(repo, base_sha)
-    if _review_decision(repo, number) not in (None, "APPROVED"):
+    if _review_decision(repo, number) not in (None, "", "APPROVED"):
         raise MergeBlocked("The PR requires review before merging")
     _merge(repo, number, head_sha)
 
