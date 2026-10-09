@@ -82,6 +82,10 @@ class AutoMergeAndroidDownloadPrTests(unittest.TestCase):
         merge.assert_called_once_with(REPO, 123, HEAD)
         sleep.assert_not_called()
 
+    def test_merges_when_no_review_is_required(self) -> None:
+        merge, _ = self.run_gate(review_decision="")
+        merge.assert_called_once_with(REPO, 123, HEAD)
+
     def test_rejects_pr_from_other_author(self) -> None:
         pr = copy.deepcopy(PR)
         pr["user"]["login"] = "another-user"
