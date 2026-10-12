@@ -8,9 +8,12 @@
         return String(value || '').normalize('NFKC').trim().toLowerCase();
     }
 
-    function filterProducts(products, query, platform) {
+    function filterProducts(products, query, platform, recommendedOnly) {
         const terms = normalizeQuery(query).split(/\s+/).filter(Boolean);
         return products.filter(function (product) {
+            if (recommendedOnly && !product.isRecommended) {
+                return false;
+            }
             if (platform && platform !== 'all' && !(product.platforms || []).includes(platform)) {
                 return false;
             }
@@ -160,6 +163,7 @@
         const clearSearch = document.getElementById('software-clear-search');
         const filters = document.getElementById('software-platform-filters');
         const platformButtons = Array.from(filters.querySelectorAll('button[data-platform]'));
+        const recommendedButton = document.getElementById('software-recommended-filter');
         const grid = document.getElementById('software-grid');
         const count = document.getElementById('software-results-count');
         const metadata = document.getElementById('software-catalog-meta');
@@ -171,6 +175,7 @@
         let products = [];
         let matches = [];
         let platform = 'all';
+        let recommendedOnly = false;
         let visibleCount = 0;
         let ready = false;
 
@@ -181,11 +186,16 @@
             });
         }
 
+        function selectRecommended(value) {
+            recommendedOnly = value;
+            recommendedButton.setAttribute('aria-pressed', String(value));
+        }
+
         function renderBatch(reset, focusNewCard) {
             if (reset) {
                 grid.replaceChildren();
                 visibleCount = 0;
-                matches = filterProducts(products, search.value, platform);
+                matches = filterProducts(products, search.value, platform, recommendedOnly);
             }
             const end = Math.min(visibleCount + BATCH_SIZE, matches.length);
             const fragment = document.createDocumentFragment();
@@ -211,6 +221,7 @@
         function resetFilters() {
             search.value = '';
             selectPlatform('all');
+            selectRecommended(false);
             renderBatch(true);
             search.focus();
         }
@@ -266,6 +277,11 @@
                 selectPlatform(button.dataset.platform);
                 renderBatch(true);
             });
+        });
+        recommendedButton.addEventListener('click', function () {
+            if (!ready) return;
+            selectRecommended(!recommendedOnly);
+            renderBatch(true);
         });
         document.getElementById('software-reset-filters').addEventListener('click', resetFilters);
         document.getElementById('software-retry').addEventListener('click', loadCatalog);

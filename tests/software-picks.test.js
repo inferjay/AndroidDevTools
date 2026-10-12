@@ -48,6 +48,18 @@ test('search and platform filters work together across the whole catalog', () =>
   assert.ok(filterProducts(catalog.products, last.name, 'all').includes(last));
 });
 
+test('recommended software can be filtered together with platform and search', () => {
+  const recommended = filterProducts(catalog.products, '', 'all', true);
+  assert.equal(recommended.length, 17);
+  assert.ok(recommended.every((product) => product.isRecommended));
+  const typora = catalog.products.find((product) => product.id === 'typora');
+  assert.ok(recommended.includes(typora));
+  assert.deepEqual(filterProducts(catalog.products, 'typora', 'Windows', true), [typora]);
+  assert.equal(filterProducts(catalog.products, 'downie', 'Windows', true).length, 0);
+  assert.equal(filterProducts(catalog.products, 'fences', 'Windows', true).length, 0);
+  assert.equal(filterProducts(catalog.products, '', 'all', false).length, catalog.total);
+});
+
 test('prices are rendered from integer cents without rounding fractional yuan', () => {
   assert.equal(formatPrice(4900), '49');
   assert.equal(formatPrice(1299), '12.99');

@@ -25,7 +25,7 @@
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         })(window, document, "clarity", "script", "loubr3mr3c");
     </script>
-    <script defer src="static/js/software-picks.js?v=20261012-2"></script>
+    <script defer src="static/js/software-picks.js?v=20261012-3"></script>
 </head>
 
 <body class="software-picks-page">
@@ -207,8 +207,9 @@
                     </div>
                 </div>
                 <fieldset id="software-platform-filters" class="software-platform-filters" disabled>
-                    <legend>按使用平台筛选</legend>
+                    <legend>按推荐与平台筛选</legend>
                     <button type="button" class="software-platform-button" data-platform="all" aria-pressed="true" aria-controls="software-grid">全部平台</button>
+                    <button type="button" id="software-recommended-filter" class="software-platform-button" aria-pressed="false" aria-controls="software-grid">推荐</button>
                     <button type="button" class="software-platform-button" data-platform="Windows" aria-pressed="false" aria-controls="software-grid">Windows</button>
                     <button type="button" class="software-platform-button" data-platform="macOS" aria-pressed="false" aria-controls="software-grid">macOS</button>
                     <button type="button" class="software-platform-button" data-platform="iOS" aria-pressed="false" aria-controls="software-grid">iOS</button>
@@ -232,7 +233,7 @@
             </div>
             <div id="software-empty-state" class="software-state" hidden>
                 <h2>没有找到符合条件的软件</h2>
-                <p>换一个关键词，或查看全部平台的软件。</p>
+                <p>换一个关键词，或清除筛选查看全部软件。</p>
                 <button type="button" id="software-reset-filters" class="software-button">清除筛选</button>
             </div>
             <ul id="software-grid" class="software-grid" aria-label="软件列表" hidden></ul>
