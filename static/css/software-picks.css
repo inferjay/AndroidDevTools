@@ -395,19 +395,19 @@
   justify-content: center;
   min-height: 44px;
   padding: 9px 14px;
-  border: 1px solid #cce0d0;
+  border: 1px solid #4caf50;
   border-radius: 6px;
-  color: #237c3d;
-  background: #f6fbf7;
+  color: #fff;
+  background: #4caf50;
   font-size: 13px;
   font-weight: 600;
   line-height: 1.4;
 }
 
 .software-card__action:hover {
-  border-color: #20813f;
+  border-color: #0e9e13;
   color: #fff;
-  background: #20813f;
+  background: #0e9e13;
   text-decoration: none;
 }
 
