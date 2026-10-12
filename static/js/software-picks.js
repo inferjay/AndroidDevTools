@@ -71,7 +71,9 @@
 
     function createProductLink(document, product, className) {
         const link = createElement(document, 'a', className);
-        link.href = product.url;
+        const url = new URL(product.url);
+        url.searchParams.set('cid', 'rmzbxelm');
+        link.href = url.href;
         link.target = '_blank';
         link.rel = 'noopener sponsored';
         return link;

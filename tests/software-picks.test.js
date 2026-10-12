@@ -22,7 +22,7 @@ test('catalog contains the complete current promotion snapshot without duplicate
     const link = new URL(product.url);
     assert.equal(link.origin, 'https://lizhi.shop');
     assert.ok(link.pathname.startsWith('/products/') || link.pathname.startsWith('/site/products/id/'), product.id);
-    assert.ok(link.searchParams.get('cid'), product.id);
+    assert.deepEqual(link.searchParams.getAll('cid'), ['rmzbxelm'], product.id);
     assert.ok(product.icon.startsWith('https://shop-cdn.lizhi.shop/'), product.id);
     if (product.promotionImage) {
       assert.ok(product.promotionImage.startsWith('https://union.lizhi.shop/uploads/images/'), product.id);
