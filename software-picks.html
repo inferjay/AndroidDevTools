@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="static/css/google-roboto-font-face.css">
     <link rel="stylesheet" href="static/css/backtotop.css">
     <link rel="stylesheet" href="https://cdn.staticfile.net/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="static/css/software-picks.css?v=20261012-6">
+    <link rel="stylesheet" href="static/css/software-picks.css?v=20261012-7">
     <script defer data-domain="androiddevtools.cn" src="https://plausible.io/js/script.hash.outbound-links.js"></script>
     <script type="text/javascript">
         (function(c,l,a,r,i,t,y){
@@ -25,7 +25,7 @@
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         })(window, document, "clarity", "script", "loubr3mr3c");
     </script>
-    <script defer src="static/js/software-picks.js?v=20261012-4"></script>
+    <script defer src="static/js/software-picks.js?v=20261012-5"></script>
 </head>
 
 <body class="software-picks-page">
@@ -219,10 +219,18 @@
                         <button type="button" class="software-platform-button" data-platform="Web" aria-pressed="false" aria-controls="software-grid">Web</button>
                     </fieldset>
                     <div class="software-category-filter">
-                        <label for="software-category-filter">按软件分类筛选</label>
-                        <select id="software-category-filter" class="software-category-select" aria-controls="software-grid" disabled>
-                            <option value="all">全部分类</option>
-                        </select>
+                        <label id="software-category-label" for="software-category-filter">按软件分类筛选</label>
+                        <div id="software-category-picker" class="software-category-picker">
+                            <button type="button" id="software-category-filter" class="software-category-trigger" role="combobox"
+                                    aria-labelledby="software-category-label" aria-haspopup="listbox"
+                                    aria-controls="software-category-options" aria-expanded="false" disabled>
+                                <span id="software-category-value">全部分类</span>
+                                <svg class="software-category-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false">
+                                    <path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <ul id="software-category-options" class="software-category-options" role="listbox" aria-labelledby="software-category-label" hidden></ul>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -174,6 +174,9 @@
         const platformButtons = Array.from(filters.querySelectorAll('button[data-platform]'));
         const recommendedButton = document.getElementById('software-recommended-filter');
         const categoryFilter = document.getElementById('software-category-filter');
+        const categoryPicker = document.getElementById('software-category-picker');
+        const categoryList = document.getElementById('software-category-options');
+        const categoryValue = document.getElementById('software-category-value');
         const grid = document.getElementById('software-grid');
         const count = document.getElementById('software-results-count');
         const metadata = document.getElementById('software-catalog-meta');
@@ -186,6 +189,11 @@
         let matches = [];
         let platform = 'all';
         let recommendedOnly = false;
+        let category = 'all';
+        let categoryOptions = [];
+        let activeCategoryIndex = -1;
+        let categorySearch = '';
+        let categorySearchTime = 0;
         let visibleCount = 0;
         let ready = false;
 
@@ -201,11 +209,73 @@
             recommendedButton.setAttribute('aria-pressed', String(value));
         }
 
+        function closeCategoryPicker() {
+            categoryList.hidden = true;
+            categoryFilter.setAttribute('aria-expanded', 'false');
+            categoryFilter.removeAttribute('aria-activedescendant');
+            categoryOptions.forEach(function (option) {
+                option.dataset.active = 'false';
+                option.setAttribute('aria-selected', String(option.dataset.category === category));
+            });
+            activeCategoryIndex = -1;
+            categorySearch = '';
+        }
+
+        function selectCategory(value) {
+            category = value;
+            categoryOptions.forEach(function (option) {
+                const current = option.dataset.category === value;
+                option.dataset.current = String(current);
+                option.setAttribute('aria-selected', String(current));
+                if (current) categoryValue.textContent = option.textContent;
+            });
+            closeCategoryPicker();
+        }
+
+        function activateCategory(index) {
+            activeCategoryIndex = Math.max(0, Math.min(index, categoryOptions.length - 1));
+            categoryOptions.forEach(function (option, optionIndex) {
+                const active = optionIndex === activeCategoryIndex;
+                option.dataset.active = String(active);
+                option.setAttribute('aria-selected', String(active));
+            });
+            const activeOption = categoryOptions[activeCategoryIndex];
+            categoryFilter.setAttribute('aria-activedescendant', activeOption.id);
+            activeOption.scrollIntoView({ block: 'nearest' });
+        }
+
+        function openCategoryPicker() {
+            if (!ready || !categoryList.hidden) return;
+            categoryFilter.focus({ preventScroll: true });
+            const rect = categoryFilter.getBoundingClientRect();
+            const navbar = document.querySelector('.navbar');
+            const topInset = navbar ? Math.max(12, navbar.getBoundingClientRect().bottom + 12) : 12;
+            const below = window.innerHeight - rect.bottom - 16;
+            const above = rect.top - topInset - 8;
+            const openAbove = below < 320 && above > below;
+            categoryList.dataset.placement = openAbove ? 'above' : 'below';
+            categoryList.style.maxHeight = Math.min(480, Math.max(0, openAbove ? above : below)) + 'px';
+            categoryList.hidden = false;
+            categoryFilter.setAttribute('aria-expanded', 'true');
+            activateCategory(categoryOptions.findIndex(function (option) {
+                return option.dataset.category === category;
+            }));
+        }
+
+        function chooseCategory(index, focusTrigger) {
+            if (!ready || !categoryOptions[index]) return;
+            const value = categoryOptions[index].dataset.category;
+            const changed = category !== value;
+            selectCategory(value);
+            if (changed) renderBatch(true);
+            if (focusTrigger) categoryFilter.focus({ preventScroll: true });
+        }
+
         function renderBatch(reset, focusNewCard) {
             if (reset) {
                 grid.replaceChildren();
                 visibleCount = 0;
-                matches = filterProducts(products, search.value, platform, recommendedOnly, categoryFilter.value);
+                matches = filterProducts(products, search.value, platform, recommendedOnly, category);
             }
             const end = Math.min(visibleCount + BATCH_SIZE, matches.length);
             const fragment = document.createDocumentFragment();
@@ -232,13 +302,14 @@
             search.value = '';
             selectPlatform('all');
             selectRecommended(false);
-            categoryFilter.value = 'all';
+            selectCategory('all');
             renderBatch(true);
             search.focus();
         }
 
         async function loadCatalog() {
             ready = false;
+            closeCategoryPicker();
             root.setAttribute('aria-busy', 'true');
             search.disabled = true;
             filters.disabled = true;
@@ -262,20 +333,27 @@
                         return product.platforms.includes(button.dataset.platform);
                     });
                 });
-                const selectedCategory = categoryFilter.value;
-                const allCategories = createElement(document, 'option', null, '全部分类');
-                allCategories.value = 'all';
-                const categoryOptions = [allCategories];
-                CATEGORIES.forEach(function (category) {
-                    if (!products.some(function (product) { return product.categories.includes(category); })) return;
-                    const option = createElement(document, 'option', null, category);
-                    option.value = category;
-                    categoryOptions.push(option);
+                const availableCategories = ['all'].concat(CATEGORIES.filter(function (value) {
+                    return products.some(function (product) { return product.categories.includes(value); });
+                }));
+                categoryOptions = availableCategories.map(function (value, index) {
+                    const option = createElement(document, 'li', 'software-category-option', value === 'all' ? '全部分类' : value);
+                    option.id = 'software-category-option-' + index;
+                    option.dataset.category = value;
+                    option.setAttribute('role', 'option');
+                    const check = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                    check.setAttribute('class', 'software-category-option__check');
+                    check.setAttribute('viewBox', '0 0 16 16');
+                    check.setAttribute('aria-hidden', 'true');
+                    check.setAttribute('focusable', 'false');
+                    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                    path.setAttribute('d', 'm3 8 3 3 7-7');
+                    check.append(path);
+                    option.append(check);
+                    return option;
                 });
-                categoryFilter.replaceChildren(...categoryOptions);
-                categoryFilter.value = categoryOptions.some(function (option) {
-                    return option.value === selectedCategory;
-                }) ? selectedCategory : 'all';
+                categoryList.replaceChildren(...categoryOptions);
+                selectCategory(availableCategories.includes(category) ? category : 'all');
                 search.disabled = false;
                 filters.disabled = false;
                 categoryFilter.disabled = false;
@@ -310,9 +388,65 @@
             selectRecommended(!recommendedOnly);
             renderBatch(true);
         });
-        categoryFilter.addEventListener('change', function () {
-            if (ready) renderBatch(true);
+        categoryFilter.addEventListener('click', function () {
+            if (categoryList.hidden) openCategoryPicker();
+            else closeCategoryPicker();
         });
+        categoryList.addEventListener('pointerdown', function (event) { event.preventDefault(); });
+        categoryList.addEventListener('click', function (event) {
+            const option = event.target.closest('[role="option"]');
+            if (option) chooseCategory(categoryOptions.indexOf(option), true);
+        });
+        categoryFilter.addEventListener('keydown', function (event) {
+            if (!ready) return;
+            const open = !categoryList.hidden;
+            if (event.key === 'Escape') {
+                if (open) event.preventDefault();
+                closeCategoryPicker();
+            } else if (event.key === 'Tab') {
+                if (open) chooseCategory(activeCategoryIndex, false);
+            } else if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                if (open) chooseCategory(activeCategoryIndex, true);
+                else openCategoryPicker();
+            } else if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+                event.preventDefault();
+                if (event.altKey && event.key === 'ArrowUp' && open) {
+                    chooseCategory(activeCategoryIndex, true);
+                } else if (!open) {
+                    openCategoryPicker();
+                    if (event.key === 'ArrowUp') activateCategory(0);
+                } else if (!event.altKey) {
+                    activateCategory(activeCategoryIndex + (event.key === 'ArrowDown' ? 1 : -1));
+                }
+            } else if (['Home', 'End', 'PageUp', 'PageDown'].includes(event.key)) {
+                event.preventDefault();
+                openCategoryPicker();
+                if (event.key === 'Home') activateCategory(0);
+                else if (event.key === 'End') activateCategory(categoryOptions.length - 1);
+                else activateCategory(activeCategoryIndex + (event.key === 'PageDown' ? 10 : -10));
+            } else if (event.key.length === 1 && !event.ctrlKey && !event.metaKey && !event.altKey) {
+                event.preventDefault();
+                openCategoryPicker();
+                const now = Date.now();
+                categorySearch = now - categorySearchTime > 800 ? event.key : categorySearch + event.key;
+                categorySearchTime = now;
+                const repeated = Array.from(categorySearch).every(function (letter) { return letter === event.key; });
+                const prefix = normalizeQuery(repeated ? event.key : categorySearch);
+                for (let offset = 1; offset <= categoryOptions.length; offset += 1) {
+                    const index = repeated ? (activeCategoryIndex + offset) % categoryOptions.length : offset - 1;
+                    if (normalizeQuery(categoryOptions[index].textContent).startsWith(prefix)) {
+                        activateCategory(index);
+                        break;
+                    }
+                }
+            }
+        });
+        categoryFilter.addEventListener('blur', closeCategoryPicker);
+        document.addEventListener('click', function (event) {
+            if (!categoryPicker.contains(event.target)) closeCategoryPicker();
+        });
+        window.addEventListener('resize', closeCategoryPicker);
         document.getElementById('software-reset-filters').addEventListener('click', resetFilters);
         document.getElementById('software-retry').addEventListener('click', loadCatalog);
         more.addEventListener('click', function () { renderBatch(false, true); });
