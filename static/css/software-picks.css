@@ -346,8 +346,8 @@
 }
 
 .software-card__platform--recommended {
-  color: #247541;
-  background: #e6f5e9;
+  color: #dc3545;
+  background: #ff480036;
 }
 
 .software-card__footer {
@@ -371,7 +371,7 @@
 }
 
 .software-card__price {
-  color: #237c3d;
+  color: #ea4335;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.25;
