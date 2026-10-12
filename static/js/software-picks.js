@@ -3,18 +3,23 @@
 
     const BATCH_SIZE = 24;
     const PLATFORMS = ['Windows', 'macOS', 'iOS', 'Android', 'Linux', 'Web'];
+    const CATEGORIES = ['文件管理', '文档编辑', '效率日程', '影音媒体', '设计美学', '网络相关',
+        '编程开发', '硬件管理', '系统优化', '安全防护', '学习教育', '生活工具'];
 
     function normalizeQuery(value) {
         return String(value || '').normalize('NFKC').trim().toLowerCase();
     }
 
-    function filterProducts(products, query, platform, recommendedOnly) {
+    function filterProducts(products, query, platform, recommendedOnly, category) {
         const terms = normalizeQuery(query).split(/\s+/).filter(Boolean);
         return products.filter(function (product) {
             if (recommendedOnly && !product.isRecommended) {
                 return false;
             }
             if (platform && platform !== 'all' && !(product.platforms || []).includes(platform)) {
+                return false;
+            }
+            if (category && category !== 'all' && !(product.categories || []).includes(category)) {
                 return false;
             }
             const text = normalizeQuery([product.name, product.fullName, product.description].join(' '));
@@ -52,7 +57,11 @@
                 typeof product.fullName !== 'string' || typeof product.description !== 'string' ||
                 !Array.isArray(product.platforms) || !product.platforms.every(function (platform) {
                     return PLATFORMS.includes(platform);
-                }) || !Number.isInteger(product.price) || product.price < 0 ||
+                }) || !Array.isArray(product.categories) || !product.categories.length ||
+                new Set(product.categories).size !== product.categories.length ||
+                !product.categories.every(function (category) { return CATEGORIES.includes(category); }) ||
+                !['store', 'description'].includes(product.categorySource) ||
+                !Number.isInteger(product.price) || product.price < 0 ||
                 (product.originalPrice !== null &&
                     (!Number.isInteger(product.originalPrice) || product.originalPrice < 0)) ||
                 !isWebUrl(product.url) || !isWebUrl(product.icon) ||
@@ -164,6 +173,7 @@
         const filters = document.getElementById('software-platform-filters');
         const platformButtons = Array.from(filters.querySelectorAll('button[data-platform]'));
         const recommendedButton = document.getElementById('software-recommended-filter');
+        const categoryFilter = document.getElementById('software-category-filter');
         const grid = document.getElementById('software-grid');
         const count = document.getElementById('software-results-count');
         const metadata = document.getElementById('software-catalog-meta');
@@ -195,7 +205,7 @@
             if (reset) {
                 grid.replaceChildren();
                 visibleCount = 0;
-                matches = filterProducts(products, search.value, platform, recommendedOnly);
+                matches = filterProducts(products, search.value, platform, recommendedOnly, categoryFilter.value);
             }
             const end = Math.min(visibleCount + BATCH_SIZE, matches.length);
             const fragment = document.createDocumentFragment();
@@ -222,6 +232,7 @@
             search.value = '';
             selectPlatform('all');
             selectRecommended(false);
+            categoryFilter.value = 'all';
             renderBatch(true);
             search.focus();
         }
@@ -231,6 +242,7 @@
             root.setAttribute('aria-busy', 'true');
             search.disabled = true;
             filters.disabled = true;
+            categoryFilter.disabled = true;
             loading.hidden = false;
             error.hidden = true;
             empty.hidden = true;
@@ -250,8 +262,23 @@
                         return product.platforms.includes(button.dataset.platform);
                     });
                 });
+                const selectedCategory = categoryFilter.value;
+                const allCategories = createElement(document, 'option', null, '全部分类');
+                allCategories.value = 'all';
+                const categoryOptions = [allCategories];
+                CATEGORIES.forEach(function (category) {
+                    if (!products.some(function (product) { return product.categories.includes(category); })) return;
+                    const option = createElement(document, 'option', null, category);
+                    option.value = category;
+                    categoryOptions.push(option);
+                });
+                categoryFilter.replaceChildren(...categoryOptions);
+                categoryFilter.value = categoryOptions.some(function (option) {
+                    return option.value === selectedCategory;
+                }) ? selectedCategory : 'all';
                 search.disabled = false;
                 filters.disabled = false;
+                categoryFilter.disabled = false;
                 ready = true;
                 renderBatch(true);
             } catch (failure) {
@@ -283,13 +310,17 @@
             selectRecommended(!recommendedOnly);
             renderBatch(true);
         });
+        categoryFilter.addEventListener('change', function () {
+            if (ready) renderBatch(true);
+        });
         document.getElementById('software-reset-filters').addEventListener('click', resetFilters);
         document.getElementById('software-retry').addEventListener('click', loadCatalog);
         more.addEventListener('click', function () { renderBatch(false, true); });
         loadCatalog();
     }
 
-    const api = { BATCH_SIZE: BATCH_SIZE, formatPrice: formatPrice, filterProducts: filterProducts, validateCatalog: validateCatalog };
+    const api = { BATCH_SIZE: BATCH_SIZE, CATEGORIES: CATEGORIES, formatPrice: formatPrice,
+        filterProducts: filterProducts, validateCatalog: validateCatalog };
     if (typeof module !== 'undefined' && module.exports) module.exports = api;
     if (typeof document !== 'undefined') initialize(document);
 })();

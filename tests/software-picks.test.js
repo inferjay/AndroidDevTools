@@ -6,7 +6,7 @@ const { test } = require('node:test');
 
 const root = path.resolve(__dirname, '..');
 const read = (file) => fs.readFileSync(path.join(root, file), 'utf8');
-const { BATCH_SIZE, formatPrice, filterProducts, validateCatalog } = require('../static/js/software-picks.js');
+const { BATCH_SIZE, CATEGORIES, formatPrice, filterProducts, validateCatalog } = require('../static/js/software-picks.js');
 const catalog = JSON.parse(read('static/data/software-picks.json'));
 
 test('catalog contains the complete current promotion snapshot without duplicate products', () => {
@@ -31,6 +31,8 @@ test('catalog contains the complete current promotion snapshot without duplicate
   }
   assert.equal(catalog.products.filter((product) => product.promotionImage).length, 62);
   assert.equal(catalog.products.filter((product) => !product.promotionImage).length, 303);
+  assert.equal(catalog.products.filter((product) => product.categorySource === 'store').length, 252);
+  assert.equal(catalog.products.filter((product) => product.categorySource === 'description').length, 113);
 });
 
 test('search and platform filters work together across the whole catalog', () => {
@@ -58,6 +60,21 @@ test('recommended software can be filtered together with platform and search', (
   assert.equal(filterProducts(catalog.products, 'downie', 'Windows', true).length, 0);
   assert.equal(filterProducts(catalog.products, 'fences', 'Windows', true).length, 0);
   assert.equal(filterProducts(catalog.products, '', 'all', false).length, catalog.total);
+});
+
+test('categories support multiple memberships and combine with every other filter', () => {
+  assert.equal(filterProducts(catalog.products, '', 'all', false, 'all').length, catalog.total);
+  for (const category of CATEGORIES) {
+    const products = filterProducts(catalog.products, '', 'all', false, category);
+    assert.ok(products.length > 0, category);
+    assert.ok(products.every((product) => product.categories.includes(category)), category);
+  }
+  const andromeld = catalog.products.find((product) => product.id === 'andromeld');
+  assert.ok(filterProducts(catalog.products, '', 'all', false, '文件管理').includes(andromeld));
+  assert.ok(filterProducts(catalog.products, '', 'all', false, '效率日程').includes(andromeld));
+  const typora = catalog.products.find((product) => product.id === 'typora');
+  assert.deepEqual(filterProducts(catalog.products, 'typora', 'Windows', true, '文档编辑'), [typora]);
+  assert.equal(filterProducts(catalog.products, 'typora', 'Windows', true, '系统优化').length, 0);
 });
 
 test('prices are rendered from integer cents without rounding fractional yuan', () => {

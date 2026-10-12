@@ -17,7 +17,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231207/20231207085203752.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/cxfrudmmbo_7cgr83yqtt_1759980737.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "downie",
@@ -33,7 +37,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20201215/20201215092147813.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202208/m7qgfp34b6_5fbynzhgvu_1660123922.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "app-cleaner-uninstaller",
@@ -49,7 +57,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20221130/20221130053422377.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202605/hu7zwvocbt_gsejhysass_1779180379.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "uninstall-tool",
@@ -65,7 +77,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205113140657.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "iboysoft-ntfs-for-mac",
@@ -81,7 +97,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200812/20200812112515423.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "typora",
@@ -98,7 +118,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20211208/20211208080059590.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202207/2uq7fbsdka_v5njxuoxu7_1658371753.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "andromeld",
@@ -114,7 +138,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260722/20260722033214439.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202607/w5z08oi5ye_3ar1m9byrr_1785220416.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "directory-opus",
@@ -130,7 +159,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240207/20240207111643235.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/hmjkvs61e4_2qkkxwgxaj_1759980692.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "start11",
@@ -146,7 +179,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231110/20231110035659736.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/af7moh40fu_gdh37gdphl_1759981308.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "macs-fan-control-pro",
@@ -162,7 +199,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220721/20220721023207626.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "scherlokk",
@@ -178,7 +219,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240516/20240516093142526.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "pixpin",
@@ -195,7 +240,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240821/20240821080525530.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/wkeufs5lwu_ih6ea7fj29_1759981126.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "axmath",
@@ -211,7 +260,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205110837487.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "internet-download-manager",
@@ -227,7 +280,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205112442385.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202208/wz7by2uun9_wrf2gsk7em_1659597676.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "ttime",
@@ -244,7 +301,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240228/20240228085304359.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "byephotos",
@@ -260,7 +321,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250702/20250702020316766.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/sixbfapbsu_vqkc7doczn_1759980360.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "bandizip-professional",
@@ -276,7 +341,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200326/20200326021332319.png",
       "promotionImage": null,
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "coodesker",
@@ -292,7 +361,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240327/20240327083008709.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202404/w4jav2s1ei_i48tjayldl_1712111086.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "total-uninstall",
@@ -308,7 +381,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240807/20240807043202737.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202605/4xtk8czat3_qwz3dxq0ng_1779180172.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "frame0",
@@ -325,7 +402,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251203/20251203102326209.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202512/1dtynsq3gv_appkkafcvn_1765265580.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程",
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "listary-pro",
@@ -341,7 +423,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220421/20220421093502120.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/ioxy8vflbw_opy1icsmar_1759981020.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "permute",
@@ -357,7 +443,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260601/20260601013457577.png",
       "promotionImage": null,
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程",
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "displayfusion-pro",
@@ -373,7 +464,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220908/20220908093818799.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "xyplorer",
@@ -389,7 +484,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210015553455.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/u1pd1rxafe_mm0bbdbytz_1788772867.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "menubarx-pro",
@@ -405,7 +504,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220519/20220519013604344.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "consul",
@@ -421,7 +524,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260408/20260408024701518.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202604/htwesp812x_4fmqw1hxsl_1776063727.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "groupy",
@@ -437,7 +544,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230519/20230519103623553.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202605/siic7amxto_bwmwvek0ue_1779179835.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "xmind-pro",
@@ -456,7 +567,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230105/20230105112716654.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/e3xrklo0ry_kkvbhabiut_1759981471.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "parallels-desktop",
@@ -472,7 +587,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230822/20230822024756750.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "traystatus-pro",
@@ -488,7 +607,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220908/20220908092729926.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "popclip",
@@ -504,7 +627,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230719/20230719112909696.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/asn6jjesbj_vfr0dtsvnu_1788773241.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "evercraft",
@@ -521,7 +648,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250917/20250917111323232.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "folder-preview-pro",
@@ -537,7 +668,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251022/20251022105123169.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "launchos",
@@ -553,7 +688,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251119/20251119020148101.png",
       "promotionImage": null,
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "goodsync",
@@ -573,7 +712,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200603/20200603100944771.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "process-lasso",
@@ -589,7 +732,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210023253195.png",
       "promotionImage": null,
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "startallback",
@@ -605,7 +752,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20211201/20211201024411626.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "windowtop",
@@ -621,7 +772,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220919/20220919111328601.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "driver-booster",
@@ -637,7 +792,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250212/20250212015335634.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202512/ezlelpinso_ngvvggneoj_1765938927.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "dockside",
@@ -653,7 +812,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260401/20260401094302799.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202604/kabxoc2kzu_lgndsrucmi_1775637773.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "connectify-hotspot",
@@ -669,7 +833,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208042548890.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "careueyes",
@@ -686,7 +854,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20211201/20211201033015831.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/ipu4yjbe6o_0qmldnskqj_1788771889.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "nero-platinum-suite",
@@ -702,7 +874,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241111/20241111112035190.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "manico",
@@ -718,7 +894,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220629/20220629071844155.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "67tool",
@@ -736,7 +916,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230830/20230830070513312.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "bkliverec",
@@ -752,7 +936,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240115/20240115034853826.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "displaybuddy",
@@ -769,7 +957,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240306/20240306091647325.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "updf-ai",
@@ -789,7 +981,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250528/20250528065002355.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "winrar",
@@ -805,7 +1001,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241120/20241120015702697.png",
       "promotionImage": null,
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "baimiao",
@@ -824,7 +1024,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205084243454.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "hazeover",
@@ -840,7 +1044,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210406/20210406111134202.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "renamer-den4b",
@@ -856,7 +1064,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210031313254.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "moment",
@@ -872,7 +1084,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200708/20200708025649882.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "microsoft-365",
@@ -891,7 +1107,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251210/20251210064330244.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/r6x2v4o1wv_hvgwdnz1pb_1788772798.png",
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "emsisoft-anti-malware",
@@ -907,7 +1127,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210803/20210803025319686.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "effie",
@@ -926,7 +1150,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210915/20210915025354442.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "updf",
@@ -945,7 +1173,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250528/20250528065002355.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/0hbcafnusv_oruq4ks23s_1759981346.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "panda-anti-spam",
@@ -961,7 +1193,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20221214/20221214072246472.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "vivid",
@@ -977,7 +1213,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230119/20230119091233313.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "widgetstore",
@@ -998,7 +1238,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231116/20231116091141649.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "picseed",
@@ -1015,7 +1259,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250617/20250617081533849.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "adguard",
@@ -1034,7 +1282,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205010951592.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202209/ikwkzvlrfg_gwx9pentss_1663816050.png",
       "isRecommended": true,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "mfiles",
@@ -1050,7 +1302,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210113/20210113112739350.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "wins",
@@ -1066,7 +1322,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220915/20220915091938159.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "stay-browser",
@@ -1082,7 +1342,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241120/20241120015928210.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "privazer",
@@ -1098,7 +1362,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241204/20241204112525731.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "sensei",
@@ -1114,7 +1382,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250924/20250924100611892.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "marginnote",
@@ -1130,7 +1402,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240903/20240903101721321.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/hysvhenplx_4jlcznss0j_1789478024.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "学习教育"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "wonderpen",
@@ -1150,7 +1426,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231214/20231214095643548.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "parkcontrol",
@@ -1166,7 +1446,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210015946236.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "qspace",
@@ -1182,7 +1466,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220510/20220510054913514.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/vcsmktaibj_a5tmfmhsnq_1759981266.png",
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "文件管理",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "endnote",
@@ -1199,7 +1488,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220824/20220824105440420.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "学习教育"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "dockx-pro",
@@ -1215,7 +1508,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231020/20231020013525412.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "ediary",
@@ -1232,7 +1529,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231027/20231027014548670.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "pdf-expert",
@@ -1249,7 +1550,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231103/20231103095255357.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "boosterx",
@@ -1265,7 +1570,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240619/20240619101243101.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202406/femt9oprlt_ebl9r6uzaw_1719210777.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "disk-space-analyzer",
@@ -1281,7 +1590,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250827/20250827104357352.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "mood-jar",
@@ -1297,7 +1610,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260304/20260304100406827.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "生活工具"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "livegrab",
@@ -1313,7 +1630,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260422/20260422024644929.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202604/ybdy0wsdlc_9yrkrhwf1b_1777342267.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "loginput",
@@ -1329,7 +1650,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220218/20220218095647595.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "cleanshot-x",
@@ -1345,7 +1670,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260108/20260108110943843.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/5vhdvgml1w_cnffhniirh_1759980409.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "shuyoubook",
@@ -1362,7 +1691,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20201202/20201202095703427.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "学习教育"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "movavi-video-editor",
@@ -1379,7 +1712,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230517/20230517081152486.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "chatx",
@@ -1396,7 +1733,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231206/20231206045203502.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "focusee",
@@ -1413,7 +1754,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240306/20240306092149216.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "stay-for-safari",
@@ -1432,7 +1777,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240403/20240403042309466.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "bartender",
@@ -1448,7 +1797,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250918/20250918025222192.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/cfavidpucs_nwapns4man_1788773041.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "rocket-typist",
@@ -1464,7 +1817,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240521/20240521020854618.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "cpubalance",
@@ -1480,7 +1837,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208042920345.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "tidy-up",
@@ -1496,7 +1857,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200409/20200409110258450.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "colorcollect",
@@ -1513,7 +1878,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200812/20200812083642995.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "icollections",
@@ -1529,7 +1898,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240513/20240513103444681.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "multiplicity",
@@ -1545,7 +1918,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241105/20241105103921617.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "yoink",
@@ -1561,7 +1938,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260624/20260624023232454.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202606/ntqoicy078_cb7dzxrw30_1782724307.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "ppduck",
@@ -1578,7 +1960,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200207/20200207015118356.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "honeycam",
@@ -1594,7 +1980,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200209/20200209075826541.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "pdf-squeezer",
@@ -1610,7 +2000,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200611/20200611032936177.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "advanced-password-recovery-suite",
@@ -1626,7 +2020,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210107/20210107054922763.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "aldente-pro",
@@ -1642,7 +2040,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241016/20241016112409487.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/h5dogubu2x_cpoel5t35a_1788773112.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理",
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "iboysoft-magicmenu",
@@ -1658,7 +2061,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230710/20230710102854165.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "roboform-everywhere",
@@ -1679,7 +2086,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230719/20230719071356479.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "objectdock",
@@ -1695,7 +2106,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240508/20240508045850815.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "transloader",
@@ -1711,7 +2126,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260701/20260701021936127.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202607/8kdcfleko6_ldg91jjcxa_1783332806.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "office-tab",
@@ -1727,7 +2146,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205112810115.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "pdf-protector",
@@ -1743,7 +2167,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210020727274.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "sidenotes",
@@ -1759,7 +2187,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210033542254.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "iobit-uninstaller-pro",
@@ -1775,7 +2207,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230201/20230201051129249.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/quej7hnd1b_2ar1b6blqu_1788773399.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "iboysoft-diskgeeker",
@@ -1791,7 +2227,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230707/20230707021323432.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "object-desktop",
@@ -1807,7 +2247,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240228/20240228083413909.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "duplicate-cleaner-pro",
@@ -1823,7 +2267,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210830/20210830091706353.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "proxifier",
@@ -1840,7 +2288,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240620/20240620113333577.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "screenfocus",
@@ -1856,7 +2308,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210032748726.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "baimiao-photo",
@@ -1874,7 +2330,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210803/20210803025712478.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "function-key-pro",
@@ -1890,7 +2350,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20221024/20221024035156471.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "advanced-systemcare-ultimate",
@@ -1906,7 +2370,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230202/20230202093440548.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化",
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "windowblinds",
@@ -1922,7 +2391,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230315/20230315013835758.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "movavi-screen-recorder",
@@ -1939,7 +2412,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230517/20230517070846109.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "betterdisplay",
@@ -1955,7 +2432,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231122/20231122023817765.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/b0xgq0kbax_shg3z9a5tq_1759980313.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "calendartask",
@@ -1974,7 +2455,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240403/20240403015029912.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "nero-ai-video-upscaler",
@@ -1990,7 +2475,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240619/20240619100634394.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "sandboxie-plus",
@@ -2006,7 +2495,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240703/20240703094616289.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "office-365",
@@ -2025,7 +2518,13 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251210/20251210064330244.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "文件管理",
+        "文档编辑",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "expressions",
@@ -2041,7 +2540,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200209/20200209104230994.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "iboysoft-data-recovery",
@@ -2058,7 +2561,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220323/20220323051051548.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "advanced-systemcare-pro",
@@ -2074,7 +2581,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230202/20230202092821716.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化",
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "lanjiemao",
@@ -2090,7 +2602,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240904/20240904111629191.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/h9mjmhrhfv_daex1xhqow_1759981504.png",
       "isRecommended": true,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "workspaces",
@@ -2106,7 +2622,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210122/20210122034944502.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "dama",
@@ -2122,7 +2642,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20221214/20221214072509268.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "picview",
@@ -2138,7 +2662,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231020/20231020101755606.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "screenmemory",
@@ -2154,7 +2682,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240508/20240508041238777.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "lock-launcher",
@@ -2170,7 +2702,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250604/20250604100423508.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "litur",
@@ -2187,7 +2723,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250305/20250305091653117.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "smile-day",
@@ -2203,7 +2743,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260902/20260902101027264.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/kr71rd7lp4_lgqc8vsg0v_1788770621.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "生活工具"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "viso",
@@ -2219,7 +2763,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230524/20230524015903493.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "vidhub",
@@ -2237,7 +2785,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251210/20251210064137604.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202512/uehlu8zvsz_7wgmfdqsrc_1766044286.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "pastenow",
@@ -2254,7 +2806,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210527/20210527014234452.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "cursor-teleporter",
@@ -2270,7 +2826,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240918/20240918014929678.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "paratrans",
@@ -2286,7 +2846,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250416/20250416113721128.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202510/ds4u3atgpc_aoatnalxcs_1759981054.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "air-explorer-pro",
@@ -2303,7 +2867,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220629/20220629070940356.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "fivenotes",
@@ -2319,7 +2887,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240918/20240918015216816.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "islide",
@@ -2339,7 +2912,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240419/20240419111245524.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202604/wjtmxliku7_aouuxh6g1f_1777363592.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程",
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "daisydisk",
@@ -2355,7 +2933,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208054629558.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "textseek",
@@ -2372,7 +2954,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210707/20210707035859564.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "xterminal",
@@ -2390,7 +2977,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240104/20240104054101349.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "网络相关",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "unclutter",
@@ -2406,7 +2998,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240828/20240828064526219.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "klib",
@@ -2422,7 +3018,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200212/20200212031333851.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "ipic",
@@ -2438,7 +3038,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200207/20200207090657479.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "itext",
@@ -2454,7 +3058,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200207/20200207102253901.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "apowermirror",
@@ -2473,7 +3081,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205080119187.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "apowerrec",
@@ -2490,7 +3102,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205082008619.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "airbuddy",
@@ -2506,7 +3122,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260827/20260827033918882.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/r1gyjkukas_lrbwphiwzg_1788229481.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "picsee",
@@ -2523,7 +3143,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231020/20231020114724971.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "bitdock",
@@ -2539,7 +3163,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210127/20210127084816472.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "longshot",
@@ -2555,7 +3183,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240117/20240117053615631.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "beyond-compare",
@@ -2573,7 +3205,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208033923476.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "mweb-pro",
@@ -2589,7 +3225,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210014250336.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "apowersoft-unlimited",
@@ -2608,7 +3248,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20201026/20201026082456906.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "irightmouse",
@@ -2624,7 +3268,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220126/20220126055321733.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "windows-11",
@@ -2640,7 +3288,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230406/20230406054700894.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202604/wwodmetv5q_lxxe3zbckr_1777358098.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "bandiview",
@@ -2656,7 +3308,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240424/20240424075039245.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "one-switch",
@@ -2672,7 +3328,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230606/20230606022341515.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "xnapper",
@@ -2688,7 +3348,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20221012/20221012103144231.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "cleanclip",
@@ -2705,7 +3369,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250603/20250603110711366.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "endurance",
@@ -2721,7 +3389,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230209/20230209102629939.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "jidu-scan",
@@ -2739,7 +3411,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200429/20200429013156146.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "oka-unarchiver",
@@ -2755,7 +3431,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20211014/20211014055744788.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "macbooster",
@@ -2771,7 +3451,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205073742804.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "omniconverter",
@@ -2787,7 +3471,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230322/20230322033112105.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "em-client",
@@ -2806,7 +3494,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251229/20251229100626882.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "omniplayer",
@@ -2822,7 +3514,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230322/20230322031327877.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "quicker",
@@ -2839,7 +3535,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220330/20220330123202480.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "kanaorigin",
@@ -2855,7 +3555,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210630/20210630120051900.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "学习教育"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "iauto",
@@ -2872,7 +3576,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20221024/20221024041949135.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "zoommy",
@@ -2889,7 +3597,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205113258906.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "eaglefiler",
@@ -2905,7 +3617,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250714/20250714094902565.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "epim",
@@ -2921,7 +3637,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260610/20260610074440724.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "phoneclean",
@@ -2938,7 +3658,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200207/20200207014856532.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程",
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "proxyman",
@@ -2956,7 +3681,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240620/20240620113121766.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "aquasnap",
@@ -2972,7 +3702,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208032119814.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "axglyph",
@@ -2988,7 +3722,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208032758336.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "charles",
@@ -3006,7 +3744,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208040831261.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "clipboardfusion-pro",
@@ -3023,7 +3766,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220922/20220922093703597.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "codekit",
@@ -3039,7 +3786,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208041651124.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "colorsnapper",
@@ -3055,7 +3807,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208042025838.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "default-folder-x",
@@ -3071,7 +3827,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230926/20230926112319440.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "du-meter",
@@ -3087,7 +3847,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208062239606.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "foldermill",
@@ -3103,7 +3867,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200209/20200209105729246.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "iringg",
@@ -3119,7 +3887,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250716/20250716104727803.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "kutools-for-excel-word-outlook",
@@ -3135,7 +3907,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250911/20250911050902476.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "kutools-for-outlook",
@@ -3151,7 +3928,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20201225/20201225011236511.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "kutools-for-word",
@@ -3167,7 +3948,13 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20201225/20201225011223135.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理",
+        "文档编辑",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "launchbar",
@@ -3183,7 +3970,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200209/20200209082151197.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "little-snitch",
@@ -3199,7 +3990,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240523/20240523040158493.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "micro-snitch",
@@ -3215,7 +4010,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200209/20200209114437405.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "netlimiter",
@@ -3231,7 +4030,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210014709132.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关",
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "paintstorm-studio",
@@ -3249,7 +4053,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210015330266.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "qbserve",
@@ -3265,7 +4073,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210030500292.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "right-click-enhancer",
@@ -3281,7 +4093,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210031900757.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "scapple",
@@ -3298,7 +4114,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210032239364.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "scrivener",
@@ -3315,7 +4135,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210032919613.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "smoothscroll",
@@ -3331,7 +4155,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210033824881.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "sqlpro",
@@ -3347,7 +4175,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210035345252.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "sqlpro-studio",
@@ -3363,7 +4195,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210035713464.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "tableplus",
@@ -3382,7 +4218,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210104954964.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "taskpaper",
@@ -3398,7 +4239,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210105420320.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "tidytabs",
@@ -3414,7 +4259,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210105643611.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "trim-enabler",
@@ -3430,7 +4280,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210121604960.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "trym",
@@ -3446,7 +4300,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210121957325.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程",
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "ubar",
@@ -3462,7 +4321,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210124139273.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "rolan",
@@ -3478,7 +4341,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260707/20260707111849952.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "hard-disk-sentinel",
@@ -3494,7 +4361,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200323/20200323104236682.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "umbrella",
@@ -3510,7 +4381,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200415/20200415112105787.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "oak-diary",
@@ -3526,7 +4401,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20211220/20211220011437596.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "filter-box",
@@ -3542,7 +4421,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200429/20200429020618349.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "ice-box",
@@ -3558,7 +4441,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200429/20200429022014107.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "soulver",
@@ -3574,7 +4461,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230317/20230317023040715.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "off-phone",
@@ -3590,7 +4481,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200520/20200520063916847.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "20s-protect-eyes",
@@ -3606,7 +4501,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200527/20200527022452269.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "生活工具"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "radiant-dicom-viewer",
@@ -3622,7 +4521,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200624/20200624070448955.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "irreader",
@@ -3639,7 +4542,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200624/20200624090525861.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "openwebmonitor",
@@ -3656,7 +4563,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200624/20200624100211599.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "easyshu",
@@ -3672,7 +4583,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210524/20210524115355720.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "pengdu",
@@ -3689,7 +4604,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200928/20200928041234706.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "学习教育"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "spu-360",
@@ -3703,7 +4622,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20201012/20201012021233684.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "spu-361",
@@ -3717,7 +4640,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20201012/20201012021419308.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "pickmeapp",
@@ -3733,7 +4660,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20201026/20201026062602747.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "realistic-paint-studio",
@@ -3750,7 +4681,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20201125/20201125081649613.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "010-editor",
@@ -3767,7 +4702,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210127/20210127094953630.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "jpghd",
@@ -3787,7 +4726,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210207/20210207052449138.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体",
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "nxpowerlite-desktop",
@@ -3804,7 +4748,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210429/20210429060327217.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "grid-diary",
@@ -3822,7 +4770,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210720/20210720014042154.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "utools",
@@ -3839,7 +4791,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210824/20210824043114593.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "acdsee-luxea",
@@ -3855,7 +4811,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210825/20210825114013226.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "bigmp4",
@@ -3873,7 +4833,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210923/20210923053948174.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "paletro",
@@ -3889,7 +4853,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20211208/20211208055042470.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "redis-assistant",
@@ -3907,7 +4875,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20211215/20211215093152484.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "termius",
@@ -3927,7 +4899,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220216/20220216083234851.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "alwaysup",
@@ -3943,7 +4919,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220223/20220223012632209.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "jpgrm",
@@ -3959,7 +4939,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220413/20220413061932599.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "zookeeper-assistant",
@@ -3975,7 +4959,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230821/20230821101043738.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "medis",
@@ -3991,7 +4980,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220622/20220622045730717.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "manictime",
@@ -4007,7 +5000,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220713/20220713062928997.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "slidepad",
@@ -4023,7 +5020,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220728/20220728092742661.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "codejock-toolkit-pro",
@@ -4039,7 +5040,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220810/20220810090843712.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "codejock-suite-pro",
@@ -4055,7 +5060,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220810/20220810091557335.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "smartsvn",
@@ -4072,7 +5081,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220810/20220810092303952.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "moom",
@@ -4088,7 +5101,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240905/20240905041614341.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "smartgit",
@@ -4105,7 +5122,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240620/20240620114015253.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "jriver-media-center",
@@ -4122,7 +5143,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220812/20220812044823390.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "jriver-media-center-upgrade",
@@ -4139,7 +5164,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220812/20220812044823390.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "acronis-true-image",
@@ -4158,7 +5187,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220824/20220824104551501.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "apowersoft-background-eraser",
@@ -4177,7 +5210,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220831/20220831060304471.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "linqpad",
@@ -4194,7 +5231,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220928/20220928050807950.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "cubox-pro",
@@ -4213,7 +5254,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20221207/20221207085359629.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "pandora",
@@ -4229,7 +5274,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230215/20230215082416894.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "生活工具"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "toto-wallet",
@@ -4245,7 +5294,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230215/20230215083136259.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "生活工具"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "print-conductor",
@@ -4261,7 +5314,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230222/20230222035956396.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "spu-613",
@@ -4280,7 +5337,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20221028/20221028033836627.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "invoicebox",
@@ -4297,7 +5358,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230621/20230621010920852.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "winlock",
@@ -4313,7 +5378,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230705/20230705015233462.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "offshoot",
@@ -4330,7 +5399,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240118/20240118092210180.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体",
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "netdrive",
@@ -4349,7 +5423,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230810/20230810092538994.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "witch",
@@ -4365,7 +5443,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230830/20230830080709921.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "yueliu",
@@ -4383,7 +5465,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230906/20230906095555376.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "filming-yueliu",
@@ -4403,7 +5489,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230906/20230906100031236.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "star-dllrrepairer",
@@ -4419,7 +5509,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230914/20230914093815908.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "kocard",
@@ -4436,7 +5530,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230921/20230921092949226.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "videosrt-pro",
@@ -4452,7 +5550,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20231011/20231011085549790.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "star-order",
@@ -4468,7 +5570,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240104/20240104051232689.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "goodsync-business",
@@ -4486,7 +5592,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240110/20240110114645453.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "navicat-premium",
@@ -4504,7 +5614,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240206/20240206033912319.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-on-prem-server",
@@ -4522,7 +5636,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240206/20240206044934174.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-monitor",
@@ -4540,7 +5658,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240527/20240527092017445.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-for-sql-server",
@@ -4558,7 +5680,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240208/20240208095007751.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-for-sqlite",
@@ -4576,7 +5702,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240208/20240208033948274.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-for-postgresql",
@@ -4594,7 +5724,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240208/20240208035741907.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-for-oracle",
@@ -4612,7 +5746,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240208/20240208041418409.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-for-mysql",
@@ -4630,7 +5768,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240208/20240208042545405.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-for-mongodb",
@@ -4648,7 +5790,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240218/20240218095541238.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-for-mariadb",
@@ -4666,7 +5812,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240218/20240218104912404.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-data-modeler",
@@ -4684,7 +5834,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240527/20240527092000561.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-cloud",
@@ -4702,7 +5856,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240219/20240219095354489.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "navicat-bi",
@@ -4720,7 +5878,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240220/20240220100827769.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "mylifeorganized",
@@ -4737,7 +5899,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240221/20240221100208201.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "folder-hub",
@@ -4753,7 +5919,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240313/20240313030506169.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "shutter-pro",
@@ -4769,7 +5939,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240522/20240522092251370.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "resizer-pro",
@@ -4785,7 +5959,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240522/20240522092435340.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "twinkle",
@@ -4802,7 +5980,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240703/20240703054844541.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "anytrans",
@@ -4819,7 +6001,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240710/20240710010057539.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "anydroid",
@@ -4836,7 +6022,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240710/20240710010756545.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "balmytime",
@@ -4853,7 +6043,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240710/20240710053411143.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "生活工具"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "kiko-card",
@@ -4869,7 +6063,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240710/20240710053733888.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "pichound",
@@ -4885,7 +6083,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240718/20240718091404234.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "jpghi",
@@ -4901,7 +6103,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240718/20240718091927675.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "nero-lens",
@@ -4917,7 +6123,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240725/20240725091232628.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "nero-ai-image-upscaler",
@@ -4933,7 +6143,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240725/20240725091421460.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "zipic",
@@ -4950,7 +6164,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240731/20240731102951857.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "workerexcelplugin",
@@ -4966,7 +6184,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240821/20240821100727905.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "look-scanned",
@@ -4982,7 +6204,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20240925/20240925112915216.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "nativerest",
@@ -5000,7 +6226,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241009/20241009014400395.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "focuspal",
@@ -5016,7 +6247,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241113/20241113051845769.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "kafka-assistant",
@@ -5034,7 +6269,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241127/20241127093133231.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "badgeify",
@@ -5050,7 +6290,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260107/20260107012124839.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "onequick",
@@ -5066,7 +6310,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241218/20241218013059198.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "wise-hotkey",
@@ -5082,7 +6330,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241225/20241225101045820.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "trancy",
@@ -5100,7 +6352,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241225/20241225102704183.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "学习教育"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "jprofiler",
@@ -5118,7 +6374,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241231/20241231075032385.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "textsniper",
@@ -5134,7 +6394,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250115/20250115095846681.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "immersive-translate",
@@ -5152,7 +6416,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250121/20250121032923448.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "学习教育"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "kachika",
@@ -5170,7 +6438,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250226/20250226102252818.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "学习教育"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "1panel",
@@ -5189,7 +6461,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250312/20250312014651277.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "editready",
@@ -5205,7 +6481,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250326/20250326015941205.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "swan-cam",
@@ -5221,7 +6501,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250326/20250326024908784.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "lifeos-for-obsidian",
@@ -5240,7 +6524,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250423/20250423113214860.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "ishellpro",
@@ -5260,7 +6548,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250423/20250423011305526.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "norton-360",
@@ -5277,7 +6569,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250506/20250506091608890.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "aibeike-post-sync-assistant",
@@ -5293,7 +6589,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250506/20250506092001149.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "servbay",
@@ -5309,7 +6609,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250625/20250625093441225.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "dockflow",
@@ -5325,7 +6629,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250625/20250625093741699.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "notab",
@@ -5341,7 +6649,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250707/20250707015436538.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "smart-defrag",
@@ -5357,7 +6669,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250716/20250716094605136.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "norton-360-for-gamers",
@@ -5373,7 +6689,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250723/20250723103941760.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化",
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "norton-antivirus",
@@ -5390,7 +6711,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250723/20250723111243859.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "duplicate-file-finder",
@@ -5406,7 +6731,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250730/20250730111847353.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程",
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "mission-control-plus",
@@ -5422,7 +6752,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250903/20250903104740989.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "batteries-for-mac",
@@ -5438,7 +6772,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250903/20250903110126694.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "kutools-for-office",
@@ -5454,7 +6792,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250910/20250910110543708.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "backdrop",
@@ -5470,7 +6812,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20250924/20250924102735232.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "flexicalc",
@@ -5488,7 +6834,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260707/20260707111914815.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "baimiao-pdf",
@@ -5504,7 +6854,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251112/20251112101726780.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "buhocleaner",
@@ -5520,7 +6874,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251126/20251126092550223.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "reqable",
@@ -5540,7 +6898,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251126/20251126093959264.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "2camera",
@@ -5556,7 +6919,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251203/20251203113155572.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202512/1dtynsq3gv_appkkafcvn_1765265580.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "inputlock",
@@ -5572,7 +6939,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251217/20251217112925523.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202512/ejhte1tu1y_w6qkngjvnq_1766396552.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "docufreezer",
@@ -5588,7 +6959,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20251224/20251224103431460.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202512/ousvwumnpy_qhkd13fo7o_1766997772.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "ries",
@@ -5605,7 +6980,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260106/20260106111115382.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202601/ld8vqmygg8_nz4jecsnmg_1768466316.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "学习教育"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "hazel",
@@ -5621,7 +7000,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260304/20260304095759548.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202603/wjatdyvdlv_uxbtraal6e_1773196787.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "nero-motion-tracker",
@@ -5637,7 +7020,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260311/20260311011626633.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202603/yqquqcpvkv_utsrijqhwm_1773737162.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "影音媒体"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "desktop-composer",
@@ -5653,7 +7040,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260318/20260318021550748.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202603/8azcn82s5u_m4689ra5e5_1774853562.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "windows-10",
@@ -5669,7 +7060,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20230406/20230406054700894.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "iboysoft-cleaner",
@@ -5685,7 +7080,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260415/20260415111200926.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202604/nqx1eub0wq_eet8hbviqk_1776739073.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "vibe-island",
@@ -5701,7 +7100,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260513/20260513021528458.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202605/qaagt3qz0m_8sedp91c3s_1779090254.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "fastzip-pro",
@@ -5717,7 +7121,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260527/20260527104326705.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202606/tgneog1oih_c8exvnbod0_1780545643.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "deskmat",
@@ -5733,7 +7142,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260708/20260708113438875.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202607/qcaekz2gzg_ucfz8i7q9l_1783916196.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "screenfloat",
@@ -5749,7 +7162,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260715/20260715014106562.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202607/gm5etrs8bt_3gxjgxir73_1784540984.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "tuji",
@@ -5765,7 +7182,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260729/20260729111346691.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202608/tmoryfw4th_byc06osc3f_1785751235.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "设计美学"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "mole",
@@ -5781,7 +7202,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260806/20260806091925155.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202608/cjpmxna7jz_ca60vvycvq_1786417090.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化",
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "menuist",
@@ -5797,7 +7223,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260812/20260812101306831.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202608/vhkxsrwbic_g5jvgydgnc_1787019078.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "gety",
@@ -5814,7 +7244,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260819/20260819094323775.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202608/yf32jaaxoz_sj99ipeaw1_1787643332.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "path-finder",
@@ -5830,7 +7265,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260909/20260909112940589.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/pbi81vncei_yf9f7fn4zw_1789384724.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "priprinter",
@@ -5846,7 +7286,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260916/20260916062327203.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/1xwjh95fpk_dhul2hxmdu_1789958827.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑",
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "cursor-crane",
@@ -5862,7 +7307,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260922/20260922022048148.png",
       "promotionImage": "https://union.lizhi.shop/uploads/images/202609/tgnhwilac0_4cqry4prsz_1790577967.png",
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "wise-care-365-pro",
@@ -5878,7 +7327,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200311/20200311041434342.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "系统优化"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "jidu-formula",
@@ -5896,7 +7349,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20241018/20241018030152599.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "passkeyboard",
@@ -5915,7 +7372,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200415/20200415113205463.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "siyuan",
@@ -5934,7 +7395,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220526/20220526093607459.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "mountain-duck",
@@ -5951,7 +7416,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20260508/20260508110433163.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "硬件管理"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "tide-plus",
@@ -5968,7 +7437,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200812/20200812045707700.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "生活工具"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "pinstack",
@@ -5984,7 +7457,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220915/20220915061916658.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": true
+      "isOnSale": true,
+      "categories": [
+        "效率日程"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "pure-writer-drakeet",
@@ -6000,7 +7477,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200207/20200207082826929.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文档编辑"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "codeexpander",
@@ -6017,7 +7498,12 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220330/20220330093424764.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "效率日程",
+        "编程开发"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "waltr-pro",
@@ -6034,7 +7520,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20220519/20220519034433364.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "qi-reader",
@@ -6050,7 +7540,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20221012/20221012024032915.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "网络相关"
+      ],
+      "categorySource": "description"
     },
     {
       "id": "wise-folder-hider-pro",
@@ -6066,7 +7560,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20200311/20200311044356393.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "安全防护"
+      ],
+      "categorySource": "store"
     },
     {
       "id": "aomei-backupper",
@@ -6082,7 +7580,11 @@
       "icon": "https://shop-cdn.lizhi.shop/upload/20210915/20210915062445466.png",
       "promotionImage": null,
       "isRecommended": false,
-      "isOnSale": false
+      "isOnSale": false,
+      "categories": [
+        "文件管理"
+      ],
+      "categorySource": "description"
     }
   ]
 }
