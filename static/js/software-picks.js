@@ -252,9 +252,9 @@
             const topInset = navbar ? Math.max(12, navbar.getBoundingClientRect().bottom + 12) : 12;
             const below = window.innerHeight - rect.bottom - 16;
             const above = rect.top - topInset - 8;
-            const openAbove = below < 320 && above > below;
+            const openAbove = below < 280 && above > below;
             categoryList.dataset.placement = openAbove ? 'above' : 'below';
-            categoryList.style.maxHeight = Math.min(480, Math.max(0, openAbove ? above : below)) + 'px';
+            categoryList.style.maxHeight = Math.min(280, Math.max(0, openAbove ? above : below)) + 'px';
             categoryList.hidden = false;
             categoryFilter.setAttribute('aria-expanded', 'true');
             activateCategory(categoryOptions.findIndex(function (option) {
