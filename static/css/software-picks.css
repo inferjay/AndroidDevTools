@@ -301,6 +301,7 @@
 
 .software-card__name {
   margin: 0 0 8px;
+  padding: 0;
   font-size: 19px;
   font-weight: 600;
   line-height: 1.4;
@@ -319,7 +320,7 @@
   display: -webkit-box;
   overflow: hidden;
   min-height: 3.3em;
-  margin: 0 0 14px;
+  margin: 0;
   color: #69766e;
   font-size: 13px;
   line-height: 1.65;
@@ -476,6 +477,28 @@
   position: absolute;
   top: 10px;
   left: 10px;
+}
+
+.software-picks-page .btn-donate::after {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: calc(100% + 12px);
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #fff;
+  background: #25372c;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: nowrap;
+  pointer-events: none;
+  transform: translateY(-50%);
+  content: attr(data-tip);
+}
+
+.software-picks-page .btn-donate:hover::after,
+.software-picks-page .btn-donate:focus-visible::after {
+  display: block;
 }
 
 @media (max-width: 991px) {
