@@ -1,0 +1,6088 @@
+{
+  "source": "https://union.lizhi.shop/dashboard/promotion/products",
+  "updatedAt": "2026-10-11",
+  "total": 365,
+  "products": [
+    {
+      "id": "fences",
+      "name": "Fences",
+      "fullName": "Fences 6 - 栅栏桌面 桌面图标自动整理软件 激活码",
+      "description": "Win 桌面整理软件，围栏分区 / 自动收纳",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 4900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/fences?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231207/20231207085203752.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/cxfrudmmbo_7cgr83yqtt_1759980737.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "downie",
+      "name": "Downie",
+      "fullName": "Downie 4 - Mac在线视频下载软件 支持主流视频网站",
+      "description": "Mac 视频下载工具，网页视频 / 音频提取",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/downie?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20201215/20201215092147813.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202208/m7qgfp34b6_5fbynzhgvu_1660123922.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "app-cleaner-uninstaller",
+      "name": "App Cleaner & Uninstaller",
+      "fullName": "App Cleaner & Uninstaller 10 - Mac 软件卸载清理工具 安全彻底删除应用",
+      "description": "Mac 卸载清理器，应用卸载 / 残留清理 / 启动项",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/app-cleaner-uninstaller?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20221130/20221130053422377.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202605/hu7zwvocbt_gsejhysass_1779180379.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "uninstall-tool",
+      "name": "Uninstall Tool",
+      "fullName": "Uninstall Tool - 多功能专业级卸载工具",
+      "description": "Win 卸载清理工具，强力卸载 / 残留扫描",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/uninstall-tool?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205113140657.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "iboysoft-ntfs-for-mac",
+      "name": "赤友 NTFS for Mac 助手",
+      "fullName": "赤友 NTFS for Mac 助手 9 - NTFS 移动硬盘/U 盘读写工具 支持 macOS 27",
+      "description": "Mac NTFS 工具，可读写移动硬盘 / U 盘",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3600,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/iboysoft-ntfs-for-mac?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200812/20200812112515423.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "typora",
+      "name": "Typora",
+      "fullName": "Typora - 跨平台 Markdown 编辑器 所见即所得 支持 Latex 公式",
+      "description": "Win / Mac Markdown 编辑器，预览 / 大纲 / 导出",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/typora?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20211208/20211208080059590.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202207/2uq7fbsdka_v5njxuoxu7_1658371753.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "andromeld",
+      "name": "AndroMeld",
+      "fullName": "AndroMeld - Mac 安卓设备管理器 应用操控 / 文件传输",
+      "description": "Mac 安卓设备管理器，应用操控 / 文件传输",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/andromeld?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260722/20260722033214439.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202607/w5z08oi5ye_3ar1m9byrr_1785220416.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "directory-opus",
+      "name": "Directory Opus",
+      "fullName": "Directory Opus 13 - 增强型文件管理器 替代 Win 资源管理器",
+      "description": "Win 文件管理器，双栏 / 标签页 / 批处理",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/directory-opus?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240207/20240207111643235.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/hmjkvs61e4_2qkkxwgxaj_1759980692.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "start11",
+      "name": "Start11",
+      "fullName": "Start11 v2.0 - Win 开始菜单任务栏自定义软件 恢复磁贴 支持 Win 10/Win 11",
+      "description": "Win 开始菜单工具，经典菜单 / 任务栏 / 搜索",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 1900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/start11?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231110/20231110035659736.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/af7moh40fu_gdh37gdphl_1759981308.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "macs-fan-control-pro",
+      "name": "Macs Fan Control Pro",
+      "fullName": "Macs Fan Control Pro - Mac 风扇控制软件",
+      "description": "Mac 风扇控制软件，温度监控 / 转速调节",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/macs-fan-control-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220721/20220721023207626.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "scherlokk",
+      "name": "Scherlokk",
+      "fullName": "Scherlokk - Mac 文件快速搜索对比工具",
+      "description": "Mac 文件搜索工具，全文检索 / 文件对比",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/scherlokk?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240516/20240516093142526.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "pixpin",
+      "name": "PixPin",
+      "fullName": "PixPin - 长截图贴图标注工具",
+      "description": "Win / Mac 截图贴图工具，长截图 / OCR / 动图",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/pixpin?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240821/20240821080525530.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/wkeufs5lwu_ih6ea7fj29_1759981126.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "axmath",
+      "name": "AxMath",
+      "fullName": "AxMath - 专业数学公式编辑排版工具",
+      "description": "Win 公式编辑器，LaTeX / 科学计算 / 排版",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/axmath?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205110837487.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "internet-download-manager",
+      "name": "Internet Download Manager",
+      "fullName": "IDM - Windows高速下载软件 internet download manager",
+      "description": "Win 下载器，多线程 / 续传 / 视频下载",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/internet-download-manager?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205112442385.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202208/wz7by2uun9_wrf2gsk7em_1659597676.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "ttime",
+      "name": "TTime",
+      "fullName": "TTime - 跨平台截图划词翻译工具",
+      "description": "Win / Mac 翻译工具，截图 / 划词 / OCR",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 300,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/ttime?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240228/20240228085304359.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "byephotos",
+      "name": "ByePhotos",
+      "fullName": "ByePhotos - 苹果相册整理助手",
+      "description": "iOS 相册清理应用，滑动删图 / 相似照片",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 4500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/byephotos?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250702/20250702020316766.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/sixbfapbsu_vqkc7doczn_1759980360.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "bandizip-professional",
+      "name": "Bandizip",
+      "fullName": "Bandizip - 文件解压缩 压缩包浏览编辑管理工具 专业版",
+      "description": "知名 Win 压缩软件，解压缩 / 预览 / 加密",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 19900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/bandizip-professional?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200326/20200326021332319.png",
+      "promotionImage": null,
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "coodesker",
+      "name": "酷呆桌面",
+      "fullName": "酷呆桌面 - 桌面图标整理工具 支持置顶桌面 系统占用少",
+      "description": "Win 桌面整理工具，分区 / 自动归类 / 置顶",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/coodesker?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240327/20240327083008709.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202404/w4jav2s1ei_i48tjayldl_1712111086.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "total-uninstall",
+      "name": "Total Uninstall",
+      "fullName": "Total Uninstall - 软件监视卸载工具 轻松卸载无残留",
+      "description": "Win 卸载管理工具，安装监视 / 残留清理",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/total-uninstall?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240807/20240807043202737.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202605/4xtk8czat3_qwz3dxq0ng_1779180172.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "frame0",
+      "name": "Frame0",
+      "fullName": "Frame0 - 线框图绘制工具 手绘风格线框图",
+      "description": "多平台线框图工具，手绘原型 / UI 组件",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 68500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/frame0?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251203/20251203102326209.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202512/1dtynsq3gv_appkkafcvn_1765265580.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "listary-pro",
+      "name": "Listary",
+      "fullName": "Listary Pro - 本地文件搜索工具",
+      "description": "Win 文件搜索工具，快速查找 / 启动 / 模糊搜索",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 9800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/listary-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220421/20220421093502120.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/ioxy8vflbw_opy1icsmar_1759981020.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "permute",
+      "name": "Permute",
+      "fullName": "Permute 4 - Mac图片音视频格式转换工具",
+      "description": "Mac 格式转换器，视频 / 音频 / 图片转换",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 7900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/permute?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260601/20260601013457577.png",
+      "promotionImage": null,
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "displayfusion-pro",
+      "name": "DisplayFusion Pro",
+      "fullName": "DisplayFusion Pro - 多屏窗口管理软件",
+      "description": "Win 多屏管理工具，任务栏 / 分屏 / 窗口定位",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 19900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/displayfusion-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220908/20220908093818799.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "xyplorer",
+      "name": "XYplorer",
+      "fullName": "XYplorer - 强大便携的多标签文件管理器",
+      "description": "Win 文件管理器，双面板 / 标签 / 脚本",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 10900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/xyplorer?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210015553455.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/u1pd1rxafe_mm0bbdbytz_1788772867.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "menubarx-pro",
+      "name": "MenubarX Pro",
+      "fullName": "MenubarX Pro - Mac 菜单栏浏览器 在菜单栏打开任意网页",
+      "description": "Mac 菜单栏浏览器，网页常驻 / 自动刷新 / 通知",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/menubarx-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220519/20220519013604344.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "consul",
+      "name": "Consul",
+      "fullName": "Consul - Mac 文件格式自动转换工具",
+      "description": "Mac 格式转换工具，改文件后缀自动触发",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/consul?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260408/20260408024701518.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202604/htwesp812x_4fmqw1hxsl_1776063727.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "groupy",
+      "name": "Groupy 2",
+      "fullName": "Groupy 2 - 软件窗口合并标签化工具",
+      "description": "Win 窗口分组工具，标签页 / 多任务 / 整理",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 4500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/groupy?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230519/20230519103623553.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202605/siic7amxto_bwmwvek0ue_1779179835.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "xmind-pro",
+      "name": "Xmind",
+      "fullName": "Xmind Pro - 全平台思维导图软件 一键演示导图 支持智能配色",
+      "description": "多平台思维导图软件，脑图 / 模板 / 演示",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 26900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/xmind-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230105/20230105112716654.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/e3xrklo0ry_kkvbhabiut_1759981471.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "parallels-desktop",
+      "name": "Parallels Desktop",
+      "fullName": "Parallels Desktop 27 - Mac 虚拟机管理软件 跨系统办公 / Win 游戏运行",
+      "description": "知名 Mac 虚拟机软件，赠送 Win11",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 27400,
+      "originalPrice": 49800,
+      "url": "https://lizhi.shop/products/parallels-desktop?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230822/20230822024756750.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "traystatus-pro",
+      "name": "TrayStatus Pro",
+      "fullName": "TrayStatus Pro - 任务栏托盘图标增强工具 支持显示键盘性能状态",
+      "description": "Win 托盘增强工具，键盘状态 / 性能监控",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 7900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/traystatus-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220908/20220908092729926.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "popclip",
+      "name": "PopClip",
+      "fullName": "PopClip - Mac 划词增强工具 支持复制粘贴搜索",
+      "description": "Mac 划词增强工具，翻译 / 搜索 / 扩展",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/popclip?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230719/20230719112909696.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/asn6jjesbj_vfr0dtsvnu_1788773241.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "evercraft",
+      "name": "追光 Lite",
+      "fullName": "追光 Lite - 文件历史管理工具 一键恢复历史存档",
+      "description": "Win / Mac 文件版本管理工具，存档 / 恢复 / 对比",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 990,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/evercraft?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250917/20250917111323232.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "folder-preview-pro",
+      "name": "Folder Preview Pro",
+      "fullName": "Folder Preview Pro - Mac 文件夹预览工具",
+      "description": "Mac 文件夹预览工具，空格预览 / 缩略图",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/folder-preview-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251022/20251022105123169.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "launchos",
+      "name": "LaunchOS",
+      "fullName": "LaunchOS - macOS26 启动台替代工具",
+      "description": "Mac 启动台工具，应用列表 / 布局 / 快捷键",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/launchos?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251119/20251119020148101.png",
+      "promotionImage": null,
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "goodsync",
+      "name": "GoodSync",
+      "fullName": "GoodSync - 文件同步备份软件",
+      "description": "知名 Win / Mac 同步备份工具，双向同步 / 云盘 / 自动化",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Linux"
+      ],
+      "price": 11900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/goodsync?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200603/20200603100944771.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "process-lasso",
+      "name": "Process Lasso",
+      "fullName": "Process Lasso 专业版 - 进程实时优化软件 告别系统卡顿",
+      "description": "Win 进程优化软件，负载平衡 / 游戏加速",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/process-lasso?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210023253195.png",
+      "promotionImage": null,
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "startallback",
+      "name": "StartAllBack",
+      "fullName": "StartAllBack - Win 开始菜单任务栏增强工具 支持 Win11 StartIsBack",
+      "description": "Win 开始菜单工具，经典样式 / 资源管理器",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 2800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/startallback?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20211201/20211201024411626.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "windowtop",
+      "name": "WindowTop",
+      "fullName": "WindowTop - 窗口置顶透明度修改工具",
+      "description": "Win 窗口管理工具，置顶 / 透明 / 画中画",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 10900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/windowtop?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220919/20220919111328601.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "driver-booster",
+      "name": "Driver Booster 14 Pro",
+      "fullName": "Driver Booster 14 Pro - Win 电脑驱动更新工具",
+      "description": "Win 驱动更新工具，检测 / 备份 / 还原",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/driver-booster?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250212/20250212015335634.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202512/ezlelpinso_ngvvggneoj_1765938927.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "dockside",
+      "name": "Dockside",
+      "fullName": "Dockside - Mac 文件暂存与快速访问工具",
+      "description": "Mac 文件暂存工具，Dock 面板 / 拖拽 / 自动化",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/dockside?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260401/20260401094302799.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202604/kabxoc2kzu_lgndsrucmi_1775637773.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "connectify-hotspot",
+      "name": "Connectify Hotspot",
+      "fullName": "Connectify Hotspot - WiFi 热点共享管理工具",
+      "description": "Win 热点共享工具，Wi-Fi 热点 / 中继 / 共享",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/connectify-hotspot?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208042548890.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "careueyes",
+      "name": "CareUEyes",
+      "fullName": "CareUEyes - 专业护眼软件 过滤显示器屏幕蓝光",
+      "description": "Win 护眼软件，色温亮度 / 休息提醒 / 聚焦",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 9800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/careueyes?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20211201/20211201033015831.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/ipu4yjbe6o_0qmldnskqj_1788771889.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "nero-platinum-suite",
+      "name": "Nero Platinum Suite",
+      "fullName": "Nero Platinum Suite 2026 - PC 专业工具箱 支持音视频编辑刻录文件备份还原",
+      "description": "Win 媒体套件，刻录 / 转换 / 备份 / 清理",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 24900,
+      "originalPrice": 39900,
+      "url": "https://lizhi.shop/products/nero-platinum-suite?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241111/20241111112035190.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "manico",
+      "name": "Manico",
+      "fullName": "Manico - Mac 端 App 快速启动和切换软件",
+      "description": "Mac 应用启动器，快捷键 / 软件切换 / 用量统计",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/manico?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220629/20220629071844155.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "67tool",
+      "name": "即时工具",
+      "fullName": "即时工具 - 多功能效率工具箱 音视频图片文档处理",
+      "description": "效率工具箱，250+ 功能，图片 / 视频 / 文档处理",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Web"
+      ],
+      "price": 6500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/67tool?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230830/20230830070513312.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "bkliverec",
+      "name": "播客录播助手",
+      "fullName": "播客录播助手 - 直播录制下载工具 轻松下载主流直播",
+      "description": "Win 直播录制工具，资源解析 / 多任务 / 切片",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/bkliverec?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240115/20240115034853826.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "displaybuddy",
+      "name": "DisplayBuddy",
+      "fullName": "DisplayBuddy - 显示器参数调整神器 轻松调节屏幕亮度对比度等",
+      "description": "Win / Mac 显示器调节，亮度 / 对比度 / 输入源",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/displaybuddy?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240306/20240306091647325.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "updf-ai",
+      "name": "UPDF AI",
+      "fullName": "UPDF AI - AI 问答助手 PDF 文档总结翻译解释改写",
+      "description": "多平台 PDF AI 助手，总结 / 翻译 / 问答",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "price": 13500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/updf-ai?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250528/20250528065002355.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "winrar",
+      "name": "WinRAR",
+      "fullName": "WinRAR - 知名文件压缩解压软件",
+      "description": "Win 压缩解压软件，RAR / ZIP / 分卷加密",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 20900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/winrar?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241120/20241120015702697.png",
+      "promotionImage": null,
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "baimiao",
+      "name": "白描",
+      "fullName": "白描App - 图片转文字 PDF转Word OCR识别软件",
+      "description": "多平台 OCR 工具，图片转文字 / 表格识别",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 1200,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/baimiao?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205084243454.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "hazeover",
+      "name": "HazeOver",
+      "fullName": "HazeOver - 虚化背景 专注当前任务窗口",
+      "description": "Mac 专注工具，窗口高亮 / 背景变暗",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/hazeover?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210406/20210406111134202.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "renamer-den4b",
+      "name": "ReNamer",
+      "fullName": "ReNamer - 文件名批量重命名正则表达式",
+      "description": "Win 批量重命名工具，正则 / EXIF / 预览",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 14500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/renamer-den4b?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210031313254.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "moment",
+      "name": "Moment",
+      "fullName": "Moment - Mac 倒数日纪念日提醒工具",
+      "description": "Mac 倒数日应用，纪念日 / 时间进度 / 提醒",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/moment?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200708/20200708025649882.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "microsoft-365",
+      "name": "Microsoft 365",
+      "fullName": "Microsoft 365 拼车",
+      "description": "多平台办公套件，Word / Excel / PPT 协作",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 9900,
+      "originalPrice": 14900,
+      "url": "https://lizhi.shop/products/microsoft-365?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251210/20251210064330244.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/r6x2v4o1wv_hvgwdnz1pb_1788772798.png",
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "emsisoft-anti-malware",
+      "name": "Emsisoft Anti-Malware",
+      "fullName": "Emsisoft Anti-Malware - 反恶意软件 电脑杀毒防护",
+      "description": "Win 杀毒软件，双引擎扫描 / 勒索防护",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 16900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/emsisoft-anti-malware?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210803/20210803025319686.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "effie",
+      "name": "Effie",
+      "fullName": "Effie - 沉浸式写作 思维导图工具",
+      "description": "多平台写作应用，思维导图 / 大纲 / 同步",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 22600,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/effie?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210915/20210915025354442.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "updf",
+      "name": "UPDF 编辑器",
+      "fullName": "UPDF 编辑器 - 多平台全能型 PDF 工具 支持 PDF 阅读编辑转换",
+      "description": "多平台 PDF 编辑器，阅读 / 转换 / OCR / AI",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 11500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/updf?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250528/20250528065002355.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/0hbcafnusv_oruq4ks23s_1759981346.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "panda-anti-spam",
+      "name": "熊猫吃短信 2",
+      "fullName": "熊猫吃短信 2 - 垃圾短信拦截 App 支持离线智能识别",
+      "description": "iOS 短信拦截应用，垃圾短信 / 离线识别 / 规则",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/panda-anti-spam?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20221214/20221214072246472.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "vivid",
+      "name": "Vivid",
+      "fullName": "Vivid - Mac 显示器屏幕亮度调节工具",
+      "description": "Mac 亮度调节工具，高亮 / 极暗 / 多屏同步",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/vivid?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230119/20230119091233313.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "widgetstore",
+      "name": "组件世界",
+      "fullName": "组件世界 - 嵌入式小组件库 建立个性化知识库",
+      "description": "多平台组件库，嵌入组件 / 动态图标",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Linux",
+        "Web"
+      ],
+      "price": 1100,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/widgetstore?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231116/20231116091141649.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "picseed",
+      "name": "PicSeed",
+      "fullName": "PicSeed - 苹果图文收藏助手 一键收藏创意内容",
+      "description": "Mac / iOS 图文收藏应用，社媒采集 / 分类",
+      "platforms": [
+        "macOS",
+        "iOS"
+      ],
+      "price": 6500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/picseed?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250617/20250617081533849.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "adguard",
+      "name": "AdGuard",
+      "fullName": "AdGuard - 多平台广告拦截软件",
+      "description": "多平台广告拦截软件，支持过滤任意软件",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 3000,
+      "originalPrice": 4000,
+      "url": "https://lizhi.shop/products/adguard?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205010951592.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202209/ikwkzvlrfg_gwx9pentss_1663816050.png",
+      "isRecommended": true,
+      "isOnSale": true
+    },
+    {
+      "id": "mfiles",
+      "name": "爱传送",
+      "fullName": "爱传送 - 手机电脑局域网文件传输App 剪切板同步",
+      "description": "iOS 文件传输工具，局域网 / WebDAV / 剪贴板",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 1200,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/mfiles?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210113/20210113112739350.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "wins",
+      "name": "Wins",
+      "fullName": "Wins - 多屏窗口管理工具 支持快捷分屏 Dock 预览",
+      "description": "Mac 窗口管理工具，分屏 / Dock 预览 / 快捷键",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 13900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/wins?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220915/20220915091938159.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "stay-browser",
+      "name": "Stay 浏览器",
+      "fullName": "Stay 浏览器 - Android 浏览器 支持广告拦截脚本管理",
+      "description": "Android 浏览器，脚本管理 / 广告拦截 / 下载",
+      "platforms": [
+        "Android"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/stay-browser?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241120/20241120015928210.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "privazer",
+      "name": "PrivaZer",
+      "fullName": "PrivaZer - PC 系统清理隐私保护软件",
+      "description": "Win 隐私清理软件，痕迹清除 / 安全删除",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 4900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/privazer?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241204/20241204112525731.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "sensei",
+      "name": "Sensei",
+      "fullName": "Sensei - Mac 系统性能监控工具 电脑清理性能优化加速",
+      "description": "Mac 性能监控软件，硬件状态 / 清理 / 优化",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 26500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/sensei?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250924/20250924100611892.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "marginnote",
+      "name": "MarginNote 4",
+      "fullName": "MarginNote 4 - Mac 全能型的深度阅读学习复习工具",
+      "description": "Mac 阅读学习工具，批注 / 闪卡 / 脑图",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 7000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/marginnote?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240903/20240903101721321.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/hysvhenplx_4jlcznss0j_1789478024.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "wonderpen",
+      "name": "妙笔",
+      "fullName": "妙笔 WonderPen - 专业写作软件 支持专注模式云同步备份",
+      "description": "多平台长文写作工具，目录 / 快照 / 云同步",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Linux"
+      ],
+      "price": 1800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/wonderpen?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231214/20231214095643548.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "parkcontrol",
+      "name": "ParkControl",
+      "fullName": "ParkControl - 从底层实时优化电脑 预防卡顿",
+      "description": "Win CPU 优化工具，电源计划 / 内核调度",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/parkcontrol?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210015946236.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "qspace",
+      "name": "QSpace",
+      "fullName": "QSpace - Mac 高效多视图文件管理器 代替访达",
+      "description": "Mac 文件管理器，多视图 / 云存储 / 批量重命名",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 8700,
+      "originalPrice": 8900,
+      "url": "https://lizhi.shop/products/qspace?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220510/20220510054913514.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/vcsmktaibj_a5tmfmhsnq_1759981266.png",
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "endnote",
+      "name": "EndNote 21",
+      "fullName": "EndNote 21 - 跨平台文献管理软件 支持云同步",
+      "description": "Win / Mac 文献管理软件，引文 / PDF 标注 / 云同步",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 113940,
+      "originalPrice": 189900,
+      "url": "https://lizhi.shop/products/endnote?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220824/20220824105440420.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "dockx-pro",
+      "name": "DockX Pro",
+      "fullName": "DockX Pro - 菜单栏程序坞显示工具 显示网速/CPU",
+      "description": "Mac 程序坞监控工具，网速 / CPU / 动图",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/dockx-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231020/20231020013525412.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "ediary",
+      "name": "eDiary",
+      "fullName": "eDiary - 电子日记本 支持云同步 Markdown",
+      "description": "多平台日记应用，时间轴 / 加密 / 同步",
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "price": 4500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/ediary?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231027/20231027014548670.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "pdf-expert",
+      "name": "PDF Expert 3",
+      "fullName": "PDF Expert 3 - Mac 上优秀的 PDF 阅读编辑工具 支持 OCR 识别格式转换",
+      "description": "Mac / iOS PDF 编辑器，阅读 / 批注 / OCR",
+      "platforms": [
+        "macOS",
+        "iOS"
+      ],
+      "price": 29900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/pdf-expert?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231103/20231103095255357.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "boosterx",
+      "name": "BoosterX",
+      "fullName": "BoosterX - 电脑系统优化工具 降低延迟提高游戏 FPS 帧数",
+      "description": "Win 游戏优化工具，性能调校 / 延迟降低",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 2200,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/boosterx?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240619/20240619101243101.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202406/femt9oprlt_ebl9r6uzaw_1719210777.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "disk-space-analyzer",
+      "name": "Disk Space Analyzer 6",
+      "fullName": "Disk Space Analyzer 6 - Mac 磁盘分析工具 搜索清理无用文件",
+      "description": "Mac 磁盘分析工具，空间扫描 / 大文件定位",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 10900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/disk-space-analyzer?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250827/20250827104357352.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "mood-jar",
+      "name": "心情罐罐",
+      "fullName": "心情罐罐 - 个人情绪手账 App 记录统计每日心情",
+      "description": "iOS 情绪手账应用，心情记录 / 统计 / 同步",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 550,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/mood-jar?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260304/20260304100406827.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "livegrab",
+      "name": "LiveGrab",
+      "fullName": "LiveGrab - 苹果视频提取高清照片 Live Photo 制作工具",
+      "description": "iOS 视频取帧应用，高清照片 / Live Photo / GIF",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/livegrab?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260422/20260422024644929.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202604/ybdy0wsdlc_9yrkrhwf1b_1777342267.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "loginput",
+      "name": "落格输入法",
+      "fullName": "落格输入法 3 - Mac 端双拼输入法工具 支持 M1",
+      "description": "Mac 输入法，全拼 / 双拼 / 五笔 / 词库",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 8800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/loginput?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220218/20220218095647595.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "cleanshot-x",
+      "name": "CleanShot X",
+      "fullName": "CleanShot X - Mac 专业级截屏工具 支持滚动截图 创建GIF动图",
+      "description": "Mac 截图录屏工具，滚动截图 / GIF / OCR",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 14900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/cleanshot-x?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260108/20260108110943843.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/5vhdvgml1w_cnffhniirh_1759980409.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "shuyoubook",
+      "name": "阅读记录",
+      "fullName": "阅读记录 - 阅读统计与笔记 读书辅助工具",
+      "description": "移动端阅读记录工具，统计 / 笔记 / OCR",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "price": 8600,
+      "originalPrice": 8800,
+      "url": "https://lizhi.shop/products/shuyoubook?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20201202/20201202095703427.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "movavi-video-editor",
+      "name": "Movavi Video Editor",
+      "fullName": "Movavi Video Editor 2027 - 视频编辑软件",
+      "description": "Win / Mac 视频编辑器，剪辑 / 抠像 / 字幕",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 17900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/movavi-video-editor?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230517/20230517081152486.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "chatx",
+      "name": "ChatX",
+      "fullName": "ChatX - AI 聊天机器人 支持翻译总结 基于 4.0 驱动",
+      "description": "Mac / iOS AI 客户端，聊天 / 翻译 / 绘图",
+      "platforms": [
+        "macOS",
+        "iOS"
+      ],
+      "price": 700,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/chatx?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231206/20231206045203502.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "focusee",
+      "name": "FocuSee",
+      "fullName": "FocuSee 2 - 双平台录屏软件 支持视频编辑生成字幕",
+      "description": "Win / Mac 录屏编辑软件，键鼠操作自动跟踪放大",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 5500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/focusee?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240306/20240306092149216.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "stay-for-safari",
+      "name": "Stay for Safari",
+      "fullName": "Stay for Safari - 浏览器扩展 支持广告拦截视频下载",
+      "description": "多平台浏览器插件，脚本 / 拦截 / 视频保存",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Web"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/stay-for-safari?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240403/20240403042309466.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "bartender",
+      "name": "Bartender 7",
+      "fullName": "Bartender 7 - Mac 菜单栏图标管理工具",
+      "description": "Mac 菜单栏管理工具，图标隐藏 / 分组 / 搜索",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 10900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/bartender?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250918/20250918025222192.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/cfavidpucs_nwapns4man_1788773041.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "rocket-typist",
+      "name": "Rocket Typist",
+      "fullName": "Rocket Typist - Mac 端文本快速输入工具 减少重复输入",
+      "description": "Mac 文本输入工具，短语粘贴 / 代码片段 / 宏",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/rocket-typist?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240521/20240521020854618.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "cpubalance",
+      "name": "CPUBalance",
+      "fullName": "CPUBalance - 专注优化 CPU 性能",
+      "description": "Win CPU 优化工具，进程平衡 / 防卡顿",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/cpubalance?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208042920345.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "tidy-up",
+      "name": "Tidy Up",
+      "fullName": "Tidy Up - 高速智能的重复文件搜寻清理工具",
+      "description": "Mac 重复文件清理器，文件查找 / 照片清理",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 10900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/tidy-up?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200409/20200409110258450.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "colorcollect",
+      "name": "色采",
+      "fullName": "色采 - 手机取色智能配色助手 设计色卡管理",
+      "description": "移动端取色配色工具，相机取色 / 色卡管理",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "price": 800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/colorcollect?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200812/20200812083642995.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "icollections",
+      "name": "iCollections",
+      "fullName": "iCollections 9 - Mac 桌面整理软件",
+      "description": "Mac 桌面整理软件，分区 / 中转站 / 文件夹面板",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 16900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/icollections?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240513/20240513103444681.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "multiplicity",
+      "name": "Multiplicity 4",
+      "fullName": "Multiplicity 4 - 多PC键鼠共享软件 跨设备传输控制",
+      "description": "Win 键鼠共享软件，多机控制 / 文件拖拽",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 7500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/multiplicity?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241105/20241105103921617.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "yoink",
+      "name": "Yoink for Mac",
+      "fullName": "Yoink for Mac - Mac 文件暂存架工具 拖放优化 / 跨窗口移动",
+      "description": "Mac 文件暂存架工具，拖放优化 / 跨窗口移动",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 4900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/yoink?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260624/20260624023232454.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202606/ntqoicy078_cb7dzxrw30_1782724307.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "ppduck",
+      "name": "PP 鸭",
+      "fullName": "PP 鸭 - 多格式图片压缩软件 减小文件体积大小",
+      "description": "Win / Mac 图片压缩工具，批量压缩 / WebP / 替换",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 6900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/ppduck?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200207/20200207015118356.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "honeycam",
+      "name": "Honeycam",
+      "fullName": "Honeycam - GIF图片创建与编辑工具",
+      "description": "Win 动图制作工具，录屏 / GIF / WebP / 编辑",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 23500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/honeycam?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200209/20200209075826541.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "pdf-squeezer",
+      "name": "PDF Squeezer",
+      "fullName": "PDF Squeezer - 轻量级PDF压缩工具",
+      "description": "Mac PDF 压缩工具，批量压缩 / 元数据清理",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/pdf-squeezer?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200611/20200611032936177.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "advanced-password-recovery-suite",
+      "name": "Advanced Password Recovery Suite",
+      "fullName": "Advanced Password Recovery Suite - 密码恢复套件",
+      "description": "Win 密码恢复工具，浏览器 / WiFi / 密钥找回",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 6900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/advanced-password-recovery-suite?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210107/20210107054922763.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "aldente-pro",
+      "name": "AlDente Pro",
+      "fullName": "AlDente Pro - Mac 电池管家 调整电池充电阈值 延长电池寿命",
+      "description": "Mac 电池管理工具，充电阈值 / 健康维护",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 7500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/aldente-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241016/20241016112409487.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/h5dogubu2x_cpoel5t35a_1788773112.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "iboysoft-magicmenu",
+      "name": "赤友右键超人",
+      "fullName": "赤友右键超人 - Mac 右键菜单自定义工具 一键新建复制粘贴文件",
+      "description": "Mac 右键增强工具，快速新建文件 / 直达目录",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3600,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/iboysoft-magicmenu?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230710/20230710102854165.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "roboform-everywhere",
+      "name": "RoboForm Everywhere",
+      "fullName": "RoboForm Everywhere - 多平台密码管理自动填表工具",
+      "description": "多平台密码管理器，自动填充 / 共享 / 2FA",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Linux",
+        "Web"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/roboform-everywhere?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230719/20230719071356479.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "objectdock",
+      "name": "ObjectDock",
+      "fullName": "ObjectDock - Mac Dock 栏模拟美化工具",
+      "description": "Win 桌面 Dock 工具，程序坞 / 标签 / 任务栏",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 5500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/objectdock?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240508/20240508045850815.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "transloader",
+      "name": "Transloader",
+      "fullName": "Transloader - 远程下载管理工具 跨设备触发 / 文件操作",
+      "description": "远程下载管理工具，跨设备触发 / 文件操作",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/transloader?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260701/20260701021936127.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202607/8kdcfleko6_ldg91jjcxa_1783332806.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "office-tab",
+      "name": "Office Tab",
+      "fullName": "Office Tab - 为Office套件添加标签功能",
+      "description": "Win Office 标签插件，多文档 / 批量保存",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 12500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/office-tab?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205112810115.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "pdf-protector",
+      "name": "PDF Protector",
+      "fullName": "PDF Protector - 简单易用的PDF文件加密工具",
+      "description": "Mac PDF 加密工具，权限限制 / 批量处理",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/pdf-protector?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210020727274.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "sidenotes",
+      "name": "SideNotes",
+      "fullName": "SideNotes - 优秀的侧边栏笔记工具 快速记录灵感",
+      "description": "Mac 侧边笔记应用，速记 / Markdown / 同步",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 12000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/sidenotes?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210033542254.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "iobit-uninstaller-pro",
+      "name": "IObit Uninstaller Pro",
+      "fullName": "IObit Uninstaller 16 Pro - 专业软件卸载清理工具",
+      "description": "Win 卸载清理器，强力卸载 / 残留清理 / 插件",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/iobit-uninstaller-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230201/20230201051129249.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/quej7hnd1b_2ar1b6blqu_1788773399.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "iboysoft-diskgeeker",
+      "name": "赤友 DiskGeeker",
+      "fullName": "赤友 DiskGeeker - Mac 专业磁盘管理工具",
+      "description": "Mac 磁盘管理工具，NTFS 读写 / 系统清理",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/iboysoft-diskgeeker?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230707/20230707021323432.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "object-desktop",
+      "name": "Object Desktop",
+      "fullName": "Object Desktop - PC 效率工具套装 含 10+ 款软件",
+      "description": "Win 桌面增强套件，桌面整理 / 多任务 / 美化",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 15500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/object-desktop?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240228/20240228083413909.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "duplicate-cleaner-pro",
+      "name": "Duplicate Cleaner Pro",
+      "fullName": "Duplicate Cleaner Pro - 重复文件查找清理工具",
+      "description": "Win 重复文件清理器，查重 / 预览 / 规则",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 8500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/duplicate-cleaner-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210830/20210830091706353.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "proxifier",
+      "name": "Proxifier",
+      "fullName": "Proxifier - 多平台网络转发定向软件",
+      "description": "Win / Mac 代理管理工具，规则分流 / 流量监控",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 19900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/proxifier?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240620/20240620113333577.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "screenfocus",
+      "name": "ScreenFocus",
+      "fullName": "ScreenFocus - 在多显示器下保持专注的效率工具",
+      "description": "Mac 多屏专注工具，副屏变暗 / 焦点跟随",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/screenfocus?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210032748726.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "baimiao-photo",
+      "name": "白描证件照",
+      "fullName": "白描证件照 - 专业证件照制作 App 支持自动抠图 美颜",
+      "description": "多平台证件照应用，智能抠图 / 换底色 / 排版",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 1200,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/baimiao-photo?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210803/20210803025712478.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "function-key-pro",
+      "name": "Function Key Pro",
+      "fullName": "Function Key Pro - Mac 功能键增强工具 一键启动/切换应用程序",
+      "description": "Mac 功能键工具，F 键增强 / 应用切换 / 快捷键",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/function-key-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20221024/20221024035156471.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "advanced-systemcare-ultimate",
+      "name": "Advanced SystemCare Ultimate",
+      "fullName": "Advanced SystemCare Ultimate 18 - PC 杀毒清理优化工具",
+      "description": "Win 清理杀毒软件，病毒查杀 / 系统优化",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 6900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/advanced-systemcare-ultimate?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230202/20230202093440548.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "windowblinds",
+      "name": "WindowBlinds 11",
+      "fullName": "WindowBlinds 11 - 系统美化软件 自定义窗口任务栏主题",
+      "description": "Win 界面美化工具，主题皮肤 / 任务栏 / 窗口",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 7500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/windowblinds?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230315/20230315013835758.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "movavi-screen-recorder",
+      "name": "Movavi Screen Recorder",
+      "fullName": "Movavi Screen Recorder 2026 - 屏幕录屏软件",
+      "description": "Win / Mac 录屏软件，屏幕录制 / 标注 / 定时",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 16900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/movavi-screen-recorder?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230517/20230517070846109.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "betterdisplay",
+      "name": "BetterDisplay 5",
+      "fullName": "BetterDisplay 5 - 显示器管理工具 支持自定义屏幕分辨率与亮度",
+      "description": "Mac 显示器管理工具，亮度 / 分辨率 / 虚拟屏",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 13900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/betterdisplay?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231122/20231122023817765.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/b0xgq0kbax_shg3z9a5tq_1759980313.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "calendartask",
+      "name": "日历清单",
+      "fullName": "日历清单 - 跨平台日程管理软件 支持日程安排同步微信提醒",
+      "description": "多平台日历应用，桌面日程 / 倒数 / 待办",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 2300,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/calendartask?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240403/20240403015029912.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "nero-ai-video-upscaler",
+      "name": "Nero AI Video Upscaler",
+      "fullName": "Nero AI Video Upscaler - 视频画质增强软件 一键提升画质",
+      "description": "Win 视频增强工具，AI 放大 / 4K / 批处理",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/nero-ai-video-upscaler?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240619/20240619100634394.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "sandboxie-plus",
+      "name": "Sandboxie-Plus",
+      "fullName": "Sandboxie-Plus - 知名沙盒软件 支持游戏多开测试软件",
+      "description": "Win 沙盒工具，隔离运行 / 多开 / 权限控制",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 13900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/sandboxie-plus?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240703/20240703094616289.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "office-365",
+      "name": "Office",
+      "fullName": "Microsoft 365 - Office 办公套件",
+      "description": "多平台办公套件，Word / Excel / PPT 协作",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 25900,
+      "originalPrice": 39800,
+      "url": "https://lizhi.shop/products/office-365?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251210/20251210064330244.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "expressions",
+      "name": "Expressions",
+      "fullName": "Expressions - 简洁优雅的正则表达式利器",
+      "description": "Mac 正则工具，匹配测试 / 语法高亮",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/expressions?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200209/20200209104230994.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "iboysoft-data-recovery",
+      "name": "赤友数据恢复",
+      "fullName": "赤友数据恢复 - 专业数据恢复软件 轻松恢复丢失数据",
+      "description": "多平台数据恢复软件，误删 / 格式化 / 分区恢复",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 12900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/iboysoft-data-recovery?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220323/20220323051051548.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "advanced-systemcare-pro",
+      "name": "Advanced SystemCare Pro",
+      "fullName": "Advanced SystemCare 19 Pro - PC 系统清理优化工具",
+      "description": "Win 清理优化工具，垃圾清理 / 隐私防护",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/advanced-systemcare-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230202/20230202092821716.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "lanjiemao",
+      "name": "拦截猫",
+      "fullName": "拦截猫 - 苹果系统手机垃圾短信电话拦截 App",
+      "description": "iOS 通讯拦截应用，短信过滤 / 电话拦截",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 4500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/lanjiemao?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240904/20240904111629191.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/h9mjmhrhfv_daex1xhqow_1759981504.png",
+      "isRecommended": true,
+      "isOnSale": false
+    },
+    {
+      "id": "workspaces",
+      "name": "Workspaces 2",
+      "fullName": "Workspaces 2 - 在一处聚合项目资源 支持多种格式类型",
+      "description": "Mac 工作区工具，一键启动 / 文件 / 网页聚合",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 12000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/workspaces?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210122/20210122034944502.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "dama",
+      "name": "DAMA",
+      "fullName": "DAMA - 图片隐私智能打码 App",
+      "description": "iOS 图片打码应用，隐私识别 / 马赛克 / 水印",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 1000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/dama?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20221214/20221214072509268.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "picview",
+      "name": "Picview",
+      "fullName": "Picview - Mac 图片浏览器 支持贴图钉图",
+      "description": "Mac 图片浏览器，贴图 / EXIF / OCR",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 7500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/picview?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231020/20231020101755606.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "screenmemory",
+      "name": "ScreenMemory",
+      "fullName": "ScreenMemory - Mac 屏幕记录回溯工具 支持搜索截图多屏记录",
+      "description": "Mac 屏幕回溯工具，自动截图 / OCR / 搜索",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 18500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/screenmemory?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240508/20240508041238777.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "lock-launcher",
+      "name": "锁屏启动",
+      "fullName": "锁屏启动 - 万能桌面小组件 一键打开各种码 灵动岛",
+      "description": "iOS 快速启动应用，锁屏组件 / 灵动岛",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 700,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/lock-launcher?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250604/20250604100423508.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "litur",
+      "name": "Litur 4",
+      "fullName": "Litur 4 - 多功能取色器",
+      "description": "Mac / iOS 取色工具，色值采集 / 配色 / 调色板",
+      "platforms": [
+        "macOS",
+        "iOS"
+      ],
+      "price": 1700,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/litur?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250305/20250305091653117.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "smile-day",
+      "name": "Smile Day",
+      "fullName": "Smile Day - iOS 天气预报助手 穿衣 / 防晒 / 出行建议",
+      "description": "iOS 天气预报助手，穿衣 / 防晒 / 出行建议",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/smile-day?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260902/20260902101027264.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/kr71rd7lp4_lgqc8vsg0v_1788770621.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "viso",
+      "name": "Viso 7",
+      "fullName": "Viso 7 - 精致小巧的图片浏览器 轻松转换图片格式",
+      "description": "Mac 图片查看器，RAW 浏览 / 格式转换",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 4900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/viso?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230524/20230524015903493.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "vidhub",
+      "name": "VidHub",
+      "fullName": "VidHub - 跨平台视频播放器 支持管理本地 / 网盘视频文件",
+      "description": "多平台视频播放器，媒体库 / 网盘 / 字幕",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 1200,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/vidhub?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251210/20251210064137604.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202512/uehlu8zvsz_7wgmfdqsrc_1766044286.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "pastenow",
+      "name": "PasteNow",
+      "fullName": "PasteNow - Mac 剪贴板复制粘贴管理工具 支持多设备数据同步",
+      "description": "Mac / iOS 剪贴板管理器，历史 / 分类 / 同步",
+      "platforms": [
+        "macOS",
+        "iOS"
+      ],
+      "price": 4900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/pastenow?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210527/20210527014234452.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "cursor-teleporter",
+      "name": "Cursor Teleporter",
+      "fullName": "Cursor Teleporter - Mac 跨屏快速移动光标工具",
+      "description": "Mac 光标移动工具，跨屏跳转 / 位置记忆",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/cursor-teleporter?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240918/20240918014929678.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "paratrans",
+      "name": "Para 翻译",
+      "fullName": "Para 翻译 - 苹果全局划词聚合翻译 App",
+      "description": "iOS 翻译应用，全局取词 / 聚合翻译 / 离线",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/paratrans?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250416/20250416113721128.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202510/ds4u3atgpc_aoatnalxcs_1759981054.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "air-explorer-pro",
+      "name": "Air Explorer Pro",
+      "fullName": "Air Explorer Pro - 多网盘管理同步软件 支持百度云盘 OneDrive 坚果云",
+      "description": "Win / Mac 网盘管理器，多网盘 / 同步 / 加密",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/air-explorer-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220629/20220629070940356.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "fivenotes",
+      "name": "FiveNotes 3",
+      "fullName": "FiveNotes 3 - Mac 文本速记工具 快速记录想法",
+      "description": "Mac 速记应用，五页笔记 / Markdown / 同步",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/fivenotes?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240918/20240918015216816.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "islide",
+      "name": "iSlide",
+      "fullName": "iSlide - PPT 设计美化插件 会员",
+      "description": "Win PPT 插件，模板 / 图表 / 排版 / 素材",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/islide?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240419/20240419111245524.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202604/wjtmxliku7_aouuxh6g1f_1777363592.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "daisydisk",
+      "name": "DaisyDisk",
+      "fullName": "DaisyDisk - 磁盘空间扫描工具",
+      "description": "Mac 磁盘清理工具，空间扫描 / 文件删除",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 6500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/daisydisk?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208054629558.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "textseek",
+      "name": "TextSeek",
+      "fullName": "TextSeek - 桌面搜索软件 支持全文检索",
+      "description": "Win / Mac 全文搜索工具，文件名 / 内容 / 预览",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/textseek?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210707/20210707035859564.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "xterminal",
+      "name": "Xterminal",
+      "fullName": "Xterminal - 多平台 SSH 客户端 支持云端仓库",
+      "description": "多平台 SSH 客户端，终端 / 仓库 / 监控",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/xterminal?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240104/20240104054101349.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "unclutter",
+      "name": "Unclutter",
+      "fullName": "Unclutter - Mac 桌面文件笔记剪贴板管理工具",
+      "description": "Mac 桌面效率应用，文件暂存 / 剪贴板 / 笔记",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 12900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/unclutter?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240828/20240828064526219.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "klib",
+      "name": "Klib",
+      "fullName": "Klib - Kindle 多看标注管理 书摘笔记导出工具软件",
+      "description": "Mac 读书笔记工具，Kindle / 书摘 / 导出",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/klib?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200212/20200212031333851.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "ipic",
+      "name": "iPic",
+      "fullName": "iPic - 主流图床上传工具 支持 Markdown 语法",
+      "description": "Mac 图床工具，图片上传 / Markdown 外链",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 600,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/ipic?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200207/20200207090657479.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "itext",
+      "name": "iText",
+      "fullName": "iText - 截图PDF图片转文字OCR分段 翻译校对",
+      "description": "Mac OCR 工具，截图识字 / 翻译 / 校对",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/itext?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200207/20200207102253901.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "apowermirror",
+      "name": "ApowerMirror",
+      "fullName": "ApowerMirror - 傲软投屏 手机投屏软件",
+      "description": "多平台傲软投屏工具，手机镜像 / 键鼠控制",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 4800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/apowermirror?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205080119187.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "apowerrec",
+      "name": "ApowerREC",
+      "fullName": "ApowerREC - 傲软录屏 多平台录屏软件",
+      "description": "Win / Mac 傲软录屏软件，屏幕录制 / 剪辑 / 字幕",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 5800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/apowerrec?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205082008619.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "airbuddy",
+      "name": "AirBuddy",
+      "fullName": "AirBuddy 3 - Mac 蓝牙设备管理工具 电量提醒 / 播放控制",
+      "description": "Mac 外设管理软件，AirPods / 电量 / 设备切换",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/airbuddy?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260827/20260827033918882.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/r1gyjkukas_lrbwphiwzg_1788229481.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "picsee",
+      "name": "Picsee",
+      "fullName": "Picsee - 看图照片管理器 采集整理查找图片",
+      "description": "Mac / iOS 图片管理器，采集 / 标签 / 检索",
+      "platforms": [
+        "macOS",
+        "iOS"
+      ],
+      "price": 6500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/picsee?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231020/20231020114724971.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "bitdock",
+      "name": "BitDock",
+      "fullName": "BitDock - 比特工具栏 Windows桌面美化软件",
+      "description": "Win 比特桌面 Dock 工具，启动栏 / 插件 / 美化",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 200,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/bitdock?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210127/20210127084816472.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "longshot",
+      "name": "Longshot",
+      "fullName": "Longshot - Mac 截图贴图工具 支持滚动截图",
+      "description": "Mac 截图贴图工具，滚动截图 / 标注 / 测距",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 7500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/longshot?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240117/20240117053615631.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "beyond-compare",
+      "name": "Beyond Compare",
+      "fullName": "Beyond Compare 5 - 文件文件夹表格对比工具 支持文件夹同步",
+      "description": "多平台知名文件 / 代码 / 文件夹对比工具",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 11500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/beyond-compare?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208033923476.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "mweb-pro",
+      "name": "MWeb Pro",
+      "fullName": "MWeb Pro - 写作/笔记/博客工具 支持Markdown格式",
+      "description": "Mac Markdown 写作工具，笔记 / 博客 / 图床",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 21900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/mweb-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210014250336.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "apowersoft-unlimited",
+      "name": "Apowersoft Unlimited",
+      "fullName": "Apowersoft Unlimited - 傲软旗下专业软件合集",
+      "description": "多平台傲软软件套装，录屏 / 投屏 / PDF / 手机管理",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 17800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/apowersoft-unlimited?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20201026/20201026082456906.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "irightmouse",
+      "name": "超级右键",
+      "fullName": "超级右键 - Mac 右键菜单增强工具",
+      "description": "Mac 右键菜单工具，新建文件 / 剪切 / 快捷入口",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/irightmouse?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220126/20220126055321733.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "windows-11",
+      "name": "Windows 11",
+      "fullName": "Windows 11 - 正版 PC 电脑操作系统 专业版家庭版",
+      "description": "主流电脑操作系统，现代界面 / 多任务 / 安全",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 15900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/windows-11?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230406/20230406054700894.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202604/wwodmetv5q_lxxe3zbckr_1777358098.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "bandiview",
+      "name": "BandiView",
+      "fullName": "BandiView - 专业图像查看器 支持主流图片格式 HDR 输出",
+      "description": "Win 图像查看器，RAW / HDR / 压缩包阅读",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 23500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/bandiview?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240424/20240424075039245.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "one-switch",
+      "name": "One Switch",
+      "fullName": "One Switch - Mac一键切换系统功能工具",
+      "description": "Mac 系统开关工具，夜览 / 锁屏 / 分辨率",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/one-switch?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230606/20230606022341515.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "xnapper",
+      "name": "Xnapper",
+      "fullName": "Xnapper - 多功能智能截图美化工具 支持 OCR 识别 一键打码隐私信息",
+      "description": "Mac 截图美化工具，OCR / 隐私打码 / 背景",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/xnapper?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20221012/20221012103144231.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "cleanclip",
+      "name": "CleanClip",
+      "fullName": "CleanClip - 极简剪贴板管理工具 支持按顺序粘贴",
+      "description": "Mac / iOS 剪贴板管理器，历史 / 队列 / 收藏",
+      "platforms": [
+        "macOS",
+        "iOS"
+      ],
+      "price": 5500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/cleanclip?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250603/20250603110711366.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "endurance",
+      "name": "Endurance",
+      "fullName": "Endurance - 电池续航提升工具 让 Mac 也有省电模式",
+      "description": "Mac 电池续航工具，省电模式 / 后台休眠",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 11900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/endurance?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230209/20230209102629939.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "jidu-scan",
+      "name": "极度扫描",
+      "fullName": "极度扫描 - 跨平台OCR图片转文字 表格识别翻译",
+      "description": "Win 扫描 OCR 工具，图片转文字 / 表格识别",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Android"
+      ],
+      "price": 200,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/jidu-scan?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200429/20200429013156146.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "oka-unarchiver",
+      "name": "解压专家 Oka",
+      "fullName": "解压专家 Oka - Mac 解压软件 支持 RAR 解压 批量解压",
+      "description": "Mac 解压软件，RAR 解压 / 分卷压缩 / 预览",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 4000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/oka-unarchiver?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20211014/20211014055744788.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "macbooster",
+      "name": "MacBooster",
+      "fullName": "MacBooster 8 - Mac系统优化清理杀毒工具 替代CleanMyMac",
+      "description": "Mac 清理优化工具，垃圾清理 / 系统杀毒",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/macbooster?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205073742804.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "omniconverter",
+      "name": "OmniConverter",
+      "fullName": "OmniConverter - 视频格式转换器 内置压缩转换模版",
+      "description": "Mac 视频转换器，压缩 / 字幕 / 音轨",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/omniconverter?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230322/20230322033112105.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "em-client",
+      "name": "eM Client",
+      "fullName": "eM Client - 专业邮箱客户端 支持 Exchange",
+      "description": "多平台邮件客户端，邮箱管理 / 日历 / 联系人",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 16900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/em-client?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251229/20251229100626882.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "omniplayer",
+      "name": "OmniPlayer",
+      "fullName": "OmniPlayer - 全能影音播放器 GIF截取无线投屏",
+      "description": "Mac 影音播放器，字幕 / 投屏 / GIF 截取",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/omniplayer?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230322/20230322031327877.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "quicker",
+      "name": "Quicker",
+      "fullName": "Quicker - 效率工具 软件启动器 快捷指令 捷径",
+      "description": "Win 效率工具，动作面板 / 快捷启动 / 自动化",
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "price": 5760,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/quicker?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220330/20220330123202480.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "kanaorigin",
+      "name": "50音起源",
+      "fullName": "50音起源 - 0基础日语入门 五十音图假名学习App",
+      "description": "Android 日语入门应用，五十音 / 假名 / 复习",
+      "platforms": [
+        "Android"
+      ],
+      "price": 1200,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/kanaorigin?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210630/20210630120051900.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "iauto",
+      "name": "IAuto",
+      "fullName": "IAuto - 多功能绘图软件 支持思维导图流程图甘特图",
+      "description": "多平台绘图软件，流程图 / 脑图 / 甘特图",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/iauto?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20221024/20221024041949135.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "zoommy",
+      "name": "Zoommy",
+      "fullName": "Zoommy - 一键搜索海量免费高清图片 50+图库",
+      "description": "Win / Mac 图片素材库，图库搜索 / 下载 / 收藏",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/zoommy?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200205/20200205113258906.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "eaglefiler",
+      "name": "EagleFiler",
+      "fullName": "EagleFiler - 文档网页邮件管理工具 搜索标记加密",
+      "description": "Mac 文件管理工具，网页 / 邮件 / PDF 归档",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 24500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/eaglefiler?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250714/20250714094902565.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "epim",
+      "name": "EPIM",
+      "fullName": "EPIM - Win 个人信息管理工具 邮件 / 日历 / 笔记",
+      "description": "Win 个人信息管理工具，邮件 / 日历 / 笔记",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 31500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/epim?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260610/20260610074440724.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "phoneclean",
+      "name": "PhoneClean",
+      "fullName": "PhoneClean - iOS瘦身优化 垃圾隐私清理 提速",
+      "description": "Win / Mac iOS 清理工具，缓存 / 隐私 / 系统优化",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 4900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/phoneclean?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200207/20200207014856532.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "proxyman",
+      "name": "Proxyman",
+      "fullName": "Proxyman - HTTP网络调试 SSL抓包分析工具",
+      "description": "多平台抓包工具，HTTP / HTTPS / SSL 调试",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS"
+      ],
+      "price": 32900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/proxyman?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240620/20240620113121766.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "aquasnap",
+      "name": "AquaSnap",
+      "fullName": "AquaSnap - 窗口管理 支持多显示器",
+      "description": "Win 窗口管理工具，分屏 / 对齐 / 拉伸",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 14900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/aquasnap?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208032119814.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "axglyph",
+      "name": "AxGlyph",
+      "fullName": "AxGlyph - 专业矢量曲线图表数学公式流程图绘图软件",
+      "description": "Win 矢量绘图软件，函数图 / 流程图 / 公式",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/axglyph?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208032758336.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "charles",
+      "name": "Charles",
+      "fullName": "Charles - 网络封包分析 开发者调试工具",
+      "description": "多平台抓包工具，SSL / 弱网 / 断点调试",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 19900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/charles?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208040831261.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "clipboardfusion-pro",
+      "name": "ClipboardFusion Pro",
+      "fullName": "ClipboardFusion Pro - 剪贴板管理同步增强工具",
+      "description": "Win / Android 剪贴板管理器，历史 / 同步 / 宏",
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "price": 10900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/clipboardfusion-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220922/20220922093703597.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "codekit",
+      "name": "CodeKit",
+      "fullName": "CodeKit - CSS/JS 全能前端工具 网页开发与调试",
+      "description": "Mac 前端工具，Sass / JS 编译 / 图片压缩",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 22900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/codekit?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208041651124.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "colorsnapper",
+      "name": "ColorSnapper",
+      "fullName": "ColorSnapper 2 - 屏幕取色工具 PS/AI软件集成",
+      "description": "Mac 取色工具，屏幕取色 / 色值转换",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 6900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/colorsnapper?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208042025838.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "default-folder-x",
+      "name": "Default Folder X",
+      "fullName": "Default Folder X 6 - 打开/保存 对话框功能增强工具",
+      "description": "Mac 文件增强工具，路径跳转 / 标签 / 重命名",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 16900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/default-folder-x?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230926/20230926112319440.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "du-meter",
+      "name": "DU Meter",
+      "fullName": "DU Meter - 网络流量监控工具",
+      "description": "Win 网络监控工具，实时网速 / 流量统计",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 6000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/du-meter?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200208/20200208062239606.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "foldermill",
+      "name": "FolderMill",
+      "fullName": "FolderMill - 企业文档自动处理打印办公文件",
+      "description": "Win 文档自动化工具，批量打印 / PDF 转换",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 339900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/foldermill?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200209/20200209105729246.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "iringg",
+      "name": "iRingg",
+      "fullName": "iRingg - PC 苹果手机铃声制作工具",
+      "description": "Win 铃声制作工具，音频剪辑 / iPhone 推送",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/iringg?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250716/20250716104727803.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "kutools-for-excel-word-outlook",
+      "name": "Kutools for Excel/Word/Outlook",
+      "fullName": "Kutools for Excel/Word/Outlook - 表格文本邮箱增强辅助插件",
+      "description": "Win Office 插件，表格 / 文档 / 邮件增强",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 19500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/kutools-for-excel-word-outlook?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250911/20250911050902476.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "kutools-for-outlook",
+      "name": "Kutools for Outlook",
+      "fullName": "Kutools for Outlook - 邮箱软件增强插件",
+      "description": "Win Outlook 插件，批量邮件 / 附件管理",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 19500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/kutools-for-outlook?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20201225/20201225011236511.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "kutools-for-word",
+      "name": "Kutools for Word",
+      "fullName": "Kutools for Word - 文本增强辅助插件 提高效率",
+      "description": "Win Word 插件，翻译 / 拆分 / 批量转换",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 19500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/kutools-for-word?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20201225/20201225011223135.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "launchbar",
+      "name": "LaunchBar",
+      "fullName": "LaunchBar - Mac 快速启动软件 替代 Spotlight",
+      "description": "Mac 启动器工具，应用搜索 / 文件操作 / 剪贴板",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 24900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/launchbar?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200209/20200209082151197.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "little-snitch",
+      "name": "Little Snitch 6",
+      "fullName": "Little Snitch 6 - 防火墙 一手掌控网络连接",
+      "description": "Mac 防火墙工具，联网监控 / 流量拦截",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 41900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/little-snitch?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240523/20240523040158493.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "micro-snitch",
+      "name": "Micro Snitch",
+      "fullName": "Micro Snitch - 摄像头/麦克风防监控工具",
+      "description": "Mac 隐私防护工具，摄像头 / 麦克风监控",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3300,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/micro-snitch?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200209/20200209114437405.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "netlimiter",
+      "name": "NetLimiter",
+      "fullName": "NetLimiter - 专业网络流量限速与防火墙工具",
+      "description": "Win 流量控制工具，限速 / 防火墙 / 统计",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 7900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/netlimiter?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210014709132.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "paintstorm-studio",
+      "name": "Paintstorm Studio",
+      "fullName": "Paintstorm Studio - 多格式数字绘画工具",
+      "description": "多平台绘画工具，画笔 / 混色 / 防抖",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 11900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/paintstorm-studio?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210015330266.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "qbserve",
+      "name": "Qbserve",
+      "fullName": "Qbserve - 具备专注模式的时间追踪器",
+      "description": "Mac 时间追踪工具，专注统计 / 报表导出",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/qbserve?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210030500292.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "right-click-enhancer",
+      "name": "Right Click Enhancer",
+      "fullName": "Right Click Enhancer - 右键菜单编辑管理工具",
+      "description": "Win 右键菜单工具，快捷入口 / 菜单清理",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 6900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/right-click-enhancer?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210031900757.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "scapple",
+      "name": "Scapple",
+      "fullName": "Scapple - 轻量级思维导图脑图软件",
+      "description": "Win / Mac 脑图工具，自由节点 / 连线",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 13500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/scapple?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210032239364.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "scrivener",
+      "name": "Scrivener",
+      "fullName": "Scrivener 3 - 跨平台长文写作利器",
+      "description": "Win / Mac 长文写作软件，大纲 / 章节 / 参考资料",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 34900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/scrivener?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210032919613.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "smoothscroll",
+      "name": "SmoothScroll",
+      "fullName": "SmoothScroll - 让鼠标滚动操作变得更顺滑流畅",
+      "description": "Mac 滚动优化工具，鼠标滚轮 / 加速减速",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 6900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/smoothscroll?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210033824881.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "sqlpro",
+      "name": "SQLPro",
+      "fullName": "SQLPro - 支持 SQLite/MySQL/Postgres/MSSQL",
+      "description": "优秀的 MSSQL 数据库客户端",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 11900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/sqlpro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210035345252.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "sqlpro-studio",
+      "name": "SQLPro Studio",
+      "fullName": "SQLPro Studio - 支持SQLite/MySQL/Postgres/MSSQL",
+      "description": "Mac 数据库管理工具，MySQL / Postgres / MSSQL",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 49900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/sqlpro-studio?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210035713464.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "tableplus",
+      "name": "TablePlus",
+      "fullName": "TablePlus - 安全可靠的高性能数据库开发工具",
+      "description": "多平台数据库管理工具，SQL / 多标签 / 仪表盘",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Linux"
+      ],
+      "price": 28900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/tableplus?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210104954964.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "taskpaper",
+      "name": "TaskPaper",
+      "fullName": "TaskPaper - 纯文本GTD工具 支持 JavaScript",
+      "description": "Mac GTD 应用，纯文本 / 标签 / 脚本",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 11900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/taskpaper?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210105420320.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "tidytabs",
+      "name": "TidyTabs",
+      "fullName": "TidyTabs - 用标签管理所有窗口 屏幕更整洁",
+      "description": "Win 窗口标签工具，窗口合并 / 分组 / 隐藏",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 14900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/tidytabs?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210105643611.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "trim-enabler",
+      "name": "Trim Enabler 4",
+      "fullName": "Trim Enabler 4 - 平衡SSD磨损 提高数据写入效率",
+      "description": "Mac SSD 维护工具，Trim 开启 / 硬盘监控",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 4500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/trim-enabler?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210121604960.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "trym",
+      "name": "Trym",
+      "fullName": "Trym - 轻量级 SVG 图标转换/优化工具",
+      "description": "Mac SVG 转换器，图标预览 / PNG 转换",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 1900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/trym?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210121957325.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "ubar",
+      "name": "uBar",
+      "fullName": "uBar 4 - 为Mac配一个Win风格任务栏",
+      "description": "Mac 任务栏工具，开始菜单 / 窗口预览 / 多层",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/ubar?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200210/20200210124139273.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "rolan",
+      "name": "Rolan",
+      "fullName": "Rolan - 轻量美观的效率桌面启动器",
+      "description": "Win 快捷启动工具，分组面板 / 快捷键 / 扩展",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/rolan?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260707/20260707111849952.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "hard-disk-sentinel",
+      "name": "Hard Disk Sentinel",
+      "fullName": "Hard Disk Sentinel - 硬盘哨兵 专业的硬盘检测工具",
+      "description": "Win 硬盘哨兵监控软件，健康检测 / 温度 / 告警",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 9500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/hard-disk-sentinel?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200323/20200323104236682.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "umbrella",
+      "name": "Umbrella",
+      "fullName": "Umbrella - 实时监控重复文件 预防生成工具",
+      "description": "Mac 重复文件监控器，实时检测 / 自动标记",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 7900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/umbrella?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200415/20200415112105787.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "oak-diary",
+      "name": "白橡日记",
+      "fullName": "白橡日记 - 简约风小清新日记App 支持密码锁云同步 卡片日记",
+      "description": "Android 日记应用，卡片记录 / 密码锁 / 同步",
+      "platforms": [
+        "Android"
+      ],
+      "price": 500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/oak-diary?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20211220/20211220011437596.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "filter-box",
+      "name": "通知滤盒 Filter Box",
+      "fullName": "通知滤盒 Filter Box - 手机通知管理 过滤分析工具",
+      "description": "Android 通知管理器，历史 / 过滤 / 分析",
+      "platforms": [
+        "Android"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/filter-box?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200429/20200429020618349.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "ice-box",
+      "name": "冰箱 Ice Box",
+      "fullName": "冰箱 Ice Box - 冻结流氓应用 省电防止后台运行",
+      "description": "Android 应用冻结器，省电 / 防后台 / 隐藏",
+      "platforms": [
+        "Android"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/ice-box?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200429/20200429022014107.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "soulver",
+      "name": "Soulver 3",
+      "fullName": "Soulver 3 - 智能记事本 自然语义计算器 单位换算",
+      "description": "Mac 文本计算器，文本计算 / 单位换算 / 变量",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/soulver?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230317/20230317023040715.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "off-phone",
+      "name": "远离手机",
+      "fullName": "远离手机 - 自律专注App 强制锁定手机减少依赖",
+      "description": "Android 专注应用，锁机 / 番茄钟 / 统计",
+      "platforms": [
+        "Android"
+      ],
+      "price": 1000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/off-phone?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200520/20200520063916847.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "20s-protect-eyes",
+      "name": "20秒护眼",
+      "fullName": "20秒护眼 - 软件屏幕亮度调节app注册激活码支持安卓",
+      "description": "Android 护眼应用，定时休息 / 强制锁屏",
+      "platforms": [
+        "Android"
+      ],
+      "price": 500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/20s-protect-eyes?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200527/20200527022452269.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "radiant-dicom-viewer",
+      "name": "RadiAnt DICOM Viewer",
+      "fullName": "RadiAnt DICOM Viewer - 医学图像DICOM浏览器",
+      "description": "Win DICOM 查看器，医学影像 / 3D 重建",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 5300,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/radiant-dicom-viewer?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200624/20200624070448955.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "irreader",
+      "name": "irreader",
+      "fullName": "irreader - 跨平台RSS阅读器 网站播客聚合订阅",
+      "description": "Win / Mac RSS 阅读器，订阅 / 稍后读 / 全文",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 1500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/irreader?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200624/20200624090525861.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "openwebmonitor",
+      "name": "OpenWebMonitor",
+      "fullName": "OpenWebMonitor - 网页内容监控器 变化实时通知",
+      "description": "Win / Mac 网页监控工具，内容变化 / 区域提醒",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/openwebmonitor?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200624/20200624100211599.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "easyshu",
+      "name": "EasyShu",
+      "fullName": "EasyShu - Excel图表专业插件 数据分析与可视化",
+      "description": "Win Excel 图表插件，数据可视化 / 交互图表",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 1600,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/easyshu?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210524/20210524115355720.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "pengdu",
+      "name": "捧读",
+      "fullName": "捧读 - 学日语语法结构分析 日文词性注解与翻译",
+      "description": "移动端日语学习应用，语法分析 / 翻译 / 查词",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "price": 6500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/pengdu?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200928/20200928041234706.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "spu-360",
+      "name": "个人版",
+      "fullName": "个人版",
+      "description": "多平台办公套件，Word / Excel / PPT 协作",
+      "platforms": [],
+      "price": 26900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/site/products/id/379?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20201012/20201012021233684.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "spu-361",
+      "name": "家庭版",
+      "fullName": "家庭版",
+      "description": "多平台办公套件，Word / Excel / PPT 协作",
+      "platforms": [],
+      "price": 34900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/site/products/id/380?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20201012/20201012021419308.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "pickmeapp",
+      "name": "PickMeApp",
+      "fullName": "PickMeApp - 跨设备软件搬家卸载管理工具",
+      "description": "Win 软件迁移工具，应用打包 / 迁移 / 备份",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 12900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/pickmeapp?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20201026/20201026062602747.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "realistic-paint-studio",
+      "name": "Realistic Paint Studio",
+      "fullName": "Realistic Paint Studio - 智能数字绘画软件",
+      "description": "Win / Mac 绘画软件，仿真笔刷 / 调色",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 12500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/realistic-paint-studio?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20201125/20201125081649613.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "010-editor",
+      "name": "010 Editor",
+      "fullName": "010 Editor 16 - 十六进制编辑器 文本代码编辑",
+      "description": "多平台十六进制编辑器，二进制 / 脚本",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 39500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/010-editor?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210127/20210127094953630.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "jpghd",
+      "name": "jpgHD",
+      "fullName": "jpgHD - 人像图片无损变高清 老照片修复降噪放大",
+      "description": "多平台图片修复应用，老照片 / 高清放大",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "price": 3000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/jpghd?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210207/20210207052449138.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "nxpowerlite-desktop",
+      "name": "NXPowerLite Desktop",
+      "fullName": "NXPowerLite Desktop - 文档压缩批量瘦身工具",
+      "description": "Win / Mac 文件压缩工具，PDF / Office / 图片瘦身",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 37900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/nxpowerlite-desktop?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210429/20210429060327217.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "grid-diary",
+      "name": "格志日记",
+      "fullName": "格志日记 - 九宫格日记App 记录成长晨间日记",
+      "description": "多平台日记应用，九宫格 / Markdown / 隐私",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 2000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/grid-diary?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210720/20210720014042154.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "utools",
+      "name": "uTools",
+      "fullName": "uTools - 程序快速启动器 生产力工具集 会员",
+      "description": "Win / Mac 效率工具箱，插件 / 启动 / 搜索",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/utools?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210824/20210824043114593.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "acdsee-luxea",
+      "name": "ACDSee 亮鱼剪辑",
+      "fullName": "ACDSee 亮鱼剪辑 - 强大易用的视频剪辑软件",
+      "description": "Win 视频剪辑软件，多轨编辑 / 字幕 / 录屏",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 16900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/acdsee-luxea?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210825/20210825114013226.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "bigmp4",
+      "name": "bigmp4",
+      "fullName": "bigmp4 - AI 补帧 视频无损放大",
+      "description": "多平台视频增强应用，AI 放大 / 补帧 / 降噪",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Web"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/bigmp4?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210923/20210923053948174.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "paletro",
+      "name": "Paletro",
+      "fullName": "Paletro - 软件菜单指令调用器 功能快启速查工具",
+      "description": "Mac 命令面板工具，菜单搜索 / 指令调用 / 快捷键",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 4000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/paletro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20211208/20211208055042470.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "redis-assistant",
+      "name": "Redis Assistant",
+      "fullName": "Redis Assistant - Redis数据库可视化管理监控工具",
+      "description": "多平台 Redis 管理工具，监控 / 搜索 / Lua 脚本",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 1900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/redis-assistant?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20211215/20211215093152484.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "termius",
+      "name": "Termius",
+      "fullName": "Termius - 全平台 SSH 客户端 支持 SFTP 媲美 XShell",
+      "description": "多平台 SSH 客户端，SFTP / 终端 / 云同步",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Linux"
+      ],
+      "price": 36900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/termius?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220216/20220216083234851.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "alwaysup",
+      "name": "AlwaysUp",
+      "fullName": "AlwaysUp - Windows 系统服务注册 程序托管工具",
+      "description": "Win 服务管理工具，程序托管 / 崩溃重启 / 监控",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 31500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/alwaysup?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220223/20220223012632209.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "jpgrm",
+      "name": "jpgRM",
+      "fullName": "jpgRM - 图片 AI 橡皮擦 智能擦除任何部分 在线去水印",
+      "description": "网页端图片修补工具，AI 擦除 / 去水印 / 修图",
+      "platforms": [
+        "Web"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/jpgrm?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220413/20220413061932599.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "zookeeper-assistant",
+      "name": "ZooKeeper Assistant",
+      "fullName": "ZooKeeper Assistant - 分布式服务可视化监控管理工具",
+      "description": "多平台 ZooKeeper 管理工具，节点 / 监控 / 搜索",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 1900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/zookeeper-assistant?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230821/20230821101043738.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "medis",
+      "name": "Medis 2",
+      "fullName": "Medis 2 - Mac 高性能 Redis 管理工具",
+      "description": "Mac Redis 管理工具，查询 / 高亮 / SSH 隧道",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 15900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/medis?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220622/20220622045730717.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "manictime",
+      "name": "ManicTime",
+      "fullName": "ManicTime - 时间管理跟踪工具 追踪软件使用情况",
+      "description": "Win 时间统计工具，屏幕记录 / 报表 / 标签",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 22900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/manictime?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220713/20220713062928997.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "slidepad",
+      "name": "Slidepad",
+      "fullName": "Slidepad - Mac 侧边滑动浏览器 像 iPad 一样切换 App",
+      "description": "Mac 侧边浏览器，滑出小窗 / 网页工具 / 通知",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 6900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/slidepad?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220728/20220728092742661.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "codejock-toolkit-pro",
+      "name": "Codejock Toolkit Pro",
+      "fullName": "Codejock Toolkit Pro - VC++ MFC用户界面组件工具",
+      "description": "Win C++ UI 组件库，Ribbon / Dock / 图表",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 589900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/codejock-toolkit-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220810/20220810090843712.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "codejock-suite-pro",
+      "name": "Codejock Suite Pro",
+      "fullName": "Codejock Suite Pro - ActiveX/COM用户界面组件工具",
+      "description": "Win ActiveX UI 组件库，控件 / 图表 / 皮肤",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 589900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/codejock-suite-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220810/20220810091557335.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "smartsvn",
+      "name": "SmartSVN",
+      "fullName": "SmartSVN - 跨平台 SVN 客户端",
+      "description": "Win / Mac SVN 图形化客户端，提交 / 分支 / 冲突解决",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 70500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/smartsvn?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220810/20220810092303952.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "moom",
+      "name": "Moom",
+      "fullName": "Moom 4 - Mac 窗口管理器 轻松调整窗口大小位置",
+      "description": "Mac 窗口管理器，分屏 / 布局 / 快捷键",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/moom?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240905/20240905041614341.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "smartgit",
+      "name": "SmartGit",
+      "fullName": "SmartGit - 知名图形化 Git 管理工具",
+      "description": "多平台 Git 客户端，分支 / 合并 / 代码评审",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 44900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/smartgit?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240620/20240620114015253.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "jriver-media-center",
+      "name": "JRiver Media Center",
+      "fullName": "JRiver Media Center 36 - 多媒体音乐视频播放器",
+      "description": "多平台媒体中心软件，音乐 / 视频 / 媒体库",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 32500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/jriver-media-center?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220812/20220812044823390.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "jriver-media-center-upgrade",
+      "name": "JRiver Media Center 升级专用通道",
+      "fullName": "JRiver Media Center 35/34/33/32/31 升级专用通道 JMC/JRMC",
+      "description": "多平台媒体中心软件，音乐 / 视频 / 媒体库",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 9500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/jriver-media-center-upgrade?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220812/20220812044823390.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "acronis-true-image",
+      "name": "Acronis True Image",
+      "fullName": "Acronis True Image - 专业系统备份还原与网络防护软件",
+      "description": "Win / Mac 安克诺斯系统备份软件，磁盘克隆 / 防勒索",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 11900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/acronis-true-image?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220824/20220824104551501.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "apowersoft-background-eraser",
+      "name": "傲软抠图",
+      "fullName": "傲软抠图 - 智能抠图工具 支持批量抠图 一键换背景",
+      "description": "多平台抠图工具，AI 抠图 / 换背景 / 批量处理",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/apowersoft-background-eraser?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220831/20220831060304471.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "linqpad",
+      "name": "LINQPad 9",
+      "fullName": "LINQPad 9 - LINQ 调试工具 支持 .NET6 及 C#10 开发",
+      "description": "多平台代码调试工具，C# / LINQ / SQL 查询",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 82900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/linqpad?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220928/20220928050807950.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "cubox-pro",
+      "name": "Cubox",
+      "fullName": "Cubox Pro - 个人碎片知识收集管理工具",
+      "description": "多平台知识管理工具，网页收藏 / 高亮 / 稍后读",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "price": 9800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/cubox-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20221207/20221207085359629.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "pandora",
+      "name": "Pandora",
+      "fullName": "Pandora - 订阅服务管理 App 一站式管理订阅",
+      "description": "iOS 订阅管理应用，续费提醒 / 花费统计",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 1500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/pandora?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230215/20230215082416894.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "toto-wallet",
+      "name": "图图记账",
+      "fullName": "图图记账 - 高颜值简洁易用记账 App",
+      "description": "iOS 记账应用，截图识别 / 预算 / 资产",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 6500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/toto-wallet?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230215/20230215083136259.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "print-conductor",
+      "name": "Print Conductor 11",
+      "fullName": "Print Conductor 11 - 文档批量打印软件 支持 90+ 文件类型",
+      "description": "Win 批量打印软件，文档打印 / 水印 / 报告",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 95900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/print-conductor?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230222/20230222035956396.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "spu-613",
+      "name": "积分兑换 - UPDF 编辑器",
+      "fullName": "UPDF 编辑器_一年专业版",
+      "description": "多平台 PDF 编辑器，阅读 / 转换 / OCR / AI",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/site/products/id/633?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20221028/20221028033836627.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "invoicebox",
+      "name": "发票盒子",
+      "fullName": "发票盒子 - 收集识别整理发票 一键生成报销单",
+      "description": "多平台发票管理应用，识别 / 报销 / 统计",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "price": 2100,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/invoicebox?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230621/20230621010920852.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "winlock",
+      "name": "WinLock",
+      "fullName": "WinLock - PC 安全隐私保护工具 支持一键锁定家长控制",
+      "description": "Win 安全管控工具，权限限制 / 家长控制",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 16900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/winlock?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230705/20230705015233462.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "offshoot",
+      "name": "OffShoot",
+      "fullName": "OffShoot - 摄影素材备份工具",
+      "description": "Win / Mac 素材备份工具，拷贝 / 校验 / 归档",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 99900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/offshoot?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240118/20240118092210180.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "netdrive",
+      "name": "NetDrive",
+      "fullName": "NetDrive 3 - 跨平台网盘挂载本地工具 像本地存储一样用网盘",
+      "description": "多平台网盘挂载工具，云盘 / FTP / WebDAV",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 14900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/netdrive?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230810/20230810092538994.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "witch",
+      "name": "Witch",
+      "fullName": "Witch - Mac 窗口快速切换工具",
+      "description": "Mac 窗口切换工具，窗口列表 / 模糊搜索",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/witch?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230830/20230830080709921.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "yueliu",
+      "name": "阅流",
+      "fullName": "阅流 - 影音创意资源管理 协同工作流平台",
+      "description": "多平台创意协作工具，素材管理 / 在线审阅",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Web"
+      ],
+      "price": 22500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/yueliu?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230906/20230906095555376.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "filming-yueliu",
+      "name": "阅流拍摄",
+      "fullName": "阅流拍摄 - 音视频云端制作平台 实时远程云监看",
+      "description": "多平台云监看工具，远程拍摄 / 素材回看",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "price": 19500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/filming-yueliu?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230906/20230906100031236.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "star-dllrrepairer",
+      "name": "星空运行库修复大师",
+      "fullName": "星空运行库修复大师 - DLL / 运行库修复工具 一键解决 DLL / 运行库报错",
+      "description": "Win 运行库修复工具，DLL 修复 / 游戏环境",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/star-dllrrepairer?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230914/20230914093815908.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "kocard",
+      "name": "KOCARD 拷卡",
+      "fullName": "KOCARD 拷卡 - 专业素材备份管理软件 支持自定义转码 文件校验",
+      "description": "Win / Mac 素材拷贝软件，多盘备份 / 转码",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 68900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/kocard?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230921/20230921092949226.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "videosrt-pro",
+      "name": "Videosrt Pro",
+      "fullName": "Videosrt Pro - 音视频字幕处理工具箱 一键音视频生成字幕",
+      "description": "Win 字幕处理工具，转写 / 翻译 / 配音",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 350,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/videosrt-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20231011/20231011085549790.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "star-order",
+      "name": "Star Order",
+      "fullName": "Star Order - GitHub 专业管理工具 轻松管理 Star 仓库",
+      "description": "Mac GitHub 管理工具，Star 分类 / 更新追踪",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/star-order?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240104/20240104051232689.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "goodsync-business",
+      "name": "GoodSync Business",
+      "fullName": "GoodSync Business - 服务器同步与备份工具",
+      "description": "多平台备份同步工具，服务器同步 / 集中管理",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 23900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/goodsync-business?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240110/20240110114645453.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-premium",
+      "name": "Navicat Premium",
+      "fullName": "Navicat Premium - 支持多种数据库类型开发利器",
+      "description": "多平台数据库管理工具，多库连接 / 查询 / 报表",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 93800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-premium?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240206/20240206033912319.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-on-prem-server",
+      "name": "Navicat On-Prem Server",
+      "fullName": "Navicat On-Prem Server - 本地化部署云服务",
+      "description": "多平台本地云工具，团队同步 / 权限 / 存储",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 9800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-on-prem-server?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240206/20240206044934174.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-monitor",
+      "name": "Navicat Monitor",
+      "fullName": "Navicat Monitor - 远程服务器监控 无代理架构",
+      "description": "多平台服务器监控工具，无代理 / 图表 / 告警",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 31800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-monitor?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240527/20240527092017445.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-for-sql-server",
+      "name": "Navicat for SQL Server",
+      "fullName": "Navicat for SQL Server - 图形化解决方案",
+      "description": "多平台 SQL Server 工具，查询 / 迁移 / 建模",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 52800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-for-sql-server?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240208/20240208095007751.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-for-sqlite",
+      "name": "Navicat for SQLite",
+      "fullName": "Navicat for SQLite - 图形化开发工具",
+      "description": "多平台 SQLite 管理工具，查询 / 设计 / 同步",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 18800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-for-sqlite?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240208/20240208033948274.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-for-postgresql",
+      "name": "Navicat for PostgreSQL",
+      "fullName": "Navicat for PostgreSQL - 图形化数据库开发",
+      "description": "多平台 PostgreSQL 工具，查询 / 同步 / 报表",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 24800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-for-postgresql?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240208/20240208035741907.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-for-oracle",
+      "name": "Navicat for Oracle",
+      "fullName": "Navicat for Oracle - 支持本地或远程服务器",
+      "description": "多平台 Oracle 管理工具，查询 / 建模 / 同步",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 52800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-for-oracle?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240208/20240208041418409.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-for-mysql",
+      "name": "Navicat for MySQL",
+      "fullName": "Navicat for MySQL - 数据库开发理想解决方案",
+      "description": "多平台 MySQL 管理工具，查询 / 迁移 / 报表",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 24800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-for-mysql?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240208/20240208042545405.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-for-mongodb",
+      "name": "Navicat for MongoDB",
+      "fullName": "Navicat for MongoDB - 图形化数据库开发工具",
+      "description": "多平台 MongoDB 工具，查询 / 可视化 / 监控",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 24800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-for-mongodb?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240218/20240218095541238.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-for-mariadb",
+      "name": "Navicat for MariaDB",
+      "fullName": "Navicat for MariaDB - 本地/远程 数据库管理",
+      "description": "多平台 MariaDB 工具，查询 / 同步 / 建模",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 18800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-for-mariadb?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240218/20240218104912404.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-data-modeler",
+      "name": "Navicat Data Modeler",
+      "fullName": "Navicat Data Modeler - 可视化数据库设计工具",
+      "description": "多平台数据库建模工具，模型设计 / 逆向工程",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 33800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-data-modeler?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240527/20240527092000561.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-cloud",
+      "name": "Navicat Cloud",
+      "fullName": "Navicat Cloud - Navicat 系列云服务组件",
+      "description": "多平台云协作工具，文件同步 / 团队共享",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 59800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-cloud?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240219/20240219095354489.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "navicat-bi",
+      "name": "Navicat BI",
+      "fullName": "Navicat BI - 数据图表可视化工具",
+      "description": "多平台 BI 工具，图表 / 仪表板 / 数据连接",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 14800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/navicat-bi?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240220/20240220100827769.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "mylifeorganized",
+      "name": "MyLifeOrganized",
+      "fullName": "MyLifeOrganized - GTD 时间管理工具 轻松管理待办事项",
+      "description": "Win / Android GTD 应用，任务层级 / 智能清单",
+      "platforms": [
+        "Windows",
+        "Android"
+      ],
+      "price": 13500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/mylifeorganized?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240221/20240221100208201.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "folder-hub",
+      "name": "Folder Hub",
+      "fullName": "Folder Hub - Mac 文件浏览器 一键直达文件和文件夹",
+      "description": "Mac 文件浏览器，快捷面板 / 预览 / 拖拽",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 700,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/folder-hub?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240313/20240313030506169.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "shutter-pro",
+      "name": "Shutter Pro",
+      "fullName": "Shutter Pro - 多功能定时任务执行器",
+      "description": "Win 定时任务工具，触发器 / 自动执行 / 远程控制",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 12500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/shutter-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240522/20240522092251370.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "resizer-pro",
+      "name": "Resizer Pro",
+      "fullName": "Resizer Pro - 图像尺寸批量调整工具",
+      "description": "Win 图片批处理工具，尺寸调整 / 转换 / 重命名",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 8500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/resizer-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240522/20240522092435340.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "twinkle",
+      "name": "闪闪童画",
+      "fullName": "闪闪童画 - 儿童涂鸦绘画扫描收纳整理工具 支持云端备份",
+      "description": "Mac / iOS 童画收纳应用，扫描 / 画册 / 云备份",
+      "platforms": [
+        "macOS",
+        "iOS"
+      ],
+      "price": 14500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/twinkle?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240703/20240703054844541.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "anytrans",
+      "name": "AnyTrans",
+      "fullName": "AnyTrans - iOS 设备数据管理备份工具",
+      "description": "Win / Mac iOS 管理工具，传输 / 备份 / 换机",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/anytrans?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240710/20240710010057539.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "anydroid",
+      "name": "AnyDroid",
+      "fullName": "AnyDroid - Android 设备数据传输管理工具",
+      "description": "Win / Mac Android 管理工具，传输 / 备份 / 换机",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 4900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/anydroid?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240710/20240710010756545.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "balmytime",
+      "name": "BalmyTime",
+      "fullName": "BalmyTime - 跨平台休息提醒工具 支持记录屏幕使用时间",
+      "description": "Win / Mac 休息提醒工具，屏幕时间 / 作息统计",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 2800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/balmytime?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240710/20240710053411143.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "kiko-card",
+      "name": "吉光卡片",
+      "fullName": "吉光卡片 - iOS 文字排版和海报设计工具",
+      "description": "iOS 海报设计应用，文字卡片 / 长图 / 模板",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 6500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/kiko-card?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240710/20240710053733888.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "pichound",
+      "name": "PicHound",
+      "fullName": "PicHound - 图片批量下载编辑插件 支持以图搜图",
+      "description": "网页端图片下载插件，批量保存 / 过滤 / 编辑",
+      "platforms": [
+        "Web"
+      ],
+      "price": 6900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/pichound?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240718/20240718091404234.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "jpghi",
+      "name": "jpgHi",
+      "fullName": "jpgHi - 图片无损高清放大工具",
+      "description": "网页端图片放大工具，AI 增强 / 画质修复",
+      "platforms": [
+        "Web"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/jpghi?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240718/20240718091927675.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "nero-lens",
+      "name": "Nero Lens 智图",
+      "fullName": "Nero Lens 智图 - 专业图片处理 App 支持图片放大修复动漫化",
+      "description": "iOS 图片处理应用，放大 / 修复 / 漫画风",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 7900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/nero-lens?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240725/20240725091232628.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "nero-ai-image-upscaler",
+      "name": "Nero AI Image Upscaler",
+      "fullName": "Nero AI Image Upscaler - 照片无损放大工具 轻松增强图像画质",
+      "description": "Win 图片放大工具，AI 修复 / 批量处理",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 14900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/nero-ai-image-upscaler?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240725/20240725091421460.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "zipic",
+      "name": "Zipic",
+      "fullName": "Zipic - 图片批量压缩工具 修改尺寸格式转换",
+      "description": "Mac 图片压缩工具，批量压缩 / 格式转换",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 13900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/zipic?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240731/20240731102951857.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "workerexcelplugin",
+      "name": "打工人 Excel 插件",
+      "fullName": "打工人 Excel 插件 - 电子表格智能辅助插件",
+      "description": "Win Excel 插件，数据提取 / 套打 / 批处理",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 7900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/workerexcelplugin?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240821/20240821100727905.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "look-scanned",
+      "name": "Look Scanned",
+      "fullName": "Look Scanned - PDF 转扫描件工具",
+      "description": "网页端扫描件转换器，PDF 转扫描 / 水印",
+      "platforms": [
+        "Web"
+      ],
+      "price": 900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/look-scanned?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20240925/20240925112915216.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "nativerest",
+      "name": "NativeRest",
+      "fullName": "NativeRest - 多平台原生高性能 REST API 客户端",
+      "description": "多平台 API 客户端，请求管理 / 环境变量",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 12900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/nativerest?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241009/20241009014400395.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "focuspal",
+      "name": "专注猫",
+      "fullName": "专注猫 - iOS 屏幕时间管理应用 防沉迷全面掌控时间",
+      "description": "iOS 屏幕时间应用，专注模式 / 应用隐藏",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 4500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/focuspal?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241113/20241113051845769.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "kafka-assistant",
+      "name": "Kafka Assistant",
+      "fullName": "Kafka Assistant - 可视化管理与监控工具",
+      "description": "多平台 Kafka 管理工具，监控 / 消息 / 拓扑图",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 1900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/kafka-assistant?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241127/20241127093133231.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "badgeify",
+      "name": "Badgeify",
+      "fullName": "Badgeify - 菜单栏图标管理器 一键将应用添加到菜单栏",
+      "description": "Mac 菜单栏管理器，图标添加 / 分组 / 提醒",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 3300,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/badgeify?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260107/20260107012124839.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "onequick",
+      "name": "OneQuick 10",
+      "fullName": "OneQuick 10 - Win 热键效率工具",
+      "description": "Win 热键效率工具，边缘操作 / 聚合搜索",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 2300,
+      "originalPrice": 2500,
+      "url": "https://lizhi.shop/products/onequick?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241218/20241218013059198.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "wise-hotkey",
+      "name": "Wise Hotkey",
+      "fullName": "Wise Hotkey - Win 热键工具 支持快速启动及切换程序",
+      "description": "Win 热键管理工具，快速启动 / 程序切换",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/wise-hotkey?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241225/20241225101045820.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "trancy",
+      "name": "Trancy",
+      "fullName": "Trancy - 沉浸式 AI 语言学习软件 支持双语字幕划词全文翻译",
+      "description": "多平台语言学习工具，双语字幕 / PDF 翻译",
+      "platforms": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "price": 2400,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/trancy?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241225/20241225102704183.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "jprofiler",
+      "name": "JProfiler",
+      "fullName": "JProfiler - Java 性能分析器",
+      "description": "多平台 Java 分析工具，CPU / 内存 / 线程",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 158900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/jprofiler?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241231/20241231075032385.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "textsniper",
+      "name": "TextSniper",
+      "fullName": "TextSniper - Mac 图片转文字 OCR 工具",
+      "description": "Mac OCR 工具，屏幕识字 / 二维码 / 朗读",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/textsniper?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250115/20250115095846681.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "immersive-translate",
+      "name": "沉浸式翻译",
+      "fullName": "沉浸式翻译 - 双语对照网页翻译插件 支持翻译字幕/ PDF / EPUB",
+      "description": "多平台翻译工具，网页 / 字幕 / PDF 对照",
+      "platforms": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
+      "price": 6900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/immersive-translate?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250121/20250121032923448.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "kachika",
+      "name": "KaChiKa",
+      "fullName": "KaChiKa - 识别物品生成单词 将语言学习融入生活",
+      "description": "多平台单词学习应用，拍照识别 / 闪卡",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 22500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/kachika?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250226/20250226102252818.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "1panel",
+      "name": "1Panel",
+      "fullName": "1Panel - 服务器运维管理面板",
+      "description": "多平台服务器面板工具，建站 / 监控 / 告警",
+      "platforms": [
+        "iOS",
+        "Android",
+        "Linux",
+        "Web"
+      ],
+      "price": 4900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/1panel?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250312/20250312014651277.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "editready",
+      "name": "EditReady",
+      "fullName": "EditReady - 专业视频转码工具",
+      "description": "Mac 视频转码工具，RAW / ProRes / 代理文件",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 67900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/editready?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250326/20250326015941205.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "swan-cam",
+      "name": "Swan Cam",
+      "fullName": "Swan Cam - 苹果电影胶片质感相机 App",
+      "description": "iOS 胶片相机应用，复古滤镜 / RAW / 水印",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 8500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/swan-cam?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250326/20250326024908784.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "lifeos-for-obsidian",
+      "name": "LifeOS 2 for Obsidian",
+      "fullName": "LifeOS 2 for Obsidian - 知识管理插件模板 开箱即用上手简单",
+      "description": "多平台 Obsidian 模板套件，知识库 / 日程",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 17500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/lifeos-for-obsidian?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250423/20250423113214860.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "ishellpro",
+      "name": "iShellPro",
+      "fullName": "iShellPro - 跨平台高性能 SSH 工具",
+      "description": "多平台 SSH 工具，终端 / SFTP / AI 辅助",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Linux"
+      ],
+      "price": 899,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/ishellpro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250423/20250423011305526.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "norton-360",
+      "name": "Norton 360",
+      "fullName": "Norton 360 - 诺顿防病毒反恶意软件 全方位安全保护",
+      "description": "多平台安全软件，杀毒 / 防火墙 / 家长控制",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 10800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/norton-360?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250506/20250506091608890.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "aibeike-post-sync-assistant",
+      "name": "爱贝壳内容同步助手",
+      "fullName": "爱贝壳内容同步助手 - 图文视频多平台分发插件 自媒体运营利器",
+      "description": "网页端内容分发插件，文章 / 视频 / 动态同步",
+      "platforms": [
+        "Web"
+      ],
+      "price": 1300,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/aibeike-post-sync-assistant?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250506/20250506092001149.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "servbay",
+      "name": "ServBay",
+      "fullName": "ServBay - 集成式开发环境管理工具",
+      "description": "Mac 开发环境工具，Web 服务 / 数据库 / SSL",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 19500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/servbay?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250625/20250625093441225.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "dockflow",
+      "name": "DockFlow",
+      "fullName": "DockFlow - 程序坞 Dock 栏自定义布局工具",
+      "description": "Mac Dock 管理工具，布局方案 / 快捷切换",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 6500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/dockflow?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250625/20250625093741699.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "notab",
+      "name": "Notab",
+      "fullName": "Notab - 浏览器链接预览助手",
+      "description": "网页端链接预览插件，小窗预览 / 翻译 / 搜索",
+      "platforms": [
+        "Web"
+      ],
+      "price": 1900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/notab?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250707/20250707015436538.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "smart-defrag",
+      "name": "Smart Defrag",
+      "fullName": "Smart Defrag 12 Pro - PC 磁盘碎片整理工具",
+      "description": "Win 磁盘整理工具，碎片整理 / Trim / 健康监控",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/smart-defrag?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250716/20250716094605136.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "norton-360-for-gamers",
+      "name": "Norton 360 for Gamers",
+      "fullName": "Norton 360 for Gamers - Norton 360 游戏玩家版 专为 PC 游戏玩家打造",
+      "description": "Win 游戏安全软件，杀毒 / 游戏优化 / 防火墙",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 11000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/norton-360-for-gamers?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250723/20250723103941760.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "norton-antivirus",
+      "name": "Norton Antivirus",
+      "fullName": "Norton Antivirus - 诺顿杀毒软件",
+      "description": "多平台杀毒软件，实时防护 / 防火墙 / 备份",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 3600,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/norton-antivirus?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250723/20250723111243859.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "duplicate-file-finder",
+      "name": "Duplicate File Finder 9",
+      "fullName": "Duplicate File Finder 9 - Mac 专业重复文件清理工具",
+      "description": "Mac 重复文件清理器，文件查重 / 照片清理",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 12900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/duplicate-file-finder?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250730/20250730111847353.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "mission-control-plus",
+      "name": "Mission Control Plus",
+      "fullName": "Mission Control Plus - Mac 调度中心增强工具",
+      "description": "Mac 调度中心工具，窗口关闭 / 快捷键管理",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/mission-control-plus?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250903/20250903104740989.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "batteries-for-mac",
+      "name": "Batteries for Mac",
+      "fullName": "Batteries for Mac - Mac 设备电量管理软件 显示外设电池状态",
+      "description": "Mac 电量管理软件，外设电池 / 菜单栏提醒",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/batteries-for-mac?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250903/20250903110126694.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "kutools-for-office",
+      "name": "Kutools for Office",
+      "fullName": "Kutools for Office - Office 增强插件",
+      "description": "Win Office 插件套件，表格 / 文档 / 邮件增强",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 36500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/kutools-for-office?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250910/20250910110543708.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "backdrop",
+      "name": "Backdrop",
+      "fullName": "Backdrop 2 - Mac 桌面动态壁纸工具",
+      "description": "Mac 动态壁纸工具，4K 视频 / 锁屏 / 多屏",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 19900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/backdrop?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20250924/20250924102735232.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "flexicalc",
+      "name": "灵活计算器",
+      "fullName": "灵活计算器 - 苹果笔记式算数应用",
+      "description": "Mac / iOS 笔记计算器，实时计算 / 模板",
+      "platforms": [
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 700,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/flexicalc?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260707/20260707111914815.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "baimiao-pdf",
+      "name": "白描 PDF",
+      "fullName": "白描 PDF - PDF图片在线转换工具 支持PDF图片转文字",
+      "description": "网页端 PDF 转换工具，OCR / 图片转文字",
+      "platforms": [
+        "Web"
+      ],
+      "price": 900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/baimiao-pdf?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251112/20251112101726780.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "buhocleaner",
+      "name": "BuhoCleaner",
+      "fullName": "BuhoCleaner - Mac 磁盘清理工具",
+      "description": "Mac 清理优化工具，垃圾清理 / 卸载 / 监控",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 6500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/buhocleaner?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251126/20251126092550223.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "reqable",
+      "name": "Reqable",
+      "fullName": "Reqable - 专业 HTTP 开发和调试工具 一站式完成 API 抓包调试测试",
+      "description": "多平台 HTTP 调试工具，抓包 / API 测试 / 对比",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android",
+        "Linux"
+      ],
+      "price": 1400,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/reqable?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251126/20251126093959264.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "2camera",
+      "name": "2Camera",
+      "fullName": "2Camera - 双重拍摄相机 前后镜头同步开拍",
+      "description": "iOS 双摄相机应用，前后同拍 / 画中画",
+      "platforms": [
+        "iOS"
+      ],
+      "price": 700,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/2camera?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251203/20251203113155572.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202512/1dtynsq3gv_appkkafcvn_1765265580.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "inputlock",
+      "name": "InputLock",
+      "fullName": "InputLock - Mac 输入法锁定工具 切换应用保持设定输入法",
+      "description": "Mac 输入法锁定工具，应用切换 / 菜单栏",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 2900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/inputlock?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251217/20251217112925523.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202512/ejhte1tu1y_w6qkngjvnq_1766396552.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "docufreezer",
+      "name": "DocuFreezer",
+      "fullName": "DocuFreezer 7 - Win 文档图像批量转换工具",
+      "description": "Win 文档转换工具，批量转 PDF / OCR / 合并",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 33500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/docufreezer?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20251224/20251224103431460.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202512/ousvwumnpy_qhkd13fo7o_1766997772.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "ries",
+      "name": "Ries",
+      "fullName": "Ries - AI 外语学习插件 无痛学习外语",
+      "description": "iOS / 网页端外语学习工具，网页替换 / 字幕注解",
+      "platforms": [
+        "iOS",
+        "Web"
+      ],
+      "price": 1800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/ries?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260106/20260106111115382.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202601/ld8vqmygg8_nz4jecsnmg_1768466316.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "hazel",
+      "name": "Hazel 6",
+      "fullName": "Hazel 6 - Mac 文件夹自动整理工具",
+      "description": "Mac 文件自动整理工具，规则归档 / 重命名",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 28500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/hazel?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260304/20260304095759548.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202603/wjatdyvdlv_uxbtraal6e_1773196787.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "nero-motion-tracker",
+      "name": "Nero Motion Tracker",
+      "fullName": "Nero Motion Tracker - 视频对象追踪 动态打码工具",
+      "description": "Win 视频追踪工具，动态打码 / 物体跟踪",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 14900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/nero-motion-tracker?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260311/20260311011626633.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202603/yqquqcpvkv_utsrijqhwm_1773737162.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "desktop-composer",
+      "name": "Desktop Composer",
+      "fullName": "Desktop Composer - Mac 外观自定义工具 一键切换壁纸应用主题",
+      "description": "Mac 外观切换工具，壁纸 / 主题 / 明暗模式",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 12000,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/desktop-composer?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260318/20260318021550748.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202603/8azcn82s5u_m4689ra5e5_1774853562.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "windows-10",
+      "name": "Windows 10",
+      "fullName": "Windows 10 - 正版 PC 电脑操作系统 专业版家庭版",
+      "description": "经典电脑操作系统，办公 / 兼容性 / 安全",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 15900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/windows-10?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20230406/20230406054700894.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "iboysoft-cleaner",
+      "name": "赤友清理大师",
+      "fullName": "赤友清理大师 - Mac 系统清理优化软件",
+      "description": "Mac 清理优化软件，垃圾清理 / 卸载 / 大文件",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/iboysoft-cleaner?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260415/20260415111200926.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202604/nqx1eub0wq_eet8hbviqk_1776739073.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "vibe-island",
+      "name": "Vibe Island",
+      "fullName": "Vibe Island - 灵动岛式 AI 编程管理工具",
+      "description": "Mac AI 编程管理工具，任务监控 / 审批 / 额度",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/vibe-island?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260513/20260513021528458.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202605/qaagt3qz0m_8sedp91c3s_1779090254.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "fastzip-pro",
+      "name": "FastZip Pro",
+      "fullName": "FastZip Pro - Mac 多线程解压缩工具 RAR / ZIP / 7z",
+      "description": "Mac 多线程解压缩工具，RAR / ZIP / 7z",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 5500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/fastzip-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260527/20260527104326705.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202606/tgneog1oih_c8exvnbod0_1780545643.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "deskmat",
+      "name": "DeskMat",
+      "fullName": "DeskMat - Mac 桌面整理工具 自动隐藏图标 / 壁纸",
+      "description": "Mac 桌面整理工具，自动隐藏图标 / 壁纸",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/deskmat?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260708/20260708113438875.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202607/qcaekz2gzg_ucfz8i7q9l_1783916196.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "screenfloat",
+      "name": "ScreenFloat",
+      "fullName": "ScreenFloat - Mac 屏幕截图工具 录屏 / OCR 识别",
+      "description": "Mac 屏幕截图工具，录屏 / OCR 识别",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 9500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/screenfloat?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260715/20260715014106562.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202607/gm5etrs8bt_3gxjgxir73_1784540984.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "tuji",
+      "name": "图几",
+      "fullName": "图几 - Mac 截图标注美化工具 多彩背景 / 历史记录",
+      "description": "Mac 截图标注美化工具，多彩背景 / 历史记录",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 8500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/tuji?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260729/20260729111346691.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202608/tmoryfw4th_byc06osc3f_1785751235.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "mole",
+      "name": "Mole",
+      "fullName": "Mole - Mac 系统优化工具，清理缓存 / 管理应用 / 磁盘分析",
+      "description": "Mac 系统优化工具，清理缓存 / 管理应用 / 磁盘分析",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 11900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/mole?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260806/20260806091925155.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202608/cjpmxna7jz_ca60vvycvq_1786417090.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "menuist",
+      "name": "Menuist",
+      "fullName": "Menuist - Mac 右键菜单增强工具，新建文件 / 快捷导航",
+      "description": "Mac 右键菜单增强工具，新建文件 / 快捷导航",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 6500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/menuist?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260812/20260812101306831.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202608/vhkxsrwbic_g5jvgydgnc_1787019078.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "gety",
+      "name": "Gety",
+      "fullName": "Gety - 多平台本地 AI 文件搜索工具 全文 / 语义 / OCR 识别",
+      "description": "多平台本地 AI 文件搜索工具，全文 / 语义 / OCR 识别",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 4500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/gety?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260819/20260819094323775.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202608/yf32jaaxoz_sj99ipeaw1_1787643332.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "path-finder",
+      "name": "Path Finder",
+      "fullName": "Path Finder - Mac 文件管理器 双栏浏览 / 文件夹同步 / 批量重命名",
+      "description": "Mac 文件管理器，双栏浏览 / 文件夹同步 / 批量重命名",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 13900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/path-finder?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260909/20260909112940589.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/pbi81vncei_yf9f7fn4zw_1789384724.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "priprinter",
+      "name": "priPrinter 7",
+      "fullName": "priPrinter 7 - Win 虚拟打印机 打印预览 / 编辑排版 / PDF 合并",
+      "description": "Win 虚拟打印机，打印预览 / 编辑排版 / PDF 合并",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 13900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/priprinter?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260916/20260916062327203.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/1xwjh95fpk_dhul2hxmdu_1789958827.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "cursor-crane",
+      "name": "Cursor Crane",
+      "fullName": "Cursor Crane - 用键盘操控 Mac 界面点击 / 窗口切换 / 文本查找",
+      "description": "用键盘操控 Mac，界面点击 / 窗口切换 / 文本查找",
+      "platforms": [
+        "macOS"
+      ],
+      "price": 11500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/cursor-crane?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260922/20260922022048148.png",
+      "promotionImage": "https://union.lizhi.shop/uploads/images/202609/tgnhwilac0_4cqry4prsz_1790577967.png",
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "wise-care-365-pro",
+      "name": "Wise Care 365 Pro",
+      "fullName": "Wise Care 365 Pro - 电脑系统智慧清理加速工具",
+      "description": "Win 系统清理工具，垃圾清理 / 注册表 / 隐私",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 4900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/wise-care-365-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200311/20200311041434342.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "jidu-formula",
+      "name": "极度公式",
+      "fullName": "极度公式 - 专业Latex公式识别软件",
+      "description": "Win 公式工具，识别 / 编辑 / Word 插入",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "price": 2500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/jidu-formula?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20241018/20241018030152599.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "passkeyboard",
+      "name": "密码键盘",
+      "fullName": "密码键盘 - 安全的密码管理器 可离线自动填充",
+      "description": "多平台密码管理器，离线填充 / 加密同步",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 1500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/passkeyboard?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200415/20200415113205463.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "siyuan",
+      "name": "思源笔记",
+      "fullName": "思源笔记 - 本地知识管理系统 支持双向链接云同步",
+      "description": "多平台知识管理应用，双向链接 / 块编辑 / 同步",
+      "platforms": [
+        "Windows",
+        "macOS",
+        "iOS",
+        "Android"
+      ],
+      "price": 14500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/siyuan?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220526/20220526093607459.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "mountain-duck",
+      "name": "Mountain Duck",
+      "fullName": "Mountain Duck - 多网盘挂载本地工具 文件同步",
+      "description": "Win / Mac 网盘挂载工具，WebDAV / 同步 / 加密",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 16500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/mountain-duck?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20260508/20260508110433163.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "tide-plus",
+      "name": "潮汐",
+      "fullName": "潮汐 - 冥想专注番茄钟 呼吸放松白噪音助眠App",
+      "description": "移动端专注助眠应用，番茄钟 / 冥想 / 白噪音",
+      "platforms": [
+        "iOS",
+        "Android"
+      ],
+      "price": 6800,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/tide-plus?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200812/20200812045707700.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "pinstack",
+      "name": "PinStack",
+      "fullName": "PinStack - Win 剪贴板增强工具 支持快速复制剪切文字",
+      "description": "Win 剪贴板管理器，历史 / 搜索 / 快捷粘贴",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 990,
+      "originalPrice": 1218,
+      "url": "https://lizhi.shop/products/pinstack?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220915/20220915061916658.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": true
+    },
+    {
+      "id": "pure-writer-drakeet",
+      "name": "纯纯写作",
+      "fullName": "纯纯写作 - 不丢失文本编辑器 支持云备份Markdown",
+      "description": "Android 写作工具，自动保存 / Markdown / 备份",
+      "platforms": [
+        "Android"
+      ],
+      "price": 14500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/pure-writer-drakeet?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200207/20200207082826929.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "codeexpander",
+      "name": "CodeExpander",
+      "fullName": "CodeExpander - 跨平台代码片段管理工具 支持智能输入 云同步",
+      "description": "Win / Mac 文本扩展工具，片段 / 截图 / 剪贴板",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 7500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/codeexpander?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220330/20220330093424764.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "waltr-pro",
+      "name": "WALTR PRO",
+      "fullName": "WALTR PRO - 电脑 iOS 文件传输工具 支持自动转换为 iOS 格式",
+      "description": "Win / Mac 文件传输工具，iOS 传输 / 格式转换",
+      "platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "price": 3900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/waltr-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20220519/20220519034433364.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "qi-reader",
+      "name": "Qi Reader",
+      "fullName": "Qi Reader - PWA 全平台 RSS 阅读器 网站博客聚合订阅",
+      "description": "网页端 RSS 阅读器，订阅 / 稍后读 / 全文加载",
+      "platforms": [
+        "Web"
+      ],
+      "price": 3500,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/qi-reader?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20221012/20221012024032915.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "wise-folder-hider-pro",
+      "name": "Wise Folder Hider Pro",
+      "fullName": "Wise Folder Hider Pro - 文件文件夹隐藏加密工具",
+      "description": "Win 文件隐藏工具，加密保险箱 / 隐私保护",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 7900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/wise-folder-hider-pro?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20200311/20200311044356393.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    },
+    {
+      "id": "aomei-backupper",
+      "name": "傲梅轻松备份",
+      "fullName": "傲梅轻松备份 - 系统备份还原 增量备份工具",
+      "description": "Win 备份软件，系统备份 / 迁移 / 还原",
+      "platforms": [
+        "Windows"
+      ],
+      "price": 8900,
+      "originalPrice": null,
+      "url": "https://lizhi.shop/products/aomei-backupper?cid=rmzbxelm",
+      "icon": "https://shop-cdn.lizhi.shop/upload/20210915/20210915062445466.png",
+      "promotionImage": null,
+      "isRecommended": false,
+      "isOnSale": false
+    }
+  ]
+}

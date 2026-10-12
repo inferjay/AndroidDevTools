@@ -38,6 +38,60 @@ header h1 {
   padding: 3px 6px;
 }
 
+header .navbar {
+  max-width: 1600px;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  header .nav-item.mx-4 {
+    margin-right: 0.35rem !important;
+    margin-left: 0.35rem !important;
+  }
+
+  header .nav-link {
+    white-space: nowrap;
+    font-size: 14px;
+  }
+
+  header .navbar-brand {
+    margin-right: 12px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  header .nav-item.mx-4 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  header .nav-link {
+    font-size: 13px;
+  }
+
+  header .navbar-brand img {
+    height: 26px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  header .navbar-brand img {
+    width: 244px;
+    max-width: calc(100vw - 105px);
+    height: auto;
+  }
+
+  header .navbar-collapse {
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+  }
+
+  header .nav-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
