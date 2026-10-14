@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "android-emulator-install-guide.html"
+        ],
+        "createdAt": "2026-10-14T17:19:55.876Z",
+        "reason": "Existing popup image is hidden by CSS and receives its src from top-layer-pop-ad.js when enabled; its script is currently commented out. This Plausible removal does not change that behavior."
+      }
+    ]
+  }
+}
