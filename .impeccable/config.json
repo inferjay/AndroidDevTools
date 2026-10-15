@@ -7,6 +7,33 @@
         "rule": "broken-image",
         "value": "*",
         "files": [
+          "android-emulator-install-guide.html"
+        ],
+        "createdAt": "2026-10-14T17:19:55.876Z",
+        "reason": "Existing popup image is hidden by CSS and receives its src from top-layer-pop-ad.js when enabled; its script is currently commented out. This Plausible removal does not change that behavior."
+      },
+      {
+        "rule": "monotonous-spacing",
+        "value": "*",
+        "files": [
+          "android-emulator-install-guide.html"
+        ],
+        "createdAt": "2026-10-14T17:22:23.152Z",
+        "reason": "Agent: regex detector counted eight repeated mx-4 classes in the shared navigation; consistent navigation spacing is intentional, and page content uses separate spacing."
+      },
+      {
+        "rule": "monotonous-spacing",
+        "value": "*",
+        "files": [
+          "friends.html"
+        ],
+        "createdAt": "2026-10-14T17:22:23.250Z",
+        "reason": "Agent: regex detector counted eight repeated mx-4 classes in the shared navigation; consistent navigation spacing is intentional, and page content uses separate spacing."
+      },
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
           "welfare-pi.html"
         ],
         "createdAt": "2026-10-11T05:36:38.443Z",

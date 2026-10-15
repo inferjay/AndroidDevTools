@@ -25,6 +25,15 @@
     <script src="static/js/swiper.min.js"></script>
     <link rel="stylesheet" href="static/css/swiper.min.css">
     <link rel="stylesheet" href="https://cdn.staticfile.net/animate.css/4.1.1/animate.min.css" />
+    <style>
+        body {
+            padding-top: 0;
+        }
+
+        body > header {
+            position: sticky;
+        }
+    </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517858206486320"
         crossorigin="anonymous"></script>
     <!--  Clarity -->
@@ -35,12 +44,10 @@
             y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
         })(window, document, "clarity", "script", "loubr3mr3c");
     </script>
-    <script defer data-domain="androiddevtools.cn" src="https://plausible.io/js/script.hash.outbound-links.js"></script>
-    <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 </head>
 
 <body data-target=".content-nav">
-    <header class="row align-items-center">
+    <header id="page-top" class="row align-items-center">
         <nav class="navbar navbar-expand-xl navbar-light mx-lg-auto">
             <a class="navbar-brand mr-lg-4" href="index.html" alt="首页">
                 <img height="32px" src="./static/image/androiddevtools.png" alt="Logo">
@@ -159,12 +166,12 @@
                             <a class="dropdown-item" href="#free-design-resources">Design Resources</a>
                         </div>
                     </li>
-                    <li class="nav-item mx-4"><a class="nav-link" id="software-picks" href="software-picks.html">✨ 精选软件</a></li>
+                    <li class="nav-item mx-4"><a class="nav-link new-tag animate__animated animate__pulse animate__infinite" id="software-picks" href="software-picks.html">✨ 精选软件</a></li>
                     <li class="nav-item mx-4"><a class="nav-link" id="aihunt" href="https://aihunt.one">🤖 AI 工具</a>
                     </li>
                     <li class="nav-item mx-4"><a
                             class="nav-link new-tag animate__animated animate__pulse animate__infinite" id="dshhunt"
-                            href="https://dshhunt.com/" title="DSH Hunt">👉DSH Hunt👈</a></li>
+                            href="https://dshhunt.com/" title="DshHunt">DshHunt</a></li>
                     <li class="nav-item dropdown mx-4">
                         <a id="drop-more" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
                             aria-expanded="false">🔽 更多</a>
@@ -209,25 +216,11 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <!-- AndroidDevTools 首页 Banner -->
-                <div class="swiper-slide">
-                    <div class="ads-container">
-                        <script async
-                            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517858206486320"
-                            crossorigin="anonymous"></script>
-
-                        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5517858206486320"
-                            data-ad-slot="4217675821" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                        <script>
-                                (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
-                    </div>
-                </div>
                 <div class="swiper-slide">
                     <a href='https://aihunt.one?utm_source=androiddevtools.cn&amp;utm_medium=index-banner'
                         target="_blank" onclick="trackOutboundLink('https://aihunt.one', 'AIHunt', 'click');"
                         title="收录了国内外的众多 AI工具，包括AI写作工具、AI图像生成和处理、AI视频制作、AI音频转录、AI辅助编程、AI音乐生成、AI绘画设计、AI对话聊天等AI工具，以及AI学习开发的常用网站、教程、开源框架、开源模型和数据集等。">
-                        <img src="/static/image/banner/aihunt.webp" alt="aihunt">
+                        <img src="./static/image/banner/aihunt.webp" alt="aihunt">
                     </a>
                 </div>
                 <div class="swiper-slide">
@@ -235,15 +228,15 @@
                         target="_blank"
                         onclick="trackOutboundLink('https://androidweekly.io', 'AndroidWeekly', 'click');"
                         title="汇集互联网上每周Android开发的技术文章、开源项目、开发工具、视频教程、Android设计教程、设计资源等。">
-                        <img src="/static/image/banner/androidweekly.webp" alt="Android 开发技术周报">
+                        <img src="./static/image/banner/androidweekly.webp" alt="Android 开发技术周报">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href='http://www.materialdoc.cn?utm_source=androiddevtools.cn&amp;utm_medium=banner'
+                    <a href="https://dshhunt.com"
                         target="_blank"
-                        onclick="trackOutboundLink('https://www.materialdoc.cn', 'Materialdoc', 'click');"
-                        title="Material Design 开发者参考文档">
-                        <img src="/static/image/banner/materialdoc.webp" alt="Material Design 开发者参考文档">
+                        onclick="trackOutboundLink('https://dshhunt.com', 'DSH Hunt', 'click');"
+                        title="DSH Hunt">
+                        <img src="./static/image/banner/dshhunt.png" alt="DSH Hunt 插件发现平台">
                     </a>
                 </div>
             </div>
@@ -4659,7 +4652,7 @@
         <a data-tip="捐赠" alt="捐赠" class="btn-action btn-donate" href="donate.html">
             <img class="icon-donate" alt="捐赠图标" src="static/image/jitui.webp">
         </a>
-        <a data-action="backtotop" data-tip="回到顶部" alt="回到顶部" class="btn-backtotop btn-action" href="#banner-slider">
+        <a data-action="backtotop" data-tip="回到顶部" alt="回到顶部" class="btn-backtotop btn-action" href="#page-top">
             <img class="arrow" alt="回到顶部图标" src="static/image/backtotop_arrow.png">
         </a>
     </div>
