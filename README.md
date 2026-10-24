@@ -52,6 +52,7 @@
  * [Android Native开发工具](#android-native开发工具)
  * [Android测试工具](#android测试工具)
  * [Android多渠道打包工具](#android多渠道打包工具)
+ * [Android应用商店发布工具](#android应用商店发布工具)
  * [Android Bug日志收集工具](#android-bug日志收集工具)
  * [其他语言开发Android应用工具](#其他语言开发android应用工具)
  * [传感器模拟工具](#传感器模拟工具)
@@ -1018,6 +1019,17 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 
 [兰贝壳教程]:http://www.orchidshell.com/Instructions/OchidShellInstructions.htm
+
+
+#### Android应用商店发布工具
+
+| 名称              |      简介         |         下载地址            |    使用教程      |
+|:-----------------|------------------|:--------------------------:|:---------------:|
+| apkgo            | 国内主流安卓应用商店 APK 并发发布 CLI，支持鸿蒙；托管版 apkgo cloud 另支持 iOS（PolyForm Noncommercial） | [GitHub][apkgo] / [官网][apkgo-cloud] | [上架指南][apkgo-onboarding] |
+
+[apkgo]:https://github.com/KevinGong2013/apkgo
+[apkgo-cloud]:https://apkgo.baici.tech
+[apkgo-onboarding]:https://apkgo.baici.tech
 
 #### Android Bug日志收集工具
 
