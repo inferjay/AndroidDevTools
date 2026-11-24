@@ -33,6 +33,11 @@
         body > header {
             position: sticky;
         }
+
+        .adsterra-leaderboard iframe {
+            display: block;
+            margin: 24px auto;
+        }
     </style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5517858206486320"
         crossorigin="anonymous"></script>
@@ -446,6 +451,26 @@
                     <center><a class="btn btn-large btn-action" href="android-emulator.html">👉去下载其他版本👈</a></center>
                     <br>
                 </div>
+                <aside class="adsterra-leaderboard d-none d-lg-block" aria-label="广告">
+                    <template id="adsterra-leaderboard-code">
+                        <script data-cfasync="false">
+                            window.atOptions = {
+                                'key': '65933cde32910d63fada938266cccf51',
+                                'format': 'iframe',
+                                'height': 90,
+                                'width': 728,
+                                'params': {}
+                            };
+                        </script>
+                        <script data-cfasync="false" src="https://bauval.org/22/65933cde32910d63fada938266cccf51"></script>
+                    </template>
+                    <script data-cfasync="false">
+                        if (window.matchMedia('(min-width: 992px)').matches) {
+                            // Run the ad snippet during parsing so it can write its iframe into this slot.
+                            document.write(document.getElementById('adsterra-leaderboard-code').innerHTML);
+                        }
+                    </script>
+                </aside>
                 <div id="sdk-tools">
                     <h2>SDK Tools</h2>
                     <table>
